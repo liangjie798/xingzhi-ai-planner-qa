@@ -1,0 +1,267 @@
+{
+  "city": {
+    "id": "hangzhou",
+    "name": "杭州市",
+    "province": "浙江省",
+    "adcode": "330100",
+    "longitude": 120.15507,
+    "latitude": 30.274085,
+    "weather": "局部多云",
+    "temperature": 17.6,
+    "humidity": 72,
+    "windPower": 2,
+    "rainProbability": 0,
+    "aqi": 154,
+    "pm25": 48,
+    "heatRisk": 6,
+    "updatedAt": "2026-10-27T10:30:00Z",
+    "sourceMode": "live",
+    "center": [
+      120.15507,
+      30.274085
+    ]
+  },
+  "date": "2026-10-28",
+  "hours": [
+    {
+      "date": "2026-10-28",
+      "hour": 0,
+      "temperature": 13.9,
+      "humidity": 78,
+      "rainProbability": 0,
+      "aqi": 142,
+      "pm25": 38,
+      "heatRisk": 8
+    },
+    {
+      "date": "2026-10-28",
+      "hour": 1,
+      "temperature": 13.5,
+      "humidity": 79,
+      "rainProbability": 0,
+      "aqi": 136,
+      "pm25": 38,
+      "heatRisk": 8
+    },
+    {
+      "date": "2026-10-28",
+      "hour": 2,
+      "temperature": 13.1,
+      "humidity": 80,
+      "rainProbability": 0,
+      "aqi": 131,
+      "pm25": 38,
+      "heatRisk": 9
+    },
+    {
+      "date": "2026-10-28",
+      "hour": 3,
+      "temperature": 12.7,
+      "humidity": 81,
+      "rainProbability": 0,
+      "aqi": 128,
+      "pm25": 38,
+      "heatRisk": 9
+    },
+    {
+      "date": "2026-10-28",
+      "hour": 4,
+      "temperature": 12.3,
+      "humidity": 81,
+      "rainProbability": 0,
+      "aqi": 125,
+      "pm25": 39,
+      "heatRisk": 9
+    },
+    {
+      "date": "2026-10-28",
+      "hour": 5,
+      "temperature": 12,
+      "humidity": 83,
+      "rainProbability": 0,
+      "aqi": 122,
+      "pm25": 42,
+      "heatRisk": 10
+    },
+    {
+      "date": "2026-10-28",
+      "hour": 6,
+      "temperature": 11.7,
+      "humidity": 84,
+      "rainProbability": 0,
+      "aqi": 120,
+      "pm25": 51,
+      "heatRisk": 10
+    },
+    {
+      "date": "2026-10-28",
+      "hour": 7,
+      "temperature": 12.6,
+      "humidity": 82,
+      "rainProbability": 0,
+      "aqi": 118,
+      "pm25": 67,
+      "heatRisk": 9
+    },
+    {
+      "date": "2026-10-28",
+      "hour": 8,
+      "temperature": 14.4,
+      "humidity": 74,
+      "rainProbability": 0,
+      "aqi": 118,
+      "pm25": 53,
+      "heatRisk": 7
+    },
+    {
+      "date": "2026-10-28",
+      "hour": 9,
+      "temperature": 16.3,
+      "humidity": 66,
+      "rainProbability": 0,
+      "aqi": 117,
+      "pm25": 43,
+      "heatRisk": 4
+    },
+    {
+      "date": "2026-10-28",
+      "hour": 10,
+      "temperature": 18,
+      "humidity": 58,
+      "rainProbability": 0,
+      "aqi": 117,
+      "pm25": 35,
+      "heatRisk": 1
+    },
+    {
+      "date": "2026-10-28",
+      "hour": 11,
+      "temperature": 19.2,
+      "humidity": 52,
+      "rainProbability": 0,
+      "aqi": 116,
+      "pm25": 31,
+      "heatRisk": 0
+    },
+    {
+      "date": "2026-10-28",
+      "hour": 12,
+      "temperature": 19.9,
+      "humidity": 50,
+      "rainProbability": 0,
+      "aqi": 114,
+      "pm25": 31,
+      "heatRisk": 0
+    },
+    {
+      "date": "2026-10-28",
+      "hour": 13,
+      "temperature": 20.3,
+      "humidity": 48,
+      "rainProbability": 0,
+      "aqi": 113,
+      "pm25": 30,
+      "heatRisk": 0
+    },
+    {
+      "date": "2026-10-28",
+      "hour": 14,
+      "temperature": 20.3,
+      "humidity": 49,
+      "rainProbability": 0,
+      "aqi": 113,
+      "pm25": 30,
+      "heatRisk": 0
+    },
+    {
+      "date": "2026-10-28",
+      "hour": 15,
+      "temperature": 20.2,
+      "humidity": 51,
+      "rainProbability": 0,
+      "aqi": 113,
+      "pm25": 30,
+      "heatRisk": 0
+    },
+    {
+      "date": "2026-10-28",
+      "hour": 16,
+      "temperature": 19.7,
+      "humidity": 54,
+      "rainProbability": 0,
+      "aqi": 113,
+      "pm25": 31,
+      "heatRisk": 0
+    },
+    {
+      "date": "2026-10-28",
+      "hour": 17,
+      "temperature": 18.2,
+      "humidity": 63,
+      "rainProbability": 0,
+      "aqi": 113,
+      "pm25": 41,
+      "heatRisk": 3
+    },
+    {
+      "date": "2026-10-28",
+      "hour": 18,
+      "temperature": 16.9,
+      "humidity": 71,
+      "rainProbability": 0,
+      "aqi": 114,
+      "pm25": 64,
+      "heatRisk": 6
+    },
+    {
+      "date": "2026-10-28",
+      "hour": 19,
+      "temperature": 16.3,
+      "humidity": 78,
+      "rainProbability": 0,
+      "aqi": 116,
+      "pm25": 78,
+      "heatRisk": 8
+    },
+    {
+      "date": "2026-10-28",
+      "hour": 20,
+      "temperature": 16.2,
+      "humidity": 79,
+      "rainProbability": 0,
+      "aqi": 118,
+      "pm25": 82,
+      "heatRisk": 8
+    },
+    {
+      "date": "2026-10-28",
+      "hour": 21,
+      "temperature": 16.1,
+      "humidity": 80,
+      "rainProbability": 0,
+      "aqi": 121,
+      "pm25": 82,
+      "heatRisk": 9
+    },
+    {
+      "date": "2026-10-28",
+      "hour": 22,
+      "temperature": 15.7,
+      "humidity": 83,
+      "rainProbability": 0,
+      "aqi": 125,
+      "pm25": 85,
+      "heatRisk": 10
+    },
+    {
+      "date": "2026-10-28",
+      "hour": 23,
+      "temperature": 15.1,
+      "humidity": 86,
+      "rainProbability": 0,
+      "aqi": 130,
+      "pm25": 85,
+      "heatRisk": 11
+    }
+  ]
+}

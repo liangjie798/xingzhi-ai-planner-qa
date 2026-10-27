@@ -1,0 +1,11 @@
+node_modules/
+test-results/
+playwright-report/
+.env
+.env.*
+!.env.example
+*.zip
+*.har
+*.trace
+*-storage-state.json
+reports/private/

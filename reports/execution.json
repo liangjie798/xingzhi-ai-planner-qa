@@ -1,0 +1,1218 @@
+{
+  "startedAt": "2026-10-27T10:41:20.344Z",
+  "finishedAt": "2026-10-27T10:43:23.661Z",
+  "baseURL": "https://lht574.cn",
+  "scope": "live black-box tests; synthetic inputs are explicitly labelled in cases",
+  "status": "failed",
+  "runtime": {
+    "node": "v22.23.2",
+    "platform": "win32",
+    "timezone": "Asia/Shanghai"
+  },
+  "tests": [
+    {
+      "id": "API-001",
+      "title": "API-001 /conversation-planner rejects malformed JSON",
+      "file": "tests/api.spec.mjs",
+      "status": "passed",
+      "expectedStatus": "passed",
+      "durationMs": 96,
+      "annotations": [],
+      "errors": []
+    },
+    {
+      "id": "API-011",
+      "title": "API-011 /conversation-planner rejects JSON null without a server error",
+      "file": "tests/api.spec.mjs",
+      "status": "failed",
+      "expectedStatus": "passed",
+      "durationMs": 34,
+      "annotations": [],
+      "errors": [
+        "Error: expect(received).toBe(expected) // Object.is equality\n\nExpected: 400\nReceived: 500"
+      ]
+    },
+    {
+      "id": "API-002",
+      "title": "API-002 /tourism-planner rejects malformed JSON",
+      "file": "tests/api.spec.mjs",
+      "status": "passed",
+      "expectedStatus": "passed",
+      "durationMs": 80,
+      "annotations": [],
+      "errors": []
+    },
+    {
+      "id": "API-012",
+      "title": "API-012 /tourism-planner rejects JSON null without a server error",
+      "file": "tests/api.spec.mjs",
+      "status": "failed",
+      "expectedStatus": "passed",
+      "durationMs": 28,
+      "annotations": [],
+      "errors": [
+        "Error: expect(received).toBe(expected) // Object.is equality\n\nExpected: 400\nReceived: 500"
+      ]
+    },
+    {
+      "id": "API-003",
+      "title": "API-003 /planning-evidence rejects malformed JSON",
+      "file": "tests/api.spec.mjs",
+      "status": "passed",
+      "expectedStatus": "passed",
+      "durationMs": 83,
+      "annotations": [],
+      "errors": []
+    },
+    {
+      "id": "API-013",
+      "title": "API-013 /planning-evidence rejects JSON null without a server error",
+      "file": "tests/api.spec.mjs",
+      "status": "failed",
+      "expectedStatus": "passed",
+      "durationMs": 28,
+      "annotations": [],
+      "errors": [
+        "Error: expect(received).toBe(expected) // Object.is equality\n\nExpected: 400\nReceived: 500"
+      ]
+    },
+    {
+      "id": "API-004",
+      "title": "API-004 /activity-venues rejects malformed JSON",
+      "file": "tests/api.spec.mjs",
+      "status": "passed",
+      "expectedStatus": "passed",
+      "durationMs": 75,
+      "annotations": [],
+      "errors": []
+    },
+    {
+      "id": "API-014",
+      "title": "API-014 /activity-venues rejects JSON null without a server error",
+      "file": "tests/api.spec.mjs",
+      "status": "passed",
+      "expectedStatus": "passed",
+      "durationMs": 24,
+      "annotations": [],
+      "errors": []
+    },
+    {
+      "id": "API-005",
+      "title": "API-005 /journey-search rejects malformed JSON",
+      "file": "tests/api.spec.mjs",
+      "status": "passed",
+      "expectedStatus": "passed",
+      "durationMs": 24,
+      "annotations": [],
+      "errors": []
+    },
+    {
+      "id": "API-015",
+      "title": "API-015 /journey-search rejects JSON null without a server error",
+      "file": "tests/api.spec.mjs",
+      "status": "passed",
+      "expectedStatus": "passed",
+      "durationMs": 23,
+      "annotations": [],
+      "errors": []
+    },
+    {
+      "id": "API-006",
+      "title": "API-006 /model-gateway rejects malformed JSON",
+      "file": "tests/api.spec.mjs",
+      "status": "passed",
+      "expectedStatus": "passed",
+      "durationMs": 24,
+      "annotations": [],
+      "errors": []
+    },
+    {
+      "id": "API-016",
+      "title": "API-016 /model-gateway rejects JSON null without a server error",
+      "file": "tests/api.spec.mjs",
+      "status": "failed",
+      "expectedStatus": "passed",
+      "durationMs": 23,
+      "annotations": [],
+      "errors": [
+        "Error: expect(received).toBe(expected) // Object.is equality\n\nExpected: 400\nReceived: 500"
+      ]
+    },
+    {
+      "id": "API-007",
+      "title": "API-007 /social-research rejects malformed JSON",
+      "file": "tests/api.spec.mjs",
+      "status": "passed",
+      "expectedStatus": "passed",
+      "durationMs": 98,
+      "annotations": [],
+      "errors": []
+    },
+    {
+      "id": "API-017",
+      "title": "API-017 /social-research rejects JSON null without a server error",
+      "file": "tests/api.spec.mjs",
+      "status": "passed",
+      "expectedStatus": "passed",
+      "durationMs": 30,
+      "annotations": [],
+      "errors": []
+    },
+    {
+      "id": "API-031",
+      "title": "API-031 /conversation-planner: missing message",
+      "file": "tests/api.spec.mjs",
+      "status": "passed",
+      "expectedStatus": "passed",
+      "durationMs": 31,
+      "annotations": [],
+      "errors": []
+    },
+    {
+      "id": "API-032",
+      "title": "API-032 /conversation-planner: blank message",
+      "file": "tests/api.spec.mjs",
+      "status": "passed",
+      "expectedStatus": "passed",
+      "durationMs": 28,
+      "annotations": [],
+      "errors": []
+    },
+    {
+      "id": "API-033",
+      "title": "API-033 /conversation-planner: numeric message",
+      "file": "tests/api.spec.mjs",
+      "status": "passed",
+      "expectedStatus": "passed",
+      "durationMs": 28,
+      "annotations": [],
+      "errors": []
+    },
+    {
+      "id": "API-034",
+      "title": "API-034 /model-gateway: missing prompt",
+      "file": "tests/api.spec.mjs",
+      "status": "passed",
+      "expectedStatus": "passed",
+      "durationMs": 27,
+      "annotations": [],
+      "errors": []
+    },
+    {
+      "id": "API-035",
+      "title": "API-035 /model-gateway: numeric prompt",
+      "file": "tests/api.spec.mjs",
+      "status": "failed",
+      "expectedStatus": "passed",
+      "durationMs": 29,
+      "annotations": [],
+      "errors": [
+        "Error: expect(received).toBe(expected) // Object.is equality\n\nExpected: 400\nReceived: 500"
+      ]
+    },
+    {
+      "id": "API-036",
+      "title": "API-036 /model-gateway: overlong prompt",
+      "file": "tests/api.spec.mjs",
+      "status": "passed",
+      "expectedStatus": "passed",
+      "durationMs": 84,
+      "annotations": [],
+      "errors": []
+    },
+    {
+      "id": "API-037",
+      "title": "API-037 /model-gateway: unsupported image",
+      "file": "tests/api.spec.mjs",
+      "status": "passed",
+      "expectedStatus": "passed",
+      "durationMs": 26,
+      "annotations": [],
+      "errors": []
+    },
+    {
+      "id": "API-038",
+      "title": "API-038 /model-gateway: non-string image",
+      "file": "tests/api.spec.mjs",
+      "status": "passed",
+      "expectedStatus": "passed",
+      "durationMs": 28,
+      "annotations": [],
+      "errors": []
+    },
+    {
+      "id": "API-039",
+      "title": "API-039 /tourism-planner: missing city and date",
+      "file": "tests/api.spec.mjs",
+      "status": "passed",
+      "expectedStatus": "passed",
+      "durationMs": 26,
+      "annotations": [],
+      "errors": []
+    },
+    {
+      "id": "API-040",
+      "title": "API-040 /tourism-planner: nonexistent calendar date",
+      "file": "tests/api.spec.mjs",
+      "status": "passed",
+      "expectedStatus": "passed",
+      "durationMs": 25,
+      "annotations": [],
+      "errors": []
+    },
+    {
+      "id": "API-041",
+      "title": "API-041 /tourism-planner: reversed date range",
+      "file": "tests/api.spec.mjs",
+      "status": "passed",
+      "expectedStatus": "passed",
+      "durationMs": 24,
+      "annotations": [],
+      "errors": []
+    },
+    {
+      "id": "API-042",
+      "title": "API-042 /tourism-planner: eight-day range",
+      "file": "tests/api.spec.mjs",
+      "status": "passed",
+      "expectedStatus": "passed",
+      "durationMs": 24,
+      "annotations": [],
+      "errors": []
+    },
+    {
+      "id": "API-043",
+      "title": "API-043 /tourism-planner: null hourly entry",
+      "file": "tests/api.spec.mjs",
+      "status": "failed",
+      "expectedStatus": "passed",
+      "durationMs": 24,
+      "annotations": [],
+      "errors": [
+        "Error: expect(received).toBe(expected) // Object.is equality\n\nExpected: 400\nReceived: 500"
+      ]
+    },
+    {
+      "id": "API-044",
+      "title": "API-044 /tourism-planner: non-array hours",
+      "file": "tests/api.spec.mjs",
+      "status": "passed",
+      "expectedStatus": "passed",
+      "durationMs": 81,
+      "annotations": [],
+      "errors": []
+    },
+    {
+      "id": "API-045",
+      "title": "API-045 /tourism-planner: reversed allowed hours",
+      "file": "tests/api.spec.mjs",
+      "status": "passed",
+      "expectedStatus": "passed",
+      "durationMs": 28,
+      "annotations": [],
+      "errors": []
+    },
+    {
+      "id": "API-046",
+      "title": "API-046 /planning-evidence: non-string place",
+      "file": "tests/api.spec.mjs",
+      "status": "passed",
+      "expectedStatus": "passed",
+      "durationMs": 28,
+      "annotations": [],
+      "errors": []
+    },
+    {
+      "id": "API-047",
+      "title": "API-047 /planning-evidence: more than 40 places",
+      "file": "tests/api.spec.mjs",
+      "status": "passed",
+      "expectedStatus": "passed",
+      "durationMs": 26,
+      "annotations": [],
+      "errors": []
+    },
+    {
+      "id": "API-048",
+      "title": "API-048 /activity-venues: unsupported scene",
+      "file": "tests/api.spec.mjs",
+      "status": "passed",
+      "expectedStatus": "passed",
+      "durationMs": 26,
+      "annotations": [],
+      "errors": []
+    },
+    {
+      "id": "API-049",
+      "title": "API-049 /journey-search: numeric departure",
+      "file": "tests/api.spec.mjs",
+      "status": "passed",
+      "expectedStatus": "passed",
+      "durationMs": 23,
+      "annotations": [],
+      "errors": []
+    },
+    {
+      "id": "API-050",
+      "title": "API-050 /journey-search: missing journey fields",
+      "file": "tests/api.spec.mjs",
+      "status": "passed",
+      "expectedStatus": "passed",
+      "durationMs": 24,
+      "annotations": [],
+      "errors": []
+    },
+    {
+      "id": "API-061",
+      "title": "API-061 image proxy rejects unsupported URL 0",
+      "file": "tests/api.spec.mjs",
+      "status": "passed",
+      "expectedStatus": "passed",
+      "durationMs": 24,
+      "annotations": [],
+      "errors": []
+    },
+    {
+      "id": "API-062",
+      "title": "API-062 image proxy rejects unsupported URL 1",
+      "file": "tests/api.spec.mjs",
+      "status": "passed",
+      "expectedStatus": "passed",
+      "durationMs": 23,
+      "annotations": [],
+      "errors": []
+    },
+    {
+      "id": "API-063",
+      "title": "API-063 image proxy rejects unsupported URL 2",
+      "file": "tests/api.spec.mjs",
+      "status": "passed",
+      "expectedStatus": "passed",
+      "durationMs": 24,
+      "annotations": [],
+      "errors": []
+    },
+    {
+      "id": "API-064",
+      "title": "API-064 image proxy rejects unsupported URL 3",
+      "file": "tests/api.spec.mjs",
+      "status": "passed",
+      "expectedStatus": "passed",
+      "durationMs": 22,
+      "annotations": [],
+      "errors": []
+    },
+    {
+      "id": "API-065",
+      "title": "API-065 image proxy rejects unsupported URL 4",
+      "file": "tests/api.spec.mjs",
+      "status": "passed",
+      "expectedStatus": "passed",
+      "durationMs": 23,
+      "annotations": [],
+      "errors": []
+    },
+    {
+      "id": "API-066",
+      "title": "API-066 image proxy rejects unsupported URL 5",
+      "file": "tests/api.spec.mjs",
+      "status": "passed",
+      "expectedStatus": "passed",
+      "durationMs": 22,
+      "annotations": [],
+      "errors": []
+    },
+    {
+      "id": "API-070",
+      "title": "API-070 complete tourism intake preserves seven university students",
+      "file": "tests/api.spec.mjs",
+      "status": "passed",
+      "expectedStatus": "passed",
+      "durationMs": 53,
+      "annotations": [],
+      "errors": []
+    },
+    {
+      "id": "API-071",
+      "title": "API-071 invalid revision: 人数改成0人，其他不变",
+      "file": "tests/api.spec.mjs",
+      "status": "passed",
+      "expectedStatus": "passed",
+      "durationMs": 27,
+      "annotations": [],
+      "errors": []
+    },
+    {
+      "id": "API-072",
+      "title": "API-072 invalid revision: 人数改成-1人",
+      "file": "tests/api.spec.mjs",
+      "status": "passed",
+      "expectedStatus": "passed",
+      "durationMs": 27,
+      "annotations": [],
+      "errors": []
+    },
+    {
+      "id": "API-073",
+      "title": "API-073 invalid revision: 人数改成1.5人",
+      "file": "tests/api.spec.mjs",
+      "status": "passed",
+      "expectedStatus": "passed",
+      "durationMs": 25,
+      "annotations": [],
+      "errors": []
+    },
+    {
+      "id": "API-074",
+      "title": "API-074 invalid revision: 人数改成10000人",
+      "file": "tests/api.spec.mjs",
+      "status": "passed",
+      "expectedStatus": "passed",
+      "durationMs": 26,
+      "annotations": [],
+      "errors": []
+    },
+    {
+      "id": "API-075",
+      "title": "API-075 invalid revision: 活动时长改成1.5小时，其他不变",
+      "file": "tests/api.spec.mjs",
+      "status": "passed",
+      "expectedStatus": "passed",
+      "durationMs": 26,
+      "annotations": [],
+      "errors": []
+    },
+    {
+      "id": "API-076",
+      "title": "API-076 invalid revision: 活动时长改成0小时",
+      "file": "tests/api.spec.mjs",
+      "status": "passed",
+      "expectedStatus": "passed",
+      "durationMs": 25,
+      "annotations": [],
+      "errors": []
+    },
+    {
+      "id": "API-077",
+      "title": "API-077 invalid revision: 活动时长改成9小时",
+      "file": "tests/api.spec.mjs",
+      "status": "passed",
+      "expectedStatus": "passed",
+      "durationMs": 26,
+      "annotations": [],
+      "errors": []
+    },
+    {
+      "id": "API-078",
+      "title": "API-078 invalid revision: 日期改成2月30日，其他不变",
+      "file": "tests/api.spec.mjs",
+      "status": "passed",
+      "expectedStatus": "passed",
+      "durationMs": 26,
+      "annotations": [],
+      "errors": []
+    },
+    {
+      "id": "API-080",
+      "title": "API-080 courtesy preserves conditions without another analysis",
+      "file": "tests/api.spec.mjs",
+      "status": "passed",
+      "expectedStatus": "passed",
+      "durationMs": 25,
+      "annotations": [],
+      "errors": []
+    },
+    {
+      "id": "API-081",
+      "title": "API-081 drawing two dates does not change the activity plan",
+      "file": "tests/api.spec.mjs",
+      "status": "passed",
+      "expectedStatus": "passed",
+      "durationMs": 26,
+      "annotations": [],
+      "errors": []
+    },
+    {
+      "id": "API-082",
+      "title": "API-082 drawing Beijing preserves the Hangzhou plan",
+      "file": "tests/api.spec.mjs",
+      "status": "passed",
+      "expectedStatus": "passed",
+      "durationMs": 26,
+      "annotations": [],
+      "errors": []
+    },
+    {
+      "id": "API-083",
+      "title": "API-083 explicit 14-16 window overrides a broad afternoon",
+      "file": "tests/api.spec.mjs",
+      "status": "passed",
+      "expectedStatus": "passed",
+      "durationMs": 26,
+      "annotations": [],
+      "errors": []
+    },
+    {
+      "id": "API-084",
+      "title": "API-084 per-group count never replaces total participants",
+      "file": "tests/api.spec.mjs",
+      "status": "failed",
+      "expectedStatus": "passed",
+      "durationMs": 29,
+      "annotations": [],
+      "errors": [
+        "Error: expect(received).toMatchObject(expected)\n\n- Expected  - 1\n+ Received  + 0\n\n  Object {\n-   \"equipmentCount\": 10,\n    \"participants\": 40,\n    \"teamSize\": 5,\n  }"
+      ]
+    },
+    {
+      "id": "API-085",
+      "title": "API-085 model status reports explicit success or failure",
+      "file": "tests/api.spec.mjs",
+      "status": "passed",
+      "expectedStatus": "passed",
+      "durationMs": 98,
+      "annotations": [],
+      "errors": []
+    },
+    {
+      "id": "API-086",
+      "title": "API-086 journey keeps activity date separate and reports quote availability",
+      "file": "tests/api.spec.mjs",
+      "status": "passed",
+      "expectedStatus": "passed",
+      "durationMs": 524,
+      "annotations": [],
+      "errors": []
+    },
+    {
+      "id": "API-087",
+      "title": "API-087 weather is answered without triggering plan generation",
+      "file": "tests/api.spec.mjs",
+      "status": "passed",
+      "expectedStatus": "passed",
+      "durationMs": 234,
+      "annotations": [],
+      "errors": []
+    },
+    {
+      "id": "API-088",
+      "title": "API-088 missing destination and date are clarified, not invented",
+      "file": "tests/api.spec.mjs",
+      "status": "passed",
+      "expectedStatus": "passed",
+      "durationMs": 29,
+      "annotations": [],
+      "errors": []
+    },
+    {
+      "id": "API-089",
+      "title": "API-089 client-supplied today cannot alter the server date",
+      "file": "tests/api.spec.mjs",
+      "status": "passed",
+      "expectedStatus": "passed",
+      "durationMs": 28,
+      "annotations": [],
+      "errors": []
+    },
+    {
+      "id": "API-100",
+      "title": "API-100 anonymous access denied: /api/v1/admin/overview",
+      "file": "tests/api.spec.mjs",
+      "status": "passed",
+      "expectedStatus": "passed",
+      "durationMs": 24,
+      "annotations": [],
+      "errors": []
+    },
+    {
+      "id": "API-101",
+      "title": "API-101 anonymous access denied: /api/v1/admin/users",
+      "file": "tests/api.spec.mjs",
+      "status": "passed",
+      "expectedStatus": "passed",
+      "durationMs": 22,
+      "annotations": [],
+      "errors": []
+    },
+    {
+      "id": "API-102",
+      "title": "API-102 anonymous access denied: /api/v1/admin/searches",
+      "file": "tests/api.spec.mjs",
+      "status": "passed",
+      "expectedStatus": "passed",
+      "durationMs": 22,
+      "annotations": [],
+      "errors": []
+    },
+    {
+      "id": "API-103",
+      "title": "API-103 anonymous access denied: /api/v1/admin/feedback",
+      "file": "tests/api.spec.mjs",
+      "status": "passed",
+      "expectedStatus": "passed",
+      "durationMs": 23,
+      "annotations": [],
+      "errors": []
+    },
+    {
+      "id": "API-104",
+      "title": "API-104 anonymous access denied: /api/v1/account/decisions",
+      "file": "tests/api.spec.mjs",
+      "status": "passed",
+      "expectedStatus": "passed",
+      "durationMs": 23,
+      "annotations": [],
+      "errors": []
+    },
+    {
+      "id": "API-105",
+      "title": "API-105 anonymous access denied: /api/v1/account/model-config/resolve",
+      "file": "tests/api.spec.mjs",
+      "status": "passed",
+      "expectedStatus": "passed",
+      "durationMs": 22,
+      "annotations": [],
+      "errors": []
+    },
+    {
+      "id": "API-106",
+      "title": "API-106 guest access to admin data is denied",
+      "file": "tests/api.spec.mjs",
+      "status": "passed",
+      "expectedStatus": "passed",
+      "durationMs": 65,
+      "annotations": [],
+      "errors": []
+    },
+    {
+      "id": "API-107",
+      "title": "API-107 writes without CSRF are rejected",
+      "file": "tests/api.spec.mjs",
+      "status": "passed",
+      "expectedStatus": "passed",
+      "durationMs": 22,
+      "annotations": [],
+      "errors": []
+    },
+    {
+      "id": "API-108",
+      "title": "API-108 two isolated anonymous sessions cannot read or overwrite each other",
+      "file": "tests/api.spec.mjs",
+      "status": "passed",
+      "expectedStatus": "passed",
+      "durationMs": 266,
+      "annotations": [],
+      "errors": []
+    },
+    {
+      "id": "API-109",
+      "title": "API-109 malformed conversation snapshot is rejected",
+      "file": "tests/api.spec.mjs",
+      "status": "passed",
+      "expectedStatus": "passed",
+      "durationMs": 42,
+      "annotations": [],
+      "errors": []
+    },
+    {
+      "id": "API-110",
+      "title": "API-110 nested district resolves to the requested parent",
+      "file": "tests/api.spec.mjs",
+      "status": "passed",
+      "expectedStatus": "passed",
+      "durationMs": 602,
+      "annotations": [],
+      "errors": []
+    },
+    {
+      "id": "API-111",
+      "title": "API-111 hourly response contains 24 unique, finite hours for the requested date",
+      "file": "tests/api.spec.mjs",
+      "status": "passed",
+      "expectedStatus": "passed",
+      "durationMs": 26,
+      "annotations": [],
+      "errors": []
+    },
+    {
+      "id": "API-112",
+      "title": "API-112 invalid hourly calendar date returns a client error",
+      "file": "tests/api.spec.mjs",
+      "status": "failed",
+      "expectedStatus": "passed",
+      "durationMs": 26,
+      "annotations": [],
+      "errors": [
+        "Error: expect(received).toBe(expected) // Object.is equality\n\nExpected: 400\nReceived: 500"
+      ]
+    },
+    {
+      "id": "API-113",
+      "title": "API-113 impossible coordinate is rejected by the location gateway",
+      "file": "tests/api.spec.mjs",
+      "status": "failed",
+      "expectedStatus": "passed",
+      "durationMs": 256,
+      "annotations": [],
+      "errors": [
+        "Error: expect(received).toBe(expected) // Object.is equality\n\nExpected: 400\nReceived: 200"
+      ]
+    },
+    {
+      "id": "API-114",
+      "title": "API-114 missing coordinates are rejected instead of silently becoming zero",
+      "file": "tests/api.spec.mjs",
+      "status": "failed",
+      "expectedStatus": "passed",
+      "durationMs": 279,
+      "annotations": [],
+      "errors": [
+        "Error: expect(received).toBe(expected) // Object.is equality\n\nExpected: 400\nReceived: 200"
+      ]
+    },
+    {
+      "id": "API-115",
+      "title": "API-115 unsupported position action returns a client error",
+      "file": "tests/api.spec.mjs",
+      "status": "passed",
+      "expectedStatus": "passed",
+      "durationMs": 81,
+      "annotations": [],
+      "errors": []
+    },
+    {
+      "id": "API-116",
+      "title": "API-116 wrong HTTP method is rejected without a server crash",
+      "file": "tests/api.spec.mjs",
+      "status": "passed",
+      "expectedStatus": "passed",
+      "durationMs": 25,
+      "annotations": [],
+      "errors": []
+    },
+    {
+      "id": "API-120",
+      "title": "API-120 scenario intake: 校园运动会",
+      "file": "tests/api.spec.mjs",
+      "status": "passed",
+      "expectedStatus": "passed",
+      "durationMs": 31,
+      "annotations": [],
+      "errors": []
+    },
+    {
+      "id": "API-121",
+      "title": "API-121 scenario intake: 体育课",
+      "file": "tests/api.spec.mjs",
+      "status": "passed",
+      "expectedStatus": "passed",
+      "durationMs": 31,
+      "annotations": [],
+      "errors": []
+    },
+    {
+      "id": "API-122",
+      "title": "API-122 scenario intake: 社区活动",
+      "file": "tests/api.spec.mjs",
+      "status": "passed",
+      "expectedStatus": "passed",
+      "durationMs": 28,
+      "annotations": [],
+      "errors": []
+    },
+    {
+      "id": "API-123",
+      "title": "API-123 scenario intake: 户外训练",
+      "file": "tests/api.spec.mjs",
+      "status": "passed",
+      "expectedStatus": "passed",
+      "durationMs": 25,
+      "annotations": [],
+      "errors": []
+    },
+    {
+      "id": "API-124",
+      "title": "API-124 scenario intake: 研学活动",
+      "file": "tests/api.spec.mjs",
+      "status": "passed",
+      "expectedStatus": "passed",
+      "durationMs": 25,
+      "annotations": [],
+      "errors": []
+    },
+    {
+      "id": "API-125",
+      "title": "API-125 scenario intake: 旅游规划",
+      "file": "tests/api.spec.mjs",
+      "status": "passed",
+      "expectedStatus": "passed",
+      "durationMs": 24,
+      "annotations": [],
+      "errors": []
+    },
+    {
+      "id": "UI-001",
+      "title": "UI-001 desktop route renders without uncaught exceptions: /welcome",
+      "file": "tests/ui.spec.mjs",
+      "status": "passed",
+      "expectedStatus": "passed",
+      "durationMs": 1891,
+      "annotations": [],
+      "errors": []
+    },
+    {
+      "id": "UI-011",
+      "title": "UI-011 mobile 390px route fits the viewport: /welcome",
+      "file": "tests/ui.spec.mjs",
+      "status": "passed",
+      "expectedStatus": "passed",
+      "durationMs": 2798,
+      "annotations": [],
+      "errors": []
+    },
+    {
+      "id": "UI-002",
+      "title": "UI-002 desktop route renders without uncaught exceptions: /login",
+      "file": "tests/ui.spec.mjs",
+      "status": "passed",
+      "expectedStatus": "passed",
+      "durationMs": 1648,
+      "annotations": [],
+      "errors": []
+    },
+    {
+      "id": "UI-012",
+      "title": "UI-012 mobile 390px route fits the viewport: /login",
+      "file": "tests/ui.spec.mjs",
+      "status": "passed",
+      "expectedStatus": "passed",
+      "durationMs": 1736,
+      "annotations": [],
+      "errors": []
+    },
+    {
+      "id": "UI-003",
+      "title": "UI-003 desktop route renders without uncaught exceptions: /admin/login",
+      "file": "tests/ui.spec.mjs",
+      "status": "passed",
+      "expectedStatus": "passed",
+      "durationMs": 1211,
+      "annotations": [],
+      "errors": []
+    },
+    {
+      "id": "UI-013",
+      "title": "UI-013 mobile 390px route fits the viewport: /admin/login",
+      "file": "tests/ui.spec.mjs",
+      "status": "passed",
+      "expectedStatus": "passed",
+      "durationMs": 497,
+      "annotations": [],
+      "errors": []
+    },
+    {
+      "id": "UI-004",
+      "title": "UI-004 desktop route renders without uncaught exceptions: /XingZhi",
+      "file": "tests/ui.spec.mjs",
+      "status": "passed",
+      "expectedStatus": "passed",
+      "durationMs": 1285,
+      "annotations": [],
+      "errors": []
+    },
+    {
+      "id": "UI-014",
+      "title": "UI-014 mobile 390px route fits the viewport: /XingZhi",
+      "file": "tests/ui.spec.mjs",
+      "status": "passed",
+      "expectedStatus": "passed",
+      "durationMs": 1382,
+      "annotations": [],
+      "errors": []
+    },
+    {
+      "id": "UI-005",
+      "title": "UI-005 desktop route renders without uncaught exceptions: /hourly",
+      "file": "tests/ui.spec.mjs",
+      "status": "passed",
+      "expectedStatus": "passed",
+      "durationMs": 576,
+      "annotations": [],
+      "errors": []
+    },
+    {
+      "id": "UI-015",
+      "title": "UI-015 mobile 390px route fits the viewport: /hourly",
+      "file": "tests/ui.spec.mjs",
+      "status": "passed",
+      "expectedStatus": "passed",
+      "durationMs": 684,
+      "annotations": [],
+      "errors": []
+    },
+    {
+      "id": "UI-006",
+      "title": "UI-006 desktop route renders without uncaught exceptions: /settings",
+      "file": "tests/ui.spec.mjs",
+      "status": "passed",
+      "expectedStatus": "passed",
+      "durationMs": 1175,
+      "annotations": [],
+      "errors": []
+    },
+    {
+      "id": "UI-016",
+      "title": "UI-016 mobile 390px route fits the viewport: /settings",
+      "file": "tests/ui.spec.mjs",
+      "status": "passed",
+      "expectedStatus": "passed",
+      "durationMs": 800,
+      "annotations": [],
+      "errors": []
+    },
+    {
+      "id": "UI-007",
+      "title": "UI-007 desktop route renders without uncaught exceptions: /account",
+      "file": "tests/ui.spec.mjs",
+      "status": "passed",
+      "expectedStatus": "passed",
+      "durationMs": 872,
+      "annotations": [],
+      "errors": []
+    },
+    {
+      "id": "UI-017",
+      "title": "UI-017 mobile 390px route fits the viewport: /account",
+      "file": "tests/ui.spec.mjs",
+      "status": "passed",
+      "expectedStatus": "passed",
+      "durationMs": 1201,
+      "annotations": [],
+      "errors": []
+    },
+    {
+      "id": "A11Y-001 serious or critical WCAG 2.1 A/AA violations: /login",
+      "title": "A11Y-001 serious or critical WCAG 2.1 A/AA violations: /login",
+      "file": "tests/ui.spec.mjs",
+      "status": "passed",
+      "expectedStatus": "passed",
+      "durationMs": 1433,
+      "annotations": [],
+      "errors": []
+    },
+    {
+      "id": "A11Y-002 serious or critical WCAG 2.1 A/AA violations: /XingZhi",
+      "title": "A11Y-002 serious or critical WCAG 2.1 A/AA violations: /XingZhi",
+      "file": "tests/ui.spec.mjs",
+      "status": "passed",
+      "expectedStatus": "passed",
+      "durationMs": 1946,
+      "annotations": [],
+      "errors": []
+    },
+    {
+      "id": "A11Y-003 serious or critical WCAG 2.1 A/AA violations: /hourly",
+      "title": "A11Y-003 serious or critical WCAG 2.1 A/AA violations: /hourly",
+      "file": "tests/ui.spec.mjs",
+      "status": "passed",
+      "expectedStatus": "passed",
+      "durationMs": 984,
+      "annotations": [],
+      "errors": []
+    },
+    {
+      "id": "A11Y-004 serious or critical WCAG 2.1 A/AA violations: /settings",
+      "title": "A11Y-004 serious or critical WCAG 2.1 A/AA violations: /settings",
+      "file": "tests/ui.spec.mjs",
+      "status": "passed",
+      "expectedStatus": "passed",
+      "durationMs": 656,
+      "annotations": [],
+      "errors": []
+    },
+    {
+      "id": "UI-030",
+      "title": "UI-030 guest login reaches a usable workspace",
+      "file": "tests/ui.spec.mjs",
+      "status": "passed",
+      "expectedStatus": "passed",
+      "durationMs": 2328,
+      "annotations": [],
+      "errors": []
+    },
+    {
+      "id": "UI-031",
+      "title": "UI-031 invalid login fields use browser validation",
+      "file": "tests/ui.spec.mjs",
+      "status": "passed",
+      "expectedStatus": "passed",
+      "durationMs": 1461,
+      "annotations": [],
+      "errors": []
+    },
+    {
+      "id": "UI-032",
+      "title": "UI-032 registration form exposes length and username constraints",
+      "file": "tests/ui.spec.mjs",
+      "status": "passed",
+      "expectedStatus": "passed",
+      "durationMs": 2193,
+      "annotations": [],
+      "errors": []
+    },
+    {
+      "id": "UI-033",
+      "title": "UI-033 empty or whitespace-only conversation cannot be submitted",
+      "file": "tests/ui.spec.mjs",
+      "status": "passed",
+      "expectedStatus": "passed",
+      "durationMs": 732,
+      "annotations": [],
+      "errors": []
+    },
+    {
+      "id": "UI-034",
+      "title": "UI-034 Shift+Enter adds a newline without sending",
+      "file": "tests/ui.spec.mjs",
+      "status": "passed",
+      "expectedStatus": "passed",
+      "durationMs": 873,
+      "annotations": [],
+      "errors": []
+    },
+    {
+      "id": "UI-035",
+      "title": "UI-035 browser Back restores the previously selected workspace",
+      "file": "tests/ui.spec.mjs",
+      "status": "passed",
+      "expectedStatus": "passed",
+      "durationMs": 2088,
+      "annotations": [],
+      "errors": []
+    },
+    {
+      "id": "UI-036",
+      "title": "UI-036 legacy dashboard bookmark redirects and keeps view query",
+      "file": "tests/ui.spec.mjs",
+      "status": "failed",
+      "expectedStatus": "passed",
+      "durationMs": 20340,
+      "annotations": [],
+      "errors": [
+        "Error: expect(locator).toHaveText(expected) failed\n\nLocator:  locator('.workspace-context strong')\nExpected: \"活动档案\"\nReceived: \"分析台\"\nTimeout:  20000ms\n\nCall log:\n  - Expect \"toHaveText\" with timeout 20000ms\n  - waiting for locator('.workspace-context strong')\n    24 × locator resolved to <strong>分析台</strong>\n       - unexpected value \"分析台\"\n"
+      ]
+    },
+    {
+      "id": "UI-037",
+      "title": "UI-037 separate conversations survive switching and page reload",
+      "file": "tests/ui.spec.mjs",
+      "status": "passed",
+      "expectedStatus": "passed",
+      "durationMs": 1886,
+      "annotations": [],
+      "errors": []
+    },
+    {
+      "id": "UI-038",
+      "title": "UI-038 two-day tourism end-to-end exports a scheduled route",
+      "file": "tests/ui.spec.mjs",
+      "status": "passed",
+      "expectedStatus": "passed",
+      "durationMs": 4944,
+      "annotations": [],
+      "errors": []
+    },
+    {
+      "id": "UI-039",
+      "title": "UI-039 hourly data outage displays an error and clears stale data",
+      "file": "tests/ui.spec.mjs",
+      "status": "passed",
+      "expectedStatus": "passed",
+      "durationMs": 499,
+      "annotations": [],
+      "errors": []
+    },
+    {
+      "id": "UI-040",
+      "title": "UI-040 simulated geolocation and IP fallback failures produce an actionable message",
+      "file": "tests/ui.spec.mjs",
+      "status": "passed",
+      "expectedStatus": "passed",
+      "durationMs": 2309,
+      "annotations": [],
+      "errors": []
+    },
+    {
+      "id": "UI-041",
+      "title": "UI-041 no serious console animation warnings on fresh workspace",
+      "file": "tests/ui.spec.mjs",
+      "status": "passed",
+      "expectedStatus": "passed",
+      "durationMs": 1205,
+      "annotations": [],
+      "errors": []
+    },
+    {
+      "id": "UI-042",
+      "title": "UI-042 itinerary does not schedule the same restaurant twice under aliases",
+      "file": "tests/ui.spec.mjs",
+      "status": "passed",
+      "expectedStatus": "passed",
+      "durationMs": 3100,
+      "annotations": [],
+      "errors": []
+    },
+    {
+      "id": "UI-043",
+      "title": "UI-043 removing a stop updates the document and preserves a previous version",
+      "file": "tests/ui.spec.mjs",
+      "status": "passed",
+      "expectedStatus": "passed",
+      "durationMs": 3152,
+      "annotations": [],
+      "errors": []
+    },
+    {
+      "id": "UI-044",
+      "title": "UI-044 library create, mark verified, reload and delete only the QA material",
+      "file": "tests/ui.spec.mjs",
+      "status": "passed",
+      "expectedStatus": "passed",
+      "durationMs": 2006,
+      "annotations": [],
+      "errors": []
+    },
+    {
+      "id": "UI-045",
+      "title": "UI-045 organizer detects resource collisions and persists decimal expenses",
+      "file": "tests/ui.spec.mjs",
+      "status": "passed",
+      "expectedStatus": "passed",
+      "durationMs": 4318,
+      "annotations": [],
+      "errors": []
+    },
+    {
+      "id": "UI-046",
+      "title": "UI-046 organizer flags an event whose end precedes its start",
+      "file": "tests/ui.spec.mjs",
+      "status": "passed",
+      "expectedStatus": "passed",
+      "durationMs": 2480,
+      "annotations": [],
+      "errors": []
+    },
+    {
+      "id": "UI-047",
+      "title": "UI-047 hourly date uses Beijing calendar in a non-China browser timezone",
+      "file": "tests/ui.spec.mjs",
+      "status": "failed",
+      "expectedStatus": "passed",
+      "durationMs": 20384,
+      "annotations": [],
+      "errors": [
+        "Error: expect(locator).toHaveValue(expected) failed\n\nLocator:  getByLabel('选择日期', { exact: true })\nExpected: \"2026-10-27\"\nReceived: \"2026-10-26\"\nTimeout:  20000ms\n\nCall log:\n  - Expect \"toHaveValue\" with timeout 20000ms\n  - waiting for getByLabel('选择日期', { exact: true })\n    24 × locator resolved to <input type=\"date\" min=\"2026-10-26\" max=\"2026-11-02\" aria-label=\"选择日期\" value=\"2026-10-26\"/>\n       - unexpected value \"2026-10-26\"\n"
+      ]
+    }
+  ]
+}

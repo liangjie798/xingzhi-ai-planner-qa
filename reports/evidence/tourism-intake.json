@@ -1,0 +1,84 @@
+{
+  "first": {
+    "command": "clarify",
+    "reply": "好的，2天旅游已记下。还需要了解：\n1. 大约几个人参加？\n2. 同行或参与者是成年人、学生、老人，还是其他人群？\n可以一条回复一起告诉我；人数、强度和时段也可以说“按常规推荐”。",
+    "choices": [
+      {
+        "label": "2人",
+        "message": "2人"
+      },
+      {
+        "label": "10人",
+        "message": "10人"
+      },
+      {
+        "label": "30人",
+        "message": "30人"
+      },
+      {
+        "label": "100人",
+        "message": "100人"
+      }
+    ],
+    "patch": {
+      "cityName": "杭州市",
+      "activityType": "旅游规划",
+      "date": "2026-10-28",
+      "endDate": "2026-10-29",
+      "duration": 2,
+      "startHour": 9,
+      "intensity": "低强度"
+    },
+    "intake": {
+      "known": {
+        "cityName": "杭州市",
+        "activityType": "旅游规划",
+        "date": "2026-10-28",
+        "endDate": "2026-10-29",
+        "tripDays": 2
+      }
+    },
+    "missing": [
+      "大约几个人参加",
+      "同行或参与者是成年人、学生、老人，还是其他人群"
+    ],
+    "provider": "对话条件确认",
+    "knowledgeContext": {},
+    "weatherContext": {},
+    "activeTopic": "planning"
+  },
+  "second": {
+    "command": "analyze",
+    "reply": "条件齐了：杭州市，2026-10-28 至 2026-10-29，旅游规划，7人（大学生），结合天气安排景点与美食。现在查询对应地区的真实数据并生成详细规划。",
+    "choices": [],
+    "patch": {
+      "cityName": "杭州市",
+      "activityType": "旅游规划",
+      "date": "2026-10-28",
+      "endDate": "2026-10-29",
+      "audienceDescription": "大学生",
+      "group": "普通人群",
+      "participants": 7,
+      "duration": 2,
+      "startHour": 9,
+      "intensity": "低强度"
+    },
+    "intake": {
+      "known": {
+        "cityName": "杭州市",
+        "activityType": "旅游规划",
+        "date": "2026-10-28",
+        "endDate": "2026-10-29",
+        "tripDays": 2,
+        "audienceDescription": "大学生",
+        "group": "普通人群",
+        "participants": 7
+      }
+    },
+    "missing": [],
+    "provider": "对话条件确认",
+    "knowledgeContext": {},
+    "weatherContext": {},
+    "activeTopic": "planning"
+  }
+}

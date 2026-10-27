@@ -1,0 +1,696 @@
+{
+  "cityName": "杭州市",
+  "date": "2026-10-28",
+  "endDate": "2026-10-29",
+  "dayCount": 2,
+  "summary": "杭州市2日候选方案：按完整停留窗口的天气、地点距离、餐饮时间与交通休息缓冲筛选7站；营业与预约未核实的项目已标为待确认。",
+  "bestHours": "2026-10-28 09:00–10:45、2026-10-28 11:45–13:00、2026-10-28 14:00–15:45、2026-10-28 17:00–18:15",
+  "stops": [
+    {
+      "name": "拱宸桥·桥西历史街区",
+      "longitude": 120.142,
+      "latitude": 30.327,
+      "time": "09:00",
+      "day": 1,
+      "date": "2026-10-28",
+      "tip": "京杭大运河夜游起点。",
+      "tag": "运河夜景",
+      "category": "景点",
+      "articleTitle": "拱宸桥·桥西历史街区游玩提示",
+      "links": [
+        {
+          "label": "抖音攻略",
+          "kind": "douyin",
+          "url": "https://www.douyin.com/search/%E6%9D%AD%E5%B7%9E%E5%B8%82%20%E6%8B%B1%E5%AE%B8%E6%A1%A5%C2%B7%E6%A1%A5%E8%A5%BF%E5%8E%86%E5%8F%B2%E8%A1%97%E5%8C%BA%20%E6%94%BB%E7%95%A5"
+        },
+        {
+          "label": "小红书笔记",
+          "kind": "xiaohongshu",
+          "url": "https://www.xiaohongshu.com/search_result?keyword=%E6%9D%AD%E5%B7%9E%E5%B8%82%20%E6%8B%B1%E5%AE%B8%E6%A1%A5%C2%B7%E6%A1%A5%E8%A5%BF%E5%8E%86%E5%8F%B2%E8%A1%97%E5%8C%BA%20%E6%94%BB%E7%95%A5"
+        }
+      ],
+      "endTime": "10:45",
+      "visitMinutes": 90,
+      "queueMinutes": 15,
+      "restMinutes": 0,
+      "travelMinutes": 0,
+      "travelDistanceKm": 0,
+      "travelSource": "estimate",
+      "openingStatus": "待确认开放与预约；时段为保守排程假设",
+      "weatherAssessment": "09:00–10:45窗口：降水概率最高0%，US AQI最高117，热风险最高4；户外停留已参与天气筛选"
+    },
+    {
+      "name": "四灶儿·地道杭帮菜(湖墅南路店)",
+      "longitude": 120.152887,
+      "latitude": 30.283523,
+      "time": "11:45",
+      "day": 1,
+      "date": "2026-10-28",
+      "tip": "高德城市限定检索到的杭州市餐饮地点，建议结合营业时间与距离安排用餐。",
+      "tag": "本地美食",
+      "category": "美食",
+      "address": "湖墅南路258号",
+      "imageUrl": "https://store.is.autonavi.com/showpic/289dd1459ce9d69325b19eff8cc77c60",
+      "articleTitle": "四灶儿·地道杭帮菜(湖墅南路店)游玩提示",
+      "links": [
+        {
+          "label": "抖音攻略",
+          "kind": "douyin",
+          "url": "https://www.douyin.com/search/%E6%9D%AD%E5%B7%9E%E5%B8%82%20%E5%9B%9B%E7%81%B6%E5%84%BF%C2%B7%E5%9C%B0%E9%81%93%E6%9D%AD%E5%B8%AE%E8%8F%9C(%E6%B9%96%E5%A2%85%E5%8D%97%E8%B7%AF%E5%BA%97)%20%E6%94%BB%E7%95%A5"
+        },
+        {
+          "label": "小红书笔记",
+          "kind": "xiaohongshu",
+          "url": "https://www.xiaohongshu.com/search_result?keyword=%E6%9D%AD%E5%B7%9E%E5%B8%82%20%E5%9B%9B%E7%81%B6%E5%84%BF%C2%B7%E5%9C%B0%E9%81%93%E6%9D%AD%E5%B8%AE%E8%8F%9C(%E6%B9%96%E5%A2%85%E5%8D%97%E8%B7%AF%E5%BA%97)%20%E6%94%BB%E7%95%A5"
+        }
+      ],
+      "endTime": "13:00",
+      "visitMinutes": 60,
+      "queueMinutes": 15,
+      "restMinutes": 20,
+      "travelMinutes": 40,
+      "travelDistanceKm": 8.1,
+      "travelSource": "amap-driving",
+      "openingStatus": "待确认开放与预约；时段为保守排程假设",
+      "weatherAssessment": "11:45–13:00窗口：降水概率最高0%，US AQI最高116，热风险最高0；室内/餐饮候选，仍需确认现场条件"
+    },
+    {
+      "name": "横河公园",
+      "longitude": 120.18615,
+      "latitude": 30.251941,
+      "time": "14:00",
+      "day": 1,
+      "date": "2026-10-28",
+      "tip": "高德城市限定检索到的杭州市公共游览地点，建议结合天气与开放时间安排。",
+      "tag": "公园",
+      "category": "景点",
+      "address": "环城东路22-13号",
+      "imageUrl": "https://aos-comment.amap.com/B023B0237B/comment/content_media_external_file_13102_1770598651619_80200848.jpg",
+      "articleTitle": "横河公园游玩提示",
+      "links": [
+        {
+          "label": "抖音攻略",
+          "kind": "douyin",
+          "url": "https://www.douyin.com/search/%E6%9D%AD%E5%B7%9E%E5%B8%82%20%E6%A8%AA%E6%B2%B3%E5%85%AC%E5%9B%AD%20%E6%94%BB%E7%95%A5"
+        },
+        {
+          "label": "小红书笔记",
+          "kind": "xiaohongshu",
+          "url": "https://www.xiaohongshu.com/search_result?keyword=%E6%9D%AD%E5%B7%9E%E5%B8%82%20%E6%A8%AA%E6%B2%B3%E5%85%AC%E5%9B%AD%20%E6%94%BB%E7%95%A5"
+        }
+      ],
+      "endTime": "15:45",
+      "visitMinutes": 90,
+      "queueMinutes": 15,
+      "restMinutes": 20,
+      "travelMinutes": 35,
+      "travelDistanceKm": 7.6,
+      "travelSource": "amap-driving",
+      "openingStatus": "待确认开放与预约；时段为保守排程假设",
+      "weatherAssessment": "14:00–15:45窗口：降水概率最高0%，US AQI最高113，热风险最高0；户外停留已参与天气筛选"
+    },
+    {
+      "name": "丹粤阁·顺德菜(清泰街店)",
+      "longitude": 120.174943,
+      "latitude": 30.247399,
+      "time": "17:00",
+      "day": 1,
+      "date": "2026-10-28",
+      "tip": "高德城市限定检索到的杭州市餐饮地点，建议结合营业时间与距离安排用餐。",
+      "tag": "本地美食",
+      "category": "美食",
+      "address": "清泰街456号",
+      "imageUrl": "https://aos-comment.amap.com/B0FFLF3U69/comment/content_media_external_images_media_1000021772_ss__1742423990967_12685417.jpg",
+      "articleTitle": "丹粤阁·顺德菜(清泰街店)游玩提示",
+      "links": [
+        {
+          "label": "抖音攻略",
+          "kind": "douyin",
+          "url": "https://www.douyin.com/search/%E6%9D%AD%E5%B7%9E%E5%B8%82%20%E4%B8%B9%E7%B2%A4%E9%98%81%C2%B7%E9%A1%BA%E5%BE%B7%E8%8F%9C(%E6%B8%85%E6%B3%B0%E8%A1%97%E5%BA%97)%20%E6%94%BB%E7%95%A5"
+        },
+        {
+          "label": "小红书笔记",
+          "kind": "xiaohongshu",
+          "url": "https://www.xiaohongshu.com/search_result?keyword=%E6%9D%AD%E5%B7%9E%E5%B8%82%20%E4%B8%B9%E7%B2%A4%E9%98%81%C2%B7%E9%A1%BA%E5%BE%B7%E8%8F%9C(%E6%B8%85%E6%B3%B0%E8%A1%97%E5%BA%97)%20%E6%94%BB%E7%95%A5"
+        }
+      ],
+      "endTime": "18:15",
+      "visitMinutes": 60,
+      "queueMinutes": 15,
+      "restMinutes": 20,
+      "travelMinutes": 30,
+      "travelDistanceKm": 2,
+      "travelSource": "amap-driving",
+      "openingStatus": "待确认开放与预约；时段为保守排程假设",
+      "weatherAssessment": "17:00–18:15窗口：降水概率最高0%，US AQI最高114，热风险最高6；室内/餐饮候选，仍需确认现场条件"
+    },
+    {
+      "name": "楼外楼（西湖店）",
+      "longitude": 120.141,
+      "latitude": 30.25,
+      "time": "11:00",
+      "day": 2,
+      "date": "2026-10-29",
+      "tip": "西湖边的杭帮菜老字号，可体验东坡肉、龙井虾仁等代表菜。",
+      "tag": "杭帮菜",
+      "category": "美食",
+      "articleTitle": "杭州官方舌尖美食体验路线",
+      "articleUrl": "https://ywhz.hangzhou.com.cn/tyxl/index.htm",
+      "links": [
+        {
+          "label": "抖音攻略",
+          "kind": "douyin",
+          "url": "https://www.douyin.com/search/%E6%9D%AD%E5%B7%9E%E5%B8%82%20%E6%A5%BC%E5%A4%96%E6%A5%BC%EF%BC%88%E8%A5%BF%E6%B9%96%E5%BA%97%EF%BC%89%20%E6%94%BB%E7%95%A5"
+        },
+        {
+          "label": "小红书笔记",
+          "kind": "xiaohongshu",
+          "url": "https://www.xiaohongshu.com/search_result?keyword=%E6%9D%AD%E5%B7%9E%E5%B8%82%20%E6%A5%BC%E5%A4%96%E6%A5%BC%EF%BC%88%E8%A5%BF%E6%B9%96%E5%BA%97%EF%BC%89%20%E6%94%BB%E7%95%A5"
+        },
+        {
+          "label": "官方资料",
+          "kind": "source",
+          "url": "https://ywhz.hangzhou.com.cn/tyxl/index.htm"
+        }
+      ],
+      "endTime": "12:15",
+      "visitMinutes": 60,
+      "queueMinutes": 15,
+      "restMinutes": 0,
+      "travelMinutes": 0,
+      "travelDistanceKm": 0,
+      "travelSource": "estimate",
+      "openingStatus": "待确认开放与预约；时段为保守排程假设",
+      "weatherAssessment": "11:00–12:15窗口：降水概率最高2%，US AQI最高160，热风险最高12；室内/餐饮候选，仍需确认现场条件"
+    },
+    {
+      "name": "太子湾公园",
+      "longitude": 120.138,
+      "latitude": 30.235,
+      "time": "13:00",
+      "day": 2,
+      "date": "2026-10-29",
+      "tip": "郁金香与樱花季顶流。",
+      "tag": "赏花胜地",
+      "category": "景点",
+      "articleTitle": "太子湾公园游玩提示",
+      "links": [
+        {
+          "label": "抖音攻略",
+          "kind": "douyin",
+          "url": "https://www.douyin.com/search/%E6%9D%AD%E5%B7%9E%E5%B8%82%20%E5%A4%AA%E5%AD%90%E6%B9%BE%E5%85%AC%E5%9B%AD%20%E6%94%BB%E7%95%A5"
+        },
+        {
+          "label": "小红书笔记",
+          "kind": "xiaohongshu",
+          "url": "https://www.xiaohongshu.com/search_result?keyword=%E6%9D%AD%E5%B7%9E%E5%B8%82%20%E5%A4%AA%E5%AD%90%E6%B9%BE%E5%85%AC%E5%9B%AD%20%E6%94%BB%E7%95%A5"
+        }
+      ],
+      "endTime": "14:45",
+      "visitMinutes": 90,
+      "queueMinutes": 15,
+      "restMinutes": 20,
+      "travelMinutes": 25,
+      "travelDistanceKm": 2.5,
+      "travelSource": "estimate",
+      "openingStatus": "待确认开放与预约；时段为保守排程假设",
+      "weatherAssessment": "13:00–14:45窗口：降水概率最高0%，US AQI最高161，热风险最高18；户外停留已参与天气筛选"
+    },
+    {
+      "name": "知味观·味庄",
+      "longitude": 120.138,
+      "latitude": 30.237,
+      "time": "17:00",
+      "day": 2,
+      "date": "2026-10-29",
+      "tip": "适合在杨公堤沿线安排正餐，兼顾传统杭帮菜与园林环境。",
+      "tag": "杭帮菜",
+      "category": "美食",
+      "articleTitle": "杭州官方舌尖美食体验路线",
+      "articleUrl": "https://ywhz.hangzhou.com.cn/tyxl/index.htm",
+      "links": [
+        {
+          "label": "抖音攻略",
+          "kind": "douyin",
+          "url": "https://www.douyin.com/search/%E6%9D%AD%E5%B7%9E%E5%B8%82%20%E7%9F%A5%E5%91%B3%E8%A7%82%C2%B7%E5%91%B3%E5%BA%84%20%E6%94%BB%E7%95%A5"
+        },
+        {
+          "label": "小红书笔记",
+          "kind": "xiaohongshu",
+          "url": "https://www.xiaohongshu.com/search_result?keyword=%E6%9D%AD%E5%B7%9E%E5%B8%82%20%E7%9F%A5%E5%91%B3%E8%A7%82%C2%B7%E5%91%B3%E5%BA%84%20%E6%94%BB%E7%95%A5"
+        },
+        {
+          "label": "官方资料",
+          "kind": "source",
+          "url": "https://ywhz.hangzhou.com.cn/tyxl/index.htm"
+        }
+      ],
+      "endTime": "18:15",
+      "visitMinutes": 60,
+      "queueMinutes": 15,
+      "restMinutes": 20,
+      "travelMinutes": 5,
+      "travelDistanceKm": 0.3,
+      "travelSource": "estimate",
+      "openingStatus": "待确认开放与预约；时段为保守排程假设",
+      "weatherAssessment": "17:00–18:15窗口：降水概率最高2%，US AQI最高162，热风险最高17；室内/餐饮候选，仍需确认现场条件"
+    }
+  ],
+  "notes": [
+    "同行安排：7人，大学生。",
+    "2026-10-28：部分营业时间未知，使用保守时段假设，必须确认后执行。",
+    "2026-10-29：部分营业时间未知，使用保守时段假设，必须确认后执行。",
+    "部分交通时间为按坐标、绕行系数和缓冲估算，非实时路况；已计入排程。未包含首站前与末站后的住宿通勤。",
+    "交通为高德驾车预估或坐标估算（含缓冲），非实时路况保证；另行核对实际交通方式。",
+    "开放、预约与团体接待条件须由组织者确认；未取得资料不等于已验证。"
+  ],
+  "scheduleVersion": 2,
+  "schedulingHours": [
+    {
+      "date": "2026-10-28",
+      "hour": 6,
+      "temperature": 11.7,
+      "humidity": 84,
+      "rainProbability": 0,
+      "aqi": 120,
+      "pm25": 51,
+      "heatRisk": 10
+    },
+    {
+      "date": "2026-10-28",
+      "hour": 7,
+      "temperature": 12.6,
+      "humidity": 82,
+      "rainProbability": 0,
+      "aqi": 118,
+      "pm25": 67,
+      "heatRisk": 9
+    },
+    {
+      "date": "2026-10-28",
+      "hour": 8,
+      "temperature": 14.4,
+      "humidity": 74,
+      "rainProbability": 0,
+      "aqi": 118,
+      "pm25": 53,
+      "heatRisk": 7
+    },
+    {
+      "date": "2026-10-28",
+      "hour": 9,
+      "temperature": 16.3,
+      "humidity": 66,
+      "rainProbability": 0,
+      "aqi": 117,
+      "pm25": 43,
+      "heatRisk": 4
+    },
+    {
+      "date": "2026-10-28",
+      "hour": 10,
+      "temperature": 18,
+      "humidity": 58,
+      "rainProbability": 0,
+      "aqi": 117,
+      "pm25": 35,
+      "heatRisk": 1
+    },
+    {
+      "date": "2026-10-28",
+      "hour": 11,
+      "temperature": 19.2,
+      "humidity": 52,
+      "rainProbability": 0,
+      "aqi": 116,
+      "pm25": 31,
+      "heatRisk": 0
+    },
+    {
+      "date": "2026-10-28",
+      "hour": 12,
+      "temperature": 19.9,
+      "humidity": 50,
+      "rainProbability": 0,
+      "aqi": 114,
+      "pm25": 31,
+      "heatRisk": 0
+    },
+    {
+      "date": "2026-10-28",
+      "hour": 13,
+      "temperature": 20.3,
+      "humidity": 48,
+      "rainProbability": 0,
+      "aqi": 113,
+      "pm25": 30,
+      "heatRisk": 0
+    },
+    {
+      "date": "2026-10-28",
+      "hour": 14,
+      "temperature": 20.3,
+      "humidity": 49,
+      "rainProbability": 0,
+      "aqi": 113,
+      "pm25": 30,
+      "heatRisk": 0
+    },
+    {
+      "date": "2026-10-28",
+      "hour": 15,
+      "temperature": 20.2,
+      "humidity": 51,
+      "rainProbability": 0,
+      "aqi": 113,
+      "pm25": 30,
+      "heatRisk": 0
+    },
+    {
+      "date": "2026-10-28",
+      "hour": 16,
+      "temperature": 19.7,
+      "humidity": 54,
+      "rainProbability": 0,
+      "aqi": 113,
+      "pm25": 31,
+      "heatRisk": 0
+    },
+    {
+      "date": "2026-10-28",
+      "hour": 17,
+      "temperature": 18.2,
+      "humidity": 63,
+      "rainProbability": 0,
+      "aqi": 113,
+      "pm25": 41,
+      "heatRisk": 3
+    },
+    {
+      "date": "2026-10-28",
+      "hour": 18,
+      "temperature": 16.9,
+      "humidity": 71,
+      "rainProbability": 0,
+      "aqi": 114,
+      "pm25": 64,
+      "heatRisk": 6
+    },
+    {
+      "date": "2026-10-28",
+      "hour": 19,
+      "temperature": 16.3,
+      "humidity": 78,
+      "rainProbability": 0,
+      "aqi": 116,
+      "pm25": 78,
+      "heatRisk": 8
+    },
+    {
+      "date": "2026-10-28",
+      "hour": 20,
+      "temperature": 16.2,
+      "humidity": 79,
+      "rainProbability": 0,
+      "aqi": 118,
+      "pm25": 82,
+      "heatRisk": 8
+    },
+    {
+      "date": "2026-10-29",
+      "hour": 6,
+      "temperature": 13.4,
+      "humidity": 96,
+      "rainProbability": 3,
+      "aqi": 153,
+      "pm25": 92,
+      "heatRisk": 14
+    },
+    {
+      "date": "2026-10-29",
+      "hour": 7,
+      "temperature": 14.1,
+      "humidity": 94,
+      "rainProbability": 4,
+      "aqi": 155,
+      "pm25": 115,
+      "heatRisk": 14
+    },
+    {
+      "date": "2026-10-29",
+      "hour": 8,
+      "temperature": 16.6,
+      "humidity": 82,
+      "rainProbability": 4,
+      "aqi": 156,
+      "pm25": 105,
+      "heatRisk": 9
+    },
+    {
+      "date": "2026-10-29",
+      "hour": 9,
+      "temperature": 18.8,
+      "humidity": 71,
+      "rainProbability": 4,
+      "aqi": 158,
+      "pm25": 80,
+      "heatRisk": 6
+    },
+    {
+      "date": "2026-10-29",
+      "hour": 10,
+      "temperature": 19.7,
+      "humidity": 66,
+      "rainProbability": 3,
+      "aqi": 159,
+      "pm25": 57,
+      "heatRisk": 5
+    },
+    {
+      "date": "2026-10-29",
+      "hour": 11,
+      "temperature": 20.4,
+      "humidity": 64,
+      "rainProbability": 2,
+      "aqi": 159,
+      "pm25": 48,
+      "heatRisk": 7
+    },
+    {
+      "date": "2026-10-29",
+      "hour": 12,
+      "temperature": 21.4,
+      "humidity": 62,
+      "rainProbability": 1,
+      "aqi": 160,
+      "pm25": 45,
+      "heatRisk": 12
+    },
+    {
+      "date": "2026-10-29",
+      "hour": 13,
+      "temperature": 22.6,
+      "humidity": 59,
+      "rainProbability": 0,
+      "aqi": 160,
+      "pm25": 44,
+      "heatRisk": 18
+    },
+    {
+      "date": "2026-10-29",
+      "hour": 14,
+      "temperature": 22.7,
+      "humidity": 59,
+      "rainProbability": 0,
+      "aqi": 161,
+      "pm25": 42,
+      "heatRisk": 17
+    },
+    {
+      "date": "2026-10-29",
+      "hour": 15,
+      "temperature": 22.8,
+      "humidity": 60,
+      "rainProbability": 0,
+      "aqi": 161,
+      "pm25": 41,
+      "heatRisk": 16
+    },
+    {
+      "date": "2026-10-29",
+      "hour": 16,
+      "temperature": 22.5,
+      "humidity": 61,
+      "rainProbability": 1,
+      "aqi": 161,
+      "pm25": 42,
+      "heatRisk": 16
+    },
+    {
+      "date": "2026-10-29",
+      "hour": 17,
+      "temperature": 21.4,
+      "humidity": 70,
+      "rainProbability": 2,
+      "aqi": 162,
+      "pm25": 70,
+      "heatRisk": 17
+    },
+    {
+      "date": "2026-10-29",
+      "hour": 18,
+      "temperature": 20.6,
+      "humidity": 73,
+      "rainProbability": 2,
+      "aqi": 162,
+      "pm25": 89,
+      "heatRisk": 10
+    },
+    {
+      "date": "2026-10-29",
+      "hour": 19,
+      "temperature": 18.6,
+      "humidity": 82,
+      "rainProbability": 2,
+      "aqi": 163,
+      "pm25": 94,
+      "heatRisk": 9
+    },
+    {
+      "date": "2026-10-29",
+      "hour": 20,
+      "temperature": 17.6,
+      "humidity": 86,
+      "rainProbability": 2,
+      "aqi": 164,
+      "pm25": 95,
+      "heatRisk": 11
+    }
+  ],
+  "scheduleWarnings": [
+    "2026-10-28：部分营业时间未知，使用保守时段假设，必须确认后执行。",
+    "2026-10-29：部分营业时间未知，使用保守时段假设，必须确认后执行。",
+    "部分交通时间为按坐标、绕行系数和缓冲估算，非实时路况；已计入排程。未包含首站前与末站后的住宿通勤。"
+  ],
+  "generatedBy": "curated",
+  "evidence": [
+    {
+      "id": "tour-weather",
+      "title": "逐小时天气与环境预报",
+      "publisher": "Open-Meteo",
+      "excerpt": "路线推荐时段综合气温、湿度、降水概率、空气质量与热风险计算。",
+      "tag": "实时数据",
+      "sourceUrl": "https://open-meteo.com/",
+      "section": "活动日期逐小时预测"
+    },
+    {
+      "id": "tour-poi",
+      "title": "地点坐标、地址与公开图片",
+      "publisher": "高德开放平台",
+      "excerpt": "地点来自城市限定POI检索或内置候选；高德接口不可用时保留已有坐标，地图连线仅表示顺序。",
+      "tag": "地图数据",
+      "sourceUrl": "https://lbs.amap.com/api/webservice/guide/api-advanced/newpoisearch",
+      "section": "POI 搜索"
+    },
+    {
+      "id": "tour-official-0",
+      "title": "杭州官方舌尖美食体验路线",
+      "publisher": "地方公开文旅资料",
+      "excerpt": "楼外楼（西湖店）：西湖边的杭帮菜老字号，可体验东坡肉、龙井虾仁等代表菜。",
+      "tag": "文旅依据",
+      "sourceUrl": "https://ywhz.hangzhou.com.cn/tyxl/index.htm",
+      "section": "美食"
+    }
+  ],
+  "socialResearch": {
+    "items": [
+      {
+        "title": "去杭州过周末,西湖要这样打开才对",
+        "excerpt": "从苏州高铁到杭州最快只要45分钟,周末抽两天来一趟杭州短途游,不赶景点、不挤人潮,按自己的节奏走一走,比什么都治愈。这篇杭州2天1晚旅游攻略,避开人挤人的网红打卡点,分享一条舒服又经典的路线。 很多人第一次去杭州,行程排得满满当当:断桥、雷峰塔、灵隐寺、宋城,一天下来比上班还累。其实杭州最舒服的玩法,是慢。西湖不用一次走完,挑几段喜欢的慢慢逛;灵隐寺不必逢庙必拜,听一听钟声就很好;除了西湖,杭州的茶山、古道、老巷子里藏着更多惊喜。杭州好玩的地方很多,2天时间不长,合理安排节奏才能玩得尽兴。秋天的杭州尤其适合慢走,满城桂花香,不用赶着打卡,留一点时间给偶然撞见的小巷和小店,反而更容易收获惊喜。 第一天:西湖西线,人少景美 周六上午从苏州出发,高铁到杭州东站约45分钟到1小时。建议住宿选在西湖西侧、杨公堤或龙井附近,环境清幽,离景点也近。避开断桥、湖滨那种人流密集区,从杨公堤开始逛,体验会好很多。这条路线几乎不用门票,沿路累了随时可以找家茶馆或咖啡店坐下来歇脚。 上午从杨公堤出发,这里是西湖三堤里游人最少的一条,两侧水杉成荫,秋日里叶子开始泛黄,骑单车穿行其中格外惬意。沿途会经过郭庄、茅家埠,这两个地方游客不多,却是本地人常去的休闲好去处。茅家埠有大片的湿地和芦苇,水面上偶有野鸭游过,野趣十足。 中午在茅家埠或龙井村吃农家菜,西湖醋鱼、龙井虾仁、东坡肉可以点几样尝尝,搭配一杯新上市的桂花龙井,唇齿留香。下午去龙井村或九溪烟树走一走,九溪十八涧溪水潺潺,两旁茶园青翠,徒步难度很低,走起",
+        "url": "https://k.sina.com.cn/article_8275985324_1ed4983ac00101syom.html",
+        "platform": "k.sina.com.cn",
+        "provider": "百度搜索",
+        "retrievedAt": "2026-10-27T10:35:47.814Z",
+        "publishedAt": "2026-10-08 13:58:17"
+      },
+      {
+        "title": "杭州西湖超省钱游玩攻略。",
+        "excerpt": "🍃别再在西湖游玩当冤大头了,本地人私藏的游玩门道直接整理给你。 1️⃣吃:别在断桥和河坊街消费,本地人常吃的孙奶奶葱包桧只要10块钱,武林夜市的阿婆杭帮菜同款西湖醋鱼也才88块。 2️⃣住:不用选火车站周边的低价民宿,直接住青之坞,人均百元出头,评分4.8,离西湖和灵隐都很近。 3️⃣行:坐地铁1号线龙翔桥站西口出来,3分钟就能到湖边,比打车省心很多。 西湖的美从来和花多少钱无关,找对玩法就能轻松玩得尽兴。 #旅行推荐 #城市种草",
+        "url": "https://www.douyin.com/note/7700790128063534777",
+        "platform": "抖音",
+        "provider": "百度搜索",
+        "retrievedAt": "2026-10-27T10:35:47.638Z",
+        "publishedAt": "2026-10-26 09:58:00"
+      }
+    ],
+    "sources": [
+      {
+        "platform": "百度搜索 · 全网攻略",
+        "status": "available",
+        "detail": "获得 1 条匹配目的地的搜索摘要，附原文链接；未验证全文，不代表平台热榜或实时热度。"
+      },
+      {
+        "platform": "百度搜索 · 小红书收录内容",
+        "status": "unavailable",
+        "detail": "未获得可核对且匹配目的地的结果；不代表该平台没有相关内容。"
+      },
+      {
+        "platform": "百度搜索 · 抖音收录内容",
+        "status": "available",
+        "detail": "获得 1 条匹配目的地的搜索摘要，附原文链接；未验证全文，不代表平台热榜或实时热度。"
+      }
+    ],
+    "durationMs": 0.13442400004714727
+  },
+  "trace": [
+    {
+      "id": "tour-forecast",
+      "name": "读取逐小时环境",
+      "detail": "接收 30 个小时的气温、降水、AQI 与热风险数据，计算推荐出行时段。",
+      "status": "done",
+      "durationMs": 2.8355710001196712
+    },
+    {
+      "id": "tour-social",
+      "name": "联网搜索攻略与活动资料",
+      "detail": "百度搜索 · 全网攻略：获得 1 条匹配目的地的搜索摘要，附原文链接；未验证全文，不代表平台热榜或实时热度。；百度搜索 · 小红书收录内容：未获得可核对且匹配目的地的结果；不代表该平台没有相关内容。；百度搜索 · 抖音收录内容：获得 1 条匹配目的地的搜索摘要，附原文链接；未验证全文，不代表平台热榜或实时热度。",
+      "status": "done",
+      "durationMs": 0.13442400004714727
+    },
+    {
+      "id": "tour-retrieve",
+      "name": "检索城市候选地点",
+      "detail": "从城市候选库筛选 35 个景点与美食，并执行类别约束。",
+      "status": "done",
+      "durationMs": 407.79648400004953
+    },
+    {
+      "id": "tour-plan",
+      "name": "编排多日游览顺序",
+      "detail": "未配置可用大模型。请在 AI 模型设置中保存有调用权限的模型配置；百度搜索密钥只用于搜索。 已使用候选地点和逐小时天气生成 2 日规则方案，可继续查看或下载。",
+      "status": "fallback",
+      "durationMs": 5.312647000188008
+    },
+    {
+      "id": "tour-enrich",
+      "name": "校准 POI 与链接",
+      "detail": "尝试查询高德地点坐标、地址、图片与今日营业时间；接口不可用时保留内置候选，营业与预约仍待确认。",
+      "status": "done",
+      "durationMs": 604.8611390001606
+    },
+    {
+      "id": "tour-validate",
+      "name": "路线约束校验",
+      "detail": "检查站点名称是否重复、日期与时间是否合法，并整理引用依据。",
+      "status": "done",
+      "durationMs": 0.12562600011005998
+    },
+    {
+      "id": "tour-constraints",
+      "name": "完整窗口与交通约束校验",
+      "detail": "7站已校验餐饮时段、完整游览/排队、交通与休息衔接；3段取得高德驾车预估，其余标为估算。营业未知地点使用保守假设，待确认。",
+      "status": "fallback",
+      "durationMs": 0.23133300011977553
+    }
+  ]
+}

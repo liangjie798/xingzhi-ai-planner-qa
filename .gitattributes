@@ -1,0 +1,2 @@
+# Preserve exact public evidence bytes so SHA256SUMS remains valid after clone.
+reports/** -text

@@ -1,0 +1,57 @@
+
+> amap-jsapi@0.1.0 prebuild
+> node scripts/validate-env.mjs
+
+
+> amap-jsapi@0.1.0 build
+> next build
+
+▲ Next.js 16.4.2 (Turbopack)
+- Environments: .env.local
+✓ Running next.config.ts took 56ms
+- Cache Components enabled
+- Partial Prefetching enabled
+
+  Creating an optimized production build ...
+✓ Compiled successfully in 848ms
+  Running TypeScript ...
+  Finished TypeScript in 3.0s ...
+  Collecting page data using 25 workers ...
+  Generating static pages using 25 workers (0/23) ...
+  Generating static pages using 25 workers (5/23) 
+  Generating static pages using 25 workers (11/23) 
+  Generating static pages using 25 workers (17/23) 
+✓ Generating static pages using 25 workers (23/23) in 1352ms
+  Finalizing page optimization ...
+
+Route (app)
+┌ ○ /
+├ ○ /_not-found
+├ ○ /account
+├ ƒ /activity-venues
+├ ○ /admin
+├ ○ /admin/login
+├ ƒ /conversation-planner
+├ ○ /dashboard
+├ ○ /hourly
+├ ○ /icon.svg
+├ ƒ /journey-search
+├ ƒ /location-gateway
+├ ○ /login
+├ ƒ /model-gateway
+├ ƒ /national-environment
+├ ƒ /plan-media
+├ ƒ /planning-evidence
+├ ƒ /region-data/[adcode]
+├ ○ /settings
+├ ƒ /social-research
+├ ƒ /tourism-planner
+├ ○ /welcome
+└ ○ /XingZhi
+
+
+ƒ Proxy (Middleware)
+
+○  (Static)   prerendered as static content
+ƒ  (Dynamic)  server-rendered on demand
+

@@ -1,0 +1,31 @@
+name: Manual live QA
+on:
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  live-tests:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+          cache: npm
+      - run: npm ci
+      - run: npx playwright install --with-deps chromium
+      - name: Run one-worker live acceptance tests
+        run: npm test
+      - name: Build public report
+        if: always()
+        run: npm run report
+      - name: Check public artifacts
+        if: always()
+        run: npm run check:public
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: xingzhi-qa-results
+          path: reports/
+          retention-days: 14

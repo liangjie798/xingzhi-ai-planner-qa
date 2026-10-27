@@ -1,0 +1,20 @@
+{
+  "name": "xingzhi-ai-planner-qa",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Independent, reproducible quality assurance for Xingzhi AI Planner",
+  "type": "module",
+  "scripts": {
+    "test": "playwright test",
+    "test:api": "playwright test tests/api.spec.mjs",
+    "test:ui": "playwright test tests/ui.spec.mjs",
+    "report": "node scripts/report.mjs",
+    "check:source": "node scripts/check-source.mjs",
+    "check:public": "node scripts/check-public.mjs"
+  },
+  "devDependencies": {
+    "@axe-core/playwright": "4.11.1",
+    "@playwright/test": "1.58.2"
+  },
+  "engines": { "node": ">=22" }
+}

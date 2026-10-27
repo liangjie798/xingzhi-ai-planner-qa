@@ -1,0 +1,51 @@
+{
+  "startedAt": "2026-10-27T10:36:06.617Z",
+  "finishedAt": "2026-10-27T10:36:45.948Z",
+  "sourceRepository": "https://github.com/liangjie798/xingzhi-ai-planner",
+  "revision": "070c1a67426790cd2431758a2ffd6440b4f90d8e",
+  "remoteHead": "070c1a67426790cd2431758a2ffd6440b4f90d8e",
+  "liveDeploymentRevision": "not exposed by site; local source commit is NOT proof of production build identity",
+  "java": "openjdk version \"21.0.12.1\" 2026-08-18 LTS\r\nOpenJDK Runtime Environment Temurin-21.0.12.1+1 (build 21.0.12.1+1-LTS)\r\nOpenJDK 64-Bit Server VM Temurin-21.0.12.1+1 (build 21.0.12.1+1-LTS, mixed mode, sharing)",
+  "results": [
+    {
+      "id": "frontend-lint",
+      "command": "npm run lint",
+      "directory": "frontend",
+      "exitCode": 0,
+      "signal": null,
+      "durationMs": 7430
+    },
+    {
+      "id": "frontend-tests",
+      "command": "node --experimental-strip-types --test tests/activity-agenda.test.mjs tests/activity-venues.test.mjs tests/city-introduction.test.mjs tests/conversation-intake.test.mjs tests/conversation-knowledge.test.mjs tests/conversation-reliability.test.mjs tests/destination-knowledge.test.mjs tests/document-issues.test.mjs tests/journey.test.mjs tests/llm-server.test.mjs tests/model-call.test.mjs tests/national-environment.test.mjs tests/place-evidence.test.mjs tests/scenario-plans.test.mjs tests/social-research.test.mjs tests/ticket-search.test.mjs tests/tourism-scheduler.test.mjs tests/weather-continuation.test.mjs tests/web-search.test.mjs",
+      "directory": "frontend",
+      "exitCode": 0,
+      "signal": null,
+      "durationMs": 387
+    },
+    {
+      "id": "frontend-build",
+      "command": "npm run build",
+      "directory": "frontend",
+      "exitCode": 0,
+      "signal": null,
+      "durationMs": 12595
+    },
+    {
+      "id": "backend-tests",
+      "command": "mvnw.cmd --batch-mode test",
+      "directory": "backend",
+      "exitCode": 0,
+      "signal": null,
+      "durationMs": 16509
+    },
+    {
+      "id": "publish-history",
+      "command": "node scripts/check-publish.mjs",
+      "directory": ".",
+      "exitCode": 0,
+      "signal": null,
+      "durationMs": 632
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "observation": "Observed during the preceding full live run on 2026-10-27, before the final run. Upstream POI ordering varies; this defect is intermittent, not guaranteed on every generated route.",
+  "testId": "UI-042",
+  "request": ["规划杭州明天到后天的旅游路线，七个大学生"],
+  "actual": [
+    { "name": "楼外楼（西湖店）", "date": "2026-10-28", "time": "12:00", "endTime": "13:15", "longitude": 120.140723, "latitude": 30.250209, "address": "西湖街道孤山路30号(近平湖秋月)" },
+    { "name": "楼外楼(杭州西湖风景名胜区店)", "date": "2026-10-28", "time": "17:00", "endTime": "18:15", "longitude": 120.140723, "latitude": 30.250209, "address": "西湖街道孤山路30号(近平湖秋月)" }
+  ],
+  "expected": "The same restaurant should not be introduced as two distinct automatically selected stops merely because the catalog and live provider return different aliases."
+}

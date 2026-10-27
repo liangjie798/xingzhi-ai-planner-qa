@@ -1,0 +1,22 @@
+{
+  "kind": "实时票价查询",
+  "intake": {
+    "known": {
+      "cityName": "杭州市",
+      "activityType": "校园运动会",
+      "date": "2026-10-28",
+      "endDate": "2026-10-29",
+      "intensity": "中强度",
+      "group": "儿童青少年",
+      "startHour": 14,
+      "allowedStartHour": 14,
+      "allowedEndHour": 16,
+      "duration": 2,
+      "participants": 40,
+      "originCity": "西安",
+      "journeyDestination": "北京",
+      "departureDate": "2026-10-28"
+    }
+  },
+  "reply": "西安 → 北京 · 2026-10-28\n本次未取得可比较的实时报价，暂时不能判断哪种出行方式更便宜。未取得可识别的航班含税报价；可能暂无候选、超出发售范围、权限不足或数据暂不可用；未取得可识别的火车可售席位报价；可能暂无候选、超出发售范围、权限不足或数据暂不可用；范围：直飞经济舱及最多6个直达火车候选，不代表全网最低价。"
+}
