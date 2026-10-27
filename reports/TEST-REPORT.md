@@ -1,14 +1,14 @@
 # 行知网站深度测试报告
 
-测试时间：2026/10/27 18:41:20 至 2026/10/27 18:43:23（Asia/Shanghai）。目标：[行知线上站点](https://lht574.cn/XingZhi)。应用源码：[xingzhi-ai-planner](https://github.com/liangjie798/xingzhi-ai-planner)。
+测试时间：2026/10/27 22:45:36 至 2026/10/27 22:47:01（Asia/Shanghai）。目标：[行知线上站点](https://lht574.cn/XingZhi)。应用源码：[xingzhi-ai-planner](https://github.com/liangjie798/xingzhi-ai-planner)。
 
 ## 执行结果
 
 | 检查 | 结果 |
 | --- | --- |
-| 本仓库线上自动化 | 118项；106通过，12失败，0跳过 |
-| 原项目前端测试 | 84项；见原始日志 |
-| 原项目后端测试 | 15项；见原始日志 |
+| 本仓库线上自动化 | 118项；118通过，0失败，0跳过 |
+| 原项目前端测试 | 88项；见原始日志 |
+| 原项目后端测试 | 16项；见原始日志 |
 | frontend-lint | 通过；退出码0 |
 | frontend-build | 通过；退出码0 |
 | publish-history | 通过；退出码0 |
@@ -23,22 +23,11 @@
 
 ## 失败项
 
-- API-011 — API-011 /conversation-planner rejects JSON null without a server error（failed）
-- API-012 — API-012 /tourism-planner rejects JSON null without a server error（failed）
-- API-013 — API-013 /planning-evidence rejects JSON null without a server error（failed）
-- API-016 — API-016 /model-gateway rejects JSON null without a server error（failed）
-- API-035 — API-035 /model-gateway: numeric prompt（failed）
-- API-043 — API-043 /tourism-planner: null hourly entry（failed）
-- API-084 — API-084 per-group count never replaces total participants（failed）
-- API-112 — API-112 invalid hourly calendar date returns a client error（failed）
-- API-113 — API-113 impossible coordinate is rejected by the location gateway（failed）
-- API-114 — API-114 missing coordinates are rejected instead of silently becoming zero（failed）
-- UI-036 — UI-036 legacy dashboard bookmark redirects and keeps view query（failed）
-- UI-047 — UI-047 hourly date uses Beijing calendar in a non-China browser timezone（failed）
+
 
 ## 版本和边界
 
-本地源码提交：`070c1a67426790cd2431758a2ffd6440b4f90d8e`；检查时远端HEAD：`070c1a67426790cd2431758a2ffd6440b4f90d8e`。生产站点未暴露构建SHA，线上结果与本地源码结果分别报告，不宣称已证明线上构建与本地相同。
+本地源码提交：`9976603e74f0f6c91a2eeba8717c504f3d825383`；检查时远端HEAD：`9976603e74f0f6c91a2eeba8717c504f3d825383`。生产站点未暴露构建SHA，线上结果与本地源码结果分别报告，不宣称已证明线上构建与本地相同。
 
 测试不是并发压测；没有线上普通用户/管理员完整凭据，不实施真实用户的增删改、密码重置、实际购票或预约。测试会话只包含QA生成内容。更多未覆盖项和后续人工验收见[测试计划](../docs/TEST-PLAN.md)与[人工用例](../docs/MANUAL-CASES.md)。
 

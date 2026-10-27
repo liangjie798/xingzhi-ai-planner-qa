@@ -1,9 +1,9 @@
 {
-  "startedAt": "2026-10-27T10:41:20.344Z",
-  "finishedAt": "2026-10-27T10:43:23.661Z",
+  "startedAt": "2026-10-27T14:45:36.629Z",
+  "finishedAt": "2026-10-27T14:47:01.479Z",
   "baseURL": "https://lht574.cn",
   "scope": "live black-box tests; synthetic inputs are explicitly labelled in cases",
-  "status": "failed",
+  "status": "passed",
   "runtime": {
     "node": "v22.23.2",
     "platform": "win32",
@@ -16,7 +16,7 @@
       "file": "tests/api.spec.mjs",
       "status": "passed",
       "expectedStatus": "passed",
-      "durationMs": 96,
+      "durationMs": 267,
       "annotations": [],
       "errors": []
     },
@@ -24,13 +24,11 @@
       "id": "API-011",
       "title": "API-011 /conversation-planner rejects JSON null without a server error",
       "file": "tests/api.spec.mjs",
-      "status": "failed",
+      "status": "passed",
       "expectedStatus": "passed",
-      "durationMs": 34,
+      "durationMs": 38,
       "annotations": [],
-      "errors": [
-        "Error: expect(received).toBe(expected) // Object.is equality\n\nExpected: 400\nReceived: 500"
-      ]
+      "errors": []
     },
     {
       "id": "API-002",
@@ -38,7 +36,7 @@
       "file": "tests/api.spec.mjs",
       "status": "passed",
       "expectedStatus": "passed",
-      "durationMs": 80,
+      "durationMs": 40,
       "annotations": [],
       "errors": []
     },
@@ -46,13 +44,11 @@
       "id": "API-012",
       "title": "API-012 /tourism-planner rejects JSON null without a server error",
       "file": "tests/api.spec.mjs",
-      "status": "failed",
+      "status": "passed",
       "expectedStatus": "passed",
-      "durationMs": 28,
+      "durationMs": 32,
       "annotations": [],
-      "errors": [
-        "Error: expect(received).toBe(expected) // Object.is equality\n\nExpected: 400\nReceived: 500"
-      ]
+      "errors": []
     },
     {
       "id": "API-003",
@@ -60,7 +56,7 @@
       "file": "tests/api.spec.mjs",
       "status": "passed",
       "expectedStatus": "passed",
-      "durationMs": 83,
+      "durationMs": 42,
       "annotations": [],
       "errors": []
     },
@@ -68,13 +64,11 @@
       "id": "API-013",
       "title": "API-013 /planning-evidence rejects JSON null without a server error",
       "file": "tests/api.spec.mjs",
-      "status": "failed",
+      "status": "passed",
       "expectedStatus": "passed",
-      "durationMs": 28,
+      "durationMs": 32,
       "annotations": [],
-      "errors": [
-        "Error: expect(received).toBe(expected) // Object.is equality\n\nExpected: 400\nReceived: 500"
-      ]
+      "errors": []
     },
     {
       "id": "API-004",
@@ -82,7 +76,7 @@
       "file": "tests/api.spec.mjs",
       "status": "passed",
       "expectedStatus": "passed",
-      "durationMs": 75,
+      "durationMs": 37,
       "annotations": [],
       "errors": []
     },
@@ -92,7 +86,7 @@
       "file": "tests/api.spec.mjs",
       "status": "passed",
       "expectedStatus": "passed",
-      "durationMs": 24,
+      "durationMs": 34,
       "annotations": [],
       "errors": []
     },
@@ -102,7 +96,7 @@
       "file": "tests/api.spec.mjs",
       "status": "passed",
       "expectedStatus": "passed",
-      "durationMs": 24,
+      "durationMs": 41,
       "annotations": [],
       "errors": []
     },
@@ -112,7 +106,7 @@
       "file": "tests/api.spec.mjs",
       "status": "passed",
       "expectedStatus": "passed",
-      "durationMs": 23,
+      "durationMs": 33,
       "annotations": [],
       "errors": []
     },
@@ -122,7 +116,7 @@
       "file": "tests/api.spec.mjs",
       "status": "passed",
       "expectedStatus": "passed",
-      "durationMs": 24,
+      "durationMs": 39,
       "annotations": [],
       "errors": []
     },
@@ -130,13 +124,11 @@
       "id": "API-016",
       "title": "API-016 /model-gateway rejects JSON null without a server error",
       "file": "tests/api.spec.mjs",
-      "status": "failed",
+      "status": "passed",
       "expectedStatus": "passed",
-      "durationMs": 23,
+      "durationMs": 28,
       "annotations": [],
-      "errors": [
-        "Error: expect(received).toBe(expected) // Object.is equality\n\nExpected: 400\nReceived: 500"
-      ]
+      "errors": []
     },
     {
       "id": "API-007",
@@ -144,7 +136,7 @@
       "file": "tests/api.spec.mjs",
       "status": "passed",
       "expectedStatus": "passed",
-      "durationMs": 98,
+      "durationMs": 37,
       "annotations": [],
       "errors": []
     },
@@ -154,7 +146,7 @@
       "file": "tests/api.spec.mjs",
       "status": "passed",
       "expectedStatus": "passed",
-      "durationMs": 30,
+      "durationMs": 29,
       "annotations": [],
       "errors": []
     },
@@ -164,7 +156,7 @@
       "file": "tests/api.spec.mjs",
       "status": "passed",
       "expectedStatus": "passed",
-      "durationMs": 31,
+      "durationMs": 27,
       "annotations": [],
       "errors": []
     },
@@ -174,7 +166,7 @@
       "file": "tests/api.spec.mjs",
       "status": "passed",
       "expectedStatus": "passed",
-      "durationMs": 28,
+      "durationMs": 32,
       "annotations": [],
       "errors": []
     },
@@ -184,7 +176,7 @@
       "file": "tests/api.spec.mjs",
       "status": "passed",
       "expectedStatus": "passed",
-      "durationMs": 28,
+      "durationMs": 30,
       "annotations": [],
       "errors": []
     },
@@ -194,7 +186,7 @@
       "file": "tests/api.spec.mjs",
       "status": "passed",
       "expectedStatus": "passed",
-      "durationMs": 27,
+      "durationMs": 40,
       "annotations": [],
       "errors": []
     },
@@ -202,13 +194,11 @@
       "id": "API-035",
       "title": "API-035 /model-gateway: numeric prompt",
       "file": "tests/api.spec.mjs",
-      "status": "failed",
+      "status": "passed",
       "expectedStatus": "passed",
-      "durationMs": 29,
+      "durationMs": 28,
       "annotations": [],
-      "errors": [
-        "Error: expect(received).toBe(expected) // Object.is equality\n\nExpected: 400\nReceived: 500"
-      ]
+      "errors": []
     },
     {
       "id": "API-036",
@@ -216,7 +206,7 @@
       "file": "tests/api.spec.mjs",
       "status": "passed",
       "expectedStatus": "passed",
-      "durationMs": 84,
+      "durationMs": 35,
       "annotations": [],
       "errors": []
     },
@@ -226,7 +216,7 @@
       "file": "tests/api.spec.mjs",
       "status": "passed",
       "expectedStatus": "passed",
-      "durationMs": 26,
+      "durationMs": 35,
       "annotations": [],
       "errors": []
     },
@@ -236,7 +226,7 @@
       "file": "tests/api.spec.mjs",
       "status": "passed",
       "expectedStatus": "passed",
-      "durationMs": 28,
+      "durationMs": 30,
       "annotations": [],
       "errors": []
     },
@@ -246,7 +236,7 @@
       "file": "tests/api.spec.mjs",
       "status": "passed",
       "expectedStatus": "passed",
-      "durationMs": 26,
+      "durationMs": 31,
       "annotations": [],
       "errors": []
     },
@@ -256,7 +246,7 @@
       "file": "tests/api.spec.mjs",
       "status": "passed",
       "expectedStatus": "passed",
-      "durationMs": 25,
+      "durationMs": 27,
       "annotations": [],
       "errors": []
     },
@@ -266,7 +256,7 @@
       "file": "tests/api.spec.mjs",
       "status": "passed",
       "expectedStatus": "passed",
-      "durationMs": 24,
+      "durationMs": 27,
       "annotations": [],
       "errors": []
     },
@@ -276,7 +266,7 @@
       "file": "tests/api.spec.mjs",
       "status": "passed",
       "expectedStatus": "passed",
-      "durationMs": 24,
+      "durationMs": 28,
       "annotations": [],
       "errors": []
     },
@@ -284,13 +274,11 @@
       "id": "API-043",
       "title": "API-043 /tourism-planner: null hourly entry",
       "file": "tests/api.spec.mjs",
-      "status": "failed",
+      "status": "passed",
       "expectedStatus": "passed",
-      "durationMs": 24,
+      "durationMs": 34,
       "annotations": [],
-      "errors": [
-        "Error: expect(received).toBe(expected) // Object.is equality\n\nExpected: 400\nReceived: 500"
-      ]
+      "errors": []
     },
     {
       "id": "API-044",
@@ -298,7 +286,7 @@
       "file": "tests/api.spec.mjs",
       "status": "passed",
       "expectedStatus": "passed",
-      "durationMs": 81,
+      "durationMs": 27,
       "annotations": [],
       "errors": []
     },
@@ -308,7 +296,7 @@
       "file": "tests/api.spec.mjs",
       "status": "passed",
       "expectedStatus": "passed",
-      "durationMs": 28,
+      "durationMs": 30,
       "annotations": [],
       "errors": []
     },
@@ -338,7 +326,7 @@
       "file": "tests/api.spec.mjs",
       "status": "passed",
       "expectedStatus": "passed",
-      "durationMs": 26,
+      "durationMs": 27,
       "annotations": [],
       "errors": []
     },
@@ -348,7 +336,7 @@
       "file": "tests/api.spec.mjs",
       "status": "passed",
       "expectedStatus": "passed",
-      "durationMs": 23,
+      "durationMs": 26,
       "annotations": [],
       "errors": []
     },
@@ -358,7 +346,7 @@
       "file": "tests/api.spec.mjs",
       "status": "passed",
       "expectedStatus": "passed",
-      "durationMs": 24,
+      "durationMs": 29,
       "annotations": [],
       "errors": []
     },
@@ -368,7 +356,7 @@
       "file": "tests/api.spec.mjs",
       "status": "passed",
       "expectedStatus": "passed",
-      "durationMs": 24,
+      "durationMs": 30,
       "annotations": [],
       "errors": []
     },
@@ -378,7 +366,7 @@
       "file": "tests/api.spec.mjs",
       "status": "passed",
       "expectedStatus": "passed",
-      "durationMs": 23,
+      "durationMs": 28,
       "annotations": [],
       "errors": []
     },
@@ -388,7 +376,7 @@
       "file": "tests/api.spec.mjs",
       "status": "passed",
       "expectedStatus": "passed",
-      "durationMs": 24,
+      "durationMs": 26,
       "annotations": [],
       "errors": []
     },
@@ -398,7 +386,7 @@
       "file": "tests/api.spec.mjs",
       "status": "passed",
       "expectedStatus": "passed",
-      "durationMs": 22,
+      "durationMs": 25,
       "annotations": [],
       "errors": []
     },
@@ -408,7 +396,7 @@
       "file": "tests/api.spec.mjs",
       "status": "passed",
       "expectedStatus": "passed",
-      "durationMs": 23,
+      "durationMs": 26,
       "annotations": [],
       "errors": []
     },
@@ -418,7 +406,7 @@
       "file": "tests/api.spec.mjs",
       "status": "passed",
       "expectedStatus": "passed",
-      "durationMs": 22,
+      "durationMs": 27,
       "annotations": [],
       "errors": []
     },
@@ -428,7 +416,7 @@
       "file": "tests/api.spec.mjs",
       "status": "passed",
       "expectedStatus": "passed",
-      "durationMs": 53,
+      "durationMs": 264,
       "annotations": [],
       "errors": []
     },
@@ -438,7 +426,7 @@
       "file": "tests/api.spec.mjs",
       "status": "passed",
       "expectedStatus": "passed",
-      "durationMs": 27,
+      "durationMs": 30,
       "annotations": [],
       "errors": []
     },
@@ -448,7 +436,7 @@
       "file": "tests/api.spec.mjs",
       "status": "passed",
       "expectedStatus": "passed",
-      "durationMs": 27,
+      "durationMs": 31,
       "annotations": [],
       "errors": []
     },
@@ -458,7 +446,7 @@
       "file": "tests/api.spec.mjs",
       "status": "passed",
       "expectedStatus": "passed",
-      "durationMs": 25,
+      "durationMs": 33,
       "annotations": [],
       "errors": []
     },
@@ -468,7 +456,7 @@
       "file": "tests/api.spec.mjs",
       "status": "passed",
       "expectedStatus": "passed",
-      "durationMs": 26,
+      "durationMs": 29,
       "annotations": [],
       "errors": []
     },
@@ -478,7 +466,7 @@
       "file": "tests/api.spec.mjs",
       "status": "passed",
       "expectedStatus": "passed",
-      "durationMs": 26,
+      "durationMs": 31,
       "annotations": [],
       "errors": []
     },
@@ -488,7 +476,7 @@
       "file": "tests/api.spec.mjs",
       "status": "passed",
       "expectedStatus": "passed",
-      "durationMs": 25,
+      "durationMs": 34,
       "annotations": [],
       "errors": []
     },
@@ -498,7 +486,7 @@
       "file": "tests/api.spec.mjs",
       "status": "passed",
       "expectedStatus": "passed",
-      "durationMs": 26,
+      "durationMs": 29,
       "annotations": [],
       "errors": []
     },
@@ -508,7 +496,7 @@
       "file": "tests/api.spec.mjs",
       "status": "passed",
       "expectedStatus": "passed",
-      "durationMs": 26,
+      "durationMs": 33,
       "annotations": [],
       "errors": []
     },
@@ -518,7 +506,7 @@
       "file": "tests/api.spec.mjs",
       "status": "passed",
       "expectedStatus": "passed",
-      "durationMs": 25,
+      "durationMs": 29,
       "annotations": [],
       "errors": []
     },
@@ -528,7 +516,7 @@
       "file": "tests/api.spec.mjs",
       "status": "passed",
       "expectedStatus": "passed",
-      "durationMs": 26,
+      "durationMs": 30,
       "annotations": [],
       "errors": []
     },
@@ -538,7 +526,7 @@
       "file": "tests/api.spec.mjs",
       "status": "passed",
       "expectedStatus": "passed",
-      "durationMs": 26,
+      "durationMs": 29,
       "annotations": [],
       "errors": []
     },
@@ -548,7 +536,7 @@
       "file": "tests/api.spec.mjs",
       "status": "passed",
       "expectedStatus": "passed",
-      "durationMs": 26,
+      "durationMs": 30,
       "annotations": [],
       "errors": []
     },
@@ -556,13 +544,11 @@
       "id": "API-084",
       "title": "API-084 per-group count never replaces total participants",
       "file": "tests/api.spec.mjs",
-      "status": "failed",
+      "status": "passed",
       "expectedStatus": "passed",
-      "durationMs": 29,
+      "durationMs": 28,
       "annotations": [],
-      "errors": [
-        "Error: expect(received).toMatchObject(expected)\n\n- Expected  - 1\n+ Received  + 0\n\n  Object {\n-   \"equipmentCount\": 10,\n    \"participants\": 40,\n    \"teamSize\": 5,\n  }"
-      ]
+      "errors": []
     },
     {
       "id": "API-085",
@@ -570,7 +556,7 @@
       "file": "tests/api.spec.mjs",
       "status": "passed",
       "expectedStatus": "passed",
-      "durationMs": 98,
+      "durationMs": 40,
       "annotations": [],
       "errors": []
     },
@@ -580,7 +566,7 @@
       "file": "tests/api.spec.mjs",
       "status": "passed",
       "expectedStatus": "passed",
-      "durationMs": 524,
+      "durationMs": 572,
       "annotations": [],
       "errors": []
     },
@@ -590,7 +576,7 @@
       "file": "tests/api.spec.mjs",
       "status": "passed",
       "expectedStatus": "passed",
-      "durationMs": 234,
+      "durationMs": 2154,
       "annotations": [],
       "errors": []
     },
@@ -600,7 +586,7 @@
       "file": "tests/api.spec.mjs",
       "status": "passed",
       "expectedStatus": "passed",
-      "durationMs": 29,
+      "durationMs": 31,
       "annotations": [],
       "errors": []
     },
@@ -610,7 +596,7 @@
       "file": "tests/api.spec.mjs",
       "status": "passed",
       "expectedStatus": "passed",
-      "durationMs": 28,
+      "durationMs": 29,
       "annotations": [],
       "errors": []
     },
@@ -620,7 +606,7 @@
       "file": "tests/api.spec.mjs",
       "status": "passed",
       "expectedStatus": "passed",
-      "durationMs": 24,
+      "durationMs": 94,
       "annotations": [],
       "errors": []
     },
@@ -630,7 +616,7 @@
       "file": "tests/api.spec.mjs",
       "status": "passed",
       "expectedStatus": "passed",
-      "durationMs": 22,
+      "durationMs": 30,
       "annotations": [],
       "errors": []
     },
@@ -640,7 +626,7 @@
       "file": "tests/api.spec.mjs",
       "status": "passed",
       "expectedStatus": "passed",
-      "durationMs": 22,
+      "durationMs": 30,
       "annotations": [],
       "errors": []
     },
@@ -650,7 +636,7 @@
       "file": "tests/api.spec.mjs",
       "status": "passed",
       "expectedStatus": "passed",
-      "durationMs": 23,
+      "durationMs": 29,
       "annotations": [],
       "errors": []
     },
@@ -660,7 +646,7 @@
       "file": "tests/api.spec.mjs",
       "status": "passed",
       "expectedStatus": "passed",
-      "durationMs": 23,
+      "durationMs": 26,
       "annotations": [],
       "errors": []
     },
@@ -670,7 +656,7 @@
       "file": "tests/api.spec.mjs",
       "status": "passed",
       "expectedStatus": "passed",
-      "durationMs": 22,
+      "durationMs": 29,
       "annotations": [],
       "errors": []
     },
@@ -680,7 +666,7 @@
       "file": "tests/api.spec.mjs",
       "status": "passed",
       "expectedStatus": "passed",
-      "durationMs": 65,
+      "durationMs": 156,
       "annotations": [],
       "errors": []
     },
@@ -690,7 +676,7 @@
       "file": "tests/api.spec.mjs",
       "status": "passed",
       "expectedStatus": "passed",
-      "durationMs": 22,
+      "durationMs": 34,
       "annotations": [],
       "errors": []
     },
@@ -700,7 +686,7 @@
       "file": "tests/api.spec.mjs",
       "status": "passed",
       "expectedStatus": "passed",
-      "durationMs": 266,
+      "durationMs": 612,
       "annotations": [],
       "errors": []
     },
@@ -710,7 +696,7 @@
       "file": "tests/api.spec.mjs",
       "status": "passed",
       "expectedStatus": "passed",
-      "durationMs": 42,
+      "durationMs": 66,
       "annotations": [],
       "errors": []
     },
@@ -720,7 +706,7 @@
       "file": "tests/api.spec.mjs",
       "status": "passed",
       "expectedStatus": "passed",
-      "durationMs": 602,
+      "durationMs": 620,
       "annotations": [],
       "errors": []
     },
@@ -730,7 +716,7 @@
       "file": "tests/api.spec.mjs",
       "status": "passed",
       "expectedStatus": "passed",
-      "durationMs": 26,
+      "durationMs": 679,
       "annotations": [],
       "errors": []
     },
@@ -738,37 +724,31 @@
       "id": "API-112",
       "title": "API-112 invalid hourly calendar date returns a client error",
       "file": "tests/api.spec.mjs",
-      "status": "failed",
+      "status": "passed",
       "expectedStatus": "passed",
-      "durationMs": 26,
+      "durationMs": 29,
       "annotations": [],
-      "errors": [
-        "Error: expect(received).toBe(expected) // Object.is equality\n\nExpected: 400\nReceived: 500"
-      ]
+      "errors": []
     },
     {
       "id": "API-113",
       "title": "API-113 impossible coordinate is rejected by the location gateway",
       "file": "tests/api.spec.mjs",
-      "status": "failed",
+      "status": "passed",
       "expectedStatus": "passed",
-      "durationMs": 256,
+      "durationMs": 40,
       "annotations": [],
-      "errors": [
-        "Error: expect(received).toBe(expected) // Object.is equality\n\nExpected: 400\nReceived: 200"
-      ]
+      "errors": []
     },
     {
       "id": "API-114",
       "title": "API-114 missing coordinates are rejected instead of silently becoming zero",
       "file": "tests/api.spec.mjs",
-      "status": "failed",
+      "status": "passed",
       "expectedStatus": "passed",
-      "durationMs": 279,
+      "durationMs": 27,
       "annotations": [],
-      "errors": [
-        "Error: expect(received).toBe(expected) // Object.is equality\n\nExpected: 400\nReceived: 200"
-      ]
+      "errors": []
     },
     {
       "id": "API-115",
@@ -776,7 +756,7 @@
       "file": "tests/api.spec.mjs",
       "status": "passed",
       "expectedStatus": "passed",
-      "durationMs": 81,
+      "durationMs": 26,
       "annotations": [],
       "errors": []
     },
@@ -786,7 +766,7 @@
       "file": "tests/api.spec.mjs",
       "status": "passed",
       "expectedStatus": "passed",
-      "durationMs": 25,
+      "durationMs": 26,
       "annotations": [],
       "errors": []
     },
@@ -796,7 +776,7 @@
       "file": "tests/api.spec.mjs",
       "status": "passed",
       "expectedStatus": "passed",
-      "durationMs": 31,
+      "durationMs": 32,
       "annotations": [],
       "errors": []
     },
@@ -806,7 +786,7 @@
       "file": "tests/api.spec.mjs",
       "status": "passed",
       "expectedStatus": "passed",
-      "durationMs": 31,
+      "durationMs": 33,
       "annotations": [],
       "errors": []
     },
@@ -816,7 +796,7 @@
       "file": "tests/api.spec.mjs",
       "status": "passed",
       "expectedStatus": "passed",
-      "durationMs": 28,
+      "durationMs": 35,
       "annotations": [],
       "errors": []
     },
@@ -826,7 +806,7 @@
       "file": "tests/api.spec.mjs",
       "status": "passed",
       "expectedStatus": "passed",
-      "durationMs": 25,
+      "durationMs": 31,
       "annotations": [],
       "errors": []
     },
@@ -836,7 +816,7 @@
       "file": "tests/api.spec.mjs",
       "status": "passed",
       "expectedStatus": "passed",
-      "durationMs": 25,
+      "durationMs": 30,
       "annotations": [],
       "errors": []
     },
@@ -846,7 +826,7 @@
       "file": "tests/api.spec.mjs",
       "status": "passed",
       "expectedStatus": "passed",
-      "durationMs": 24,
+      "durationMs": 31,
       "annotations": [],
       "errors": []
     },
@@ -856,7 +836,7 @@
       "file": "tests/ui.spec.mjs",
       "status": "passed",
       "expectedStatus": "passed",
-      "durationMs": 1891,
+      "durationMs": 2790,
       "annotations": [],
       "errors": []
     },
@@ -866,7 +846,7 @@
       "file": "tests/ui.spec.mjs",
       "status": "passed",
       "expectedStatus": "passed",
-      "durationMs": 2798,
+      "durationMs": 5652,
       "annotations": [],
       "errors": []
     },
@@ -876,7 +856,7 @@
       "file": "tests/ui.spec.mjs",
       "status": "passed",
       "expectedStatus": "passed",
-      "durationMs": 1648,
+      "durationMs": 2415,
       "annotations": [],
       "errors": []
     },
@@ -886,7 +866,7 @@
       "file": "tests/ui.spec.mjs",
       "status": "passed",
       "expectedStatus": "passed",
-      "durationMs": 1736,
+      "durationMs": 1226,
       "annotations": [],
       "errors": []
     },
@@ -896,7 +876,7 @@
       "file": "tests/ui.spec.mjs",
       "status": "passed",
       "expectedStatus": "passed",
-      "durationMs": 1211,
+      "durationMs": 717,
       "annotations": [],
       "errors": []
     },
@@ -906,7 +886,7 @@
       "file": "tests/ui.spec.mjs",
       "status": "passed",
       "expectedStatus": "passed",
-      "durationMs": 497,
+      "durationMs": 3942,
       "annotations": [],
       "errors": []
     },
@@ -916,7 +896,7 @@
       "file": "tests/ui.spec.mjs",
       "status": "passed",
       "expectedStatus": "passed",
-      "durationMs": 1285,
+      "durationMs": 336,
       "annotations": [],
       "errors": []
     },
@@ -926,7 +906,7 @@
       "file": "tests/ui.spec.mjs",
       "status": "passed",
       "expectedStatus": "passed",
-      "durationMs": 1382,
+      "durationMs": 1304,
       "annotations": [],
       "errors": []
     },
@@ -936,7 +916,7 @@
       "file": "tests/ui.spec.mjs",
       "status": "passed",
       "expectedStatus": "passed",
-      "durationMs": 576,
+      "durationMs": 432,
       "annotations": [],
       "errors": []
     },
@@ -946,7 +926,7 @@
       "file": "tests/ui.spec.mjs",
       "status": "passed",
       "expectedStatus": "passed",
-      "durationMs": 684,
+      "durationMs": 1180,
       "annotations": [],
       "errors": []
     },
@@ -956,7 +936,7 @@
       "file": "tests/ui.spec.mjs",
       "status": "passed",
       "expectedStatus": "passed",
-      "durationMs": 1175,
+      "durationMs": 793,
       "annotations": [],
       "errors": []
     },
@@ -966,7 +946,7 @@
       "file": "tests/ui.spec.mjs",
       "status": "passed",
       "expectedStatus": "passed",
-      "durationMs": 800,
+      "durationMs": 771,
       "annotations": [],
       "errors": []
     },
@@ -976,7 +956,7 @@
       "file": "tests/ui.spec.mjs",
       "status": "passed",
       "expectedStatus": "passed",
-      "durationMs": 872,
+      "durationMs": 1163,
       "annotations": [],
       "errors": []
     },
@@ -986,7 +966,7 @@
       "file": "tests/ui.spec.mjs",
       "status": "passed",
       "expectedStatus": "passed",
-      "durationMs": 1201,
+      "durationMs": 723,
       "annotations": [],
       "errors": []
     },
@@ -996,7 +976,7 @@
       "file": "tests/ui.spec.mjs",
       "status": "passed",
       "expectedStatus": "passed",
-      "durationMs": 1433,
+      "durationMs": 2029,
       "annotations": [],
       "errors": []
     },
@@ -1006,7 +986,7 @@
       "file": "tests/ui.spec.mjs",
       "status": "passed",
       "expectedStatus": "passed",
-      "durationMs": 1946,
+      "durationMs": 1507,
       "annotations": [],
       "errors": []
     },
@@ -1016,7 +996,7 @@
       "file": "tests/ui.spec.mjs",
       "status": "passed",
       "expectedStatus": "passed",
-      "durationMs": 984,
+      "durationMs": 1080,
       "annotations": [],
       "errors": []
     },
@@ -1026,7 +1006,7 @@
       "file": "tests/ui.spec.mjs",
       "status": "passed",
       "expectedStatus": "passed",
-      "durationMs": 656,
+      "durationMs": 790,
       "annotations": [],
       "errors": []
     },
@@ -1036,7 +1016,7 @@
       "file": "tests/ui.spec.mjs",
       "status": "passed",
       "expectedStatus": "passed",
-      "durationMs": 2328,
+      "durationMs": 2605,
       "annotations": [],
       "errors": []
     },
@@ -1046,7 +1026,7 @@
       "file": "tests/ui.spec.mjs",
       "status": "passed",
       "expectedStatus": "passed",
-      "durationMs": 1461,
+      "durationMs": 2903,
       "annotations": [],
       "errors": []
     },
@@ -1056,7 +1036,7 @@
       "file": "tests/ui.spec.mjs",
       "status": "passed",
       "expectedStatus": "passed",
-      "durationMs": 2193,
+      "durationMs": 2366,
       "annotations": [],
       "errors": []
     },
@@ -1066,7 +1046,7 @@
       "file": "tests/ui.spec.mjs",
       "status": "passed",
       "expectedStatus": "passed",
-      "durationMs": 732,
+      "durationMs": 1531,
       "annotations": [],
       "errors": []
     },
@@ -1076,7 +1056,7 @@
       "file": "tests/ui.spec.mjs",
       "status": "passed",
       "expectedStatus": "passed",
-      "durationMs": 873,
+      "durationMs": 793,
       "annotations": [],
       "errors": []
     },
@@ -1086,7 +1066,7 @@
       "file": "tests/ui.spec.mjs",
       "status": "passed",
       "expectedStatus": "passed",
-      "durationMs": 2088,
+      "durationMs": 1708,
       "annotations": [],
       "errors": []
     },
@@ -1094,13 +1074,11 @@
       "id": "UI-036",
       "title": "UI-036 legacy dashboard bookmark redirects and keeps view query",
       "file": "tests/ui.spec.mjs",
-      "status": "failed",
+      "status": "passed",
       "expectedStatus": "passed",
-      "durationMs": 20340,
+      "durationMs": 1356,
       "annotations": [],
-      "errors": [
-        "Error: expect(locator).toHaveText(expected) failed\n\nLocator:  locator('.workspace-context strong')\nExpected: \"活动档案\"\nReceived: \"分析台\"\nTimeout:  20000ms\n\nCall log:\n  - Expect \"toHaveText\" with timeout 20000ms\n  - waiting for locator('.workspace-context strong')\n    24 × locator resolved to <strong>分析台</strong>\n       - unexpected value \"分析台\"\n"
-      ]
+      "errors": []
     },
     {
       "id": "UI-037",
@@ -1108,7 +1086,7 @@
       "file": "tests/ui.spec.mjs",
       "status": "passed",
       "expectedStatus": "passed",
-      "durationMs": 1886,
+      "durationMs": 2473,
       "annotations": [],
       "errors": []
     },
@@ -1118,7 +1096,7 @@
       "file": "tests/ui.spec.mjs",
       "status": "passed",
       "expectedStatus": "passed",
-      "durationMs": 4944,
+      "durationMs": 5871,
       "annotations": [],
       "errors": []
     },
@@ -1128,7 +1106,7 @@
       "file": "tests/ui.spec.mjs",
       "status": "passed",
       "expectedStatus": "passed",
-      "durationMs": 499,
+      "durationMs": 597,
       "annotations": [],
       "errors": []
     },
@@ -1138,7 +1116,7 @@
       "file": "tests/ui.spec.mjs",
       "status": "passed",
       "expectedStatus": "passed",
-      "durationMs": 2309,
+      "durationMs": 1621,
       "annotations": [],
       "errors": []
     },
@@ -1148,7 +1126,7 @@
       "file": "tests/ui.spec.mjs",
       "status": "passed",
       "expectedStatus": "passed",
-      "durationMs": 1205,
+      "durationMs": 1435,
       "annotations": [],
       "errors": []
     },
@@ -1158,7 +1136,7 @@
       "file": "tests/ui.spec.mjs",
       "status": "passed",
       "expectedStatus": "passed",
-      "durationMs": 3100,
+      "durationMs": 3186,
       "annotations": [],
       "errors": []
     },
@@ -1168,7 +1146,7 @@
       "file": "tests/ui.spec.mjs",
       "status": "passed",
       "expectedStatus": "passed",
-      "durationMs": 3152,
+      "durationMs": 3615,
       "annotations": [],
       "errors": []
     },
@@ -1178,7 +1156,7 @@
       "file": "tests/ui.spec.mjs",
       "status": "passed",
       "expectedStatus": "passed",
-      "durationMs": 2006,
+      "durationMs": 2146,
       "annotations": [],
       "errors": []
     },
@@ -1188,7 +1166,7 @@
       "file": "tests/ui.spec.mjs",
       "status": "passed",
       "expectedStatus": "passed",
-      "durationMs": 4318,
+      "durationMs": 4560,
       "annotations": [],
       "errors": []
     },
@@ -1198,7 +1176,7 @@
       "file": "tests/ui.spec.mjs",
       "status": "passed",
       "expectedStatus": "passed",
-      "durationMs": 2480,
+      "durationMs": 4093,
       "annotations": [],
       "errors": []
     },
@@ -1206,13 +1184,11 @@
       "id": "UI-047",
       "title": "UI-047 hourly date uses Beijing calendar in a non-China browser timezone",
       "file": "tests/ui.spec.mjs",
-      "status": "failed",
+      "status": "passed",
       "expectedStatus": "passed",
-      "durationMs": 20384,
+      "durationMs": 2548,
       "annotations": [],
-      "errors": [
-        "Error: expect(locator).toHaveValue(expected) failed\n\nLocator:  getByLabel('选择日期', { exact: true })\nExpected: \"2026-10-27\"\nReceived: \"2026-10-26\"\nTimeout:  20000ms\n\nCall log:\n  - Expect \"toHaveValue\" with timeout 20000ms\n  - waiting for getByLabel('选择日期', { exact: true })\n    24 × locator resolved to <input type=\"date\" min=\"2026-10-26\" max=\"2026-11-02\" aria-label=\"选择日期\" value=\"2026-10-26\"/>\n       - unexpected value \"2026-10-26\"\n"
-      ]
+      "errors": []
     }
   ]
 }

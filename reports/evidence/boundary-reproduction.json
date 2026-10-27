@@ -1,12 +1,13 @@
 {
-  "at": "2026-10-27T10:45:55.604Z",
+  "at": "2026-10-27T14:49:33.169Z",
   "examples": [
     {
       "method": "POST",
       "path": "/conversation-planner",
       "input": null,
-      "status": 500,
-      "body": ""
+      "status": 400,
+      "contentType": "application/json",
+      "body": "{\"detail\":\"请输入规划要求，请求体必须为 JSON 对象\"}"
     },
     {
       "method": "POST",
@@ -14,29 +15,30 @@
       "input": {
         "prompt": 123
       },
-      "status": 500,
-      "body": ""
+      "status": 400,
+      "contentType": "application/json",
+      "body": "{\"detail\":\"prompt 必须为文本，请求体必须为 JSON 对象\"}"
     },
     {
       "method": "GET",
       "path": "/api/v1/cities/hourly?cityId=hangzhou&date=2026-02-30",
-      "status": 500,
-      "contentType": "application/json",
-      "body": "{\"timestamp\":\"2026-10-27T10:45:53.114Z\",\"status\":500,\"error\":\"Internal Server Error\",\"path\":\"/api/v1/cities/hourly\"}"
+      "status": 400,
+      "contentType": "application/problem+json",
+      "body": "{\"detail\":\"日期无效，请使用存在的日历日期（YYYY-MM-DD）\",\"instance\":\"/api/v1/cities/hourly\",\"status\":400,\"title\":\"请求无法处理\"}"
     },
     {
       "method": "GET",
       "path": "/location-gateway?action=reverse",
-      "status": 200,
+      "status": 400,
       "contentType": "application/json",
-      "body": "{\"name\":[],\"longitude\":0,\"latitude\":0,\"province\":\"\",\"city\":\"\",\"district\":\"\",\"adcode\":\"\"}"
+      "body": "{\"detail\":\"坐标无效\"}"
     },
     {
       "method": "GET",
       "path": "/location-gateway?action=reverse&longitude=999&latitude=999",
-      "status": 200,
+      "status": 400,
       "contentType": "application/json",
-      "body": "{\"name\":[],\"longitude\":999,\"latitude\":999,\"province\":\"\",\"city\":\"\",\"district\":\"\",\"adcode\":\"\"}"
+      "body": "{\"detail\":\"坐标无效\"}"
     }
   ]
 }

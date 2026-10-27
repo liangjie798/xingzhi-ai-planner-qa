@@ -2,7 +2,7 @@
   "syntheticClientInstant": "2026-10-27T00:30:00+08:00",
   "browserTimezone": "America/Los_Angeles",
   "expectedBeijingDate": "2026-10-27",
-  "actualDate": "2026-10-26",
-  "min": "2026-10-26",
-  "max": "2026-11-02"
+  "actualDate": "2026-10-27",
+  "min": "2026-10-27",
+  "max": "2026-11-03"
 }

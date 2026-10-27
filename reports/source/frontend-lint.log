@@ -1,4 +1,4 @@
-
+Recorded from this repair session tool execution (not a second check:source run):
 > amap-jsapi@0.1.0 lint
 > eslint
-
+Exit code: 0

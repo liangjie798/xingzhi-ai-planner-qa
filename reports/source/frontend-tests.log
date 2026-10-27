@@ -1,590 +1,618 @@
 TAP version 13
-# (node:14348) [MODULE_TYPELESS_PACKAGE_JSON] Warning: Module type of file:///G:/Ai%20Web/amap-jsapi/frontend/src/lib/activity-agenda.ts is not specified and it doesn't parse as CommonJS.
+# (node:38908) [MODULE_TYPELESS_PACKAGE_JSON] Warning: Module type of file:///G:/Ai%20Web/amap-jsapi/frontend/src/lib/activity-agenda.ts is not specified and it doesn't parse as CommonJS.
 # Reparsing as ES module because module syntax was detected. This incurs a performance overhead.
 # To eliminate this warning, add "type": "module" to G:\\Ai Web\\amap-jsapi\\frontend\\package.json.
 # (Use `node --trace-warnings ...` to show where the warning was created)
 # Subtest: agenda covers preparation, entire session, breaks and exit without gaps
 ok 1 - agenda covers preparation, entire session, breaks and exit without gaps
   ---
-  duration_ms: 1.4937
+  duration_ms: 1.3782
   type: 'test'
   ...
 # Subtest: each date uses its own best hourly score
 ok 2 - each date uses its own best hourly score
   ---
-  duration_ms: 10.2521
+  duration_ms: 18.7242
   type: 'test'
   ...
 # Subtest: an afternoon session does not move into the evening for a higher score
 ok 3 - an afternoon session does not move into the evening for a higher score
   ---
-  duration_ms: 0.2555
+  duration_ms: 0.3413
   type: 'test'
   ...
 # Subtest: five activity scenes have different core tasks
 ok 4 - five activity scenes have different core tasks
   ---
-  duration_ms: 0.3964
+  duration_ms: 0.4816
   type: 'test'
   ...
 # Subtest: a long session still has continuous timestamps
 ok 5 - a long session still has continuous timestamps
   ---
-  duration_ms: 0.3046
+  duration_ms: 0.3991
   type: 'test'
   ...
-# (node:36828) [MODULE_TYPELESS_PACKAGE_JSON] Warning: Module type of file:///G:/Ai%20Web/amap-jsapi/frontend/src/lib/activity-venues.ts is not specified and it doesn't parse as CommonJS.
+# (node:35572) [MODULE_TYPELESS_PACKAGE_JSON] Warning: Module type of file:///G:/Ai%20Web/amap-jsapi/frontend/src/lib/activity-venues.ts is not specified and it doesn't parse as CommonJS.
 # Reparsing as ES module because module syntax was detected. This incurs a performance overhead.
 # To eliminate this warning, add "type": "module" to G:\\Ai Web\\amap-jsapi\\frontend\\package.json.
 # (Use `node --trace-warnings ...` to show where the warning was created)
 # Subtest: activities select distinct venue types and include concrete reasons and group constraints
 ok 6 - activities select distinct venue types and include concrete reasons and group constraints
   ---
-  duration_ms: 2.0694
+  duration_ms: 4.2612
   type: 'test'
   ...
 # Subtest: main document references are short, deduplicated and exclude promotional search paragraphs
 ok 7 - main document references are short, deduplicated and exclude promotional search paragraphs
   ---
-  duration_ms: 0.4931
+  duration_ms: 1.3462
   type: 'test'
   ...
-# (node:1240) [MODULE_TYPELESS_PACKAGE_JSON] Warning: Module type of file:///G:/Ai%20Web/amap-jsapi/frontend/src/lib/city-introduction.ts is not specified and it doesn't parse as CommonJS.
+# (node:12676) [MODULE_TYPELESS_PACKAGE_JSON] Warning: Module type of file:///G:/Ai%20Web/amap-jsapi/frontend/src/lib/city-introduction.ts is not specified and it doesn't parse as CommonJS.
 # Reparsing as ES module because module syntax was detected. This incurs a performance overhead.
 # To eliminate this warning, add "type": "module" to G:\\Ai Web\\amap-jsapi\\frontend\\package.json.
 # (Use `node --trace-warnings ...` to show where the warning was created)
 # Subtest: a city name is an introduction outside intake, but remains a destination answer during intake
 ok 8 - a city name is an introduction outside intake, but remains a destination answer during intake
   ---
-  duration_ms: 4.3002
+  duration_ms: 5.1344
   type: 'test'
   ...
 # Subtest: weather, food-specific and unrelated questions keep their original meaning
 ok 9 - weather, food-specific and unrelated questions keep their original meaning
   ---
-  duration_ms: 0.4269
+  duration_ms: 0.6227
   type: 'test'
   ...
 # Subtest: city retrieval excludes incidental news and sources from other cities
 ok 10 - city retrieval excludes incidental news and sources from other cities
   ---
-  duration_ms: 1.3015
+  duration_ms: 1.7245
   type: 'test'
   ...
-# (node:27408) [MODULE_TYPELESS_PACKAGE_JSON] Warning: Module type of file:///G:/Ai%20Web/amap-jsapi/frontend/src/lib/conversation-intake.ts is not specified and it doesn't parse as CommonJS.
+# (node:14592) [MODULE_TYPELESS_PACKAGE_JSON] Warning: Module type of file:///G:/Ai%20Web/amap-jsapi/frontend/src/lib/conversation-intake.ts is not specified and it doesn't parse as CommonJS.
 # Reparsing as ES module because module syntax was detected. This incurs a performance overhead.
 # To eliminate this warning, add "type": "module" to G:\\Ai Web\\amap-jsapi\\frontend\\package.json.
 # (Use `node --trace-warnings ...` to show where the warning was created)
 # Subtest: calendar day and week queries replace old dates and validate the real calendar
 ok 11 - calendar day and week queries replace old dates and validate the real calendar
   ---
-  duration_ms: 35.1367
+  duration_ms: 44.1592
   type: 'test'
   ...
 # Subtest: reported study activity conversation accepts inverted intensity and delegation without repeating questions
 ok 12 - reported study activity conversation accepts inverted intensity and delegation without repeating questions
   ---
-  duration_ms: 3.5437
+  duration_ms: 6.6394
   type: 'test'
   ...
 # Subtest: choice answers advance the intake and preserve existing answers
 ok 13 - choice answers advance the intake and preserve existing answers
   ---
-  duration_ms: 0.9383
+  duration_ms: 1.616
   type: 'test'
   ...
 # Subtest: weather date continuations parse weeks and days relative to Beijing today
 ok 14 - weather date continuations parse weeks and days relative to Beijing today
   ---
-  duration_ms: 0.5316
+  duration_ms: 0.9145
   type: 'test'
   ...
 # Subtest: numeric offsets followed by weather do not collide with 后天 or become trip lengths
 ok 15 - numeric offsets followed by weather do not collide with 后天 or become trip lengths
   ---
-  duration_ms: 1.2563
+  duration_ms: 4.1431
   type: 'test'
   ...
 # Subtest: multi-turn revisions update real plan conditions and preserve every other fact
 ok 16 - multi-turn revisions update real plan conditions and preserve every other fact
   ---
-  duration_ms: 1.1816
+  duration_ms: 3.0927
   type: 'test'
   ...
 # Subtest: three-day request asks for destination and departure instead of using dashboard defaults
 ok 17 - three-day request asks for destination and departure instead of using dashboard defaults
   ---
-  duration_ms: 0.2986
+  duration_ms: 0.5348
   type: 'test'
   ...
 # Subtest: three turns preserve answers and compute all three travel dates
 ok 18 - three turns preserve answers and compute all three travel dates
   ---
-  duration_ms: 1.3159
+  duration_ms: 3.699
   type: 'test'
   ...
 # Subtest: sports request asks for participants and load before analyzing
 ok 19 - sports request asks for participants and load before analyzing
   ---
-  duration_ms: 1.658
+  duration_ms: 1.4496
   type: 'test'
   ...
 # Subtest: explicit delegation supplies disclosed defaults but never invents destination or dates
 ok 20 - explicit delegation supplies disclosed defaults but never invents destination or dates
   ---
-  duration_ms: 1.3884
+  duration_ms: 1.5649
   type: 'test'
   ...
 # Subtest: audience answer is not interpreted as a city
 ok 21 - audience answer is not interpreted as a city
   ---
-  duration_ms: 0.3127
+  duration_ms: 0.3986
   type: 'test'
   ...
 # Subtest: an unknown bare destination is preserved for district search
 ok 22 - an unknown bare destination is preserved for district search
   ---
-  duration_ms: 0.3796
+  duration_ms: 0.466
   type: 'test'
   ...
 # Subtest: invalid and out-of-forecast dates require correction
 ok 23 - invalid and out-of-forecast dates require correction
   ---
-  duration_ms: 0.9116
+  duration_ms: 0.9716
   type: 'test'
   ...
 # Subtest: university identity is preserved separately from adult risk category
 ok 24 - university identity is preserved separately from adult risk category
   ---
-  duration_ms: 0.3411
+  duration_ms: 0.4191
   type: 'test'
   ...
 # Subtest: seven university students completes the pending participants question
 ok 25 - seven university students completes the pending participants question
   ---
-  duration_ms: 1.2152
+  duration_ms: 1.2402
   type: 'test'
   ...
 # Subtest: participant nouns, Chinese tens and hundreds, and contextual bare counts are understood
 ok 26 - participant nouns, Chinese tens and hundreds, and contextual bare counts are understood
   ---
-  duration_ms: 0.6201
+  duration_ms: 0.6012
   type: 'test'
   ...
-# (node:31704) [MODULE_TYPELESS_PACKAGE_JSON] Warning: Module type of file:///G:/Ai%20Web/amap-jsapi/frontend/src/lib/conversation-knowledge.ts is not specified and it doesn't parse as CommonJS.
+# (node:38244) [MODULE_TYPELESS_PACKAGE_JSON] Warning: Module type of file:///G:/Ai%20Web/amap-jsapi/frontend/src/lib/conversation-knowledge.ts is not specified and it doesn't parse as CommonJS.
 # Reparsing as ES module because module syntax was detected. This incurs a performance overhead.
 # To eliminate this warning, add "type": "module" to G:\\Ai Web\\amap-jsapi\\frontend\\package.json.
 # (Use `node --trace-warnings ...` to show where the warning was created)
 # Subtest: weather queries bypass planning intake even when a plan is pending
 ok 27 - weather queries bypass planning intake even when a plan is pending
   ---
-  duration_ms: 2.8957
+  duration_ms: 2.6704
   type: 'test'
   ...
 # Subtest: knowledge questions do not become activity constraints
 ok 28 - knowledge questions do not become activity constraints
   ---
-  duration_ms: 0.9946
+  duration_ms: 1.4278
   type: 'test'
   ...
 # Subtest: source questions after a forecast never become location queries
 ok 29 - source questions after a forecast never become location queries
   ---
-  duration_ms: 1.6977
+  duration_ms: 3.0102
   type: 'test'
   ...
 # Subtest: weather summaries use actual observations and never fabricate absent periods
 ok 30 - weather summaries use actual observations and never fabricate absent periods
   ---
-  duration_ms: 3.1478
+  duration_ms: 2.4282
   type: 'test'
   ...
 # Subtest: general search sends the actual question and keeps safe attributed sources
 ok 31 - general search sends the actual question and keeps safe attributed sources
   ---
-  duration_ms: 31.0496
+  duration_ms: 47.9237
   type: 'test'
   ...
-# (node:33760) [MODULE_TYPELESS_PACKAGE_JSON] Warning: Module type of file:///G:/Ai%20Web/amap-jsapi/frontend/src/lib/conversation-validation.ts is not specified and it doesn't parse as CommonJS.
+# (node:35236) [MODULE_TYPELESS_PACKAGE_JSON] Warning: Module type of file:///G:/Ai%20Web/amap-jsapi/frontend/src/lib/conversation-validation.ts is not specified and it doesn't parse as CommonJS.
 # Reparsing as ES module because module syntax was detected. This incurs a performance overhead.
 # To eliminate this warning, add "type": "module" to G:\\Ai Web\\amap-jsapi\\frontend\\package.json.
 # (Use `node --trace-warnings ...` to show where the warning was created)
 # Subtest: invalid edits stop before old values can be reused
 ok 32 - invalid edits stop before old values can be reused
   ---
-  duration_ms: 5.6838
+  duration_ms: 7.7816
   type: 'test'
   ...
 # Subtest: courtesy and model queries are recognized before location extraction
 ok 33 - courtesy and model queries are recognized before location extraction
   ---
-  duration_ms: 2.9512
+  duration_ms: 4.1106
   type: 'test'
   ...
 # Subtest: weather question to chart uses weather city and explicit dates
 ok 34 - weather question to chart uses weather city and explicit dates
   ---
-  duration_ms: 22.4673
+  duration_ms: 32.5732
   type: 'test'
   ...
 # Subtest: chart city and date revisions do not mutate activity conditions
 ok 35 - chart city and date revisions do not mutate activity conditions
   ---
-  duration_ms: 0.9333
+  duration_ms: 1.0219
   type: 'test'
   ...
 # Subtest: score explanation uses real slots, corrects premise and reconciles deductions
 ok 36 - score explanation uses real slots, corrects premise and reconciles deductions
   ---
-  duration_ms: 1.2337
+  duration_ms: 1.4599
   type: 'test'
   ...
-# (node:34492) [MODULE_TYPELESS_PACKAGE_JSON] Warning: Module type of file:///G:/Ai%20Web/amap-jsapi/frontend/src/lib/city-introduction.ts is not specified and it doesn't parse as CommonJS.
+# (node:16980) [MODULE_TYPELESS_PACKAGE_JSON] Warning: Module type of file:///G:/Ai%20Web/amap-jsapi/frontend/src/lib/city-introduction.ts is not specified and it doesn't parse as CommonJS.
 # Reparsing as ES module because module syntax was detected. This incurs a performance overhead.
 # To eliminate this warning, add "type": "module" to G:\\Ai Web\\amap-jsapi\\frontend\\package.json.
 # (Use `node --trace-warnings ...` to show where the warning was created)
 # Subtest: unknown city topics use validation candidates instead of a nine-city whitelist
 ok 37 - unknown city topics use validation candidates instead of a nine-city whitelist
   ---
-  duration_ms: 2.96
+  duration_ms: 4.4526
   type: 'test'
   ...
 # Subtest: domestic city evidence rejects foreign cities with the same name
 ok 38 - domestic city evidence rejects foreign cities with the same name
   ---
-  duration_ms: 0.9749
+  duration_ms: 1.7137
   type: 'test'
   ...
 # Subtest: preferences carry through questions but an audience correction clears the old child age
 ok 39 - preferences carry through questions but an audience correction clears the old child age
   ---
-  duration_ms: 1.0896
+  duration_ms: 2.031
   type: 'test'
   ...
 # Subtest: audience, mobility and rain filters actually change named recommendations
 ok 40 - audience, mobility and rain filters actually change named recommendations
   ---
-  duration_ms: 1.6378
+  duration_ms: 2.6572
   type: 'test'
   ...
 # Subtest: knowledge followups are separate from weather, source and planning requests
 ok 41 - knowledge followups are separate from weather, source and planning requests
   ---
-  duration_ms: 0.7451
+  duration_ms: 1.2319
   type: 'test'
   ...
 # Subtest: malformed context cannot create nonexistent audience policies
 ok 42 - malformed context cannot create nonexistent audience policies
   ---
-  duration_ms: 0.2279
+  duration_ms: 0.4011
   type: 'test'
   ...
-# (node:27604) [MODULE_TYPELESS_PACKAGE_JSON] Warning: Module type of file:///G:/Ai%20Web/amap-jsapi/frontend/src/lib/conversation-intake.ts is not specified and it doesn't parse as CommonJS.
+# (node:40924) [MODULE_TYPELESS_PACKAGE_JSON] Warning: Module type of file:///G:/Ai%20Web/amap-jsapi/frontend/src/lib/conversation-intake.ts is not specified and it doesn't parse as CommonJS.
 # Reparsing as ES module because module syntax was detected. This incurs a performance overhead.
 # To eliminate this warning, add "type": "module" to G:\\Ai Web\\amap-jsapi\\frontend\\package.json.
 # (Use `node --trace-warnings ...` to show where the warning was created)
 # Subtest: plotting is an explicit metric request, never a new city or a shorter date range
 ok 43 - plotting is an explicit metric request, never a new city or a shorter date range
   ---
-  duration_ms: 30.365
+  duration_ms: 40.6259
   type: 'test'
   ...
 # Subtest: explicit 14 to 16 bounds constrain the complete session and exported agenda
 ok 44 - explicit 14 to 16 bounds constrain the complete session and exported agenda
   ---
-  duration_ms: 3.0616
+  duration_ms: 5.2329
   type: 'test'
   ...
 # Subtest: relative date ranges have two independent boundaries and replace old trip length
 ok 45 - relative date ranges have two independent boundaries and replace old trip length
   ---
-  duration_ms: 1.6784
+  duration_ms: 3.0985
   type: 'test'
   ...
 # Subtest: today's tourism starts after Beijing now plus arrival buffer and never backfills
 ok 46 - today's tourism starts after Beijing now plus arrival buffer and never backfills
   ---
-  duration_ms: 2.5322
+  duration_ms: 3.6503
   type: 'test'
   ...
-# (node:7068) [MODULE_TYPELESS_PACKAGE_JSON] Warning: Module type of file:///G:/Ai%20Web/amap-jsapi/frontend/src/lib/journey.ts is not specified and it doesn't parse as CommonJS.
+# (node:34352) [MODULE_TYPELESS_PACKAGE_JSON] Warning: Module type of file:///G:/Ai%20Web/amap-jsapi/frontend/src/lib/journey.ts is not specified and it doesn't parse as CommonJS.
 # Reparsing as ES module because module syntax was detected. This incurs a performance overhead.
 # To eliminate this warning, add "type": "module" to G:\\Ai Web\\amap-jsapi\\frontend\\package.json.
 # (Use `node --trace-warnings ...` to show where the warning was created)
 # Subtest: transport comparison is not intercepted as a candidate-times action
 ok 47 - transport comparison is not intercepted as a candidate-times action
   ---
-  duration_ms: 1.7607
+  duration_ms: 1.8526
   type: 'test'
   ...
 # Subtest: continuous administrative names are preserved without punctuation and do not repeat destination questions
 ok 48 - continuous administrative names are preserved without punctuation and do not repeat destination questions
   ---
-  duration_ms: 35.1334
+  duration_ms: 46.8282
   type: 'test'
   ...
 # Subtest: origin and destination are different fields, an origin-only answer preserves the destination
 ok 49 - origin and destination are different fields, an origin-only answer preserves the destination
   ---
-  duration_ms: 1.5341
+  duration_ms: 1.7532
   type: 'test'
   ...
 # Subtest: door-to-door comparison adds taxes, luggage, access and buffers before recommending
 ok 50 - door-to-door comparison adds taxes, luggage, access and buffers before recommending
   ---
-  duration_ms: 0.74
+  duration_ms: 0.8204
   type: 'test'
   ...
 # Subtest: missing, wrong-route and wrong-date quotes never become a comparison
 ok 51 - missing, wrong-route and wrong-date quotes never become a comparison
   ---
-  duration_ms: 0.293
+  duration_ms: 0.2834
   type: 'test'
   ...
-# (node:32024) [MODULE_TYPELESS_PACKAGE_JSON] Warning: Module type of file:///G:/Ai%20Web/amap-jsapi/frontend/src/lib/llm-server.ts is not specified and it doesn't parse as CommonJS.
+# (node:34432) [MODULE_TYPELESS_PACKAGE_JSON] Warning: Module type of file:///G:/Ai%20Web/amap-jsapi/frontend/src/lib/llm-server.ts is not specified and it doesn't parse as CommonJS.
 # Reparsing as ES module because module syntax was detected. This incurs a performance overhead.
 # To eliminate this warning, add "type": "module" to G:\\Ai Web\\amap-jsapi\\frontend\\package.json.
 # (Use `node --trace-warnings ...` to show where the warning was created)
 # Subtest: structured plans tolerate gateways that escape JSON content twice
 ok 52 - structured plans tolerate gateways that escape JSON content twice
   ---
-  duration_ms: 3.5921
+  duration_ms: 6.3263
   type: 'test'
   ...
 # Subtest: no configured model fails immediately without an anonymous network request
 ok 53 - no configured model fails immediately without an anonymous network request
   ---
-  duration_ms: 0.7016
+  duration_ms: 1.1128
   type: 'test'
   ...
 # Subtest: model output limits are configurable and truncated JSON is not accepted as success
 ok 54 - model output limits are configurable and truncated JSON is not accepted as success
   ---
-  duration_ms: 29.3772
+  duration_ms: 32.4061
   type: 'test'
   ...
-# (node:13112) [MODULE_TYPELESS_PACKAGE_JSON] Warning: Module type of file:///G:/Ai%20Web/amap-jsapi/frontend/src/lib/llm-server.ts is not specified and it doesn't parse as CommonJS.
+# (node:34428) [MODULE_TYPELESS_PACKAGE_JSON] Warning: Module type of file:///G:/Ai%20Web/amap-jsapi/frontend/src/lib/llm-server.ts is not specified and it doesn't parse as CommonJS.
 # Reparsing as ES module because module syntax was detected. This incurs a performance overhead.
 # To eliminate this warning, add "type": "module" to G:\\Ai Web\\amap-jsapi\\frontend\\package.json.
 # (Use `node --trace-warnings ...` to show where the warning was created)
 # Subtest: model proof uses a real completion response and returned model metadata; failures never succeed
 ok 55 - model proof uses a real completion response and returned model metadata; failures never succeed
   ---
-  duration_ms: 24.4069
+  duration_ms: 39.1842
   type: 'test'
   ...
-# (node:33476) [MODULE_TYPELESS_PACKAGE_JSON] Warning: Module type of file:///G:/Ai%20Web/amap-jsapi/frontend/src/lib/national-environment.ts is not specified and it doesn't parse as CommonJS.
+# (node:34000) [MODULE_TYPELESS_PACKAGE_JSON] Warning: Module type of file:///G:/Ai%20Web/amap-jsapi/frontend/src/lib/national-environment.ts is not specified and it doesn't parse as CommonJS.
 # Reparsing as ES module because module syntax was detected. This incurs a performance overhead.
 # To eliminate this warning, add "type": "module" to G:\\Ai Web\\amap-jsapi\\frontend\\package.json.
 # (Use `node --trace-warnings ...` to show where the warning was created)
 # Subtest: nationwide sampling covers 34 distinct province-level locations
 ok 56 - nationwide sampling covers 34 distinct province-level locations
   ---
-  duration_ms: 1.1237
+  duration_ms: 1.3237
   type: 'test'
   ...
 # Subtest: national samples preserve real zero values, timestamps and consistent environment scoring
 ok 57 - national samples preserve real zero values, timestamps and consistent environment scoring
   ---
-  duration_ms: 0.4846
+  duration_ms: 0.6248
   type: 'test'
   ...
 # Subtest: missing weather, air or matching rain hour are never replaced with fabricated zeroes
 ok 58 - missing weather, air or matching rain hour are never replaced with fabricated zeroes
   ---
-  duration_ms: 0.8698
+  duration_ms: 1.1142
   type: 'test'
   ...
-# (node:35964) [MODULE_TYPELESS_PACKAGE_JSON] Warning: Module type of file:///G:/Ai%20Web/amap-jsapi/frontend/src/lib/place-evidence.ts is not specified and it doesn't parse as CommonJS.
+# (node:10832) [MODULE_TYPELESS_PACKAGE_JSON] Warning: Module type of file:///G:/Ai%20Web/amap-jsapi/frontend/src/lib/place-evidence.ts is not specified and it doesn't parse as CommonJS.
 # Reparsing as ES module because module syntax was detected. This incurs a performance overhead.
 # To eliminate this warning, add "type": "module" to G:\\Ai Web\\amap-jsapi\\frontend\\package.json.
 # (Use `node --trace-warnings ...` to show where the warning was created)
 # Subtest: official evidence relates actual stops, respects cities and merges directory references
 ok 59 - official evidence relates actual stops, respects cities and merges directory references
   ---
-  duration_ms: 1.5655
+  duration_ms: 1.8854
   type: 'test'
   ...
 # Subtest: place searches reject irrelevant cities, advertising and unknown place matches
 ok 60 - place searches reject irrelevant cities, advertising and unknown place matches
   ---
-  duration_ms: 0.5759
+  duration_ms: 0.7318
   type: 'test'
   ...
 # Subtest: source dedup retains related places without changing existing saved evidence
 ok 61 - source dedup retains related places without changing existing saved evidence
   ---
-  duration_ms: 0.2245
+  duration_ms: 0.2816
   type: 'test'
   ...
-# (node:34672) [MODULE_TYPELESS_PACKAGE_JSON] Warning: Module type of file:///G:/Ai%20Web/amap-jsapi/frontend/src/lib/scenario-plans.ts is not specified and it doesn't parse as CommonJS.
+# (node:42552) [MODULE_TYPELESS_PACKAGE_JSON] Warning: Module type of file:///G:/Ai%20Web/amap-jsapi/frontend/src/lib/conversation-intake.ts is not specified and it doesn't parse as CommonJS.
+# Reparsing as ES module because module syntax was detected. This incurs a performance overhead.
+# To eliminate this warning, add "type": "module" to G:\\Ai Web\\amap-jsapi\\frontend\\package.json.
+# (Use `node --trace-warnings ...` to show where the warning was created)
+# Subtest: QA-004 both equipment word orders preserve total and per-group participants
+ok 62 - QA-004 both equipment word orders preserve total and per-group participants
+  ---
+  duration_ms: 7.2123
+  type: 'test'
+  ...
+# Subtest: QA-005 restaurant aliases are one entity before and after coordinate calibration
+ok 63 - QA-005 restaurant aliases are one entity before and after coordinate calibration
+  ---
+  duration_ms: 23.6398
+  type: 'test'
+  ...
+# Subtest: QA-006 Beijing midnight is independent of the browser's date and handles month/year boundaries
+ok 64 - QA-006 Beijing midnight is independent of the browser's date and handles month/year boundaries
+  ---
+  duration_ms: 0.3555
+  type: 'test'
+  ...
+# Subtest: QA-007 an explicit deep link wins even after a conflicting saved view resolves
+ok 65 - QA-007 an explicit deep link wins even after a conflicting saved view resolves
+  ---
+  duration_ms: 0.3925
+  type: 'test'
+  ...
+# (node:40908) [MODULE_TYPELESS_PACKAGE_JSON] Warning: Module type of file:///G:/Ai%20Web/amap-jsapi/frontend/src/lib/scenario-plans.ts is not specified and it doesn't parse as CommonJS.
 # Reparsing as ES module because module syntax was detected. This incurs a performance overhead.
 # To eliminate this warning, add "type": "module" to G:\\Ai Web\\amap-jsapi\\frontend\\package.json.
 # (Use `node --trace-warnings ...` to show where the warning was created)
 # Subtest: six scenes produce distinct concrete deliverables and venue-specific study tasks
-ok 62 - six scenes produce distinct concrete deliverables and venue-specific study tasks
+ok 66 - six scenes produce distinct concrete deliverables and venue-specific study tasks
   ---
-  duration_ms: 1.7712
+  duration_ms: 2.4265
   type: 'test'
   ...
 # Subtest: sports conflicts distinguish overlapping personnel/venues from adjacent or other-day events
-ok 63 - sports conflicts distinguish overlapping personnel/venues from adjacent or other-day events
+ok 67 - sports conflicts distinguish overlapping personnel/venues from adjacent or other-day events
   ---
-  duration_ms: 0.7176
+  duration_ms: 1.0736
   type: 'test'
   ...
 # Subtest: costs preserve estimates and version comparison explains condition changes
-ok 64 - costs preserve estimates and version comparison explains condition changes
+ok 68 - costs preserve estimates and version comparison explains condition changes
   ---
-  duration_ms: 0.6102
+  duration_ms: 0.9018
   type: 'test'
   ...
-# (node:14324) [MODULE_TYPELESS_PACKAGE_JSON] Warning: Module type of file:///G:/Ai%20Web/amap-jsapi/frontend/src/lib/social-research.ts is not specified and it doesn't parse as CommonJS.
+# (node:41660) [MODULE_TYPELESS_PACKAGE_JSON] Warning: Module type of file:///G:/Ai%20Web/amap-jsapi/frontend/src/lib/social-research.ts is not specified and it doesn't parse as CommonJS.
 # Reparsing as ES module because module syntax was detected. This incurs a performance overhead.
 # To eliminate this warning, add "type": "module" to G:\\Ai Web\\amap-jsapi\\frontend\\package.json.
 # (Use `node --trace-warnings ...` to show where the warning was created)
 # Subtest: only public platform HTTPS URLs are accepted
-ok 65 - only public platform HTTPS URLs are accepted
+ok 69 - only public platform HTTPS URLs are accepted
   ---
-  duration_ms: 1.1223
+  duration_ms: 1.8544
   type: 'test'
   ...
 # Subtest: extracts real public article metadata and source
-ok 66 - extracts real public article metadata and source
+ok 70 - extracts real public article metadata and source
   ---
-  duration_ms: 4.1204
+  duration_ms: 4.5808
   type: 'test'
   ...
 # Subtest: login walls and search entry pages never count as collected posts
-ok 67 - login walls and search entry pages never count as collected posts
+ok 71 - login walls and search entry pages never count as collected posts
   ---
-  duration_ms: 1.3744
+  duration_ms: 1.7719
   type: 'test'
   ...
-# (node:36140) [MODULE_TYPELESS_PACKAGE_JSON] Warning: Module type of file:///G:/Ai%20Web/amap-jsapi/frontend/src/lib/variflight-mcp-server.ts is not specified and it doesn't parse as CommonJS.
+# (node:35424) [MODULE_TYPELESS_PACKAGE_JSON] Warning: Module type of file:///G:/Ai%20Web/amap-jsapi/frontend/src/lib/variflight-mcp-server.ts is not specified and it doesn't parse as CommonJS.
 # Reparsing as ES module because module syntax was detected. This incurs a performance overhead.
 # To eliminate this warning, add "type": "module" to G:\\Ai Web\\amap-jsapi\\frontend\\package.json.
 # (Use `node --trace-warnings ...` to show where the warning was created)
 # Subtest: cheap journey requests enter transport and preserve their direction
-ok 68 - cheap journey requests enter transport and preserve their direction
+ok 72 - cheap journey requests enter transport and preserve their direction
   ---
-  duration_ms: 3.3437
+  duration_ms: 3.2584
   type: 'test'
   ...
 # Subtest: MCP SSE and embedded table rows are parsed without treating prose as price
-ok 69 - MCP SSE and embedded table rows are parsed without treating prose as price
+ok 73 - MCP SSE and embedded table rows are parsed without treating prose as price
   ---
-  duration_ms: 0.882
+  duration_ms: 1.1145
   type: 'test'
   ...
 # Subtest: airport ambiguity, SQL injection, unavailable seats and stale train dates fail closed
-ok 70 - airport ambiguity, SQL injection, unavailable seats and stale train dates fail closed
+ok 74 - airport ambiguity, SQL injection, unavailable seats and stale train dates fail closed
   ---
-  duration_ms: 2.2337
+  duration_ms: 2.6678
   type: 'test'
   ...
 # Subtest: missing authorization never fetches or reuses manually entered prices
-ok 71 - missing authorization never fetches or reuses manually entered prices
+ok 75 - missing authorization never fetches or reuses manually entered prices
   ---
-  duration_ms: 17.8387
+  duration_ms: 22.0046
   type: 'test'
   ...
 # Subtest: authorized pipeline uses only read-only MCP tools and preserves quotes in both modes
-ok 72 - authorized pipeline uses only read-only MCP tools and preserves quotes in both modes
+ok 76 - authorized pipeline uses only read-only MCP tools and preserves quotes in both modes
   ---
-  duration_ms: 21.4545
+  duration_ms: 23.3441
   type: 'test'
   ...
-# (node:6956) [MODULE_TYPELESS_PACKAGE_JSON] Warning: Module type of file:///G:/Ai%20Web/amap-jsapi/frontend/src/lib/tourism-scheduler.ts is not specified and it doesn't parse as CommonJS.
+# (node:40280) [MODULE_TYPELESS_PACKAGE_JSON] Warning: Module type of file:///G:/Ai%20Web/amap-jsapi/frontend/src/lib/tourism-scheduler.ts is not specified and it doesn't parse as CommonJS.
 # Reparsing as ES module because module syntax was detected. This incurs a performance overhead.
 # To eliminate this warning, add "type": "module" to G:\\Ai Web\\amap-jsapi\\frontend\\package.json.
 # (Use `node --trace-warnings ...` to show where the warning was created)
 # Subtest: fallback puts meals in meal windows and never a wetland at 18:00
-ok 73 - fallback puts meals in meal windows and never a wetland at 18:00
+ok 77 - fallback puts meals in meal windows and never a wetland at 18:00
   ---
-  duration_ms: 23.843
+  duration_ms: 34.2929
   type: 'test'
   ...
 # Subtest: weather affects actual scheduling across every hour of the complete visit
-ok 74 - weather affects actual scheduling across every hour of the complete visit
+ok 78 - weather affects actual scheduling across every hour of the complete visit
   ---
-  duration_ms: 0.74
+  duration_ms: 0.7908
   type: 'test'
   ...
 # Subtest: distance, supplied driving times, rest and queues participate in feasibility
-ok 75 - distance, supplied driving times, rest and queues participate in feasibility
+ok 79 - distance, supplied driving times, rest and queues participate in feasibility
   ---
-  duration_ms: 1.1181
+  duration_ms: 1.1662
   type: 'test'
   ...
 # Subtest: supplied hours constrain today only; closed and future hours never masquerade as verified
-ok 76 - supplied hours constrain today only; closed and future hours never masquerade as verified
+ok 80 - supplied hours constrain today only; closed and future hours never masquerade as verified
   ---
-  duration_ms: 0.7118
+  duration_ms: 0.789
   type: 'test'
   ...
 # Subtest: afternoon-only preference rejects a long theme park rather than truncating it
-ok 77 - afternoon-only preference rejects a long theme park rather than truncating it
+ok 81 - afternoon-only preference rejects a long theme park rather than truncating it
   ---
-  duration_ms: 0.3609
+  duration_ms: 0.3648
   type: 'test'
   ...
-# (node:12780) [MODULE_TYPELESS_PACKAGE_JSON] Warning: Module type of file:///G:/Ai%20Web/amap-jsapi/frontend/src/lib/conversation-intake.ts is not specified and it doesn't parse as CommonJS.
+# (node:34652) [MODULE_TYPELESS_PACKAGE_JSON] Warning: Module type of file:///G:/Ai%20Web/amap-jsapi/frontend/src/lib/conversation-intake.ts is not specified and it doesn't parse as CommonJS.
 # Reparsing as ES module because module syntax was detected. This incurs a performance overhead.
 # To eliminate this warning, add "type": "module" to G:\\Ai Web\\amap-jsapi\\frontend\\package.json.
 # (Use `node --trace-warnings ...` to show where the warning was created)
 # Subtest: month-day shorthand cannot become the first day of the current month or a trip length
-ok 78 - month-day shorthand cannot become the first day of the current month or a trip length
+ok 82 - month-day shorthand cannot become the first day of the current month or a trip length
   ---
-  duration_ms: 8.8025
+  duration_ms: 10.7155
   type: 'test'
   ...
 # Subtest: rain explanations distinguish general mechanisms from unverified recent conditions
-ok 79 - rain explanations distinguish general mechanisms from unverified recent conditions
+ok 83 - rain explanations distinguish general mechanisms from unverified recent conditions
   ---
-  duration_ms: 1.1545
+  duration_ms: 1.1253
   type: 'test'
   ...
 # Subtest: repeated out-of-range queries stay truthful and become concise
-ok 80 - repeated out-of-range queries stay truthful and become concise
+ok 84 - repeated out-of-range queries stay truthful and become concise
   ---
-  duration_ms: 0.1949
+  duration_ms: 0.2154
   type: 'test'
   ...
-# (node:22252) [MODULE_TYPELESS_PACKAGE_JSON] Warning: Module type of file:///G:/Ai%20Web/amap-jsapi/frontend/src/lib/social-research.ts is not specified and it doesn't parse as CommonJS.
+# (node:36676) [MODULE_TYPELESS_PACKAGE_JSON] Warning: Module type of file:///G:/Ai%20Web/amap-jsapi/frontend/src/lib/social-research.ts is not specified and it doesn't parse as CommonJS.
 # Reparsing as ES module because module syntax was detected. This incurs a performance overhead.
 # To eliminate this warning, add "type": "module" to G:\\Ai Web\\amap-jsapi\\frontend\\package.json.
 # (Use `node --trace-warnings ...` to show where the warning was created)
 # Subtest: Baidu results retain original attribution and exclude unrelated or unsafe links
-ok 81 - Baidu results retain original attribution and exclude unrelated or unsafe links
+ok 85 - Baidu results retain original attribution and exclude unrelated or unsafe links
   ---
-  duration_ms: 5.5435
+  duration_ms: 6.3633
   type: 'test'
   ...
 # Subtest: site searches enforce source domain, clean markup and deduplicate
-ok 82 - site searches enforce source domain, clean markup and deduplicate
+ok 86 - site searches enforce source domain, clean markup and deduplicate
   ---
-  duration_ms: 0.5263
+  duration_ms: 0.9403
   type: 'test'
   ...
 # Subtest: missing credentials do not trigger network access or report success
-ok 83 - missing credentials do not trigger network access or report success
+ok 87 - missing credentials do not trigger network access or report success
   ---
-  duration_ms: 1.1681
+  duration_ms: 2.2222
   type: 'test'
   ...
 # Subtest: Baidu requests, caching and auth failures are handled without exposing credentials
-ok 84 - Baidu requests, caching and auth failures are handled without exposing credentials
+ok 88 - Baidu requests, caching and auth failures are handled without exposing credentials
   ---
-  duration_ms: 23.5679
+  duration_ms: 27.4668
   type: 'test'
   ...
-1..84
-# tests 84
+1..88
+# tests 88
 # suites 0
-# pass 84
+# pass 88
 # fail 0
 # cancelled 0
 # skipped 0
 # todo 0
-# duration_ms 331.4854
+# duration_ms 438.1408
