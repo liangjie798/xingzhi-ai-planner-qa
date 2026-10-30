@@ -1,0 +1,1009 @@
+[
+  {
+    "code": "CZ",
+    "query": {
+      "origin": "广州",
+      "destination": "北京",
+      "date": "2026-10-31",
+      "from": {
+        "name": "广州",
+        "code": "CAN",
+        "airports": [
+          "CAN"
+        ],
+        "scope": "CAN"
+      },
+      "to": {
+        "name": "北京",
+        "code": "BJS",
+        "airports": [
+          "PEK",
+          "PKX"
+        ],
+        "scope": "PEK/PKX"
+      }
+    },
+    "result": {
+      "attempt": {
+        "airlineCode": "CZ",
+        "sourceName": "南方航空",
+        "state": "no-flights",
+        "sourceUrl": "https://b2c.csair.com/B2C40/newTrips/static/main/page/booking/index.html",
+        "checkedAt": "2026-10-30T10:02:21.427Z",
+        "quoteCount": 0,
+        "airportScope": "CAN → PEK/PKX"
+      },
+      "quotes": []
+    }
+  },
+  {
+    "code": "MF",
+    "query": {
+      "origin": "厦门",
+      "destination": "北京",
+      "date": "2026-10-31",
+      "from": {
+        "name": "厦门",
+        "code": "XMN",
+        "airports": [
+          "XMN"
+        ],
+        "scope": "XMN"
+      },
+      "to": {
+        "name": "北京",
+        "code": "BJS",
+        "airports": [
+          "PEK",
+          "PKX"
+        ],
+        "scope": "PEK/PKX"
+      }
+    },
+    "result": {
+      "attempt": {
+        "airlineCode": "MF",
+        "sourceName": "厦门航空",
+        "state": "quoted",
+        "sourceUrl": "https://www.xiamenair.com/zh-cn/nticket.html",
+        "checkedAt": "2026-10-30T10:02:23.480Z",
+        "quoteCount": 7,
+        "airportScope": "XMN → PEK"
+      },
+      "quotes": [
+        {
+          "airlineCode": "MF",
+          "sourceName": "厦门航空",
+          "flightNumber": "MF8117",
+          "departure": "07:00",
+          "arrival": "10:00",
+          "originStation": "厦门高崎T3",
+          "destinationStation": "北京大兴",
+          "cabin": "经济舱 · 官网展示起价",
+          "price": 820,
+          "currency": "CNY",
+          "priceBasis": "unknown",
+          "availability": "display-only",
+          "stops": 0,
+          "codeshare": false,
+          "sourceUrl": "https://www.xiamenair.com/zh-cn/nticket.html?tripType=OW&orgCodeArr%5B0%5D=XMN&dstCodeArr%5B0%5D=PKX&orgDateArr%5B0%5D=2026-10-31&dstDate=&isInter=false&adtNum=1&chdNum=0&infNum=0&JFCabinFirst=false&acntCd=&mode=Money&partner=false&jcgm=false&paxType=&isPet=false&petType=noseat",
+          "checkedAt": "2026-10-30T10:02:23.479Z",
+          "date": "2026-10-31"
+        },
+        {
+          "airlineCode": "MF",
+          "sourceName": "厦门航空",
+          "flightNumber": "MF8127",
+          "departure": "09:00",
+          "arrival": "11:55",
+          "originStation": "厦门高崎T3",
+          "destinationStation": "北京大兴",
+          "cabin": "经济舱 · 官网展示起价",
+          "price": 880,
+          "currency": "CNY",
+          "priceBasis": "unknown",
+          "availability": "display-only",
+          "stops": 0,
+          "codeshare": false,
+          "sourceUrl": "https://www.xiamenair.com/zh-cn/nticket.html?tripType=OW&orgCodeArr%5B0%5D=XMN&dstCodeArr%5B0%5D=PKX&orgDateArr%5B0%5D=2026-10-31&dstDate=&isInter=false&adtNum=1&chdNum=0&infNum=0&JFCabinFirst=false&acntCd=&mode=Money&partner=false&jcgm=false&paxType=&isPet=false&petType=noseat",
+          "checkedAt": "2026-10-30T10:02:23.479Z",
+          "date": "2026-10-31"
+        },
+        {
+          "airlineCode": "MF",
+          "sourceName": "厦门航空",
+          "flightNumber": "MF8101",
+          "departure": "11:00",
+          "arrival": "13:55",
+          "originStation": "厦门高崎T3",
+          "destinationStation": "北京大兴",
+          "cabin": "经济舱 · 官网展示起价",
+          "price": 840,
+          "currency": "CNY",
+          "priceBasis": "unknown",
+          "availability": "display-only",
+          "stops": 0,
+          "codeshare": false,
+          "sourceUrl": "https://www.xiamenair.com/zh-cn/nticket.html?tripType=OW&orgCodeArr%5B0%5D=XMN&dstCodeArr%5B0%5D=PKX&orgDateArr%5B0%5D=2026-10-31&dstDate=&isInter=false&adtNum=1&chdNum=0&infNum=0&JFCabinFirst=false&acntCd=&mode=Money&partner=false&jcgm=false&paxType=&isPet=false&petType=noseat",
+          "checkedAt": "2026-10-30T10:02:23.479Z",
+          "date": "2026-10-31"
+        },
+        {
+          "airlineCode": "MF",
+          "sourceName": "厦门航空",
+          "flightNumber": "MF8105",
+          "departure": "15:00",
+          "arrival": "18:00",
+          "originStation": "厦门高崎T3",
+          "destinationStation": "北京大兴",
+          "cabin": "经济舱 · 官网展示起价",
+          "price": 720,
+          "currency": "CNY",
+          "priceBasis": "unknown",
+          "availability": "display-only",
+          "stops": 0,
+          "codeshare": false,
+          "sourceUrl": "https://www.xiamenair.com/zh-cn/nticket.html?tripType=OW&orgCodeArr%5B0%5D=XMN&dstCodeArr%5B0%5D=PKX&orgDateArr%5B0%5D=2026-10-31&dstDate=&isInter=false&adtNum=1&chdNum=0&infNum=0&JFCabinFirst=false&acntCd=&mode=Money&partner=false&jcgm=false&paxType=&isPet=false&petType=noseat",
+          "checkedAt": "2026-10-30T10:02:23.479Z",
+          "date": "2026-10-31"
+        },
+        {
+          "airlineCode": "MF",
+          "sourceName": "厦门航空",
+          "flightNumber": "MF8169",
+          "departure": "17:00",
+          "arrival": "20:00",
+          "originStation": "厦门高崎T3",
+          "destinationStation": "北京大兴",
+          "cabin": "经济舱 · 官网展示起价",
+          "price": 720,
+          "currency": "CNY",
+          "priceBasis": "unknown",
+          "availability": "display-only",
+          "stops": 0,
+          "codeshare": false,
+          "sourceUrl": "https://www.xiamenair.com/zh-cn/nticket.html?tripType=OW&orgCodeArr%5B0%5D=XMN&dstCodeArr%5B0%5D=PKX&orgDateArr%5B0%5D=2026-10-31&dstDate=&isInter=false&adtNum=1&chdNum=0&infNum=0&JFCabinFirst=false&acntCd=&mode=Money&partner=false&jcgm=false&paxType=&isPet=false&petType=noseat",
+          "checkedAt": "2026-10-30T10:02:23.479Z",
+          "date": "2026-10-31"
+        },
+        {
+          "airlineCode": "MF",
+          "sourceName": "厦门航空",
+          "flightNumber": "MF8103",
+          "departure": "21:00",
+          "arrival": "23:40",
+          "originStation": "厦门高崎T3",
+          "destinationStation": "北京大兴",
+          "cabin": "经济舱 · 官网展示起价",
+          "price": 930,
+          "currency": "CNY",
+          "priceBasis": "unknown",
+          "availability": "display-only",
+          "stops": 0,
+          "codeshare": false,
+          "sourceUrl": "https://www.xiamenair.com/zh-cn/nticket.html?tripType=OW&orgCodeArr%5B0%5D=XMN&dstCodeArr%5B0%5D=PKX&orgDateArr%5B0%5D=2026-10-31&dstDate=&isInter=false&adtNum=1&chdNum=0&infNum=0&JFCabinFirst=false&acntCd=&mode=Money&partner=false&jcgm=false&paxType=&isPet=false&petType=noseat",
+          "checkedAt": "2026-10-30T10:02:23.479Z",
+          "date": "2026-10-31"
+        },
+        {
+          "airlineCode": "MF",
+          "sourceName": "厦门航空",
+          "flightNumber": "MF3617",
+          "departure": "10:45",
+          "arrival": "15:15",
+          "originStation": "厦门高崎T4",
+          "destinationStation": "北京大兴",
+          "cabin": "经济舱 · 官网展示起价",
+          "price": 1760,
+          "currency": "CNY",
+          "priceBasis": "unknown",
+          "availability": "display-only",
+          "stops": 1,
+          "codeshare": true,
+          "sourceUrl": "https://www.xiamenair.com/zh-cn/nticket.html?tripType=OW&orgCodeArr%5B0%5D=XMN&dstCodeArr%5B0%5D=PKX&orgDateArr%5B0%5D=2026-10-31&dstDate=&isInter=false&adtNum=1&chdNum=0&infNum=0&JFCabinFirst=false&acntCd=&mode=Money&partner=false&jcgm=false&paxType=&isPet=false&petType=noseat",
+          "checkedAt": "2026-10-30T10:02:23.479Z",
+          "date": "2026-10-31"
+        }
+      ]
+    }
+  },
+  {
+    "code": "MU",
+    "query": {
+      "origin": "上海",
+      "destination": "北京",
+      "date": "2026-10-31",
+      "from": {
+        "name": "上海",
+        "code": "SHA",
+        "airports": [
+          "SHA",
+          "PVG"
+        ],
+        "scope": "SHA/PVG"
+      },
+      "to": {
+        "name": "北京",
+        "code": "BJS",
+        "airports": [
+          "PEK",
+          "PKX"
+        ],
+        "scope": "PEK/PKX"
+      }
+    },
+    "result": {
+      "attempt": {
+        "airlineCode": "MU",
+        "sourceName": "东方航空",
+        "state": "quoted",
+        "sourceUrl": "https://www.ceair.com/zh/cny/shopping/oneway/SHA,PVG-PEK,PKX/2026-10-31",
+        "checkedAt": "2026-10-30T10:02:31.092Z",
+        "quoteCount": 20,
+        "airportScope": "SHA → PEK"
+      },
+      "quotes": [
+        {
+          "airlineCode": "MU",
+          "sourceName": "东方航空",
+          "flightNumber": "MU5099",
+          "departure": "07:00",
+          "arrival": "09:20",
+          "cabin": "经济舱 · 官网展示价",
+          "price": 1580,
+          "currency": "CNY",
+          "priceBasis": "unknown",
+          "availability": "display-only",
+          "stops": 0,
+          "codeshare": false,
+          "sourceUrl": "https://www.ceair.com/zh/cny/shopping/oneway/SHA,PVG-PEK,PKX/2026-10-31",
+          "checkedAt": "2026-10-30T10:02:31.092Z",
+          "date": "2026-10-31"
+        },
+        {
+          "airlineCode": "MU",
+          "sourceName": "东方航空",
+          "flightNumber": "MU5101",
+          "departure": "08:00",
+          "arrival": "10:15",
+          "cabin": "经济舱 · 官网展示价",
+          "price": 1400,
+          "currency": "CNY",
+          "priceBasis": "unknown",
+          "availability": "display-only",
+          "stops": 0,
+          "codeshare": false,
+          "sourceUrl": "https://www.ceair.com/zh/cny/shopping/oneway/SHA,PVG-PEK,PKX/2026-10-31",
+          "checkedAt": "2026-10-30T10:02:31.092Z",
+          "date": "2026-10-31"
+        },
+        {
+          "airlineCode": "MU",
+          "sourceName": "东方航空",
+          "flightNumber": "MU5151",
+          "departure": "08:00",
+          "arrival": "10:25",
+          "cabin": "经济舱 · 官网展示价",
+          "price": 2150,
+          "currency": "CNY",
+          "priceBasis": "unknown",
+          "availability": "display-only",
+          "stops": 0,
+          "codeshare": false,
+          "sourceUrl": "https://www.ceair.com/zh/cny/shopping/oneway/SHA,PVG-PEK,PKX/2026-10-31",
+          "checkedAt": "2026-10-30T10:02:31.092Z",
+          "date": "2026-10-31"
+        },
+        {
+          "airlineCode": "MU",
+          "sourceName": "东方航空",
+          "flightNumber": "MU8202",
+          "departure": "08:30",
+          "arrival": "10:55",
+          "cabin": "经济舱 · 官网展示价",
+          "price": 570,
+          "currency": "CNY",
+          "priceBasis": "unknown",
+          "availability": "display-only",
+          "stops": 0,
+          "codeshare": true,
+          "sourceUrl": "https://www.ceair.com/zh/cny/shopping/oneway/SHA,PVG-PEK,PKX/2026-10-31",
+          "checkedAt": "2026-10-30T10:02:31.092Z",
+          "date": "2026-10-31"
+        },
+        {
+          "airlineCode": "MU",
+          "sourceName": "东方航空",
+          "flightNumber": "MU5103",
+          "departure": "09:00",
+          "arrival": "11:15",
+          "cabin": "经济舱 · 官网展示价",
+          "price": 2130,
+          "currency": "CNY",
+          "priceBasis": "unknown",
+          "availability": "display-only",
+          "stops": 0,
+          "codeshare": false,
+          "sourceUrl": "https://www.ceair.com/zh/cny/shopping/oneway/SHA,PVG-PEK,PKX/2026-10-31",
+          "checkedAt": "2026-10-30T10:02:31.092Z",
+          "date": "2026-10-31"
+        },
+        {
+          "airlineCode": "MU",
+          "sourceName": "东方航空",
+          "flightNumber": "MU5129",
+          "departure": "09:00",
+          "arrival": "11:25",
+          "cabin": "经济舱 · 官网展示价",
+          "price": 1030,
+          "currency": "CNY",
+          "priceBasis": "unknown",
+          "availability": "display-only",
+          "stops": 0,
+          "codeshare": false,
+          "sourceUrl": "https://www.ceair.com/zh/cny/shopping/oneway/SHA,PVG-PEK,PKX/2026-10-31",
+          "checkedAt": "2026-10-30T10:02:31.092Z",
+          "date": "2026-10-31"
+        },
+        {
+          "airlineCode": "MU",
+          "sourceName": "东方航空",
+          "flightNumber": "MU5137",
+          "departure": "09:25",
+          "arrival": "11:50",
+          "cabin": "经济舱 · 官网展示价",
+          "price": 500,
+          "currency": "CNY",
+          "priceBasis": "unknown",
+          "availability": "display-only",
+          "stops": 0,
+          "codeshare": false,
+          "sourceUrl": "https://www.ceair.com/zh/cny/shopping/oneway/SHA,PVG-PEK,PKX/2026-10-31",
+          "checkedAt": "2026-10-30T10:02:31.092Z",
+          "date": "2026-10-31"
+        },
+        {
+          "airlineCode": "MU",
+          "sourceName": "东方航空",
+          "flightNumber": "MU5153",
+          "departure": "09:30",
+          "arrival": "12:00",
+          "cabin": "经济舱 · 官网展示价",
+          "price": 2130,
+          "currency": "CNY",
+          "priceBasis": "unknown",
+          "availability": "display-only",
+          "stops": 0,
+          "codeshare": false,
+          "sourceUrl": "https://www.ceair.com/zh/cny/shopping/oneway/SHA,PVG-PEK,PKX/2026-10-31",
+          "checkedAt": "2026-10-30T10:02:31.092Z",
+          "date": "2026-10-31"
+        },
+        {
+          "airlineCode": "MU",
+          "sourceName": "东方航空",
+          "flightNumber": "MU5105",
+          "departure": "10:00",
+          "arrival": "12:15",
+          "cabin": "经济舱 · 官网展示价",
+          "price": 2130,
+          "currency": "CNY",
+          "priceBasis": "unknown",
+          "availability": "display-only",
+          "stops": 0,
+          "codeshare": false,
+          "sourceUrl": "https://www.ceair.com/zh/cny/shopping/oneway/SHA,PVG-PEK,PKX/2026-10-31",
+          "checkedAt": "2026-10-30T10:02:31.092Z",
+          "date": "2026-10-31"
+        },
+        {
+          "airlineCode": "MU",
+          "sourceName": "东方航空",
+          "flightNumber": "MU5167",
+          "departure": "10:30",
+          "arrival": "12:40",
+          "cabin": "经济舱 · 官网展示价",
+          "price": 500,
+          "currency": "CNY",
+          "priceBasis": "unknown",
+          "availability": "display-only",
+          "stops": 0,
+          "codeshare": false,
+          "sourceUrl": "https://www.ceair.com/zh/cny/shopping/oneway/SHA,PVG-PEK,PKX/2026-10-31",
+          "checkedAt": "2026-10-30T10:02:31.092Z",
+          "date": "2026-10-31"
+        },
+        {
+          "airlineCode": "MU",
+          "sourceName": "东方航空",
+          "flightNumber": "MU5155",
+          "departure": "10:35",
+          "arrival": "13:00",
+          "cabin": "经济舱 · 官网展示价",
+          "price": 2130,
+          "currency": "CNY",
+          "priceBasis": "unknown",
+          "availability": "display-only",
+          "stops": 0,
+          "codeshare": false,
+          "sourceUrl": "https://www.ceair.com/zh/cny/shopping/oneway/SHA,PVG-PEK,PKX/2026-10-31",
+          "checkedAt": "2026-10-30T10:02:31.092Z",
+          "date": "2026-10-31"
+        },
+        {
+          "airlineCode": "MU",
+          "sourceName": "东方航空",
+          "flightNumber": "MU5107",
+          "departure": "11:00",
+          "arrival": "13:15",
+          "cabin": "经济舱 · 官网展示价",
+          "price": 2130,
+          "currency": "CNY",
+          "priceBasis": "unknown",
+          "availability": "display-only",
+          "stops": 0,
+          "codeshare": false,
+          "sourceUrl": "https://www.ceair.com/zh/cny/shopping/oneway/SHA,PVG-PEK,PKX/2026-10-31",
+          "checkedAt": "2026-10-30T10:02:31.092Z",
+          "date": "2026-10-31"
+        },
+        {
+          "airlineCode": "MU",
+          "sourceName": "东方航空",
+          "flightNumber": "MU5109",
+          "departure": "12:00",
+          "arrival": "14:15",
+          "cabin": "经济舱 · 官网展示价",
+          "price": 600,
+          "currency": "CNY",
+          "priceBasis": "unknown",
+          "availability": "display-only",
+          "stops": 0,
+          "codeshare": false,
+          "sourceUrl": "https://www.ceair.com/zh/cny/shopping/oneway/SHA,PVG-PEK,PKX/2026-10-31",
+          "checkedAt": "2026-10-30T10:02:31.092Z",
+          "date": "2026-10-31"
+        },
+        {
+          "airlineCode": "MU",
+          "sourceName": "东方航空",
+          "flightNumber": "MU5111",
+          "departure": "13:00",
+          "arrival": "15:15",
+          "cabin": "经济舱 · 官网展示价",
+          "price": 600,
+          "currency": "CNY",
+          "priceBasis": "unknown",
+          "availability": "display-only",
+          "stops": 0,
+          "codeshare": false,
+          "sourceUrl": "https://www.ceair.com/zh/cny/shopping/oneway/SHA,PVG-PEK,PKX/2026-10-31",
+          "checkedAt": "2026-10-30T10:02:31.092Z",
+          "date": "2026-10-31"
+        },
+        {
+          "airlineCode": "MU",
+          "sourceName": "东方航空",
+          "flightNumber": "MU5157",
+          "departure": "13:30",
+          "arrival": "15:50",
+          "cabin": "经济舱 · 官网展示价",
+          "price": 600,
+          "currency": "CNY",
+          "priceBasis": "unknown",
+          "availability": "display-only",
+          "stops": 0,
+          "codeshare": false,
+          "sourceUrl": "https://www.ceair.com/zh/cny/shopping/oneway/SHA,PVG-PEK,PKX/2026-10-31",
+          "checkedAt": "2026-10-30T10:02:31.092Z",
+          "date": "2026-10-31"
+        },
+        {
+          "airlineCode": "MU",
+          "sourceName": "东方航空",
+          "flightNumber": "MU5113",
+          "departure": "14:00",
+          "arrival": "16:15",
+          "cabin": "经济舱 · 官网展示价",
+          "price": 1020,
+          "currency": "CNY",
+          "priceBasis": "unknown",
+          "availability": "display-only",
+          "stops": 0,
+          "codeshare": false,
+          "sourceUrl": "https://www.ceair.com/zh/cny/shopping/oneway/SHA,PVG-PEK,PKX/2026-10-31",
+          "checkedAt": "2026-10-30T10:02:31.092Z",
+          "date": "2026-10-31"
+        },
+        {
+          "airlineCode": "MU",
+          "sourceName": "东方航空",
+          "flightNumber": "MU5159",
+          "departure": "14:30",
+          "arrival": "16:50",
+          "cabin": "经济舱 · 官网展示价",
+          "price": 580,
+          "currency": "CNY",
+          "priceBasis": "unknown",
+          "availability": "display-only",
+          "stops": 0,
+          "codeshare": false,
+          "sourceUrl": "https://www.ceair.com/zh/cny/shopping/oneway/SHA,PVG-PEK,PKX/2026-10-31",
+          "checkedAt": "2026-10-30T10:02:31.092Z",
+          "date": "2026-10-31"
+        },
+        {
+          "airlineCode": "MU",
+          "sourceName": "东方航空",
+          "flightNumber": "MU5115",
+          "departure": "15:00",
+          "arrival": "17:30",
+          "cabin": "经济舱 · 官网展示价",
+          "price": 1020,
+          "currency": "CNY",
+          "priceBasis": "unknown",
+          "availability": "display-only",
+          "stops": 0,
+          "codeshare": false,
+          "sourceUrl": "https://www.ceair.com/zh/cny/shopping/oneway/SHA,PVG-PEK,PKX/2026-10-31",
+          "checkedAt": "2026-10-30T10:02:31.092Z",
+          "date": "2026-10-31"
+        },
+        {
+          "airlineCode": "MU",
+          "sourceName": "东方航空",
+          "flightNumber": "MU5161",
+          "departure": "15:30",
+          "arrival": "18:00",
+          "cabin": "经济舱 · 官网展示价",
+          "price": 988,
+          "currency": "CNY",
+          "priceBasis": "unknown",
+          "availability": "display-only",
+          "stops": 0,
+          "codeshare": false,
+          "sourceUrl": "https://www.ceair.com/zh/cny/shopping/oneway/SHA,PVG-PEK,PKX/2026-10-31",
+          "checkedAt": "2026-10-30T10:02:31.092Z",
+          "date": "2026-10-31"
+        },
+        {
+          "airlineCode": "MU",
+          "sourceName": "东方航空",
+          "flightNumber": "MU9191",
+          "departure": "15:30",
+          "arrival": "18:00",
+          "cabin": "经济舱 · 官网展示价",
+          "price": 1196,
+          "currency": "CNY",
+          "priceBasis": "unknown",
+          "availability": "display-only",
+          "stops": 0,
+          "codeshare": false,
+          "sourceUrl": "https://www.ceair.com/zh/cny/shopping/oneway/SHA,PVG-PEK,PKX/2026-10-31",
+          "checkedAt": "2026-10-30T10:02:31.092Z",
+          "date": "2026-10-31"
+        }
+      ]
+    }
+  },
+  {
+    "code": "OQ",
+    "query": {
+      "origin": "重庆",
+      "destination": "昆明",
+      "date": "2026-11-04",
+      "from": {
+        "name": "重庆",
+        "code": "CKG",
+        "airports": [
+          "CKG"
+        ],
+        "scope": "CKG"
+      },
+      "to": {
+        "name": "昆明",
+        "code": "KMG",
+        "airports": [
+          "KMG"
+        ],
+        "scope": "KMG"
+      }
+    },
+    "result": {
+      "attempt": {
+        "airlineCode": "OQ",
+        "sourceName": "重庆航空",
+        "state": "no-flights",
+        "sourceUrl": "https://b2c.chongqingairlines.cn/cqvue/flight",
+        "checkedAt": "2026-10-30T10:02:42.535Z",
+        "quoteCount": 0,
+        "airportScope": "CKG → KMG"
+      },
+      "quotes": []
+    }
+  },
+  {
+    "code": "9H",
+    "query": {
+      "origin": "西安",
+      "destination": "乌鲁木齐",
+      "date": "2026-10-31",
+      "from": {
+        "name": "西安",
+        "code": "SIA",
+        "airports": [
+          "XIY"
+        ],
+        "scope": "XIY"
+      },
+      "to": {
+        "name": "乌鲁木齐",
+        "code": "URC",
+        "airports": [
+          "URC"
+        ],
+        "scope": "URC"
+      }
+    },
+    "result": {
+      "attempt": {
+        "airlineCode": "9H",
+        "sourceName": "长安航空",
+        "state": "unrecognized-price",
+        "sourceUrl": "https://www.airchangan.com/flightsResult",
+        "checkedAt": "2026-10-30T10:02:53.938Z",
+        "quoteCount": 0,
+        "airportScope": "XIY → URC"
+      },
+      "quotes": []
+    }
+  },
+  {
+    "code": "GS",
+    "query": {
+      "origin": "天津",
+      "destination": "西安",
+      "date": "2026-10-31",
+      "from": {
+        "name": "天津",
+        "code": "TSN",
+        "airports": [
+          "TSN"
+        ],
+        "scope": "TSN"
+      },
+      "to": {
+        "name": "西安",
+        "code": "SIA",
+        "airports": [
+          "XIY"
+        ],
+        "scope": "XIY"
+      }
+    },
+    "result": {
+      "attempt": {
+        "airlineCode": "GS",
+        "sourceName": "天津航空",
+        "state": "unrecognized-price",
+        "sourceUrl": "https://www.tianjin-air.com/flights/results/TSN-XIY-261031-100-0",
+        "checkedAt": "2026-10-30T10:03:05.148Z",
+        "quoteCount": 0,
+        "airportScope": "TSN → XIY"
+      },
+      "quotes": []
+    }
+  },
+  {
+    "code": "SC",
+    "query": {
+      "origin": "济南",
+      "destination": "广州",
+      "date": "2026-10-31",
+      "from": {
+        "name": "济南",
+        "code": "TNA",
+        "airports": [
+          "TNA"
+        ],
+        "scope": "TNA"
+      },
+      "to": {
+        "name": "广州",
+        "code": "CAN",
+        "airports": [
+          "CAN"
+        ],
+        "scope": "CAN"
+      }
+    },
+    "result": {
+      "attempt": {
+        "airlineCode": "SC",
+        "sourceName": "山东航空",
+        "state": "quoted",
+        "sourceUrl": "https://flights.sda.cn/flight/search/tna-can-261031-1",
+        "checkedAt": "2026-10-30T10:03:10.516Z",
+        "quoteCount": 6,
+        "airportScope": "TNA → CAN"
+      },
+      "quotes": [
+        {
+          "airlineCode": "SC",
+          "sourceName": "山东航空",
+          "flightNumber": "SC1173",
+          "departure": "08:00",
+          "arrival": "10:55",
+          "cabin": "经济舱 · 官网展示价",
+          "price": 1118,
+          "currency": "CNY",
+          "priceBasis": "unknown",
+          "availability": "display-only",
+          "codeshare": false,
+          "sourceUrl": "https://flights.sda.cn/flight/search/tna-can-261031-1",
+          "checkedAt": "2026-10-30T10:03:10.516Z",
+          "date": "2026-10-31"
+        },
+        {
+          "airlineCode": "SC",
+          "sourceName": "山东航空",
+          "flightNumber": "SC1171",
+          "departure": "15:00",
+          "arrival": "18:00",
+          "cabin": "经济舱 · 官网展示价",
+          "price": 1118,
+          "currency": "CNY",
+          "priceBasis": "unknown",
+          "availability": "display-only",
+          "codeshare": false,
+          "sourceUrl": "https://flights.sda.cn/flight/search/tna-can-261031-1",
+          "checkedAt": "2026-10-30T10:03:10.516Z",
+          "date": "2026-10-31"
+        },
+        {
+          "airlineCode": "SC",
+          "sourceName": "山东航空",
+          "flightNumber": "SC1175",
+          "departure": "17:10",
+          "arrival": "20:05",
+          "cabin": "经济舱 · 官网展示价",
+          "price": 1058,
+          "currency": "CNY",
+          "priceBasis": "unknown",
+          "availability": "display-only",
+          "codeshare": false,
+          "sourceUrl": "https://flights.sda.cn/flight/search/tna-can-261031-1",
+          "checkedAt": "2026-10-30T10:03:10.516Z",
+          "date": "2026-10-31"
+        },
+        {
+          "airlineCode": "SC",
+          "sourceName": "山东航空",
+          "flightNumber": "SC9526",
+          "departure": "12:05",
+          "arrival": "14:55",
+          "cabin": "经济舱 · 官网展示价",
+          "price": 1220,
+          "currency": "CNY",
+          "priceBasis": "unknown",
+          "availability": "display-only",
+          "codeshare": true,
+          "sourceUrl": "https://flights.sda.cn/flight/search/tna-can-261031-1",
+          "checkedAt": "2026-10-30T10:03:10.516Z",
+          "date": "2026-10-31"
+        },
+        {
+          "airlineCode": "SC",
+          "sourceName": "山东航空",
+          "flightNumber": "SC9528",
+          "departure": "13:55",
+          "arrival": "17:00",
+          "cabin": "经济舱 · 官网展示价",
+          "price": 1220,
+          "currency": "CNY",
+          "priceBasis": "unknown",
+          "availability": "display-only",
+          "codeshare": true,
+          "sourceUrl": "https://flights.sda.cn/flight/search/tna-can-261031-1",
+          "checkedAt": "2026-10-30T10:03:10.516Z",
+          "date": "2026-10-31"
+        },
+        {
+          "airlineCode": "SC",
+          "sourceName": "山东航空",
+          "flightNumber": "SC9530",
+          "departure": "18:10",
+          "arrival": "21:05",
+          "cabin": "经济舱 · 官网展示价",
+          "price": 1020,
+          "currency": "CNY",
+          "priceBasis": "unknown",
+          "availability": "display-only",
+          "codeshare": true,
+          "sourceUrl": "https://flights.sda.cn/flight/search/tna-can-261031-1",
+          "checkedAt": "2026-10-30T10:03:10.516Z",
+          "date": "2026-10-31"
+        }
+      ]
+    }
+  },
+  {
+    "code": "KN",
+    "query": {
+      "origin": "北京",
+      "destination": "温州",
+      "date": "2026-10-31",
+      "from": {
+        "name": "北京",
+        "code": "BJS",
+        "airports": [
+          "PEK",
+          "PKX"
+        ],
+        "scope": "PEK/PKX"
+      },
+      "to": {
+        "name": "温州",
+        "code": "WNZ",
+        "airports": [
+          "WNZ"
+        ],
+        "scope": "WNZ"
+      }
+    },
+    "result": {
+      "attempt": {
+        "airlineCode": "KN",
+        "sourceName": "中国联合航空",
+        "state": "quoted",
+        "sourceUrl": "https://www.flycua.com/ticket/search/bjs-261031-wnz--1----",
+        "checkedAt": "2026-10-30T10:03:13.534Z",
+        "quoteCount": 3,
+        "airportScope": "PEK → WNZ"
+      },
+      "quotes": [
+        {
+          "airlineCode": "KN",
+          "sourceName": "中国联合航空",
+          "flightNumber": "KN5961",
+          "departure": "08:00",
+          "arrival": "10:20",
+          "cabin": "官网展示价 · 舱位待核验",
+          "price": 410,
+          "currency": "CNY",
+          "priceBasis": "unknown",
+          "availability": "display-only",
+          "stops": 0,
+          "codeshare": false,
+          "sourceUrl": "https://www.flycua.com/ticket/search/bjs-261031-wnz--1----",
+          "checkedAt": "2026-10-30T10:03:13.534Z",
+          "date": "2026-10-31"
+        },
+        {
+          "airlineCode": "KN",
+          "sourceName": "中国联合航空",
+          "flightNumber": "KN5915",
+          "departure": "09:15",
+          "arrival": "13:20",
+          "cabin": "官网展示价 · 舱位待核验",
+          "price": 410,
+          "currency": "CNY",
+          "priceBasis": "unknown",
+          "availability": "display-only",
+          "stops": 1,
+          "codeshare": false,
+          "sourceUrl": "https://www.flycua.com/ticket/search/bjs-261031-wnz--1----",
+          "checkedAt": "2026-10-30T10:03:13.534Z",
+          "date": "2026-10-31"
+        },
+        {
+          "airlineCode": "KN",
+          "sourceName": "中国联合航空",
+          "flightNumber": "KN5979",
+          "departure": "10:00",
+          "arrival": "12:30",
+          "cabin": "官网展示价 · 舱位待核验",
+          "price": 570,
+          "currency": "CNY",
+          "priceBasis": "unknown",
+          "availability": "display-only",
+          "stops": 0,
+          "codeshare": false,
+          "sourceUrl": "https://www.flycua.com/ticket/search/bjs-261031-wnz--1----",
+          "checkedAt": "2026-10-30T10:03:13.534Z",
+          "date": "2026-10-31"
+        }
+      ]
+    }
+  },
+  {
+    "code": "9C",
+    "query": {
+      "origin": "西安",
+      "destination": "上海",
+      "date": "2026-11-25",
+      "from": {
+        "name": "西安",
+        "code": "SIA",
+        "airports": [
+          "XIY"
+        ],
+        "scope": "XIY"
+      },
+      "to": {
+        "name": "上海",
+        "code": "SHA",
+        "airports": [
+          "SHA",
+          "PVG"
+        ],
+        "scope": "SHA/PVG"
+      }
+    },
+    "result": {
+      "attempt": {
+        "airlineCode": "9C",
+        "sourceName": "春秋航空",
+        "state": "unrecognized-price",
+        "sourceUrl": "https://cdn.ch.com/error/429.html",
+        "checkedAt": "2026-10-30T10:03:25.242Z",
+        "quoteCount": 0,
+        "airportScope": "XIY → SHA"
+      },
+      "quotes": []
+    }
+  },
+  {
+    "code": "RY",
+    "query": {
+      "origin": "南昌",
+      "destination": "厦门",
+      "date": "2026-10-31",
+      "from": {
+        "name": "南昌",
+        "code": "KHN",
+        "airports": [
+          "KHN"
+        ],
+        "scope": "KHN"
+      },
+      "to": {
+        "name": "厦门",
+        "code": "XMN",
+        "airports": [
+          "XMN"
+        ],
+        "scope": "XMN"
+      }
+    },
+    "result": {
+      "attempt": {
+        "airlineCode": "RY",
+        "sourceName": "江西航空",
+        "state": "quoted",
+        "sourceUrl": "https://www.airjiangxi.com/jiangxiair/book/findFlights.action",
+        "checkedAt": "2026-10-30T10:03:29.958Z",
+        "quoteCount": 1,
+        "airportScope": "KHN → XMN"
+      },
+      "quotes": [
+        {
+          "airlineCode": "RY",
+          "sourceName": "江西航空",
+          "flightNumber": "RY8917",
+          "departure": "18:30",
+          "arrival": "20:00",
+          "cabin": "官网展示起价 · 舱位待核验",
+          "price": 270,
+          "currency": "CNY",
+          "priceBasis": "unknown",
+          "availability": "display-only",
+          "codeshare": false,
+          "sourceUrl": "https://www.airjiangxi.com/jiangxiair/book/findFlights.action?tripType=0&queryFlightInfo=KHN%2CXMN%2C2026-10-31&adult=1&child=0&infant=0",
+          "checkedAt": "2026-10-30T10:03:29.957Z",
+          "date": "2026-10-31"
+        }
+      ]
+    }
+  }
+]

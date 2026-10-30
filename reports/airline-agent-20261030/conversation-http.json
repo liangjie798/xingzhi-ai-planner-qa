@@ -1,0 +1,67 @@
+{
+  "kind": "航司官网工具查询",
+  "status": "partial",
+  "quotes": 14,
+  "modelCall": {
+    "success": false,
+    "attempted": false,
+    "reason": "not-configured",
+    "requestId": "90b64dd3-bc4e-4c20-a44b-20a98ec7892b",
+    "purpose": "tool-selection"
+  },
+  "toolCalls": [
+    {
+      "name": "search_domestic_flights",
+      "arguments": {
+        "origin": "厦门",
+        "destination": "北京",
+        "date": "2026-10-31"
+      },
+      "execution": "validated-rule",
+      "status": "partial",
+      "providers": [
+        {
+          "airlineCode": "MF",
+          "state": "quoted"
+        },
+        {
+          "airlineCode": "KN",
+          "state": "quoted"
+        },
+        {
+          "airlineCode": "MU",
+          "state": "quoted"
+        }
+      ]
+    }
+  ],
+  "providers": [
+    {
+      "airlineCode": "MF",
+      "sourceName": "厦门航空",
+      "state": "quoted",
+      "sourceUrl": "https://www.xiamenair.com/zh-cn/nticket.html",
+      "checkedAt": "2026-10-30T11:06:22.082Z",
+      "quoteCount": 7,
+      "airportScope": "厦门 → 北京；机场以具体航班为准，未保证覆盖同城全部机场"
+    },
+    {
+      "airlineCode": "KN",
+      "sourceName": "中国联合航空",
+      "state": "quoted",
+      "sourceUrl": "https://www.flycua.com/ticket/search/xmn-261031-pek--1----",
+      "checkedAt": "2026-10-30T11:06:26.932Z",
+      "quoteCount": 1,
+      "airportScope": "厦门 → 北京；机场以具体航班为准，未保证覆盖同城全部机场"
+    },
+    {
+      "airlineCode": "MU",
+      "sourceName": "东方航空",
+      "state": "quoted",
+      "sourceUrl": "https://www.ceair.com/zh/cny/shopping/oneway/XMN-PEK,PKX/2026-10-31",
+      "checkedAt": "2026-10-30T11:06:32.247Z",
+      "quoteCount": 6,
+      "airportScope": "厦门 → 北京；机场以具体航班为准，未保证覆盖同城全部机场"
+    }
+  ]
+}
