@@ -1,0 +1,9 @@
+import fs from 'node:fs/promises';
+const base='https://lht574.cn',cookies=new Map();
+async function request(path,data,headers={}){const response=await fetch(base+path,{method:data===undefined?'GET':'POST',headers:{...(data===undefined?{}:{'Content-Type':'application/json'}),Cookie:[...cookies].map(([k,v])=>`${k}=${v}`).join('; '),...headers},body:data===undefined?undefined:JSON.stringify(data),signal:AbortSignal.timeout(65000)});for(const c of response.headers.getSetCookie()){const pair=c.split(';')[0],at=pair.indexOf('=');cookies.set(pair.slice(0,at),pair.slice(at+1));}const text=await response.text();let body;try{body=JSON.parse(text);}catch{throw new Error('Unexpected response status '+response.status);}if(!response.ok)throw new Error('Request failed: '+path+' HTTP '+response.status);return body;}
+const coverage=await request('/agent-tools');if(coverage.coverage.registeredAdapters.length!==5)throw new Error('Unexpected deployed coverage');
+const csrf=await request('/api/v1/auth/csrf');await request('/api/v1/auth/login',{username:process.env.QA_LOGIN_USER,password:process.env.QA_LOGIN_PASSWORD,portal:'USER'},{[csrf.headerName]:csrf.token});
+const result=await request('/conversation-planner',{message:'明天厦门到北京查询机票',history:[]});
+const record={checkedAt:new Date().toISOString(),coverage:coverage.coverage.registeredAdapters,kind:result.kind,status:result.ticketSearch?.status,quotes:result.ticketSearch?.options.length,modelCall:result.modelCall,toolCalls:result.toolCalls,providers:result.ticketSearch?.providers};
+await fs.writeFile('G:/Ai Web/output/airline-production-account-check.json',JSON.stringify(record,null,2));console.log(JSON.stringify(record));
+if(!result.modelCall?.success||!result.toolCalls?.some(t=>t.execution==='model-function-call'))throw new Error('Account model Function Calling was not confirmed');

@@ -1,0 +1,122 @@
+[
+  {
+    "case": 1,
+    "status": 200,
+    "passed": true
+  },
+  {
+    "case": 2,
+    "status": 400,
+    "passed": true
+  },
+  {
+    "case": 3,
+    "status": 400,
+    "passed": true
+  },
+  {
+    "case": 4,
+    "status": 400,
+    "passed": true
+  },
+  {
+    "case": 5,
+    "status": 400,
+    "passed": true
+  },
+  {
+    "case": 6,
+    "status": 400,
+    "passed": true
+  },
+  {
+    "case": 7,
+    "status": 400,
+    "passed": true
+  },
+  {
+    "case": 8,
+    "status": 400,
+    "passed": true
+  },
+  {
+    "case": "airline-MF",
+    "status": "partial",
+    "options": 7,
+    "providers": [
+      {
+        "airlineCode": "MF",
+        "sourceName": "厦门航空",
+        "state": "quoted",
+        "sourceUrl": "https://www.xiamenair.com/zh-cn/nticket.html",
+        "checkedAt": "2026-10-30T15:37:59.714Z",
+        "quoteCount": 7,
+        "airportScope": "厦门 → 北京；机场以具体航班为准，未保证覆盖同城全部机场"
+      }
+    ]
+  },
+  {
+    "case": "airline-MU",
+    "status": "unavailable",
+    "options": 0,
+    "providers": [
+      {
+        "airlineCode": "MU",
+        "sourceName": "东方航空",
+        "state": "unverified-page",
+        "sourceUrl": "https://www.ceair.com/",
+        "checkedAt": "2026-10-30T15:37:59.777Z",
+        "quoteCount": 0,
+        "airportScope": "上海 → 北京；机场以具体航班为准，未保证覆盖同城全部机场"
+      }
+    ]
+  },
+  {
+    "case": "airline-SC",
+    "status": "partial",
+    "options": 6,
+    "providers": [
+      {
+        "airlineCode": "SC",
+        "sourceName": "山东航空",
+        "state": "quoted",
+        "sourceUrl": "https://flights.sda.cn/flight/search/tna-can-261031-1",
+        "checkedAt": "2026-10-30T15:38:22.059Z",
+        "quoteCount": 6,
+        "airportScope": "济南 → 广州；机场以具体航班为准，未保证覆盖同城全部机场"
+      }
+    ]
+  },
+  {
+    "case": "airline-KN",
+    "status": "unavailable",
+    "options": 0,
+    "providers": [
+      {
+        "airlineCode": "KN",
+        "sourceName": "中国联合航空",
+        "state": "unrecognized-price",
+        "sourceUrl": "https://www.flycua.com/ticket/search/bjs-261031-wnz--1----",
+        "checkedAt": "2026-10-30T15:38:40.074Z",
+        "quoteCount": 0,
+        "airportScope": "北京 → 温州；机场以具体航班为准，未保证覆盖同城全部机场"
+      }
+    ]
+  },
+  {
+    "case": "airline-RY",
+    "status": "partial",
+    "options": 1,
+    "providers": [
+      {
+        "airlineCode": "RY",
+        "sourceName": "江西航空",
+        "state": "quoted",
+        "sourceUrl": "https://www.airjiangxi.com/jiangxiair/book/findFlights.action",
+        "checkedAt": "2026-10-30T15:38:45.191Z",
+        "quoteCount": 1,
+        "airportScope": "南昌 → 厦门；机场以具体航班为准，未保证覆盖同城全部机场"
+      }
+    ]
+  }
+]
