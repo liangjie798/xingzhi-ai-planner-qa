@@ -1,0 +1,27 @@
+{
+  "id": "caac-49",
+  "name": "九元航空有限公司",
+  "url": "https://www.9air.com/",
+  "origin": "广州",
+  "destination": "贵阳",
+  "checkedAt": "2026-10-30T04:05:41.242Z",
+  "quoteVerified": false,
+  "actions": [
+    {
+      "field": "广州",
+      "selectedFromVisibleOption": false,
+      "value": "广州"
+    },
+    {
+      "field": "贵阳",
+      "selectedFromVisibleOption": false,
+      "value": "贵阳"
+    }
+  ],
+  "outcome": "could-not-submit",
+  "error": "TimeoutError: locator.click: Timeout 5000ms exceeded.",
+  "finalUrl": "https://www.9air.com/zh-CN/book/booking",
+  "title": "九元航空官网",
+  "text": "投诉建议\n在线客服\n 简体中文 (zh-CN)\n首页\n自助服务\n活动推荐\n会员专区\n九元招聘\n登录注册\n选择航班\n乘客信息\n增值服务\n确认订单\n订单支付\n往返单程\n出发城市\n\t\t\n到达城市\n\t\n去程日期\n\t\t查询\n温馨提示\n\n近期民航退改签诈骗多发，请勿轻信未知来电或未知号码的短信内容，当真正遇到航班延误或临时取消等不正常情况，九元航空将通过官方热线4001051999进行电话或短信通知，您亦可通过九元航空官方小程序进行退改签操作。\n九元航空提醒您，请不要点击陌生短信中的链接、二维码。收到航班延误、取消短信时，不要直接联系短信里提供的电话号码，应向航空公司官方热线4001051999确认。\n不要填写自己的个人身份信息、银行卡和手机验证码，不向陌生账号转账汇款，提高防诈意识，保护自身安全。\n\n健康人生、绿色无毒。珍惜生命，远离毒品。\n\n确 定",
+  "ms": 9462
+}

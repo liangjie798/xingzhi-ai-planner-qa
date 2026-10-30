@@ -1,0 +1,16 @@
+{
+  "id": "caac-36",
+  "name": "幸福航空有限责任公司",
+  "url": "https://www.joy-air.com/",
+  "origin": "西安",
+  "destination": "榆林",
+  "checkedAt": "2026-10-30T04:04:45.513Z",
+  "quoteVerified": false,
+  "actions": [],
+  "outcome": "could-not-submit",
+  "error": "Error: page.goto: net::ERR_CERT_DATE_INVALID at https://www.joy-air.com/",
+  "finalUrl": "about:blank",
+  "title": "",
+  "text": "你的连接不是专用连接\n\n攻击者可能试图从 www.joy-air.com 窃取你的信息(例如，密码、消息或信用卡)。\n\nNET::ERR_CERT_DATE_INVALID\n返回\n高级",
+  "ms": 234
+}

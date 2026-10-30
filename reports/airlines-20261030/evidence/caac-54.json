@@ -1,0 +1,70 @@
+{
+  "id": "caac-54",
+  "index": 54,
+  "name": "湖南航空股份有限公司",
+  "source": "https://www.caac.gov.cn/GYMH/MHGK/HKGS/index_2.html",
+  "category": "passenger",
+  "url": "https://www.a6air.com/",
+  "parentIndex": null,
+  "quoteVerified": false,
+  "checkedAt": "2026-10-30T03:59:44.568Z",
+  "stage": "homepage",
+  "status": 200,
+  "finalUrl": "https://www.a6air.com/",
+  "title": "湖南航空官网-机票预订_飞机票查询_航班动态_网上值机_特价机票查询_湖南航空股份有限公司",
+  "text": "首 页\n机票预订\n优惠促销\n自助服务\n旅客服务\n关于我们\n鸿鹄会\n登 录\n注 册\n\n机票预订\n\n航班动态\n\n伤残军警优惠订票入口\n\n特殊服务申请\n1成人\n\n出发城市\n\n到达城市\n\n出发日期\n\n ㅤ\n查 询\n\n新闻公告\n\n飞海口、游版纳 湖南航空冬航季“一路向暖”\n湖南开放再添空中通道 湖南航空长沙⇌曼谷航线成功首航\n湘遇5载 共赴新程 湖南航空转场5周年\n规模+1！湖南航空喜迎第17架新飞机\n畅游夏日 湖南航空暑运新开多条航线\n更多\n推荐航线\n为您提供实惠的价格\n长沙昆明无锡南京\n长沙\n无锡\n2026-11-13\n￥340起\n长沙\n昆明\n2026-10-31\n￥250起\n长沙\n吐鲁番\n2026-11-06\n￥440起\n旅行产品\n为您提供优质的旅行服务\n\n优享退票\n\n退票可享超值优惠！\n\n会员积分选座\n\n提前选座，美好旅程\n\n星享经济舱\n\n超低的价格，超值的飞行体验！\n\n预付费行李\n\n提前选购，行李无忧！\n新闻公告\n为您提供新鲜的资讯\n查看更多\n飞海口、游版纳 湖南航空冬航季“一路向暖”\n\n2026-10-21\n湖南开放再添空中通道 湖南航空长沙⇌曼谷航线成功首航\n\n2026-10-08\n湘遇5载 共赴新程 湖南航空转场5周年\n\n2025-12-11\n规模+1！湖南航空喜迎第17架新飞机\n\n2025-12-11\n畅游夏日 湖南航空暑运新开多条航线\n\n2025-11-11\n共享天空 共享世界 共享美好旅程\nCopyright © 2026 湖南航空股份有限公司\nAll rights reserved.\n\n湘ICP备2021001199号-1\n\n增值电信业务经营许可证编号：湘B2-20210323\n\n营业执照\n\n经营许可证\n\n关于我们\n湖南航空简介\n企业文化\n广告招商\n联系我们\n招聘信息\n旅客服务\n运输总条件\n危险品运输\n客票使用条件\n特殊旅客运输指南\n用户注册协议\n友情链接\n同程旅行\n鸿程分销平台\n湖南航空HR\n湖南航空官方微信\n湖南航空官方小程序\nTOP\n在线客服\n客服电话\n公众号\n小程序\n\n为了提供个性化的展示与改善您的浏览体验，本网站使用cookie。继续浏览我们的网站，即表示您同意我们的 cookie政策以及隐私条款。",
+  "inputs": [
+    {
+      "tag": "INPUT",
+      "type": "text",
+      "id": "",
+      "name": "",
+      "placeholder": "",
+      "value": "单程",
+      "readonly": true,
+      "label": null
+    },
+    {
+      "tag": "INPUT",
+      "type": "text",
+      "id": "",
+      "name": "",
+      "placeholder": "出发城市",
+      "value": "长沙",
+      "readonly": false,
+      "label": null
+    },
+    {
+      "tag": "INPUT",
+      "type": "text",
+      "id": "",
+      "name": "",
+      "placeholder": "到达城市",
+      "value": "北京大兴",
+      "readonly": false,
+      "label": null
+    },
+    {
+      "tag": "INPUT",
+      "type": "text",
+      "id": "",
+      "name": "",
+      "placeholder": "",
+      "value": "2026-10-31",
+      "readonly": false,
+      "label": null
+    }
+  ],
+  "links": [
+    {
+      "text": "机票预订",
+      "href": "https://www.a6air.com/ticket"
+    }
+  ],
+  "frames": [
+    "https://www.a6air.com/"
+  ],
+  "blocked": false,
+  "outcome": "query-form-found",
+  "ms": 2170
+}

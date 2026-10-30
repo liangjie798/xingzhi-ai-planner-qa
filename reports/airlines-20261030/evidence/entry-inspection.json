@@ -1,0 +1,1864 @@
+[
+  {
+    "id": "caac-18",
+    "url": "about:blank",
+    "inputs": [],
+    "links": [],
+    "buttons": [],
+    "dialogs": []
+  },
+  {
+    "id": "caac-19",
+    "url": "https://www.luckyair.net/",
+    "inputs": [
+      {
+        "id": "",
+        "name": "radioGroup",
+        "placeholder": "",
+        "type": "radio",
+        "value": "ONEWAY"
+      },
+      {
+        "id": "",
+        "name": "radioGroup",
+        "placeholder": "",
+        "type": "radio",
+        "value": "ROUNDTRIP"
+      },
+      {
+        "id": "",
+        "name": "",
+        "placeholder": "出发城市",
+        "type": "text",
+        "value": "昆明"
+      },
+      {
+        "id": "",
+        "name": "",
+        "placeholder": "到达城市",
+        "type": "text",
+        "value": ""
+      },
+      {
+        "id": "",
+        "name": "",
+        "placeholder": "出发日期",
+        "type": "text",
+        "value": "2026-10-30"
+      },
+      {
+        "id": "",
+        "name": "",
+        "placeholder": "",
+        "type": "text",
+        "value": "1成人，0儿童，0婴儿"
+      }
+    ],
+    "links": [],
+    "buttons": [
+      {
+        "text": "1",
+        "id": "",
+        "cls": ""
+      },
+      {
+        "text": "2",
+        "id": "",
+        "cls": ""
+      },
+      {
+        "text": "3",
+        "id": "",
+        "cls": ""
+      },
+      {
+        "text": "4",
+        "id": "",
+        "cls": ""
+      },
+      {
+        "text": "5",
+        "id": "",
+        "cls": ""
+      },
+      {
+        "text": "6",
+        "id": "",
+        "cls": ""
+      },
+      {
+        "text": "7",
+        "id": "",
+        "cls": ""
+      },
+      {
+        "text": "8",
+        "id": "",
+        "cls": ""
+      },
+      {
+        "text": "9",
+        "id": "",
+        "cls": ""
+      },
+      {
+        "text": "10",
+        "id": "",
+        "cls": ""
+      },
+      {
+        "text": "11",
+        "id": "",
+        "cls": ""
+      },
+      {
+        "text": "12",
+        "id": "",
+        "cls": ""
+      },
+      {
+        "text": "机 票",
+        "id": "",
+        "cls": "ant-btn ant-btn-round menu-button active"
+      },
+      {
+        "text": "军警残购票",
+        "id": "",
+        "cls": "ant-btn ant-btn-round menu-button"
+      },
+      {
+        "text": "开始预订",
+        "id": "",
+        "cls": "btn-search ant-btn ant-btn-primary ant-btn-lg ant-btn-block"
+      },
+      {
+        "text": "知道了",
+        "id": "",
+        "cls": "antd-btn css-pekuog antd-btn-primary antd-btn-color-primary antd-btn-variant-solid"
+      }
+    ],
+    "dialogs": [
+      "温馨提示\n\n尊敬的旅客：\n\n自2025年6月28日起“禁止旅客携带没有3C标识、3C标识不清晰、已被召回型号或批次的充电宝乘坐境内航班”相关召回信息可在“国家市场监督管理总局缺陷产品召回技术中心”官方网站“消费品召回”栏目查询（https://www.samrdprc.org.cn/xfpzh/xfpgnzh/）。\n\n特别提示：建议旅客不携带充电宝乘机或者出行前在国家市场监督管理总局缺陷产品召回技术中心官网查询携带的充电宝是否已被召回。\n\n因祥鹏航空移动端业务调整升级，于2025年4月11日起关闭并下线祥鹏航空APP及祥鹏航空微信小程序。祥鹏航空APP/微信小程序线上购票及服务功能迁移至海南航空APP及海南航空微信小程序；您可在官方应用商店下载海南航空APP或登录海南航空微信小程序查询、操作。若有疑问可致电祥鹏航空官方客服热线95326进行咨询。\n\n在航空器上强占座位、辱骂殴打他人、妨碍机组正常履行职责、霸占航空器、破坏机上设施设备等行为，扰乱公共秩序、危害公共安全。构成违反治安管理行为的，公安机关将依法进行处罚；情节严重的，可能被追究刑事责任。请您遵规守法、文明乘机！\n\n知道了"
+    ]
+  },
+  {
+    "id": "caac-21",
+    "url": "https://www.sda.cn/",
+    "inputs": [
+      {
+        "id": "",
+        "name": "",
+        "placeholder": "出发城市",
+        "type": "text",
+        "value": "济南"
+      },
+      {
+        "id": "",
+        "name": "",
+        "placeholder": "到达城市",
+        "type": "text",
+        "value": ""
+      },
+      {
+        "id": "booking-calendar-range",
+        "name": "",
+        "placeholder": "去程日期",
+        "type": "text",
+        "value": "2026/10/31"
+      },
+      {
+        "id": "",
+        "name": "",
+        "placeholder": "回程日期",
+        "type": "text",
+        "value": ""
+      }
+    ],
+    "links": [
+      {
+        "text": "",
+        "href": "http://flights.sda.cn/flight/lowPrice"
+      },
+      {
+        "text": "",
+        "href": "https://www.sda.cn/webuser/buyTicketAttention.html"
+      },
+      {
+        "text": "",
+        "href": "https://flights.sda.cn/flight/multipleDestinations"
+      },
+      {
+        "text": "",
+        "href": "https://flights.sda.cn/profile/login?domhomeUrl=////flights.sda.cn/profile/account/?ord0"
+      },
+      {
+        "text": "",
+        "href": "https://flights.sda.cn/unregistered/orderQuery"
+      },
+      {
+        "text": "",
+        "href": "https://flights.sda.cn/scSelfService/passengerNameChange"
+      },
+      {
+        "text": "",
+        "href": "https://www.sda.cn/dyflight/search.shtml"
+      },
+      {
+        "text": "",
+        "href": "https://flights.sda.cn/scSelfService/electronicInvoice"
+      },
+      {
+        "text": "",
+        "href": "https://flights.sda.cn/flight/selfService"
+      },
+      {
+        "text": "",
+        "href": "https://flights.sda.cn/flight/specialService/entrance"
+      },
+      {
+        "text": "",
+        "href": "https://flights.sda.cn/flight/irregularCertificate"
+      },
+      {
+        "text": "",
+        "href": "https://flights.sda.cn/flight/acRetirement"
+      },
+      {
+        "text": "",
+        "href": "https://app.gpticket.org/login.action"
+      },
+      {
+        "text": "登录",
+        "href": "https://flights.sda.cn/profile/login?domhomeUrl=//www.sda.cn"
+      },
+      {
+        "text": "注册",
+        "href": "https://flights.sda.cn/profile/register"
+      },
+      {
+        "text": "多程预订",
+        "href": "https://flights.sda.cn/flight/multipleDestinations/"
+      },
+      {
+        "text": "更多",
+        "href": "https://flights.sda.cn/flight/lowprice"
+      },
+      {
+        "text": "加入我们",
+        "href": "https://flights.sda.cn/profile/register"
+      },
+      {
+        "text": "立即登录",
+        "href": "https://flights.sda.cn/profile/login?domhomeUrl=//www.sda.cn"
+      },
+      {
+        "text": "旅客购票须知",
+        "href": "https://www.sda.cn/webuser/buyTicketAttention.html"
+      },
+      {
+        "text": "NDC开放平台",
+        "href": "https://flights.sda.cn/ndc"
+      }
+    ],
+    "buttons": [],
+    "dialogs": [
+      "\n        \n            \n        \n    ",
+      "\n        \n            \n                \n                    关闭\n                \n                \n                    提示\n                \n                \n                    确认\n                \n            \n        \n    ",
+      "\n        \n            \n                \n                    关闭\n                \n                \n                    会员绑定提示\n                    您未绑定手机号码，请前往绑定。绑定后，可使用手机号+密码方式登录。\n                \n                \n                    手机号绑定\n                \n            \n        \n    ",
+      "\n        \n            \n                \n                    关闭\n                \n                \n                    温馨提示\n                    您的账户尚未进行实名认证，您可立即认证或稍后前往个人中心进行实名认证。\n                \n                \n                    本次跳过\n                    实名认证\n                \n            \n        \n    ",
+      "\n        \n            \n                \n                    关闭\n                \n                \n                    温馨提示\n                    网站实名认证功能升级中，请通过微信扫码完成实名认证；实名认证完成后，请在网站重新登录。感谢您的理解与配合。\n                    \n                    打开微信，点击右上角“+”，使用“扫一扫”\n                \n                \n                    确定\n                \n            \n        \n    ",
+      "\n        \n            \n                \n                    关闭\n                \n                \n                    温馨提示\n                    本服务仅限实名认证用户办理，如您注册时使用身份证且用户姓名为中文的请前往个人中心进行实名认证，如其他证件类型或姓名为英文的无法在网站实名，请联系客服 95369处理。\n                \n                \n                    确认\n                \n            \n        \n    ",
+      "\n        \n            \n                \n                    关闭\n                \n                \n                    温馨提示\n                    您的密码强度较弱，请立即修改\n                \n                \n                    立即修改\n                \n            \n        \n    ",
+      "\n        \n            \n                \n                    关闭\n                \n                \n                    温馨提示\n                    请确认是否修改出发时间和乘机人数量\n                \n                \n                    去修改\n                    直接搜索\n                \n            \n        \n    ",
+      "\n        \n            \n                \n                    关闭\n                \n                \n                    温馨提示\n                    请确认是否修改出发时间和乘机人数量\n                \n                \n                    去修改\n                    直接搜索\n                \n            \n        \n    ",
+      "\n        \n            \n                \n                    关闭\n                \n                \n                    温馨提示\n                    尊敬的旅客您好，若办理全渠道自助退改业务后，在原订单中将无法办理退改及餐食，行李，选座等一系列业务，请问是否继续办理全渠道自助退改业务？\n                \n                \n                    取消\n                    继续\n                \n            \n        \n    ",
+      "\n        \n\n            \n                \n                    关闭\n                    退出登录...\n                \n                \n                    您确定要退出当前账号的登录状态吗?\n                \n                \n                    确定\n                    取消\n                \n            \n        \n    ",
+      "\n        \n            \n                \n                    关闭\n                    \n                        温馨提示\n                    \n                \n                \n                    \n                        为了更好的体验网站功能，我们建议您修改Safari浏览器的设置，步骤如下。\n                        第1步: 打开Safari浏览器偏好设置（如图1）\n                        第2步: 切换至隐私标签，取消勾选【阻止跨站跟踪】选项（如图2）\n                        \n                            \n                                \n                                图1\n                            \n                            \n                                \n                                图2\n                            \n                        \n                    \n                    \n                        或者，您也可以使Google浏览器\n                    \n                \n            \n        \n    ",
+      "       \n                                                \n                                                \n                                            \n                                            \n                                                \n                                                \n                                                    \n                                                        忘记密码\n                                                    \n                                                \n                                            \n                                            \n                                                \n                                                \n                                                    \n                                                        登录\n                                                    \n                                                \n                                            \n                                        \n                                    \n                                \n                            \n                        \n                    \n                \n                \n                    \n                        立即注册\n                                >>\n                    \n                    \n                    \n                    \n                    \n                    \n                    \n                    \n                    \n                    \n                    \n                    \n                    \n                \n            \n            \n        \n        \n    ",
+      "\n        \n            \n                \n                    \n                        关闭\n                    \n                    提示\n                \n                \n                    \n                        只支持找回官网密码，如需修改凤凰知音密码请前往凤凰知音网站修改\n                        \n                    \n                \n                \n                    找回官网密码\n                \n            \n        \n    ",
+      "\n        \n            \n                \n                    \n                        关闭\n                    \n                    提示\n                \n                \n                    \n                        您尚未绑定官网账户，无法使用凤凰知音卡登录，如果已有账户可选择其他方式登录，无账户请注册\n                        \n                    \n                \n                \n                    \n                        去注册\n                    \n                    去登录\n                \n            \n        \n    ",
+      "             \n                            \n                                \n                                    \n                                    手机号码\n                                \n                                \n                                    \n                                \n                            \n                            \n                                \n                                    证件后 6 位\n                                \n                                \n                                    \n                                \n                            \n                            \n                                \n                                    \n                                    滑动验证\n                                \n                                \n                            \n                            \n                                \n                                    \n                                    验证码\n                                \n                                \n                                    \n                                \n                                \n                                    \n                                        获取验证码\n                                    \n                                \n                            \n                            \n                                \n                                \n                                    确定\n                                \n                            \n                        \n                    \n                \n            \n        \n    ",
+      "                           \n                                                手机验证码\n                                                \n                                            \n                                        \n                                        \n                                            \n                                        \n                                        \n                                            \n                                                获取验证码\n                                                    \n                                                \n                                            \n                                        \n                                    \n\n                                    \n                                        　\n                                        \n                                            \n                                                \n                                                    放弃修改\n                                                    \n                                                \n                                            \n                                            \n                                                确定\n                                                    \n                                                \n                                            \n                                        \n                                    \n                                \n                            \n                        \n                    \n                \n            \n        \n    ",
+      "\n        \n            \n                \n                    \n                        \n                            \n                                \n                                隐私政策\n                            \n                            尊敬的用户，欢迎使用山东航空官方网站！\n                            为了保障您的个人信息权益，请在使用我们网站前仔细阅读我们的\n                                隐私条款 和\n                                Cookies声明 。\n                            \n                            \n                                我们深知个人隐私的重要性，我们将按法律法规要求，采取相应安全保护措施，尽力保护您的个人信息安全可控。我们希望通过本隐私政策向您说明我们在您使用我们产品与/或服务时如何收集、使用、保存、共享和转让这些信息，以及我们为您提供的访问、更新、删除和保护这些信息的方式。\n                            \n                            我已阅读并同意\n                        \n                    \n                \n            \n            \n        \n\n\n        \n    "
+    ]
+  },
+  {
+    "id": "caac-25",
+    "url": "https://www.sichuanair.com/",
+    "inputs": [
+      {
+        "id": "",
+        "name": "",
+        "placeholder": "",
+        "type": "button",
+        "value": "选择"
+      },
+      {
+        "id": "flightoneway",
+        "name": "flightType",
+        "placeholder": "",
+        "type": "radio",
+        "value": "oneway"
+      },
+      {
+        "id": "flightTypeXqdsb",
+        "name": "flightType",
+        "placeholder": "",
+        "type": "radio",
+        "value": "return"
+      },
+      {
+        "id": "",
+        "name": "flightType",
+        "placeholder": "",
+        "type": "radio",
+        "value": "multi-city"
+      },
+      {
+        "id": "Search-OriginDestinationInformation-Origin-location_input_location",
+        "name": "Search/OriginDestinationInformation/Origin/location_input",
+        "placeholder": "",
+        "type": "text",
+        "value": ""
+      },
+      {
+        "id": "Search-OriginDestinationInformation-Destination-location_input_location",
+        "name": "Search/OriginDestinationInformation/Destination/location_input",
+        "placeholder": "",
+        "type": "text",
+        "value": ""
+      },
+      {
+        "id": "dp1793334351433",
+        "name": "Search/DateInformation/departDate_display",
+        "placeholder": "",
+        "type": "text",
+        "value": "2026-10-31"
+      },
+      {
+        "id": "dp1793334351435",
+        "name": "Search/DateInformation/returnDate_display",
+        "placeholder": "",
+        "type": "text",
+        "value": "2026-11-02"
+      },
+      {
+        "id": "",
+        "name": "Search/promotionCode",
+        "placeholder": "请输入优惠码",
+        "type": "text",
+        "value": ""
+      }
+    ],
+    "links": [
+      {
+        "text": "运输总条件",
+        "href": "https://www.sichuanair.com/flight-reservation/tickets-transportation.html"
+      },
+      {
+        "text": "航班动态",
+        "href": "https://flights.sichuanair.com/3uair/ibe/common/queryFlightStatus.do"
+      },
+      {
+        "text": "提前选座",
+        "href": "https://flights.sichuanair.com/3uair/ibe/common/allChannell.do"
+      },
+      {
+        "text": "改期/退票",
+        "href": "https://flights.sichuanair.com/3uair/ibe/air/allChannelTktVoluntary.do"
+      },
+      {
+        "text": "里程兑票",
+        "href": "https://flights.sichuanair.com/3uair/ibe/common/flightSearch.do?Dst=FlightRedemption"
+      },
+      {
+        "text": "行李购买",
+        "href": "https://flights.sichuanair.com/3uair/ibe/common/allChannellBaggage.do"
+      },
+      {
+        "text": "MORE>>",
+        "href": "https://www.sichuanair.com/airfare-products/#ticket"
+      },
+      {
+        "text": "行李购买，8折起",
+        "href": "https://flights.sichuanair.com/3uair/ibe/common/allChannellBaggage.do"
+      },
+      {
+        "text": "付费座位提前选",
+        "href": "https://flights.sichuanair.com/3uair/ibe/common/allChannell.do"
+      },
+      {
+        "text": "运输总条件",
+        "href": "https://www.sichuanair.com/tickets-transportation/"
+      },
+      {
+        "text": "客票规定",
+        "href": "https://www.sichuanair.com/tickets-ticket-provisions/"
+      },
+      {
+        "text": "邮箱",
+        "href": "http://news.sichuanair.com/x/plugin/?pName=subscribe&MIDRID=S7Y1AQAA52&pLang=cn&Z=222349999&source=website"
+      }
+    ],
+    "buttons": [
+      {
+        "text": "选择",
+        "id": "",
+        "cls": "btn-w"
+      }
+    ],
+    "dialogs": []
+  },
+  {
+    "id": "caac-26",
+    "url": "https://www.okair.net/#/",
+    "inputs": [
+      {
+        "id": "flightStutsDepcitypicker",
+        "name": "flightStutsDepcitypicker",
+        "placeholder": "请选择出发城市",
+        "type": "text",
+        "value": ""
+      },
+      {
+        "id": "flightStutsArrcitypicker",
+        "name": "flightStutsArrcitypicker",
+        "placeholder": "请选择到达城市",
+        "type": "text",
+        "value": ""
+      },
+      {
+        "id": "lineDate",
+        "name": "lineDate",
+        "placeholder": "yyyy-mm-dd",
+        "type": "text",
+        "value": "2026-10-30"
+      }
+    ],
+    "links": [
+      {
+        "text": "积分兑换免票",
+        "href": "https://www.okair.net/ffp.html#/exchangeTicket/Ticket"
+      },
+      {
+        "text": "关于航班超售致旅客的公开信",
+        "href": "https://www.okair.net/info.html#/helpGuide/overbooking"
+      }
+    ],
+    "buttons": [],
+    "dialogs": []
+  },
+  {
+    "id": "caac-27",
+    "url": "https://www.cdal.com.cn/stdair/homepage",
+    "inputs": [
+      {
+        "id": "trpDeparture",
+        "name": "trpDeparture",
+        "placeholder": "出发城市",
+        "type": "text",
+        "value": ""
+      },
+      {
+        "id": "trpArrival",
+        "name": "trpArrival",
+        "placeholder": "到达城市",
+        "type": "text",
+        "value": ""
+      }
+    ],
+    "links": [
+      {
+        "text": "旅客投诉与建议",
+        "href": "https://www.cdal.com.cn/stdair/foot/flightFeedback"
+      },
+      {
+        "text": "航班意见反馈",
+        "href": "https://www.cdal.com.cn/stdair/foot/flightFeedback"
+      }
+    ],
+    "buttons": [],
+    "dialogs": [
+      "\n    \n        \n            \n                \n            \n        \n    \n",
+      "\n    \n        \n            \n                \n                    ×\n                \n            \n            \n                退出登录…\n                您确定要退出当前账号的登录状态吗？\n            \n            \n                \n                    \n                        确定\n                            \n                    \n                    \n                        取消\n                    \n                \n            \n        \n    \n",
+      "搭乘成都航航班，累积南航奖励里程\n\n自2024年6月28日起，南航会员乘坐成都航空指定航班也可以累积奖励里程啦。具体累积标准见购票界面。\n\n\n\n\n加入南航会员\n继续购票",
+      "\n    \n        \n            \n                \n                    ×\n                军警消防残客票须知\n            \n            \n                \n\n                     1.选择购买类型为革命伤残军人/因公致残人民警察/残疾消防救援人员专属客票，简称军/警/消防残客票时需提供有效身份证件信息，以及由国家统一制发的、与乘机人有效身份证件相符的残疾军人（警察/消防救援）证件信息。\n                     2.军/警/消防残客票每张订单仅限一位乘机人，如您需要购买多张客票，请分别预订。\n                     3.军/警/消防残客票无法办理线上值机和自助值机，请您预留充足的办理时间，于乘机当日在机场办理乘机登机手续，并提供有效身份证件及残疾军人（警察/消防救援）证件，确保与购票时提供的信息保持一致。如您提供的证件信息与购票时的信息不一致，我们有权拒绝您登机。\n                     4.如您自愿申请客票变更，请您联系官方客服热线956028 / 028-66668888。\n                     5.您具有提供真实信息的法律义务，伪造、冒充军人、警察、消防救援人员身份属于严重违法行为。\n                     6.我们将为您提供军/警/消防残客票和普通折扣客票中价格更优惠者供您选择。\n                    我已理解并阅读购票说明\n                \n            \n            \n                \n                    \n                        确 定\n                    \n                \n            \n        \n    \n",
+      "                                                                                                    ×                                                                                                                    "
+    ]
+  },
+  {
+    "id": "caac-28",
+    "url": "https://www.ch.com/",
+    "inputs": [
+      {
+        "id": "",
+        "name": "FlightType",
+        "placeholder": "",
+        "type": "text",
+        "value": "单程"
+      },
+      {
+        "id": "",
+        "name": "OriCity",
+        "placeholder": "中文/拼音",
+        "type": "text",
+        "value": "西安"
+      },
+      {
+        "id": "",
+        "name": "DestCity",
+        "placeholder": "中文/拼音",
+        "type": "text",
+        "value": ""
+      },
+      {
+        "id": "",
+        "name": "FDate",
+        "placeholder": "",
+        "type": "text",
+        "value": "2026-11-01"
+      },
+      {
+        "id": "",
+        "name": "RetFDate",
+        "placeholder": "",
+        "type": "text",
+        "value": "2026-11-03"
+      },
+      {
+        "id": "",
+        "name": "TotalNum",
+        "placeholder": "",
+        "type": "text",
+        "value": "1人"
+      },
+      {
+        "id": "",
+        "name": "RecCity",
+        "placeholder": "",
+        "type": "text",
+        "value": "西安"
+      },
+      {
+        "id": "SearchText",
+        "name": "SearchText",
+        "placeholder": "有问题？立即询问",
+        "type": "text",
+        "value": ""
+      }
+    ],
+    "links": [
+      {
+        "text": "机票退改",
+        "href": "https://flights.ch.com/Service/RefundTicket"
+      },
+      {
+        "text": "¥290\n\n西安\n上海\n立抢",
+        "href": "https://flights.ch.com/SIA-SHA.html?FDate=2026-11-25&SType=0&MType=0&intcmp=homepage_recommend_hx_SIA-SHA"
+      },
+      {
+        "text": "¥310\n\n西安\n揭阳(潮汕)\n立抢",
+        "href": "https://flights.ch.com/SIA-SWA.html?FDate=2026-12-28&SType=0&MType=0&intcmp=homepage_recommend_hx_SIA-SWA"
+      },
+      {
+        "text": "含税价¥682\n\n西安\n曼谷\n立抢",
+        "href": "https://flights.ch.com/SIA-BKK.html?FDate=2026-11-23&SType=0&MType=0&intcmp=homepage_recommend_hx_SIA-BKK"
+      },
+      {
+        "text": "¥270\n\n西安\n宁波\n立抢",
+        "href": "https://flights.ch.com/SIA-NGB.html?FDate=2026-12-15&SType=0&MType=0&intcmp=homepage_recommend_hx_SIA-NGB"
+      },
+      {
+        "text": "含税价¥482\n\n西安\n清迈\n立抢",
+        "href": "https://flights.ch.com/SIA-CNX.html?FDate=2026-11-01&SType=0&MType=0&intcmp=homepage_recommend_hx_SIA-CNX"
+      },
+      {
+        "text": "¥480\n\n西安\n深圳\n立抢",
+        "href": "https://flights.ch.com/SIA-SZX.html?FDate=2026-12-01&SType=0&MType=0&intcmp=homepage_recommend_hx_SIA-SZX"
+      },
+      {
+        "text": "¥350\n\n西安\n伊宁\n立抢",
+        "href": "https://flights.ch.com/SIA-YIN.html?FDate=2026-11-16&SType=0&MType=0&intcmp=homepage_recommend_hx_SIA-YIN"
+      },
+      {
+        "text": "¥200\n\n西安\n南昌\n立抢",
+        "href": "https://flights.ch.com/SIA-KHN.html?FDate=2026-11-25&SType=0&MType=0&intcmp=homepage_recommend_hx_SIA-KHN"
+      },
+      {
+        "text": "¥320\n\n西安\n沈阳\n立抢",
+        "href": "https://flights.ch.com/SIA-SHE.html?FDate=2026-12-15&SType=0&MType=0&intcmp=homepage_recommend_hx_SIA-SHE"
+      },
+      {
+        "text": "¥300\n\n西安\n乌鲁木齐\n立抢",
+        "href": "https://flights.ch.com/SIA-URC.html?FDate=2026-10-31&SType=0&MType=0&intcmp=homepage_recommend_hx_SIA-URC"
+      },
+      {
+        "text": "¥200\n\n西安\n喀什\n立抢",
+        "href": "https://flights.ch.com/SIA-KHG.html?FDate=2026-11-04&SType=0&MType=0&intcmp=homepage_recommend_hx_SIA-KHG"
+      },
+      {
+        "text": "含税价¥560\n\n西安\n金边\n立抢",
+        "href": "https://flights.ch.com/SIA-KTI.html?FDate=2026-11-14&SType=0&MType=0&intcmp=homepage_recommend_hx_SIA-KTI"
+      },
+      {
+        "text": "升级尊享飞",
+        "href": "https://flights.ch.com/spring-plus?intcmp=yx_homepageshengji_pc_gengbangtiyan_Homemiddle1"
+      },
+      {
+        "text": "托运行李",
+        "href": "https://flights.ch.com/baggage-rule"
+      },
+      {
+        "text": "机上餐饮",
+        "href": "https://flights.ch.com/online-meals"
+      },
+      {
+        "text": "提前选座",
+        "href": "https://flights.ch.com/choose-seat"
+      },
+      {
+        "text": "保险",
+        "href": "https://flights.ch.com/insurance?intcmp=240730_yy_ar_baoxian"
+      },
+      {
+        "text": "航班动态",
+        "href": "https://flights.ch.com/flight-info"
+      },
+      {
+        "text": "客票验真",
+        "href": "https://flights.ch.com/show-check-ticket"
+      },
+      {
+        "text": "机票退改",
+        "href": "https://flights.ch.com/Service/RefundTicket"
+      },
+      {
+        "text": "申请退票",
+        "href": "https://account.ch.com/order/flights?t_id=3&m_id=1"
+      },
+      {
+        "text": "客票验真",
+        "href": "https://flights.ch.com/show-check-ticket"
+      },
+      {
+        "text": "航班动态",
+        "href": "https://flights.ch.com/flight-info"
+      },
+      {
+        "text": "网上值机",
+        "href": "https://account.ch.com/order/flights?t_id=3&m_id=1"
+      },
+      {
+        "text": "保险验真",
+        "href": "https://flights.ch.com/insurance"
+      },
+      {
+        "text": "邮件订阅",
+        "href": "https://www.ch.com/email-subscribe"
+      },
+      {
+        "text": "机票退改",
+        "href": "https://flights.ch.com/Service/RefundTicket"
+      },
+      {
+        "text": "春航运输总条件（9C）",
+        "href": "https://flights.ch.com/general-conditions"
+      },
+      {
+        "text": "春秋日本国内线航空运输总条件（IJ）",
+        "href": "https://flights.ch.com/ij-general-conditions?t_id=0"
+      },
+      {
+        "text": "春秋日本国际线运输总条件（IJ）",
+        "href": "https://flights.ch.com/ijint-general-conditions?t_id=1"
+      },
+      {
+        "text": "春秋航空日本",
+        "href": "https://flights.ch.com/springjapan"
+      },
+      {
+        "text": "旅客须知",
+        "href": "https://flights.ch.com/notice-travelers"
+      },
+      {
+        "text": "特殊旅客运输说明",
+        "href": "https://flights.ch.com/special-passenger"
+      },
+      {
+        "text": "行李运输须知",
+        "href": "https://flights.ch.com/notice-baggagetransport"
+      },
+      {
+        "text": "机场指南",
+        "href": "https://flights.ch.com/transact-checkin-procedure-deadline"
+      },
+      {
+        "text": "乘机安全提示",
+        "href": "https://flights.ch.com/secure-alert"
+      },
+      {
+        "text": "春秋航空机上延误应急预案",
+        "href": "https://flights.ch.com/Delay-On-Plan"
+      },
+      {
+        "text": "春秋日本机上延误应急预案（IJ）",
+        "href": "https://flights.ch.com/emergency-plan-ij"
+      },
+      {
+        "text": "春秋航空超售公示说明",
+        "href": "https://flights.ch.com/booking-publicity"
+      },
+      {
+        "text": "其他运输说明",
+        "href": "https://flights.ch.com/other-provisions"
+      },
+      {
+        "text": "空铁快线旅客须知",
+        "href": "https://flights.ch.com/notice-airline-and-train"
+      },
+      {
+        "text": "了解网上订餐",
+        "href": "https://flights.ch.com/online-meals"
+      },
+      {
+        "text": "了解办理逾重行李",
+        "href": "https://flights.ch.com/baggage-rule"
+      },
+      {
+        "text": "航线网络",
+        "href": "https://flights.ch.com/flight-line"
+      },
+      {
+        "text": "春秋航空营业部",
+        "href": "https://flights.ch.com/business-place"
+      },
+      {
+        "text": "航班信息",
+        "href": "https://flights.ch.com/flight-date"
+      },
+      {
+        "text": "城市出发机票",
+        "href": "https://www.ch.com/sitemap/flights-city-from.html"
+      },
+      {
+        "text": "行李托运",
+        "href": "https://flights.ch.com/baggage-rule"
+      },
+      {
+        "text": "飞机托运行李规定",
+        "href": "https://flights.ch.com/baggage-rule/"
+      },
+      {
+        "text": "寒假机票",
+        "href": "https://flights.ch.com/jieri-hanjia/"
+      },
+      {
+        "text": "上海到乌兰巴托特价机票",
+        "href": "https://flights.ch.com/SHA-ULN.html?FDate=&MType=0&SType=0&IsNew=1"
+      },
+      {
+        "text": "航班动态查询",
+        "href": "https://flights.ch.com/flight-info/"
+      },
+      {
+        "text": "打折机票价格",
+        "href": "https://flights.ch.com/"
+      },
+      {
+        "text": "机场航班动态",
+        "href": "https://www.ch.com/sitemap/flights-info-airport.html"
+      },
+      {
+        "text": "航班查询",
+        "href": "https://flights.ch.com/flight-date"
+      },
+      {
+        "text": "泰国机票",
+        "href": "https://flights.ch.com/Thailand.html"
+      },
+      {
+        "text": "城市到达机票",
+        "href": "https://www.ch.com/sitemap/flights-city-to.html"
+      },
+      {
+        "text": "机票改签",
+        "href": "https://flights.ch.com/Service/RefundTicket"
+      },
+      {
+        "text": "往返机票",
+        "href": "https://www.ch.com/sitemap/flights-city-to-city-round.html"
+      },
+      {
+        "text": "机票查询",
+        "href": "https://flights.ch.com/"
+      },
+      {
+        "text": "航班查询时刻表",
+        "href": "https://flights.ch.com/flight-date"
+      },
+      {
+        "text": "日本机票",
+        "href": "https://flights.ch.com/Japan.html"
+      },
+      {
+        "text": "城市航班动态",
+        "href": "https://www.ch.com/sitemap/flights-info-city.html"
+      },
+      {
+        "text": "航班",
+        "href": "https://flights.ch.com/flight-date"
+      },
+      {
+        "text": "台湾机票",
+        "href": "https://flights.ch.com/Taiwan.html"
+      },
+      {
+        "text": "航班号航班动态",
+        "href": "https://www.ch.com/sitemap/flights-info-num.html"
+      },
+      {
+        "text": "城市特价机票",
+        "href": "https://www.ch.com/sitemap/flights-city-to-city.html"
+      },
+      {
+        "text": "韩国机票",
+        "href": "https://flights.ch.com/Korea.html"
+      },
+      {
+        "text": "城市机票查询",
+        "href": "https://www.ch.com/sitemap/flights-city-to-city-select.html"
+      },
+      {
+        "text": "航班动态",
+        "href": "https://flights.ch.com/flight-info/"
+      },
+      {
+        "text": "城市机票",
+        "href": "https://www.ch.com/sitemap/flights-city.html"
+      },
+      {
+        "text": "国内机票",
+        "href": "https://flights.ch.com/China.html"
+      },
+      {
+        "text": "机场大全",
+        "href": "https://flights.ch.com/airports/"
+      },
+      {
+        "text": "普吉机票",
+        "href": "https://flights.ch.com/HKT.html"
+      },
+      {
+        "text": "上海到曼谷特价机票",
+        "href": "https://flights.ch.com/SHA-BKK/"
+      },
+      {
+        "text": "东营机票",
+        "href": "https://flights.ch.com/DOY.html"
+      },
+      {
+        "text": "长沙机票",
+        "href": "https://flights.ch.com/CSX.html"
+      },
+      {
+        "text": "合肥机票",
+        "href": "https://flights.ch.com/HFE.html"
+      },
+      {
+        "text": "曼谷机票",
+        "href": "https://flights.ch.com/BKK.html"
+      }
+    ],
+    "buttons": [
+      {
+        "text": "提问",
+        "id": "",
+        "cls": "bn btn-ask"
+      }
+    ],
+    "dialogs": []
+  },
+  {
+    "id": "caac-29",
+    "url": "https://www.chinaexpressair.com/b2cweb/flightQuery",
+    "inputs": [
+      {
+        "id": "departureCityInput",
+        "name": "",
+        "placeholder": "",
+        "type": "text",
+        "value": ""
+      },
+      {
+        "id": "arrivalCityInput",
+        "name": "",
+        "placeholder": "",
+        "type": "text",
+        "value": ""
+      }
+    ],
+    "links": [],
+    "buttons": [],
+    "dialogs": []
+  },
+  {
+    "id": "caac-31",
+    "url": "https://www.juneyaoair.com/home",
+    "inputs": [
+      {
+        "id": "",
+        "name": "",
+        "placeholder": "",
+        "type": "checkbox",
+        "value": "CHD"
+      },
+      {
+        "id": "",
+        "name": "",
+        "placeholder": "",
+        "type": "checkbox",
+        "value": "INF"
+      },
+      {
+        "id": "inputId",
+        "name": "",
+        "placeholder": "",
+        "type": "text",
+        "value": "上海"
+      },
+      {
+        "id": "inputId",
+        "name": "",
+        "placeholder": "",
+        "type": "text",
+        "value": "北京"
+      },
+      {
+        "id": "inputId",
+        "name": "",
+        "placeholder": "",
+        "type": "text",
+        "value": "2026年10月31日"
+      }
+    ],
+    "links": [],
+    "buttons": [],
+    "dialogs": []
+  },
+  {
+    "id": "caac-33",
+    "url": "https://www.westair.cn/",
+    "inputs": [
+      {
+        "id": "rc_select_0",
+        "name": "",
+        "placeholder": "",
+        "type": "search",
+        "value": ""
+      },
+      {
+        "id": "",
+        "name": "",
+        "placeholder": "",
+        "type": "checkbox",
+        "value": "CHD"
+      },
+      {
+        "id": "",
+        "name": "",
+        "placeholder": "",
+        "type": "checkbox",
+        "value": "INF"
+      },
+      {
+        "id": "",
+        "name": "",
+        "placeholder": "出发城市",
+        "type": "text",
+        "value": ""
+      },
+      {
+        "id": "",
+        "name": "",
+        "placeholder": "到达城市",
+        "type": "text",
+        "value": ""
+      },
+      {
+        "id": "",
+        "name": "",
+        "placeholder": "出发日期",
+        "type": "text",
+        "value": "2026-10-31"
+      },
+      {
+        "id": "",
+        "name": "",
+        "placeholder": "返程日期",
+        "type": "text",
+        "value": ""
+      }
+    ],
+    "links": [
+      {
+        "text": "",
+        "href": "http://p.westair.cn/apssale/toNonFlight.do?anc_code=WEST_XHDZ"
+      },
+      {
+        "text": "",
+        "href": "https://irr.hnair.com/mobile/changeTicket/pc/index#/?cc=PN"
+      },
+      {
+        "text": "",
+        "href": "https://ffp.hnair.com/FFPClub/redeemTicket/user/searchView"
+      }
+    ],
+    "buttons": [
+      {
+        "text": "",
+        "id": "rc-tabs-1-more",
+        "cls": "ant-tabs-nav-more"
+      },
+      {
+        "text": "搜 索",
+        "id": "",
+        "cls": "ant-btn search-btn ant-btn-primary ant-btn-lg"
+      },
+      {
+        "text": "",
+        "id": "",
+        "cls": "ant-modal-close"
+      }
+    ],
+    "dialogs": [
+      ""
+    ]
+  },
+  {
+    "id": "caac-34",
+    "url": "https://www.hbhk.com.cn/",
+    "inputs": [
+      {
+        "id": "",
+        "name": "",
+        "placeholder": "",
+        "type": "text",
+        "value": ""
+      },
+      {
+        "id": "",
+        "name": "",
+        "placeholder": "",
+        "type": "text",
+        "value": ""
+      },
+      {
+        "id": "",
+        "name": "",
+        "placeholder": "",
+        "type": "text",
+        "value": ""
+      }
+    ],
+    "links": [],
+    "buttons": [],
+    "dialogs": []
+  },
+  {
+    "id": "caac-35",
+    "url": "https://www.airkunming.com/#/",
+    "inputs": [
+      {
+        "id": "depCode",
+        "name": "",
+        "placeholder": "",
+        "type": "text",
+        "value": ""
+      },
+      {
+        "id": "arrCode",
+        "name": "",
+        "placeholder": "",
+        "type": "text",
+        "value": ""
+      },
+      {
+        "id": "depDate",
+        "name": "",
+        "placeholder": "",
+        "type": "text",
+        "value": ""
+      }
+    ],
+    "links": [
+      {
+        "text": "套票专区",
+        "href": "https://www.airkunming.com/#/ticket/buy"
+      },
+      {
+        "text": "",
+        "href": "https://www.airkunming.com/#/ticket/spd"
+      },
+      {
+        "text": "航班动态",
+        "href": "https://www.airkunming.com/#/flight/dynamic/0"
+      },
+      {
+        "text": "航班变动证明",
+        "href": "https://www.airkunming.com/#/flight/delay/index"
+      }
+    ],
+    "buttons": [
+      {
+        "text": "1",
+        "id": "",
+        "cls": ""
+      },
+      {
+        "text": "2",
+        "id": "",
+        "cls": ""
+      },
+      {
+        "text": "搜索航班",
+        "id": "",
+        "cls": "ant-btn btn-search ant-btn-primary"
+      },
+      {
+        "text": "1",
+        "id": "",
+        "cls": ""
+      },
+      {
+        "text": "2",
+        "id": "",
+        "cls": ""
+      },
+      {
+        "text": "3",
+        "id": "",
+        "cls": ""
+      }
+    ],
+    "dialogs": []
+  },
+  {
+    "id": "caac-39",
+    "url": "https://www.airxizang.com/stdair/homepage",
+    "inputs": [
+      {
+        "id": "",
+        "name": "route-type",
+        "placeholder": "",
+        "type": "radio",
+        "value": "oneway"
+      },
+      {
+        "id": "",
+        "name": "route-type",
+        "placeholder": "",
+        "type": "radio",
+        "value": "return"
+      },
+      {
+        "id": "trpDeparture",
+        "name": "trpDeparture",
+        "placeholder": "出发城市",
+        "type": "text",
+        "value": ""
+      },
+      {
+        "id": "trpArrival",
+        "name": "trpArrival",
+        "placeholder": "到达城市",
+        "type": "text",
+        "value": ""
+      },
+      {
+        "id": "DepartDateInput",
+        "name": "DepartDateInput",
+        "placeholder": "出发日期",
+        "type": "text",
+        "value": "2026-10-31"
+      },
+      {
+        "id": "return-date",
+        "name": "ReturnDateInput",
+        "placeholder": "返回日期",
+        "type": "text",
+        "value": ""
+      }
+    ],
+    "links": [],
+    "buttons": [
+      {
+        "text": "已阅读并同意",
+        "id": "",
+        "cls": "btn btn-default"
+      }
+    ],
+    "dialogs": [
+      "\n    \n        \n            \n                \n            \n        \n    \n",
+      "\n            \n                \n                    \n                        \n                            ×\n                        \n                    \n                    \n                        退出登录…\n                        您确定要退出当前账号的登录状态吗？\n                    \n                    \n                        \n                            \n                                确定\n                                \n                            \n                            \n                                取消\n                            \n                        \n                    \n                \n            \n        ",
+      "隐私政策\n\n西藏航空有限公司（以下简称为“西藏航”或“我们”）承诺尊重并保护您的个人隐私权利。为了保障您的个人信息权益，请您在使用我们的服务之前，务必仔细阅读我们的 《隐私政策》。\n\n\n\n\n本隐私声明将帮助您了解以下内容：\n\n一、我们收集的个人信息以及原因\n\n二、我们与谁分享您的个人信息？\n\n三、我们使用您个人信息的规则\n\n四、处理个人信息的法律依据\n\n五、 Cookies以及同类技术\n\n六、我们如何保障您的个人信息安全\n\n七、国际数据传输\n\n八、数据保留\n\n九、您的数据保护权利\n\n十、《隐私声明》的更新\n\n十一、如何联系我们\n\n已阅读并同意",
+      "\n    \n        \n            \n                \n                    ×\n                \n            \n            \n                尊敬的旅客：\n                \n            \n            \n                \n                    \n                        \n                    \n                \n            \n        \n    \n"
+    ]
+  },
+  {
+    "id": "caac-42",
+    "url": "https://www.loongair.cn/#/web/home",
+    "inputs": [
+      {
+        "id": "",
+        "name": "",
+        "placeholder": "请选择城市",
+        "type": "text",
+        "value": ""
+      },
+      {
+        "id": "",
+        "name": "",
+        "placeholder": "请选择城市",
+        "type": "text",
+        "value": ""
+      },
+      {
+        "id": "",
+        "name": "",
+        "placeholder": "请选择去程日期",
+        "type": "text",
+        "value": ""
+      },
+      {
+        "id": "",
+        "name": "",
+        "placeholder": "",
+        "type": "text",
+        "value": ""
+      }
+    ],
+    "links": [],
+    "buttons": [
+      {
+        "text": "查询预订",
+        "id": "",
+        "cls": "el-button hero_primary_btn el-button--primary"
+      },
+      {
+        "text": "",
+        "id": "",
+        "cls": "arrow_btn arrow_prev"
+      },
+      {
+        "text": "",
+        "id": "",
+        "cls": "arrow_btn arrow_next"
+      },
+      {
+        "text": "",
+        "id": "",
+        "cls": "side_btn"
+      },
+      {
+        "text": "",
+        "id": "",
+        "cls": "side_btn"
+      }
+    ],
+    "dialogs": [
+      "报销凭证",
+      ""
+    ]
+  },
+  {
+    "id": "caac-45",
+    "url": "https://www.qdairlines.com/index",
+    "inputs": [
+      {
+        "id": "",
+        "name": "",
+        "placeholder": "",
+        "type": "radio",
+        "value": "true"
+      },
+      {
+        "id": "",
+        "name": "",
+        "placeholder": "",
+        "type": "radio",
+        "value": "false"
+      },
+      {
+        "id": "orig",
+        "name": "orig",
+        "placeholder": "出发(中文/拼音)",
+        "type": "text",
+        "value": ""
+      },
+      {
+        "id": "dest",
+        "name": "dest",
+        "placeholder": "到达(中文/拼音)",
+        "type": "text",
+        "value": ""
+      },
+      {
+        "id": "",
+        "name": "",
+        "placeholder": "去程日期(yyyy-mm-dd)",
+        "type": "text",
+        "value": "2026-11-01"
+      },
+      {
+        "id": "",
+        "name": "",
+        "placeholder": "返程日期(yyyy-mm-dd)",
+        "type": "text",
+        "value": ""
+      },
+      {
+        "id": "",
+        "name": "",
+        "placeholder": "",
+        "type": "radio",
+        "value": "CASH"
+      },
+      {
+        "id": "",
+        "name": "",
+        "placeholder": "",
+        "type": "radio",
+        "value": "INTEGRAL"
+      }
+    ],
+    "links": [],
+    "buttons": [
+      {
+        "text": "航班查询",
+        "id": "",
+        "cls": "search_btn"
+      },
+      {
+        "text": "",
+        "id": "",
+        "cls": "el-carousel__button"
+      },
+      {
+        "text": "",
+        "id": "",
+        "cls": "el-carousel__button"
+      },
+      {
+        "text": "",
+        "id": "",
+        "cls": "el-carousel__button"
+      },
+      {
+        "text": "",
+        "id": "",
+        "cls": "el-carousel__button"
+      },
+      {
+        "text": "",
+        "id": "",
+        "cls": "el-carousel__button"
+      },
+      {
+        "text": "同意",
+        "id": "",
+        "cls": "search_btn cursor-pointer privacy-btn-disabled"
+      },
+      {
+        "text": "拒绝",
+        "id": "",
+        "cls": "reject_btn cursor-pointer"
+      }
+    ],
+    "dialogs": [
+      "",
+      "",
+      "选择乘机人数量取 消确 定",
+      "选择乘机人数量取 消确 定",
+      "",
+      "隐私政策\n\n尊敬的用户，欢迎使用青岛航空官方网站！\n\n为了保障您的个人信息权益，请在使用我们网站前仔细阅读我们的 青岛航空客户隐私政策 和 客户Cookie声明 。\n\n我们深知个人隐私的重要性，我们将按法律法规要求，采取相应安全保护措施，尽力保护您的个人信息安全可控。我们希望通过本隐私政策向您说明我们在您使用我们产品与/或服务时如何收集、使用、保存、共享和转让这些信息，以及我们为您提供的访问、更新、删除和保护这些信息的方式。\n\n我已阅读并同意 《青岛航空客户隐私政策》 更新于2026年7月21日\n我已阅读并同意 《客户Cookie声明》 更新于2026年6月10日\n同意\n拒绝",
+      "",
+      ""
+    ]
+  },
+  {
+    "id": "caac-47",
+    "url": "https://www.urumqi-air.com/",
+    "inputs": [
+      {
+        "id": "",
+        "name": "radioGroup",
+        "placeholder": "",
+        "type": "radio",
+        "value": "ONEWAY"
+      },
+      {
+        "id": "",
+        "name": "radioGroup",
+        "placeholder": "",
+        "type": "radio",
+        "value": "ROUNDTRIP"
+      },
+      {
+        "id": "",
+        "name": "",
+        "placeholder": "出发城市",
+        "type": "text",
+        "value": "乌鲁木齐"
+      },
+      {
+        "id": "",
+        "name": "",
+        "placeholder": "到达城市",
+        "type": "text",
+        "value": ""
+      },
+      {
+        "id": "",
+        "name": "",
+        "placeholder": "出发日期",
+        "type": "text",
+        "value": "2026-10-30"
+      },
+      {
+        "id": "",
+        "name": "",
+        "placeholder": "",
+        "type": "text",
+        "value": "1成人，0儿童，0婴儿"
+      }
+    ],
+    "links": [
+      {
+        "text": "成 都\n乌鲁木齐=成都天府",
+        "href": "https://www.urumqi-air.com/micro/main/flight/search?type=ONEWAY&isInternational=false&ADT=1&depCode=URC&arrCode=CTU&depType=city&arrType"
+      },
+      {
+        "text": "广 州\n乌鲁木齐=广州",
+        "href": "https://www.urumqi-air.com/micro/main/flight/search?type=ONEWAY&isInternational=false&ADT=1&depCode=URC&arrCode=CAN&depType=city&arrType"
+      },
+      {
+        "text": "海 口\n乌鲁木齐=海口",
+        "href": "https://www.urumqi-air.com/micro/main/flight/search?type=ONEWAY&isInternational=false&ADT=1&depCode=URC&arrCode=HAK&depType=city&arrType"
+      },
+      {
+        "text": "上 海\n乌鲁木齐=上海",
+        "href": "https://www.urumqi-air.com/micro/main/flight/search?type=ONEWAY&isInternational=false&ADT=1&depCode=URC&arrCode=SHA&depType=city&arrType"
+      },
+      {
+        "text": "航班动态",
+        "href": "https://www.urumqi-air.com/micro/main/flight/status"
+      }
+    ],
+    "buttons": [
+      {
+        "text": "1",
+        "id": "",
+        "cls": ""
+      },
+      {
+        "text": "2",
+        "id": "",
+        "cls": ""
+      },
+      {
+        "text": "3",
+        "id": "",
+        "cls": ""
+      },
+      {
+        "text": "4",
+        "id": "",
+        "cls": ""
+      },
+      {
+        "text": "5",
+        "id": "",
+        "cls": ""
+      },
+      {
+        "text": "6",
+        "id": "",
+        "cls": ""
+      },
+      {
+        "text": "7",
+        "id": "",
+        "cls": ""
+      },
+      {
+        "text": "8",
+        "id": "",
+        "cls": ""
+      },
+      {
+        "text": "9",
+        "id": "",
+        "cls": ""
+      },
+      {
+        "text": "机 票",
+        "id": "",
+        "cls": "ant-btn ant-btn-round menu-button active"
+      },
+      {
+        "text": "军警残购票",
+        "id": "",
+        "cls": "ant-btn ant-btn-round menu-button"
+      },
+      {
+        "text": "开始预订",
+        "id": "",
+        "cls": "btn-search ant-btn ant-btn-primary ant-btn-lg ant-btn-block"
+      },
+      {
+        "text": "1",
+        "id": "",
+        "cls": ""
+      },
+      {
+        "text": "知道了",
+        "id": "",
+        "cls": "antd-btn css-1qx93l9 antd-btn-primary antd-btn-color-primary antd-btn-variant-solid"
+      }
+    ],
+    "dialogs": [
+      "温馨提示\n\n尊敬的旅客朋友们：\n      乌鲁木齐航空提醒您提高短信诈骗防范意识，请在收到航班取消、航班变动、客票退改签等信息时，通过乌鲁木齐航空官网（https://www.urumqi-air.com/）在线客服或乌鲁木齐航空客服热线95334等正规渠道进行信息核实，切勿轻信陌生电话、短信，提高警惕，谨防诈骗。\n\n      自2026年6月23日起，每名旅客最多可携带2个充电宝，额定能量超过100Wh不超过160Wh时，需经过承运人批准后方可携带。禁止携带无3C标识、3C标识不清晰、已被召回型号或批次的充电宝乘坐境内航班。\n\n      在航空器上强占座位、辱骂殴打他人、妨碍机组正常履行职责、霸占航空器、破坏机上设施设备等行为，扰乱公共秩序、危害公共安全、构成违反治安管理行为的，公安机关将依法进行处罚；情节严重的，可能被追究刑事责任。请您遵规守法、文明乘机。\n\n      每周二20:00，海南航空APP，最高奖项现金48888元。凡指定时段内乘机且通过实名认证账户购票的旅客，或指定时段内通过“海南航空”APP实名认证的乘机人，即获得抽奖资格。更有机会享8倍抽奖机会。更多详情，登录“海南航空”APP。\n\n      自2026年6月1日起，乌鲁木齐航空部分执飞航班将停止提供机上免费餐食，同时推出机上付费餐食服务，旅客可按需向客舱乘务员咨询并购买。\n\n      如您在官网使用过程中有任何问题，请拨打客服热线95334咨询处理。为了提供个性化的展示与改善您的浏览体验，本网站使用cookie。继续浏览我们的网站，即表示您同意我们的cookie政策以及隐私条款。\n      感谢您的关注与支持！\n\n \n\n知道了"
+    ]
+  },
+  {
+    "id": "caac-48",
+    "url": "https://www.fuzhou-air.cn/",
+    "inputs": [
+      {
+        "id": "",
+        "name": "radioGroup",
+        "placeholder": "",
+        "type": "radio",
+        "value": "ONEWAY"
+      },
+      {
+        "id": "",
+        "name": "radioGroup",
+        "placeholder": "",
+        "type": "radio",
+        "value": "ROUNDTRIP"
+      },
+      {
+        "id": "",
+        "name": "",
+        "placeholder": "出发城市",
+        "type": "text",
+        "value": "福州"
+      },
+      {
+        "id": "",
+        "name": "",
+        "placeholder": "到达城市",
+        "type": "text",
+        "value": ""
+      },
+      {
+        "id": "",
+        "name": "",
+        "placeholder": "出发日期",
+        "type": "text",
+        "value": "2026-10-30"
+      },
+      {
+        "id": "",
+        "name": "",
+        "placeholder": "",
+        "type": "text",
+        "value": "1成人，0儿童，0婴儿"
+      }
+    ],
+    "links": [
+      {
+        "text": "航班动态\n随时随地，查询航班更加方便",
+        "href": "https://www.fuzhou-air.cn/micro/main/flight/status?"
+      }
+    ],
+    "buttons": [
+      {
+        "text": "1",
+        "id": "",
+        "cls": ""
+      },
+      {
+        "text": "2",
+        "id": "",
+        "cls": ""
+      },
+      {
+        "text": "3",
+        "id": "",
+        "cls": ""
+      },
+      {
+        "text": "4",
+        "id": "",
+        "cls": ""
+      },
+      {
+        "text": "5",
+        "id": "",
+        "cls": ""
+      },
+      {
+        "text": "6",
+        "id": "",
+        "cls": ""
+      },
+      {
+        "text": "7",
+        "id": "",
+        "cls": ""
+      },
+      {
+        "text": "机 票",
+        "id": "",
+        "cls": "ant-btn ant-btn-round menu-button active"
+      },
+      {
+        "text": "军警残购票",
+        "id": "",
+        "cls": "ant-btn ant-btn-round menu-button"
+      },
+      {
+        "text": "开始预订",
+        "id": "",
+        "cls": "btn-search ant-btn ant-btn-primary ant-btn-lg ant-btn-block"
+      },
+      {
+        "text": "知道了",
+        "id": "",
+        "cls": "antd-btn css-vjglxe antd-btn-primary antd-btn-color-primary antd-btn-variant-solid"
+      }
+    ],
+    "dialogs": [
+      "温馨提示\n\n尊敬的旅客：\n\n为切实保障航空运行安全，根据民航局研究决定，自2025年6月28日起禁止旅客携带没有3C标识、3C标识不清晰、被召回型号或批次的充电宝乘坐境内航班。相关召回信息可在“国家市场监督管理总局缺陷产品召回技术中心”官方网站“消费品召回”栏目查询，网址：https://www.samrdprc.org.cn/xfpzh/xfpgnzh/，民航各单位将严格落实民航局通知要求，确保旅客携带充电宝乘机的安全出行。\n\n每位旅客最多可携带两个充电宝，对于超100Wh但不超过160Wh的充电宝需经公司批准。充电宝不得放置在机舱的头顶行李架中，应放置在机舱前方座椅下方的随身行李中，或其他指定的存放位置，如座椅后背口袋中；在飞行的所有阶段，不能使用机上座位或飞机上的电源为其充电；不得在飞行过程中使用充电宝给电子设备充电或供电。对于有启动开关的充电宝，在飞行过程中应始终关闭充电宝。\n\n2025年10月27日，某航司A321飞机执行深圳-济南航班，客齐后关舱前，7E座椅下方地板上放置的旅客手提包中充电宝发生冒烟，机上乘务组发现并立即使用矿泉水降温，并佩戴PBE使用灭火器处置，待充电宝冷却后安全转移至廊桥，无人员受伤、航空器无损伤。在此提醒旅客朋友们，在乘机出行时，建议优先选择不携带充电宝；如需携带，按照符合“3C 认证”等相关要求检查随身携带的充电宝，同时避免在登机前使用设备造成过热。如发现充电宝发热、冒烟、起火等异常状态请及时告知工作人员。共同守护平安顺利的飞行旅程。\n\n福州航空提醒您提高网络诈骗防范意识，在收到航班取消、航班变动、客票退改签等信息时，可及时通过福州航空官网（https://www.fuzhou-air.cn/）、在线客服或福州航空客服热线95071666等正规渠道进行信息核实，切勿轻信陌生电话、短信，提高警惕，谨防诈骗。请在福州航空授权的正规销售渠道购票，智行火车票平台非福州航空签约代理人，请勿在此平台购票，以确保您的各项服务权益得到有效保障，避免自身权益受到侵害。\n\n在航空器上强占座位、辱骂殴打他人、妨碍机组正常履行职责、霸占航空器、破坏机上设施设备等行为，扰乱公共秩序、危害公共安全、构成违反治安管理行为的，公安机关将依法进行处罚；情节严重的，可能被追究刑事责任。请您遵规守法、文明乘机。\n\n福州航空服务监督电话：0591-62680800，如您在官网使用过程中有任何问题，请拨打客服热线95071666咨询处理。为了提供个性化的展示与改善您的浏览体验，本网站使用cookies。继续浏览我们的网站，即表示您同意我们的cookies政策以及隐私条款。\n\n知道了"
+    ]
+  },
+  {
+    "id": "caac-49",
+    "url": "https://www.9air.com/zh-CN",
+    "inputs": [
+      {
+        "id": "",
+        "name": "",
+        "placeholder": "",
+        "type": "text",
+        "value": ""
+      },
+      {
+        "id": "",
+        "name": "",
+        "placeholder": "",
+        "type": "text",
+        "value": ""
+      },
+      {
+        "id": "",
+        "name": "",
+        "placeholder": "",
+        "type": "text",
+        "value": "2026-10-31"
+      },
+      {
+        "id": "",
+        "name": "",
+        "placeholder": "促销代码",
+        "type": "text",
+        "value": ""
+      },
+      {
+        "id": "",
+        "name": "",
+        "placeholder": "",
+        "type": "text",
+        "value": ""
+      }
+    ],
+    "links": [],
+    "buttons": [
+      {
+        "text": "查询",
+        "id": "",
+        "cls": "flyway-btn active-flyway-btn"
+      }
+    ],
+    "dialogs": []
+  },
+  {
+    "id": "caac-50",
+    "url": "https://www.gxairlines.com/stdair/homepage",
+    "inputs": [
+      {
+        "id": "trpDeparture",
+        "name": "trpDeparture",
+        "placeholder": "请输入出发城市",
+        "type": "text",
+        "value": ""
+      },
+      {
+        "id": "trpArrival",
+        "name": "trpArrival",
+        "placeholder": "请输入到达城市",
+        "type": "text",
+        "value": ""
+      },
+      {
+        "id": "DepartDateInput",
+        "name": "DepartDateInput",
+        "placeholder": "出发日期",
+        "type": "text",
+        "value": "2026-10-31"
+      }
+    ],
+    "links": [
+      {
+        "text": "不正常航班自助改期\n为不正常航班旅客提供自助票务变更服务",
+        "href": "https://irr.hnair.com/mobile/changeTicket/pc/index#/?cc=GX"
+      },
+      {
+        "text": "延误证明\n提供延误证明开具服务",
+        "href": "https://www.gxairlines.com/stdair/flightDelayProof/flightDelayProofMain"
+      }
+    ],
+    "buttons": [
+      {
+        "text": "确定",
+        "id": "",
+        "cls": "btn btn-primary"
+      }
+    ],
+    "dialogs": [
+      "\n    \n        \n            \n\n                \n\n            \n        \n    \n",
+      "\n    \n        \n            \n                \n                Opps，您访问的太快了，请输入验证码后以继续访问！\n                \n                    \n                        请点击属于XXX的所有汉字\n                        \n                            \n                            \n                            \n                            \n                            \n                        \n                        换一批\n                    \n                \n                \n                    \n                        \n                            确 定\n                        \n                    \n                \n            \n        \n    \n",
+      "\n    \n        \n            \n                \n                    ×\n                提示\n            \n            \n                \n                     \n                \n            \n            \n                \n                    \n                        确 定\n                    \n                \n            \n        \n    \n",
+      "\n    \n        \n            \n                \n                    ×\n                \n            \n            \n                退出登录…\n                您确定要退出当前账号的登录状态吗？\n            \n            \n                \n                    \n                        确定\n                            \n                    \n                    \n                        取消\n                    \n                \n            \n        \n    \n",
+      "\n    \n        \n            \n                温馨提示\n                \n            \n            \n                各位尊敬的旅客：\n                \n                    1.您选择的购票类型为残疾军人/伤残人民警察专属优惠票，请您在购票时提供有效身份证件信息，以及民政部颁发的《中华人民共和国革命伤残军人证》和《中华人民共和国人民警察伤残抚恤证》证件信息。\n                \n                \n                    2.您具有提供真实信息的法律义务，伪造，冒充军人、警察身份属于严重违法行为。\n                \n                \n                    3.残疾军人和伤残人民警察客票每笔订单仅限一位乘机人，如您需要购买多张客票，请分别预订。\n                \n                \n                    4.残疾军人和伤残人民警察暂不支持国际航线。\n                \n                \n                    5.残疾军人和伤残人民警察客票无法提前办理乘机手续（线上值机以及机场自助值机），请您预留充足的办理时间，于乘机当日在机场人工柜台办理乘机手续，并提供有效身份证件以及残疾军人/警察证件，确保和购票时提供的信息一致。如您提供的证件信息与购票时的信息不一致，我们有权拒绝您登机。\n                \n                \n                    6.除残疾军人/伤残人民警察专属优惠票外，您还可以选择购买普通折扣客票，退改按普通客票对应票规执行。\n                \n                \n                    7.军警残优惠出票后，网站暂无法提供改期、退票服务，请持有效军警残证件、身份证至北部湾航空直属售票处或联系北部湾航空服务热线95370办理退改签服务。\n                \n                \n            \n            \n                \n                \n                    \n                        \n                            确定\n                        \n                    \n                \n            \n        \n        \n    \n    \n",
+      "\n    \n        \n            \n                \n                    ×\n                提示信息\n            \n            \n                \n                    \n                \n            \n            \n                抱歉，暂未开放销售\n            \n        \n    \n",
+      "温馨提示\n尊敬的旅客:\n\n无成人陪伴儿童、婴儿旅客、孕妇旅客、老年旅客、病患旅客、残疾旅客等有特殊服务需求的旅客购票，请在航班离站前24小时（如需提供航空器医疗用氧、托运电动轮椅、为具备乘机条件的残疾人团体提供服务、携带服务犬进入客舱时请在航班离站前48小时）联系北部湾航空95370热线或通过在线客服咨询申请。\n\n为确保航空安全，请您携带符合标准的手提行李乘坐航班。如您携带的手提行李超出件数、重量或尺寸标准，您可能被拒绝登机或您的行李可能无法同机到达，迟运行李需由您自行到机场提取，由此产生的相关损失将由您自行承担。\n\n北部湾航空提醒您提高短信防诈骗意识，我司官方短信号码为95370，收到航班取消、航班变动、客票退改签等信息时，您可以通过北部湾航空客服热线95370或北部湾航空官网(www.gxairlines.com)等正规渠道进行信息核实，切勿轻信陌生电话、短信，提高警惕，谨防诈骗。\n\n为切实保障航空运行安全，自2025年6月28日起，禁止旅客携带没有3C标识、3C标识不清晰、已被召回型号或批次的充电宝乘坐境内航班（召回信息可在“国家市场监督管理总局缺陷产品召回技术中心”官方网站“消费品召回”栏目查询，网址：www.samrdprc.org.cn）。建议各位旅客优先选择不携带充电宝，如需携带，按照符合“3C 认证”等相关要求检查随身携带的充电宝，同时避免在登机前使用设备造成过热。\n\n确定",
+      "\n    \n        \n            \n                \n                Opps，您访问的太快了，请输入验证码以后继续访问！\n                \n                    \n                        请点击属于XXX的所有汉字\n                        \n                            \n                            \n                            \n                            \n                            \n                        \n                        换一批\n                    \n                \n                \n                    \n                        \n                            确 定\n                        \n                    \n                \n            \n        \n    \n",
+      "\n    \n        \n            \n                \n                    ×\n                提示\n            \n            \n                \n                     \n                \n            \n            \n                \n                    \n                        确 定\n                    \n                \n            \n        \n    \n",
+      "\n\t\t\t\n\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t\t使用微信扫一扫注册\n\t\t\t\t\t\t扫码点击“我的”-“登陆/注册”-“注册会员”\n\t\t\t\t\t\t\n\t\t\t\t\t\t\t×\n\t\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\n\t\t\t\n\t\t",
+      "\n\t\t\t\t\n\t\t\t\t\t\n\n\t\t\t\t\t\n\t\t\t\t\n\t\t\t",
+      "                                                                                                    ×                                                                                                                    "
+    ]
+  },
+  {
+    "id": "caac-52",
+    "url": "https://www.airjiangxi.com/jiangxiair/v2/index.action",
+    "inputs": [
+      {
+        "id": "citySelect",
+        "name": "",
+        "placeholder": "出发城市",
+        "type": "text",
+        "value": ""
+      },
+      {
+        "id": "citySelect1",
+        "name": "",
+        "placeholder": "到达城市",
+        "type": "text",
+        "value": ""
+      },
+      {
+        "id": "createTimeBegin",
+        "name": "createTimeBegin",
+        "placeholder": "选择时间",
+        "type": "text",
+        "value": ""
+      }
+    ],
+    "links": [
+      {
+        "text": "航班预订",
+        "href": "https://www.airjiangxi.com/jiangxiair/book/index.action"
+      },
+      {
+        "text": "",
+        "href": "https://www.airjiangxi.com/jiangxiair/vipTicket/select.action?type=qqd"
+      },
+      {
+        "text": "贵宾休息室",
+        "href": "https://www.airjiangxi.com/jiangxiair/vipTicket/select.action?type=qqd"
+      },
+      {
+        "text": "",
+        "href": "https://www.airjiangxi.com/jiangxiair/vipTicket/select.action?type=qqd"
+      },
+      {
+        "text": "贵宾休息室",
+        "href": "https://www.airjiangxi.com/jiangxiair/vipTicket/select.action?type=qqd"
+      },
+      {
+        "text": "",
+        "href": "https://www.airjiangxi.com/jiangxiair/vipTicket/select.action?type=qqd"
+      },
+      {
+        "text": "贵宾休息室",
+        "href": "https://www.airjiangxi.com/jiangxiair/vipTicket/select.action?type=qqd"
+      },
+      {
+        "text": "航班动态",
+        "href": "https://www.airjiangxi.com/jiangxiair/flight-dynamic/flightDynamic.action"
+      }
+    ],
+    "buttons": [],
+    "dialogs": []
+  },
+  {
+    "id": "caac-53",
+    "url": "https://www.cgzair.com/index/tripreserve.jhtml",
+    "inputs": [
+      {
+        "id": "datepicker",
+        "name": "",
+        "placeholder": "",
+        "type": "text",
+        "value": ""
+      },
+      {
+        "id": "dancheng-search",
+        "name": "",
+        "placeholder": "",
+        "type": "button",
+        "value": "航班查询"
+      }
+    ],
+    "links": [
+      {
+        "text": "客票验真",
+        "href": "https://www.cgzair.com/yss/commonquery-passengerticket/receptionList"
+      },
+      {
+        "text": "航班动态",
+        "href": "https://www.cgzair.com/yss/flight-dynamics/"
+      },
+      {
+        "text": "客票验真",
+        "href": "https://www.cgzair.com/yss/commonquery-passengerticket/receptionList"
+      },
+      {
+        "text": "不正常航班延误证明",
+        "href": "https://www.cgzair.com/yss/flight-delay"
+      }
+    ],
+    "buttons": [
+      {
+        "text": "航班查询",
+        "id": "dancheng-search",
+        "cls": "tri-cdtion-btn btn-fon btn-s hov-r flight_seljump"
+      }
+    ],
+    "dialogs": []
+  }
+]

@@ -1,0 +1,30 @@
+{
+  "id": "caac-3",
+  "index": 3,
+  "name": "中国东方航空股份有限公司",
+  "source": "https://www.caac.gov.cn/GYMH/MHGK/HKGS/",
+  "category": "passenger",
+  "url": "https://www.ceair.com/",
+  "parentIndex": null,
+  "quoteVerified": false,
+  "checkedAt": "2026-10-30T03:53:11.64Z",
+  "stage": "homepage",
+  "status": 200,
+  "finalUrl": "https://www.ceair.com/zh/cny/home",
+  "title": "中国东方航空",
+  "text": "本网站使用cookie，用于在您的电脑中储存信息。这些cookie可以使网站正常运行，以及帮助我们改进用户体验。使用本网站，即表示您接受放置这些cookie。\n同意\n服务热线：95530\n在线客服\n意见反馈\n网站无障碍\n关怀版\nLanguage & Currency\n首页\n会员服务\n自助服务\n公告讯息\n东航商城\n集团客户\n全球酒店\n搜索\n关于东航\n走进东航\n运输总条件\n货物运输总条件\n东航隐私政策\nCookie政策\n儿童个人信息保护规则\n营业执照\n联系我们\n全球服务网点\n意见反馈\n东航NDC开放平台\n服务承诺\n友情链接\n中国东方航空集团公司\n中国联航\n东航物流\n东航招聘\n天合联盟\n关注我们\n东航服务号\n东航订阅号\n东航小程序\n东航APP\n东航微博\n\n 东航、上航服务及投诉受理电话：95530 | 投诉受理电子邮件地址：customercare@ceair.com\n\nCopyright © 中国东方航空 沪ICP备 10009470号-9\n\n沪公网安备31011202021009号\n\n ",
+  "inputs": [],
+  "links": [
+    {
+      "text": "\n                                      伤残军警购票\n                                  ",
+      "href": ""
+    },
+    {
+      "text": "\n                                      留学生购票申请\n                                 ",
+      "href": ""
+    }
+  ],
+  "blocked": false,
+  "outcome": "homepage-readable",
+  "ms": 4897
+}

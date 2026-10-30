@@ -1,0 +1,61 @@
+{
+  "id": "caac-12",
+  "index": 12,
+  "name": "厦门航空有限公司",
+  "source": "https://www.caac.gov.cn/GYMH/MHGK/HKGS/",
+  "category": "passenger",
+  "url": "https://www.xiamenair.com/zh-cn/",
+  "parentIndex": null,
+  "quoteVerified": false,
+  "checkedAt": "2026-10-30T03:53:17.143Z",
+  "stage": "homepage",
+  "status": 200,
+  "finalUrl": "https://www.xiamenair.com/zh-cn/",
+  "title": "厦门航空",
+  "text": "厦航网站使用cookie和类似的技术来确保网站运行正常，改善您的用户体验。网站上第三方和其他cookie为您展示个性化的广告，这些第三方有可能监控您的网络行为。如果继续使用网站，表示您赞成这些cookie的设置。如果想了解详情或者调整cookie设置，请点击我们的 cookie政策。\n\n同意\n\n白鹭会员\n出行服务\n预订行程\n信息指南\n无障碍浏览\n登录 | 注册\n\n关于巴黎戴高乐国际机场航站楼名称变更的通知\n\n查看更多\n\n机票预订\n\n行程服务\n\n附加服务\n\n移动端\n\n单程 往返 多程 \n现金购票 \n积分购票\n \n \n查 询\n优惠航线\n\nXMN  CKG\n\n￥ 300\n\n2026-10-31\n\nXMN  CSX\n\n￥ 260\n\n2026-10-31\n\nXMN  KWE\n\n￥ 300\n\n2026-11-04\n\nXMN  NKG\n\n￥ 260\n\n2026-11-03\n\nXMN  HGH\n\n￥ 300\n\n2026-11-02\n\nXMN  MFM\n\n￥ 976\n\n2026-11-05\n\nXMN  HAN\n\n￥ 1425\n\n2026-11-05\n\nXMN  MNL\n\n￥ 1593\n\n2026-11-05\n\nXMN  BKK\n\n￥ 1750\n\n2026-11-12\n\nXMN  SGN\n\n￥ 1872\n\n2026-11-09\n\n更多 \n\n厦门航空综合商务服务\n\n详情\n\n融通两岸，一鹭同行\n\n详情\n\n生活无届·赚分计划\n\n详情\n\n厦启华章鹭愿卡\n\n详情\n\n南强兴鹭卡\n\n详情\n\n《厦门航空》杂志10月刊\n\n详情\n\n宠物进客舱\n\n详情\n\n厦航白鹭俱乐部会员体系全新升级\n\n详情\n\n我的行程\n\n详情\n\n妈祖福鹭卡\n\n详情\n\n境外来闽人员支付服务指南\n\n详情\n\n白鹭尊师卡多重礼遇\n\n感恩全国教师！\n\n详情\n\n厦航集团白鹭尊医卡\n\n多重礼遇致敬全国医务!\n\n详情\n\n厦门航空综合商务服务\n\n详情\n\n融通两岸，一鹭同行\n\n详情\n\n生活无届·赚分计划\n\n详情\n\n厦启华章鹭愿卡\n\n详情\n\n南强兴鹭卡\n\n详情\n\n《厦门航空》杂志10月刊\n\n详情\n\n宠物进客舱\n\n详情\n\n厦航白鹭俱乐部会员体系全新升级\n\n详情\n\n我的行程\n\n详情\n\n妈祖福鹭卡\n\n详情\n\n境外来闽人员支付服务指南\n\n详情\n\n白鹭尊师卡多重礼遇\n\n感恩全国教师！\n\n详情\n\n厦航集团白鹭尊医卡\n\n多重礼遇致敬全国医务!\n\n详情\n更多特色服务\n\n经常出差？\n\n成为白鹭会员，让您的飞行更有意义!\n注册 登录\n\n使用手机快速购买机票？\n\n非会员快速购票\n\n更多会员尊享服务尽在厦门航空App\n\n \n关于我们\n厦航简介\n企业理念与社会责任\n可持续发展\n信息公开\n天合联盟\n加入我们\n网站地图\n企业商旅\n新闻公告\n业务公告\n采购公告\n投诉与建议\n责任声明\n隐私通知\n运输总条件\n营业执照\n经营许可证\n货运服务\n货单查询\n服务介绍\n运价查询\n货运代理\n货运电话\n服务条款条规\n友情链接\n代理天地\n友情链接\n天合联盟官网 \n关注与订阅 \n \n \n \n \n \n \n \n \n95557\n服务热线\n+86-592-2226666\n境外热线\nMF@XIAMENAIR.COM\nE-mail\nCopyright © 2026 厦门航空有限公司版权所有 2008-2026 中国厦门市东黄路321号 闽ICP备06000856号 \n\n闽公网安备35020602000793号",
+  "inputs": [
+    {
+      "tag": "INPUT",
+      "type": "text",
+      "id": "",
+      "name": "",
+      "placeholder": "出发城市",
+      "value": "",
+      "readonly": false,
+      "label": null
+    },
+    {
+      "tag": "INPUT",
+      "type": "text",
+      "id": "",
+      "name": "",
+      "placeholder": "到达城市",
+      "value": "",
+      "readonly": false,
+      "label": null
+    },
+    {
+      "tag": "INPUT",
+      "type": "text",
+      "id": "",
+      "name": "date",
+      "placeholder": "去程日期",
+      "value": "",
+      "readonly": false,
+      "label": null
+    }
+  ],
+  "links": [
+    {
+      "text": "预订行程",
+      "href": "https://www.xiamenair.com/zh-cn/"
+    },
+    {
+      "text": "\n                                        机票预订\n                                  ",
+      "href": "https://www.xiamenair.com/nticket.html"
+    }
+  ],
+  "blocked": false,
+  "outcome": "query-form-found",
+  "ms": 1446
+}

@@ -1,0 +1,148 @@
+{
+  "id": "caac-25",
+  "index": 25,
+  "name": "四川航空股份有限公司",
+  "source": "https://www.caac.gov.cn/GYMH/MHGK/HKGS/index_1.html",
+  "category": "passenger",
+  "url": "https://www.sichuanair.com/",
+  "parentIndex": null,
+  "quoteVerified": false,
+  "checkedAt": "2026-10-30T03:54:54.811Z",
+  "stage": "homepage",
+  "status": 200,
+  "finalUrl": "https://www.sichuanair.com/",
+  "title": "四川航空股份有限公司官方网站-飞机票查询预订_航班查询_最新打折特价机票_川航网上值机",
+  "text": "四川航空\n中国\n在线客服\n微信\n移动端\n 有奖问答\n95378\n登录\n首页\n预订管理\n优惠促销\n服务大厅\n出行帮助\n金熊猫俱乐部\n企业差旅\n旅游度假\n航班\n预订\n行程\n服务\n订单\n查询\n单程 往返 多目的地(含缺口程)\n出发城市\n换\n到达城市\n出发\n返程\n1成人, 0儿童, 0婴儿\n立即查询\n \n扫描二维码，app、小程序购票更优惠!\n\n扫码下载\n\n川航手机客户端\n\n投诉与建议\n邮寄地址：四川省成都市双流国际机场-四川航空大厦品质部\n邮政编码：610202\n投诉电话：95378（服务时间：7*24小时）\n邮件地址：fuwu@sichuanair.com\n\n版权所有：四川航空股份有限公司\n\n蜀ICP备18038377号-1\n\n 川公网安备 51012202000460号\n关于川航\n信息公开\n招聘信息\n招标信息\n川航物流\n个人信息保护政策\n个人信息保护政策\n儿童个人信息保护政策\n应聘者个人信息保护政策\nCookie声明\n责任声明\n服务\n代理天地\n在线客服\n意见调查\n\n扫码关注\n\n四川航空微信公众号\n\n微博\n邮箱\n我们使用Cookies\nX\n为了提供个性化的展示与改善您的浏览体验，本网站使用cookie。继续浏览我们的网站，即表示您同意使用cookie。您也可以点击 Cookies声明 链接及隐私政策了解更多信息。",
+  "inputs": [
+    {
+      "tag": "INPUT",
+      "type": "button",
+      "id": "",
+      "name": "",
+      "placeholder": "",
+      "value": "选择",
+      "readonly": false,
+      "label": null
+    },
+    {
+      "tag": "INPUT",
+      "type": "radio",
+      "id": "flightoneway",
+      "name": "flightType",
+      "placeholder": "",
+      "value": "oneway",
+      "readonly": false,
+      "label": null
+    },
+    {
+      "tag": "INPUT",
+      "type": "radio",
+      "id": "flightTypeXqdsb",
+      "name": "flightType",
+      "placeholder": "",
+      "value": "return",
+      "readonly": false,
+      "label": null
+    },
+    {
+      "tag": "INPUT",
+      "type": "radio",
+      "id": "",
+      "name": "flightType",
+      "placeholder": "",
+      "value": "multi-city",
+      "readonly": false,
+      "label": null
+    },
+    {
+      "tag": "INPUT",
+      "type": "text",
+      "id": "Search-OriginDestinationInformation-Origin-location_input_location",
+      "name": "Search/OriginDestinationInformation/Origin/location_input",
+      "placeholder": "",
+      "value": "",
+      "readonly": false,
+      "label": null
+    },
+    {
+      "tag": "INPUT",
+      "type": "text",
+      "id": "Search-OriginDestinationInformation-Destination-location_input_location",
+      "name": "Search/OriginDestinationInformation/Destination/location_input",
+      "placeholder": "",
+      "value": "",
+      "readonly": false,
+      "label": null
+    },
+    {
+      "tag": "INPUT",
+      "type": "text",
+      "id": "dp1793332495405",
+      "name": "Search/DateInformation/departDate_display",
+      "placeholder": "",
+      "value": "2026-10-31",
+      "readonly": false,
+      "label": null
+    },
+    {
+      "tag": "INPUT",
+      "type": "text",
+      "id": "dp1793332495407",
+      "name": "Search/DateInformation/returnDate_display",
+      "placeholder": "",
+      "value": "2026-11-02",
+      "readonly": false,
+      "label": null
+    },
+    {
+      "tag": "INPUT",
+      "type": "text",
+      "id": "",
+      "name": "Search/promotionCode",
+      "placeholder": "请输入优惠码",
+      "value": "",
+      "readonly": false,
+      "label": null
+    }
+  ],
+  "links": [
+    {
+      "text": "航班预订",
+      "href": "javascript:void(0)"
+    },
+    {
+      "text": "购票须知",
+      "href": "https://www.sichuanair.com/travel-tips/"
+    },
+    {
+      "text": "公务机票",
+      "href": "https://app.gpticket.org/login.action"
+    },
+    {
+      "text": "立即查询",
+      "href": "javascript:void(0);"
+    },
+    {
+      "text": "\n                                    立即查询\n                                ",
+      "href": "javascript:submitForm();search_multi_miaozhen();"
+    },
+    {
+      "text": "立即查询",
+      "href": "https://www.sichuanair.com/#"
+    },
+    {
+      "text": "立即查询",
+      "href": "https://www.sichuanair.com/#"
+    },
+    {
+      "text": "购票及旅行须知",
+      "href": "https://www.sichuanair.com/travel-tips/"
+    }
+  ],
+  "frames": [
+    "https://www.sichuanair.com/"
+  ],
+  "blocked": false,
+  "outcome": "homepage-readable",
+  "ms": 4741
+}

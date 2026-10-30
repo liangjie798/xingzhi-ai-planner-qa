@@ -1,0 +1,58 @@
+{
+  "testedOn": "2026-10-30",
+  "method": "Playwright CLI with headed Microsoft Edge on local Windows; rendered public query pages",
+  "scope": "Two carriers, one route/date per carrier; no long-duration stability or server-side crawler acceptance test",
+  "loginRequired": false,
+  "captchaEncountered": false,
+  "airlines": [
+    {
+      "name": "中国南方航空",
+      "route": "广州白云 → 北京大兴",
+      "date": "2026-10-31",
+      "adults": 1,
+      "tripType": "one-way",
+      "flightCount": 14,
+      "example": {
+        "flight": "CZ3107",
+        "departure": "21:00",
+        "arrival": "00:05+1天",
+        "displayedFareCNY": 910,
+        "taxIncluded": "unverified"
+      },
+      "result": "Rendered flight rows and numeric fares extracted",
+      "url": "https://b2c.csair.com/B2C40/newTrips/static/main/page/booking/index.html?t=S&c1=CAN&c2=BJS&d1=2026-10-31&at=1&ct=0&it=0&b1=CAN&b2=PEK-PKX&bjt=1793331560408"
+    },
+    {
+      "name": "厦门航空",
+      "route": "厦门高崎 → 北京大兴",
+      "date": "2026-10-31",
+      "adults": 1,
+      "tripType": "one-way",
+      "flightCount": 7,
+      "directOwnFlightCount": 6,
+      "codeshareStoppingFlightCount": 1,
+      "example": {
+        "flight": "MF8103",
+        "departure": "21:00",
+        "arrival": "23:40",
+        "displayedFromFareCNY": 680,
+        "taxIncluded": "not verified for the final payable total; date calendar explicitly labels tax-exclusive fares"
+      },
+      "codeshareExample": {
+        "marketedFlight": "MF3617",
+        "operatingCarrier": "中国东方航空",
+        "operatingFlight": "MU5169",
+        "stop": "合肥"
+      },
+      "result": "Rendered flight details and from-fares extracted",
+      "url": "https://www.xiamenair.com/zh-cn/nticket.html?tripType=OW&orgCodeArr%5B0%5D=XMN&dstCodeArr%5B0%5D=PKX&orgDateArr%5B0%5D=2026-10-31&dstDate=&isInter=false&adtNum=1&chdNum=0&infNum=0&JFCabinFirst=false&acntCd=&mode=Money&partner=false&jcgm=false&paxType=&isPet=false&petType=noseat"
+    }
+  ],
+  "limitations": [
+    "Only prices displayed in flight selection pages; no order/payment or final tax-inclusive repricing",
+    "No permission to publish a commercial fare aggregator inferred from successful browsing or robots.txt",
+    "Dynamic loading, city suggestion selection and notice dialogs require carrier-specific browser handling",
+    "No proxy rotation, fingerprint evasion, CAPTCHA solving or private API replay",
+    "No project source change, new Agent tool or deployment"
+  ]
+}

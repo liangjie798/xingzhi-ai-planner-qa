@@ -1,0 +1,62 @@
+{
+  "id": "caac-16",
+  "index": 16,
+  "name": "天津航空有限责任公司",
+  "source": "https://www.caac.gov.cn/GYMH/MHGK/HKGS/",
+  "category": "passenger",
+  "url": "https://www.tianjin-air.com/",
+  "parentIndex": null,
+  "quoteVerified": false,
+  "checkedAt": "2026-10-30T03:53:50.303Z",
+  "stage": "homepage",
+  "status": 200,
+  "finalUrl": "https://www.tianjin-air.com/",
+  "title": "天津航空官方网站",
+  "text": "我们使用Cookies\n\n为了提供个性化的展示与改善的浏览体验。本网站使用cookie。继续浏览我们的网站，即表示您同意我们的cookie政策以及隐私条款。\n\n 机票预订\n附加服务\n航班动态\n单程\n往返\n多段联程\n乘客\n1成人0儿童0婴儿\n成人\n（成人≥12岁）\n1\n儿童\n（2岁≤儿童<12岁）\n0\n婴儿\n（14天≤婴儿<2岁）\n0\n残疾军警\n0伤残军人0伤残警察\n伤残军人\n0\n伤残警察\n0\n搜索\n秒杀\n推荐航线\n附加服务\n了解我们",
+  "inputs": [
+    {
+      "tag": "INPUT",
+      "type": "text",
+      "id": "",
+      "name": "",
+      "placeholder": "出发城市",
+      "value": "",
+      "readonly": false,
+      "label": null
+    },
+    {
+      "tag": "INPUT",
+      "type": "text",
+      "id": "",
+      "name": "",
+      "placeholder": "到达城市",
+      "value": "",
+      "readonly": false,
+      "label": null
+    },
+    {
+      "tag": "INPUT",
+      "type": "text",
+      "id": "",
+      "name": "",
+      "placeholder": "出发日期",
+      "value": "2026-10-31",
+      "readonly": true,
+      "label": null
+    },
+    {
+      "tag": "INPUT",
+      "type": "text",
+      "id": "",
+      "name": "",
+      "placeholder": "返回日期",
+      "value": "",
+      "readonly": true,
+      "label": null
+    }
+  ],
+  "links": [],
+  "blocked": false,
+  "outcome": "query-form-found",
+  "ms": 839
+}

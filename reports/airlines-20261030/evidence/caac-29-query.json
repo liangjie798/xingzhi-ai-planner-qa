@@ -1,0 +1,28 @@
+{
+  "id": "caac-29",
+  "name": "华夏航空股份有限公司",
+  "url": "https://www.chinaexpressair.com/",
+  "origin": "重庆",
+  "destination": "贵阳",
+  "checkedAt": "2026-10-30T04:28:12.335Z",
+  "quoteVerified": false,
+  "actions": [
+    {
+      "field": "重庆",
+      "selectedFromVisibleOption": true,
+      "value": "重庆"
+    },
+    {
+      "field": "贵阳",
+      "selectedFromVisibleOption": true,
+      "value": "贵阳"
+    }
+  ],
+  "submitted": true,
+  "text": "用户登录\n会员密码登录手机快速登录\n手机号\n密码\n忘记密码？\n已阅读并同意《个人信息保护政策》 和《会员服务协议》\n登录\n请阅读并勾选页面协议\n快速注册\n使用第三方账号登录\n黔ICP备11000101号-1 \n 贵公网安备 52010902000017号 ",
+  "outcome": "submitted-result-needs-review",
+  "finalUrl": "https://www.chinaexpressair.com/b2cweb/login",
+  "title": "华夏航空股份有限公司",
+  "alternatePages": [],
+  "ms": 18778
+}

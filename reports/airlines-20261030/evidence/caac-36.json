@@ -1,0 +1,15 @@
+{
+  "id": "caac-36",
+  "index": 36,
+  "name": "幸福航空有限责任公司",
+  "source": "https://www.caac.gov.cn/GYMH/MHGK/HKGS/index_1.html",
+  "category": "passenger",
+  "url": "https://www.joy-air.com/",
+  "parentIndex": null,
+  "quoteVerified": false,
+  "checkedAt": "2026-10-30T03:57:22.518Z",
+  "stage": "homepage",
+  "outcome": "navigation-failed",
+  "error": "Error: page.goto: net::ERR_CERT_DATE_INVALID at https://www.joy-air.com/",
+  "ms": 32
+}

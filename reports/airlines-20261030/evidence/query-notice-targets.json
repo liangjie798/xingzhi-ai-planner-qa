@@ -1,0 +1,59 @@
+[
+  {
+    "id": "caac-27",
+    "index": 27,
+    "name": "成都航空有限公司",
+    "source": "https://www.caac.gov.cn/GYMH/MHGK/HKGS/index_1.html",
+    "category": "passenger",
+    "url": "https://www.cdal.com.cn/",
+    "parentIndex": null,
+    "quoteVerified": false,
+    "origin": "成都",
+    "destination": "长沙",
+    "from": "[id=\"trpDeparture\"]",
+    "to": "[id=\"trpArrival\"]",
+    "date": "[id=\"DepartDateInput\"]"
+  },
+  {
+    "id": "caac-33",
+    "index": 33,
+    "name": "西部航空有限责任公司",
+    "source": "https://www.caac.gov.cn/GYMH/MHGK/HKGS/index_1.html",
+    "category": "passenger",
+    "url": "https://www.westair.cn/",
+    "parentIndex": null,
+    "quoteVerified": false,
+    "origin": "重庆",
+    "destination": "广州"
+  },
+  {
+    "id": "caac-39",
+    "index": 39,
+    "name": "西藏航空有限公司",
+    "source": "https://www.caac.gov.cn/GYMH/MHGK/HKGS/index_1.html",
+    "category": "passenger",
+    "url": "https://www.tibetairlines.com.cn/",
+    "parentIndex": null,
+    "quoteVerified": false,
+    "origin": "拉萨",
+    "destination": "成都",
+    "from": "[id=\"trpDeparture\"]",
+    "to": "[id=\"trpArrival\"]",
+    "date": "[id=\"DepartDateInput\"]"
+  },
+  {
+    "id": "caac-50",
+    "index": 50,
+    "name": "广西北部湾航空有限责任公司",
+    "source": "https://www.caac.gov.cn/GYMH/MHGK/HKGS/index_2.html",
+    "category": "passenger",
+    "url": "https://www.gxairlines.com/",
+    "parentIndex": null,
+    "quoteVerified": false,
+    "origin": "南宁",
+    "destination": "长沙",
+    "from": "[id=\"trpDeparture\"]",
+    "to": "[id=\"trpArrival\"]",
+    "date": "[id=\"DepartDateInput\"]"
+  }
+]

@@ -1,0 +1,83 @@
+{
+  "id": "caac-30",
+  "index": 30,
+  "name": "东海航空有限公司",
+  "source": "https://www.caac.gov.cn/GYMH/MHGK/HKGS/index_1.html",
+  "category": "passenger",
+  "url": "https://www.donghaiair.com/",
+  "parentIndex": null,
+  "quoteVerified": false,
+  "checkedAt": "2026-10-30T03:55:39.28Z",
+  "stage": "homepage",
+  "status": 200,
+  "finalUrl": "https://www.donghaiair.com/",
+  "title": "东海航空有限公司",
+  "text": " \n\n旅客服务投诉热线  4000888666\n中文\n旅客须知\n登录\n注册\n首页\n预订管理\n出行助手\n旅客服务\n网站会员\n校园招聘\n1\n2\n3\n4\n国内机票\n航班动态\n类型\n单程\n出发地\n目的地\n去程日期\n返程日期\n人数\n1\n搜索\n更多>\n推荐航线\n\n深圳-沈阳\n\n最低CNY 700\n\n深圳-郑州\n\n最低CNY 500\n\n深圳-南京\n\n最低CNY 590\n\n目的地推荐\n更多>\n寻梦荆楚神韵，心泊多彩宜昌\n登嵩山游少林，古城郑州\n三晋大地，有座你不知道的世外桃源\n江海之会，南北之喉---南通\n看渔女体会珠海蓝\n航班定制和旅程服务\n\n大湾区航空机票预定\n\n行程单验真\n\n航班延误/取消证明\n\n电子发票\n\n更多活动\n更多>\n公告\n更多 >\n新闻\n更多 >\n315国际消费者权益日活动\n2026-03-10\n共筑满意消费 畅享民航出行\n2025-03-10\n东海航空公布2024年夏秋航季航线\n2024-03-21\n东海航空2024年春运累计运送旅客55.7万人次\n2024-03-11\n315国际消费者权益日活动\n2024-03-11\n东海航空“新年第一会”： 安全第一，安全永远第一！\n2024-01-04\n奔赴2024！东海航空顺利实现2023安全年\n2024-01-04\n东海航空：深圳⇌怀化⇌太原航线成功首航\n2023-11-16\n东海航空亮相首届CATA大会空勤人员思政工作交流研讨会\n2023-11-16\n湾区东海 两翼齐飞 东海航空和大湾区航空“组团”参展CATA航空大会\n2023-11-16\n关于东海\n东海简介\n东海新闻\n法律和隐私条款\n东海招聘\n社会招聘\n校园招聘\n飞行员招聘\n乘务员招聘\n安全员招聘\n专项招聘\n互动支持\n联系我们\n采购公告\n国内运输总条件\n国际运输总条件\n机上延误应急预案\n货物运输总条件\n帮助中心\n网站地图\n常见问题\n机票验真\n关注我们\n©2026 东海航空有限公司 版权所有 粤ICP备11082739号\n粤公网安备 44030602003438号\n\n公司地址：深圳市宝安区宝安机场航站四路3009号东海航空基地",
+  "inputs": [
+    {
+      "tag": "INPUT",
+      "type": "text",
+      "id": "flight-orgcity",
+      "name": "",
+      "placeholder": "",
+      "value": "深圳",
+      "readonly": false,
+      "label": null
+    },
+    {
+      "tag": "INPUT",
+      "type": "text",
+      "id": "",
+      "name": "",
+      "placeholder": "",
+      "value": "",
+      "readonly": false,
+      "label": null
+    },
+    {
+      "tag": "INPUT",
+      "type": "text",
+      "id": "star-date",
+      "name": "",
+      "placeholder": "",
+      "value": "2026-11-01",
+      "readonly": false,
+      "label": null
+    },
+    {
+      "tag": "INPUT",
+      "type": "text",
+      "id": "return-date",
+      "name": "",
+      "placeholder": "",
+      "value": "2026-11-03",
+      "readonly": false,
+      "label": null
+    }
+  ],
+  "links": [
+    {
+      "text": "机票预订",
+      "href": "https://www.donghaiair.com/html/booking-manage/search-flight.html"
+    },
+    {
+      "text": "网上购票须知",
+      "href": "http://www.donghaiair.com/html/passengers-notice/notice-index.html?type=SYS0203"
+    },
+    {
+      "text": "大湾区航空机票预定",
+      "href": "https://greaterbay-airlines.com/cn/zh_CN.html"
+    },
+    {
+      "text": "机票验真",
+      "href": "http://www.travelsky.com.cn/"
+    }
+  ],
+  "frames": [
+    "https://www.donghaiair.com/",
+    ""
+  ],
+  "blocked": false,
+  "outcome": "homepage-readable",
+  "ms": 4455
+}

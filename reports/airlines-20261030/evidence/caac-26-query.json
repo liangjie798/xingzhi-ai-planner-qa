@@ -1,0 +1,29 @@
+{
+  "id": "caac-26",
+  "name": "奥凯航空有限公司",
+  "url": "https://www.okair.net/",
+  "origin": "天津",
+  "destination": "长沙",
+  "checkedAt": "2026-10-30T04:20:36.129Z",
+  "quoteVerified": false,
+  "actions": [
+    {
+      "field": "天津",
+      "selectedFromVisibleOption": true,
+      "value": "天津 TSN"
+    },
+    {
+      "field": "长沙",
+      "selectedFromVisibleOption": true,
+      "value": "长沙 CSX"
+    }
+  ],
+  "date": "2026-10-31",
+  "submitted": true,
+  "text": " \n登录\n注册\n首页\n行程管理\n航班服务\n自助服务\n航班动态\n客票验真\n不正常航班延误证明\n自助服务\n物品遗失申请\n特殊旅客申请\n祥云俱乐部\n账户信息\n账户概况\n个人信息管理\n受让人管理\n我的卡包\n特色活动\n会员日\n联名卡申请\n积分兑换免票\n关于俱乐部\n会员手册\n会员卡介绍\n高端会员权益\n帮助指南\n行程服务\n旅客、行李国内运输总条件\n旅客、行李国际运输总条件\n国内航班多等级舱位管理规定\n国际航线运价使用总则\n国际航线行李规定\n行李赔偿\n登机口二次安检提示\n特殊行李运输规定\n关于航班超售致旅客的公开信\n机场截办值机时间\n文明乘机温馨提示\n特殊旅客\n特殊旅客服务\n残疾旅客服务\n其他\n出口座位安排\n携带锂电池登机\n危险品管理规定\n机上延误应急预案\n托运小动物规定\n错购机票管理规定\n货物运输总条件\n因病退票及因病变更客票管理规定\n关于依法惩治涉枪支、弹药、爆炸易燃易爆危险品犯罪的意见\n联系我们\n航媒招商\n\n航班动态\n\n按航班路线 \n按航班号\n\n起飞城市\n\n降落城市\n\n出发日期\n\n立即查询\nSEARCH FLIGHTS\n \n航班号\t始发地\t目的地\t计划时间\t实际时间\t状态\t详情\nBK3065\n\t\n天津\n\t\n长沙\n\t\n08:10 - 10:40\n\t\n-\n\t\n计划\n\t\n查看详情\n\n\nBK2735\n\t\n天津\n\t\n长沙\n\t\n21:10 - 23:35\n\t\n-\n\t\n计划\n\t\n查看详情\n\n关于我们\n\n关于奥凯 航媒招商\n隐私条款\n日本語\n \n\n关注我们\n\n新浪微博\n联系我们\n奥凯航空有限公司\n地址：天津自贸试验区（空港经济区）环河北路与中心大道交口空港商务园东区E13号楼502室\n服务投诉热线： 95307\n©2021 奥凯航空有限公司版权所有 保留所有权利 京ICP备05046014号\n\n官方微信\n\n \n\n人力资源微信",
+  "outcome": "submitted-result-needs-review",
+  "finalUrl": "https://www.okair.net/services.html#/airlineStatus",
+  "title": "奥凯航空有限公司",
+  "alternatePages": [],
+  "ms": 18248
+}

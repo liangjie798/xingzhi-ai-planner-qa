@@ -1,0 +1,21 @@
+{
+  "id": "caac-15",
+  "index": 15,
+  "name": "长安航空有限责任公司",
+  "source": "https://www.caac.gov.cn/GYMH/MHGK/HKGS/",
+  "category": "passenger",
+  "url": "https://www.airchangan.com/",
+  "parentIndex": null,
+  "quoteVerified": false,
+  "checkedAt": "2026-10-30T03:53:48.799Z",
+  "stage": "homepage",
+  "status": 200,
+  "finalUrl": "https://www.airchangan.com/",
+  "title": "长安航空[官方网站] – 长安航空有限责任公司,机票查询,航班查询,特价机票",
+  "text": "网站无障碍\n站内搜索\n登录\n注册\n长安航空有限责任公司版权所有 Copyright airchangan.com\n陕ICP备16002760号-1\nAll Rights Reserved.\n加载中...\n我的旅行我做主\n超值、快速、舒适、安全。无论您是商务人士、举家出行亦或一个人来一场说走就走的旅行，长安航空都有最适合您的服务满足您的需求。",
+  "inputs": [],
+  "links": [],
+  "blocked": false,
+  "outcome": "homepage-readable",
+  "ms": 1504
+}

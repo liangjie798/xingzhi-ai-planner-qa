@@ -1,0 +1,28 @@
+{
+  "id": "caac-49",
+  "name": "九元航空有限公司",
+  "url": "https://www.9air.com/",
+  "origin": "广州",
+  "destination": "贵阳",
+  "checkedAt": "2026-10-30T04:22:54.58Z",
+  "quoteVerified": false,
+  "actions": [
+    {
+      "field": "广州",
+      "selectedFromVisibleOption": false,
+      "value": "广州"
+    },
+    {
+      "field": "贵阳",
+      "selectedFromVisibleOption": false,
+      "value": ""
+    }
+  ],
+  "outcome": "could-not-submit",
+  "error": "Error: city-selection-mismatch:贵阳 -> ",
+  "finalUrl": "https://www.9air.com/zh-CN/book/booking",
+  "title": "九元航空官网",
+  "text": "投诉建议\n在线客服\n 简体中文 (zh-CN)\n首页\n自助服务\n活动推荐\n会员专区\n九元招聘\n登录注册\n选择航班\n乘客信息\n增值服务\n确认订单\n订单支付\n往返单程\n出发城市\n\t\t\n到达城市\n\t\n去程日期\n\t\t查询",
+  "alternatePages": [],
+  "ms": 6000
+}

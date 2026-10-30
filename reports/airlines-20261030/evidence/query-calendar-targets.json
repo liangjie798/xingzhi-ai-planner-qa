@@ -1,0 +1,66 @@
+[
+  {
+    "id": "caac-18",
+    "index": 18,
+    "name": "金鹏航空股份有限公司",
+    "source": "https://www.caac.gov.cn/GYMH/MHGK/HKGS/",
+    "category": "passenger",
+    "url": "https://www.yzr.com.cn/",
+    "parentIndex": null,
+    "quoteVerified": false,
+    "origin": "上海",
+    "destination": "海口",
+    "from": "input[type=\"search\"]:visible >> nth=0",
+    "to": "input[type=\"search\"]:visible >> nth=1"
+  },
+  {
+    "id": "caac-19",
+    "index": 19,
+    "name": "云南祥鹏航空有限责任公司",
+    "source": "https://www.caac.gov.cn/GYMH/MHGK/HKGS/",
+    "category": "passenger",
+    "url": "https://www.luckyair.net/",
+    "parentIndex": null,
+    "quoteVerified": false,
+    "origin": "昆明",
+    "destination": "郑州"
+  },
+  {
+    "id": "caac-31",
+    "index": 31,
+    "name": "上海吉祥航空股份有限公司",
+    "source": "https://www.caac.gov.cn/GYMH/MHGK/HKGS/index_1.html",
+    "category": "passenger",
+    "url": "https://www.juneyaoair.com/",
+    "parentIndex": null,
+    "quoteVerified": false,
+    "origin": "上海",
+    "destination": "广州",
+    "from": "input[type=\"text\"]:visible >> nth=0",
+    "to": "input[type=\"text\"]:visible >> nth=1"
+  },
+  {
+    "id": "caac-47",
+    "index": 47,
+    "name": "乌鲁木齐航空有限责任公司",
+    "source": "https://www.caac.gov.cn/GYMH/MHGK/HKGS/index_2.html",
+    "category": "passenger",
+    "url": "https://www.urumqi-air.com/",
+    "parentIndex": null,
+    "quoteVerified": false,
+    "origin": "乌鲁木齐",
+    "destination": "郑州"
+  },
+  {
+    "id": "caac-48",
+    "index": 48,
+    "name": "福州航空有限责任公司",
+    "source": "https://www.caac.gov.cn/GYMH/MHGK/HKGS/index_2.html",
+    "category": "passenger",
+    "url": "https://www.fuzhou-air.cn/",
+    "parentIndex": null,
+    "quoteVerified": false,
+    "origin": "福州",
+    "destination": "昆明"
+  }
+]

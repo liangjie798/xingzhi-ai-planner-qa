@@ -1,0 +1,129 @@
+{
+  "id": "caac-7",
+  "index": 7,
+  "name": "中国南方航空股份有限公司",
+  "source": "https://www.caac.gov.cn/GYMH/MHGK/HKGS/",
+  "category": "passenger",
+  "url": "https://www.csair.com/cn/",
+  "parentIndex": null,
+  "quoteVerified": false,
+  "checkedAt": "2026-10-30T03:53:16.537Z",
+  "stage": "homepage",
+  "status": 200,
+  "finalUrl": "https://www.csair.com/cn/",
+  "title": "中国南方航空官网 - 南航机票预订_飞机票查询_航班查询_特价机票",
+  "text": "南航网站使用cookie和类似的技术来确保网站运行正常，改善您的用户体验。网站上第三方和其他cookie为您展示个性化的广告，这些第三方有可能监控您的网络行为。如果继续使用网站，表示您赞成这些cookie的设置。如果想了解详情或者调整cookie设置，请点击我们的cookie政策。\n同意\n南方航空公司官网\n无障碍浏览\n意见反馈\n在线客服\nChina\n购票安全提示\n首页\n预订行程\n服务大厅\n南航假期\n明珠俱乐部\n商旅合作\n出行帮助\n新闻公告\n登录 | 注册\n查看更多 >\n预订行程\n行程服务\n旅游度假\n移动端\n机票\n单程\n往返\n常用航线 \n多程 >>\n出发城市\n到达城市\n出发日期\n星期五\n返回日期\n星期五\n成人(≥ 12岁)\n1\n儿童(2-11岁)\n0\n婴儿(< 2岁)\n0\n行程服务\n荐\n立即查询\n专享优惠\n国内优惠机票\n国际优惠机票\n机票兑换\n更多\n热门活动\n更多活动 >\n服务专区\n更多服务 >\n旅游度假\n自由行\n更多自由行 >\n酒店\n签证\n关于南航\n公司简介\n招聘信息\n新闻资讯\n投资者关系\n南航集团\n网站地图\n隐私通知\nCookie政策\n营业执照\n经营许可证\n客户服务\n联系我们\n在线客服\n意见反馈\n常见问题\n行李服务\n机场服务\n中转服务\n服务承诺\n更多信息\n预订须知\n招标采购\n旅客、行李运输总条件\n特殊旅客服务须知\n南航\"十分\"关爱基金会\n机上延误应急预案\n人体捐献器官运输须知\n关注与订阅\n微信\n微博\n邮寄\nCopyright(C)1997-2026 中国南方航空股份有限公司 版权所有 粤ICP备05053330号",
+  "inputs": [
+    {
+      "tag": "INPUT",
+      "type": "text",
+      "id": "indexSearch",
+      "name": "zsl-search",
+      "placeholder": "",
+      "value": "",
+      "readonly": false,
+      "label": null
+    },
+    {
+      "tag": "INPUT",
+      "type": "text",
+      "id": "fDepCity",
+      "name": "fDepCity",
+      "placeholder": "",
+      "value": "全拼/简拼/汉字",
+      "readonly": false,
+      "label": null
+    },
+    {
+      "tag": "INPUT",
+      "type": "text",
+      "id": "fArrCity",
+      "name": "fArrCity",
+      "placeholder": "",
+      "value": "全拼/简拼/汉字",
+      "readonly": false,
+      "label": null
+    },
+    {
+      "tag": "INPUT",
+      "type": "text",
+      "id": "fDepDate",
+      "name": "fDepDate",
+      "placeholder": "",
+      "value": "2026-10-30",
+      "readonly": true,
+      "label": null
+    },
+    {
+      "tag": "INPUT",
+      "type": "text",
+      "id": "fArrDate",
+      "name": "fArrDate",
+      "placeholder": "",
+      "value": "2026-10-30",
+      "readonly": true,
+      "label": null
+    }
+  ],
+  "links": [
+    {
+      "text": "购票安全提示",
+      "href": "https://www.csair.com/mcms/mcms/CN/zh/2023/20231031_1/20231030_2.html"
+    },
+    {
+      "text": "预订行程",
+      "href": "https://b2c.csair.com/B2C40/newTrips/static/main/page/search/index.html?orderChannel=YDXC"
+    },
+    {
+      "text": "机票预订",
+      "href": "https://b2c.csair.com/B2C40/newTrips/static/main/page/search/index.html?orderChannel=YDXC"
+    },
+    {
+      "text": "机票兑换",
+      "href": "https://b2c.csair.com/B2CWeb/pub/page/mileage/search.html?ruleChannel=PC&channel=WX&ruleAuthorizecode=PC-10&authorize=WX-PC-10&orderChannel=YDXC"
+    },
+    {
+      "text": "残疾军人购票",
+      "href": "https://b2c.csair.com/B2C40/newTrips/static/main/page/search/index.html?lang=cn&preUrl=ECP007"
+    },
+    {
+      "text": "伤残人民警察购票",
+      "href": "https://b2c.csair.com/B2C40/newTrips/static/main/page/search/index.html?lang=cn&preUrl=ECP008"
+    },
+    {
+      "text": "无陪儿童购票",
+      "href": "https://b2c.csair.com/B2CNew/childAloneFlight"
+    },
+    {
+      "text": "机票退改",
+      "href": "https://emp.csair.com/pcChangeRefund/page/ticketRefundChange/?orderChannel=FWDT-XC"
+    },
+    {
+      "text": "机票预订",
+      "href": "https://www.csair.com/mcms/mcmsNewSite/zh/cn/#/tourguide/booking/payment/domesticpay"
+    },
+    {
+      "text": "机票预约>",
+      "href": "https://subscribe.csair.com/ticket-reservation/index.html?orderChannel=JPSS-YDXC"
+    },
+    {
+      "text": "立即查询",
+      "href": "https://www.csair.com/cn/#"
+    },
+    {
+      "text": "立即查询",
+      "href": "https://www.csair.com/cn/"
+    },
+    {
+      "text": "立即查询",
+      "href": "https://www.csair.com/cn/#"
+    },
+    {
+      "text": "机票兑换",
+      "href": "https://b2c.csair.com/B2CWeb/pub/page/mileage/search.html?lang=cn&orderChannel=ZXYH"
+    }
+  ],
+  "blocked": false,
+  "outcome": "homepage-readable",
+  "ms": 606
+}

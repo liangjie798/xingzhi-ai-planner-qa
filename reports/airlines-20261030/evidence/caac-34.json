@@ -1,0 +1,55 @@
+{
+  "id": "caac-34",
+  "index": 34,
+  "name": "河北航空有限公司",
+  "source": "https://www.caac.gov.cn/GYMH/MHGK/HKGS/index_1.html",
+  "category": "passenger",
+  "url": "https://www.hbhk.com.cn/",
+  "parentIndex": null,
+  "quoteVerified": false,
+  "checkedAt": "2026-10-30T03:55:54.946Z",
+  "stage": "homepage",
+  "status": 200,
+  "finalUrl": "https://www.hbhk.com.cn/",
+  "title": "河北航空(hebei airlines)官方网站—河北航空有限公司",
+  "text": "简体中文\n预订服务\n我的会员\n旅行贴士\n登录\n体验舒心服务\n...\n机票预订\n携带儿童\n2-12岁\n携带婴儿\n14天~2岁\n单程 往返\n出发地\n到达地\n出发日期\n购买行李\n提前选座\n航班动态\n服务大厅\n推荐航线\n优惠信息\n01\n专属福利  乐享出行\n在河北航空官网、微信小程序、APP购买带有“红包权益”标识客票，即可获赠红包奖励金专属福利。（点击航班查询页面“红包权益”标识即可查看详情介绍）\n02\n乐享舒适 加倍舒心\n全新推出“乐享经济舱”：座椅间距增加，腿部空间更宽敞；私密空间，机上服务更温馨；国内免费行李额30KG，拎包出门更省心；优先值机、快人一步。\n河北航空APP\n客户端全面升级上线，全新界面、从心出发\n旅行贴士\n查阅旅行信息，出行事项先知道\n加入会员\n奖励机票\n免费升舱\n免费退票改期\n头等舱候机休息\n精美礼品\n立即加入\n联系我们\n在线客服\n投诉建议\n客户服务中心热线： 0311-96699\n投诉受理电话： 0311-96699按4号键\n投诉邮箱： hbhkts@hbhk.com.cn\n关于我们\n客户服务\n常见问题\n购票服务\n地面服务\n运输规定\nCopyright(C)2015-2020河北航空有限公司版权所有 冀ICP备15001990号 冀公网安备 13012302000257号 营业执照 生产经营许可证\n在线客服",
+  "inputs": [
+    {
+      "tag": "INPUT",
+      "type": "text",
+      "id": "",
+      "name": "",
+      "placeholder": "",
+      "value": "",
+      "readonly": false,
+      "label": null
+    },
+    {
+      "tag": "INPUT",
+      "type": "text",
+      "id": "",
+      "name": "",
+      "placeholder": "",
+      "value": "",
+      "readonly": false,
+      "label": null
+    },
+    {
+      "tag": "INPUT",
+      "type": "text",
+      "id": "",
+      "name": "",
+      "placeholder": "",
+      "value": "",
+      "readonly": true,
+      "label": null
+    }
+  ],
+  "links": [],
+  "frames": [
+    "https://www.hbhk.com.cn/"
+  ],
+  "blocked": false,
+  "outcome": "homepage-readable",
+  "ms": 4309
+}

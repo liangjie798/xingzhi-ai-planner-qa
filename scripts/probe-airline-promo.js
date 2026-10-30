@@ -1,0 +1,9 @@
+async (owner,targets)=>{
+ const out=[];
+ for(const t of targets){const before=new Set(owner.context().pages());const p=await owner.context().newPage();await p.setViewportSize({width:1440,height:1000});let row={id:t.id,checkedAt:new Date().toISOString(),stage:'public-promotion-navigation'};try{await p.goto(t.url,{waitUntil:'domcontentloaded',timeout:18000});await p.waitForTimeout(3000);
+ for(let pass=0;pass<3;pass++){const ns=p.getByText(/^(?:知道了|我知道了|已阅读并同意|我已阅读并同意|同意|关闭)$/).filter({visible:true});for(let i=0;i<await ns.count();i++)await ns.nth(i).click({timeout:800}).catch(()=>{});}
+ const cards=await p.locator('a,div,li').evaluateAll((els,origin)=>els.map((e,i)=>({i,text:e.innerText?.trim(),r:e.getBoundingClientRect().toJSON(),cursor:getComputedStyle(e).cursor})).filter(x=>x.r.width>0&&x.r.x>=0&&x.r.x<1250&&x.text?.length<150&&x.text.includes(origin)&&/[¥￥]\s*\d+/.test(x.text)&&x.cursor==='pointer').sort((a,b)=>a.text.length-b.text.length).slice(0,8),t.origin);
+ row.candidates=cards.map(c=>c.text);if(!cards.length)throw new Error('No visible priced route card');const c=cards[0];row.clickedText=c.text;await p.locator('a,div,li').nth(c.i).click({timeout:4000});await p.waitForTimeout(5000);
+ row.pages=[];for(const ep of owner.context().pages().filter(x=>!before.has(x))){await ep.waitForLoadState('domcontentloaded',{timeout:4000}).catch(()=>{});row.pages.push({url:ep.url(),text:(await ep.locator('body').innerText()).slice(0,30000)});await ep.screenshot({path:`output/playwright/all-airlines-20261030/${t.id}-promo-${row.pages.length}.png`}).catch(()=>{});}
+ }catch(e){row.error=e.message.slice(0,250);row.text=(await p.locator('body').innerText().catch(()=>'')).slice(0,1200)}out.push(row);await Promise.all(owner.context().pages().filter(x=>!before.has(x)).map(x=>x.close().catch(()=>{})));}return out;
+}

@@ -1,0 +1,50 @@
+{
+  "id": "caac-17",
+  "index": 17,
+  "name": "北京首都航空有限公司",
+  "source": "https://www.caac.gov.cn/GYMH/MHGK/HKGS/",
+  "category": "passenger",
+  "url": "https://www.jdair.net/",
+  "parentIndex": null,
+  "quoteVerified": false,
+  "checkedAt": "2026-10-30T03:53:51.142Z",
+  "stage": "homepage",
+  "status": 200,
+  "finalUrl": "https://www.jdair.net/",
+  "title": "首都航空[官方网站]-机票查询_机票预订_航班查询_旅游度假_特价机票_三亚机票_丽江机票",
+  "text": "首页\n航班服务\n出行帮助\n会员及订单\n金鹏俱乐部\n关于首都航空\n投诉与意见反馈\nEnglish\n登录|注册\n1\n2\n3\n4\n5\n6\n7\n8\n9\n阅读更多\n新闻公告:\n精彩活动\n推荐服务\n行李提前购\n提前在网上购买托运行李，尽享超值特惠\n机上餐食\n给自己的旅行加点料，提前预定价更低\n新闻资讯\n常见问题FAQ\n登录问题\n客票问题\n支付问题\n行李问题\n首航微信公众号\n微信扫一扫\n优惠随时掌握\n首航官方微博\n微信扫一扫\n资讯随时了解\n\n尊敬的旅客，我们使用Cookies。\n\n为了提供个性化的展示与改善您的浏览体验，本网站使用cookie。继续浏览我们的网站，即表示您同意我们的 cookie政策以及隐私条款。\n\n24小时客服热线：95375\n\n服务投诉热线：\n\n95375-7（国内）\n\n+86 89895375-7（海外）\n\n服务投诉监督热线：\n\n010-6961 5308\n\n010-6961 5309\n\n工作日时间：\n\n上午8:30-12:00\n\n下午13:00-17:30\n\n出行帮助\n出行须知\n常见问题\n购票安全提示\n机上延误应急预案\n机场截载时间参考\n关于我们\n公司介绍\n联系我们\n加入我们\n投诉与意见反馈\n资料下载中心\n服务指南\n退改签规定\n错购退改规则\n国内运输总条件\n国际运输总条件\n货物运输总条件\n更多信息\n首航飞电\n隐私条款\nCookie政策\n辽宁方大集团金鹏俱乐部海南航空天津航空祥鹏航空西部航空福州航空长安航空金鹏航空北部湾航空乌鲁木齐航空海航货运香港航空\n\n©2010 北京首都航空有限公司 版权所有京ICP备14006819号-1京公网安备 11011302001325号\n营业执照经营许可证",
+  "inputs": [],
+  "links": [
+    {
+      "text": "机票预订",
+      "href": "https://www.jdair.net/micro/main/flight/search"
+    },
+    {
+      "text": "机票退改",
+      "href": "https://www.jdair.net/micro/main/order/v2/search"
+    },
+    {
+      "text": "无陪儿童机票预订",
+      "href": "https://www.jdair.net/micro/main/article/6646f32248c3f74c81db841a"
+    },
+    {
+      "text": "网上购票须知",
+      "href": "https://www.jdair.net/micro/main/help/6434c0a26964342aa2674e1a"
+    },
+    {
+      "text": "购票安全提示",
+      "href": "https://www.jdair.net/micro/main/article/64392a7253c6fc32c6d6f252"
+    },
+    {
+      "text": "机票兑换",
+      "href": "https://ffp.hnair.com/FFPClub/redeemTicket/user/searchView"
+    },
+    {
+      "text": "购票安全提示",
+      "href": "https://www.jdair.net/micro/main/article/64392a7253c6fc32c6d6f252"
+    }
+  ],
+  "blocked": false,
+  "outcome": "homepage-readable",
+  "ms": 1108
+}

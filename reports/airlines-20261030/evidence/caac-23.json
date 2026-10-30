@@ -1,0 +1,95 @@
+{
+  "id": "caac-23",
+  "index": 23,
+  "name": "中国联合航空有限公司",
+  "source": "https://www.caac.gov.cn/GYMH/MHGK/HKGS/index_1.html",
+  "category": "passenger",
+  "url": "https://www.flycua.com/",
+  "parentIndex": null,
+  "quoteVerified": false,
+  "checkedAt": "2026-10-30T03:54:27.213Z",
+  "stage": "homepage",
+  "status": 200,
+  "finalUrl": "https://www.flycua.com/",
+  "title": "中国联合航空公司",
+  "text": "首页\n服务中心\n我的行程\n会员中心\n出行帮助\n网站无障碍\n注册\n登录\n公告：\n更多\n机票预订\n团队预订\n航班动态\n餐食选购\n选座值机\n1人\n低价促销\n出发城市\n去程日期\n热门活动\n中联航PLUS会员，畅享多种权益，升级您的飞行体验！\n申办中联航中信银行联名信用卡，享行李和升舱优惠！\n旅游度假\n自由行\n重拳出击，终极爆款特价！低到爆！\n接送机\n选接送机，享快捷出行！\n休息室\n敬请期待......\n精彩视频\n在华支付指南\n行李托运这几点一定要注意哦\n坐飞机如何选座\n公告信息\n更多\n关于联航\n联航简介\n就业机会\n航线分布\n机组成员风采\n友情链接\n客户服务\nB2T网站\n国内代理授权\n政府采购\n公告信息\n新闻公告\n促销信息\n联系我们\n服务热线\n电子邮箱\n意见反馈\n微信公众号\n\n扫一扫， 优惠及时掌握\n\n手机APP客户端\n\n Android iPhone\n\n价格举报电话：12315\n客服电话：400-102-6666\n\n京公网安备 11011502004338号\n© Copyright 2010 中国联合航空有限公司\n京ICP备05075559号-2\n法律和隐私条款",
+  "inputs": [
+    {
+      "tag": "INPUT",
+      "type": "text",
+      "id": "input-id0",
+      "name": "",
+      "placeholder": "出发城市",
+      "value": "北京",
+      "readonly": false,
+      "label": null
+    },
+    {
+      "tag": "INPUT",
+      "type": "text",
+      "id": "input-id1",
+      "name": "",
+      "placeholder": "到达城市",
+      "value": "",
+      "readonly": false,
+      "label": null
+    },
+    {
+      "tag": "INPUT",
+      "type": "text",
+      "id": "input-id2",
+      "name": "flightType",
+      "placeholder": "",
+      "value": "单程",
+      "readonly": true,
+      "label": null
+    },
+    {
+      "tag": "INPUT",
+      "type": "text",
+      "id": "input-id3",
+      "name": "",
+      "placeholder": "去程日期",
+      "value": "2026/10/31",
+      "readonly": false,
+      "label": null
+    },
+    {
+      "tag": "INPUT",
+      "type": "text",
+      "id": "input-id4",
+      "name": "",
+      "placeholder": "回程日期",
+      "value": "",
+      "readonly": false,
+      "label": null
+    },
+    {
+      "tag": "INPUT",
+      "type": "text",
+      "id": "input-id5",
+      "name": "",
+      "placeholder": "",
+      "value": "北京",
+      "readonly": false,
+      "label": null
+    },
+    {
+      "tag": "INPUT",
+      "type": "text",
+      "id": "input-id6",
+      "name": "departDate",
+      "placeholder": "请选择去程日期",
+      "value": "2026/10/31",
+      "readonly": false,
+      "label": null
+    }
+  ],
+  "links": [],
+  "frames": [
+    "https://www.flycua.com/"
+  ],
+  "blocked": false,
+  "outcome": "query-form-found",
+  "ms": 2428
+}

@@ -1,0 +1,80 @@
+{
+  "id": "caac-56",
+  "index": 56,
+  "name": "龙江航空有限公司",
+  "source": "https://www.caac.gov.cn/GYMH/MHGK/HKGS/index_2.html",
+  "category": "passenger",
+  "url": "https://www.longjianghk.com/",
+  "parentIndex": null,
+  "quoteVerified": false,
+  "checkedAt": "2026-10-30T03:59:50.164Z",
+  "stage": "homepage",
+  "status": 200,
+  "finalUrl": "https://www.longjianghk.com/",
+  "title": "龙江航空[官方网站] – 龙江航空有限公司",
+  "text": "登录\n注册\n预订管理\n旅行信息\n自助服务\n走进龙江\n中国-简体中文\n登录\n注册\n乘龙江航空落地临汾\n预付费行李优惠上线\n魅力哈尔滨\n旅游攻略\n邂逅龙江\n 机票搜索\n发现旅行\n办理值机\n航班动态\n单程\n1成人\n成人（成人≥12岁）\n1\n儿童（2岁≤儿童<12岁）\n0\n婴儿（14天≤婴儿<2岁）\n0\n残疾军人\n0\n伤残警察\n0\n出发城市\n到达城市\n出发日期\n星期六\n返回日期\n搜索\n优惠出行\n哈尔滨\n合肥\n珠海\n太原\n重庆\n更多\n\n哈尔滨合肥\n\n2026-11-05\n\n￥610\n\n哈尔滨珠海\n\n2026-11-02\n\n￥1040\n\n哈尔滨银川\n\n2026-11-06\n\n￥500\n\n哈尔滨重庆\n\n2026-11-03\n\n￥870\n\n哈尔滨海口\n\n2026-11-02\n\n￥1400\n\n哈尔滨深圳\n\n2026-11-04\n\n￥650\n\n龙江新闻\n更多\n龙江航空新航季启航 新增宁波、天津、铜仁多个航点布局，解锁出行新体验！\n2025年03月31日\n共筑满意消费，畅享民航出行\n2025年03月12日\n龙江航空2025夏秋航季大揭秘： 新航线、新时刻，畅享飞行新体验！\n2025年02月27日\n承载旅客对比2024年上升23%！ 龙江航空圆满完成2025年春运大考\n2025年02月27日\n翼展八载 腾飞四海 龙行天际 感恩有您\n2025年02月14日\n龙江公告\n更多\n关于下发《龙江航空国内航班行李额标准》的通知\n2026年10月16日\n关于下发《龙江航空调整国内航线燃油附加费征收标准》的通知\n2026年10月07日\n龙江航空有限公司2026-2027冬春航季团队区域打包竞标项目招标公告\n2026年09月24日\n龙江航空温馨提示\n2026年09月12日\n乘龙江航空落地临汾｜“航旅一票通”来袭！登机牌解锁景区免票福利\n2026年09月08日\n\n24小时投诉/客服电话（Call Center）：0451-81181111\n\n龙江航空投诉邮箱：CC@longjianghk.com\n\n龙江航空服务监督邮箱：LTFWJD@longjianghk.com\n\n购票须知\n龙江航空旅客、行李运输总条件\n龙江航空国内航班多等级舱位管理规定及使用规则\n残疾人航空运输服务方案\n机上延误应急预案\n行李运输限制\n人体捐献器官航空运输指南\n旅客须知\n走进龙江\n公司简介\n龙江新闻\n最新公告\n服务承诺\n更多信息\n隐私条款\n法律声明\nCookie 政策\n网站地图\n\n版权所有 2014-2025 龙江航空有限公司黑ICP备2021003420号-1\n\n滚动到顶部\n\n我们使用 Cookies 为了提供个性化的展示与改善的浏览体验。本网站使用 Cookie。继续浏览我们的网站，即表示您同意我们的 Cookie政策 以及 隐私条款。",
+  "inputs": [
+    {
+      "tag": "INPUT",
+      "type": "search",
+      "id": "rc_select_0",
+      "name": "",
+      "placeholder": "",
+      "value": "",
+      "readonly": true,
+      "label": null
+    },
+    {
+      "tag": "INPUT",
+      "type": "text",
+      "id": "",
+      "name": "",
+      "placeholder": "出发城市",
+      "value": "",
+      "readonly": false,
+      "label": null
+    },
+    {
+      "tag": "INPUT",
+      "type": "text",
+      "id": "",
+      "name": "",
+      "placeholder": "到达城市",
+      "value": "",
+      "readonly": false,
+      "label": null
+    },
+    {
+      "tag": "INPUT",
+      "type": "text",
+      "id": "",
+      "name": "",
+      "placeholder": "出发日期",
+      "value": "2026-10-31",
+      "readonly": true,
+      "label": null
+    },
+    {
+      "tag": "INPUT",
+      "type": "text",
+      "id": "",
+      "name": "",
+      "placeholder": "返回日期",
+      "value": "",
+      "readonly": true,
+      "label": null
+    }
+  ],
+  "links": [
+    {
+      "text": "机票预订",
+      "href": "https://www.longjianghk.com/?search=00"
+    }
+  ],
+  "frames": [
+    "https://www.longjianghk.com/"
+  ],
+  "blocked": false,
+  "outcome": "query-form-found",
+  "ms": 3736
+}

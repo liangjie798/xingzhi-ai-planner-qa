@@ -1,0 +1,43 @@
+{
+  "id": "caac-53",
+  "index": 53,
+  "name": "多彩贵州航空有限公司",
+  "source": "https://www.caac.gov.cn/GYMH/MHGK/HKGS/index_2.html",
+  "category": "passenger",
+  "url": "https://www.cgzair.com/",
+  "parentIndex": null,
+  "quoteVerified": false,
+  "checkedAt": "2026-10-30T03:59:42.724Z",
+  "stage": "homepage",
+  "status": 200,
+  "finalUrl": "https://www.cgzair.com/",
+  "title": "【多彩航】多彩贵州航空官方网站丨乘多彩航空，看多彩世界！",
+  "text": "出行预订\n服务大厅\n帮助中心\n客户服务\n关于多彩\n中国·简体中文\n\n\n\n 登录 / 注册\n关于福州长乐国际机场T1航站楼国内出港航班截载时间调整通知\n关于西双版纳嘎洒国际机场乘机手续办理时间的通知\n关于宜宾机场航班截载及登机口关闭时间调整通知\n+ 更多\n1234\n机票预定\n在线值机\n航班动态\n航变改期\n延误证明\n增值服务\n出发城市 \n您准备从哪儿出发？\n到达城市 \n您想到哪儿去？\n 特价机票 切换出发城市  < \n北京大兴 | 贵阳 | 揭阳潮汕 | 宜宾 | 万州 | 遵义茅台\n >\n\n在线值机\n行前准备\n关怀服务\n保险须知\n常见问题\n客票验真\n公司新闻\n更多 >>>\n喜报！热烈祝贺多彩贵州航空在集团公司职工运动会田径比赛中斩获佳绩！ 万米蓝天贺国庆 一舱锦绣品黔风——多彩贵州航空开展国庆主题机上活动 多彩贵州航空乘务员新制服即将正式亮相\n  \n关于多彩\n公司简介\n联系我们\n诚聘英才\n在线客服\n出行指南\n购票须知\n行李规定\n安检提示\n病退须知\n特殊旅客出行须知\n贴心提示\n国内国际运输总条件\n多等级舱位管理规定\n机上延误处置预案\n航班超售的公开信\n自助服务\n航班动态\n网上值机\n客票验真\n不正常航班自助改期\n不正常航班延误证明\n友情链接\n多彩航丨B2B平台\n隐私政策\n免责声明\n贵州民航产业集团有限公司\nCopyright©2015−2018 多彩贵州航空有限公司 黔ICP备15016457号贵公网安备52010902000018",
+  "inputs": [
+    {
+      "tag": "SELECT",
+      "type": "select-one",
+      "id": "",
+      "name": "",
+      "value": "中国·简体中文",
+      "label": null
+    }
+  ],
+  "links": [
+    {
+      "text": " 机票预订",
+      "href": "https://www.cgzair.com/index/tripreserve.jhtml"
+    },
+    {
+      "text": "购票须知",
+      "href": "https://www.cgzair.com/bzzx/xqyd/gpts/11.html"
+    }
+  ],
+  "frames": [
+    "https://www.cgzair.com/",
+    "about:srcdoc"
+  ],
+  "blocked": false,
+  "outcome": "homepage-readable",
+  "ms": 1794
+}

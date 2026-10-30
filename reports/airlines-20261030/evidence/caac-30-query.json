@@ -1,0 +1,27 @@
+{
+  "id": "caac-30",
+  "name": "东海航空有限公司",
+  "url": "https://www.donghaiair.com/",
+  "origin": "深圳",
+  "destination": "南通",
+  "checkedAt": "2026-10-30T04:03:52.748Z",
+  "quoteVerified": false,
+  "actions": [
+    {
+      "field": "深圳",
+      "selectedFromVisibleOption": true,
+      "value": "深圳"
+    },
+    {
+      "field": "南通",
+      "selectedFromVisibleOption": true,
+      "value": "南通"
+    }
+  ],
+  "submitted": true,
+  "text": " \n\n旅客服务投诉热线  4000888666\n中文\n旅客须知\n登录\n注册\n首页\n预订管理\n出行助手\n旅客服务\n网站会员\n校园招聘\n1查询航班\n2选择航班\n3填写信息\n4订单支付\n5完成支付\n\n正在为您加载......\n\n关于东海\n东海简介\n东海新闻\n法律和隐私条款\n东海招聘\n社会招聘\n校园招聘\n飞行员招聘\n乘务员招聘\n安全员招聘\n专项招聘\n互动支持\n联系我们\n采购公告\n国内运输总条件\n国际运输总条件\n机上延误应急预案\n货物运输总条件\n帮助中心\n网站地图\n常见问题\n机票验真\n关注我们\n©2026 东海航空有限公司 版权所有 粤ICP备11082739号\n粤公网安备 44030602003438号\n\n公司地址：深圳市宝安区宝安机场航站四路3009号东海航空基地\n\n信息\n会话已过期，请重新登录\n确定",
+  "outcome": "submitted-result-needs-review",
+  "finalUrl": "https://www.donghaiair.com/html/booking-manage/choose-flight-two.html?flightType=1&orgCode=SZX&destCode=NTG&starCity=%E6%B7%B1%E5%9C%B3&arrviceCity=%E5%8D%97%E9%80%9A&departureDateStr=2026-11-01&returnDateStr=2026-11-03&adult=1&child=0&infant=0&airCode=DZ&direct=true&noneStop=true",
+  "title": "东海航空有限公司",
+  "ms": 18672
+}
