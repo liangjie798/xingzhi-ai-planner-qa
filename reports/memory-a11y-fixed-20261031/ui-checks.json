@@ -1,0 +1,32 @@
+{
+  "realPlanningStatus": 200,
+  "scan": {
+    "violations": [],
+    "passes": 23,
+    "metrics": [
+      [
+        [
+          "DT",
+          "DD"
+        ],
+        [
+          "DT",
+          "DD"
+        ],
+        [
+          "DT",
+          "DD"
+        ]
+      ]
+    ]
+  },
+  "mobile": {
+    "overflow": false
+  },
+  "cleanup": {
+    "deleted": 1,
+    "statuses": [
+      200
+    ]
+  }
+}

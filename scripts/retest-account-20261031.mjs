@@ -1,5 +1,5 @@
 import fs from 'node:fs/promises';
-const base='https://lht574.cn',cookies=new Map(),rows=[],root='reports/live-retest-20261031-evening';
+const base='https://lht574.cn',cookies=new Map(),rows=[],root=process.env.QA_REPORT_DIR||'reports/live-retest-20261031-evening';
 let sessionId,csrfHeaders={};
 async function request(path,data,method=data===undefined?'GET':'POST'){
   const start=Date.now();

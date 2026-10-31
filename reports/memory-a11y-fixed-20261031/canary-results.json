@@ -1,0 +1,73 @@
+[
+  {
+    "case": "page-/welcome",
+    "passed": true
+  },
+  {
+    "case": "page-/transport",
+    "passed": true
+  },
+  {
+    "case": "compound-memory-after-22-turns",
+    "passed": true,
+    "reply": "\u5f53\u524d\u5bf9\u8bdd\u4fdd\u5b58\u7684\u65c5\u884c\u4ee3\u53f7\u662f\uff1a\u9752\u7af94726\u3002\n\u5f53\u524d\u5bf9\u8bdd\u4fdd\u5b58\u7684\u540c\u884c\u4eba\u7684\u540d\u5b57\u662f\uff1a\u6797\u821f\u3002"
+  },
+  {
+    "case": "clean-memory-update",
+    "passed": true,
+    "reply": "\u5f53\u524d\u5bf9\u8bdd\u4fdd\u5b58\u7684\u65c5\u884c\u4ee3\u53f7\u662f\uff1a\u767d\u9e6d9361\u3002\n\u5f53\u524d\u5bf9\u8bdd\u4fdd\u5b58\u7684\u540c\u884c\u4eba\u7684\u540d\u5b57\u662f\uff1a\u6797\u821f\u3002"
+  },
+  {
+    "case": "stored-value-is-clean",
+    "passed": true
+  },
+  {
+    "case": "numbered-facts-remain-distinct",
+    "passed": true
+  },
+  {
+    "case": "compound-recall-after-forget",
+    "passed": true,
+    "reply": "\u5f53\u524d\u5bf9\u8bdd\u4fdd\u5b58\u7684\u540c\u884c\u4eba\u7684\u540d\u5b57\u662f\uff1a\u6797\u821f\u3002\n\u5173\u4e8e\u201c\u65c5\u884c\u4ee3\u53f7\u662f\u4ec0\u4e48\u201d\uff0c\u5f53\u524d\u5bf9\u8bdd\u6ca1\u6709\u627e\u5230\u53ef\u786e\u8ba4\u7684\u8fd9\u9879\u8bb0\u5fc6\uff1b\u6211\u4e0d\u4f1a\u731c\u6d4b\u3002"
+  },
+  {
+    "case": "live-flight-query",
+    "passed": true,
+    "quotes": 5,
+    "ms": 16045,
+    "providers": [
+      {
+        "airlineCode": "9H",
+        "sourceName": "\u957f\u5b89\u822a\u7a7a",
+        "state": "timeout",
+        "sourceUrl": "https://www.airchangan.com/",
+        "checkedAt": "2026-10-31T14:31:19.505Z",
+        "quoteCount": 0,
+        "airportScope": "\u897f\u5b89 \u2192 \u6986\u6797\uff1b\u673a\u573a\u4ee5\u5177\u4f53\u822a\u73ed\u4e3a\u51c6\uff0c\u672a\u4fdd\u8bc1\u8986\u76d6\u540c\u57ce\u5168\u90e8\u673a\u573a"
+      },
+      {
+        "airlineCode": "MF",
+        "sourceName": "\u53a6\u95e8\u822a\u7a7a",
+        "state": "quoted",
+        "sourceUrl": "https://www.xiamenair.com/zh-cn/nticket.html",
+        "checkedAt": "2026-10-31T14:31:32.094Z",
+        "quoteCount": 2,
+        "airportScope": "\u897f\u5b89 \u2192 \u6986\u6797\uff1b\u673a\u573a\u4ee5\u5177\u4f53\u822a\u73ed\u4e3a\u51c6\uff0c\u672a\u4fdd\u8bc1\u8986\u76d6\u540c\u57ce\u5168\u90e8\u673a\u573a"
+      },
+      {
+        "airlineCode": "GS",
+        "sourceName": "\u5929\u6d25\u822a\u7a7a",
+        "state": "quoted",
+        "sourceUrl": "https://www.tianjin-air.com/flights/results/XIY-UYN-261101-100-0",
+        "checkedAt": "2026-10-31T14:31:35.462Z",
+        "quoteCount": 3,
+        "airportScope": "\u897f\u5b89 \u2192 \u6986\u6797\uff1b\u673a\u573a\u4ee5\u5177\u4f53\u822a\u73ed\u4e3a\u51c6\uff0c\u672a\u4fdd\u8bc1\u8986\u76d6\u540c\u57ce\u5168\u90e8\u673a\u573a"
+      }
+    ]
+  },
+  {
+    "case": "live-train-query",
+    "passed": true,
+    "quotes": 10
+  }
+]
