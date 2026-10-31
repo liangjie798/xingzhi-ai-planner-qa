@@ -1,0 +1,23 @@
+{
+  "date": "2026-10-31",
+  "applicationCommit": "1f4cad435d15e747eaafcd3b2836c4432326a091",
+  "archiveIntegrity": true,
+  "requiredEntries": true,
+  "excludedPrivateFilesAndCaches": true,
+  "duplicateEntries": false,
+  "extractedPathWithChineseAndSpaces": true,
+  "extractedBatPrerequisiteCheck": true,
+  "dotenvLoading": true,
+  "processEnvironmentOverridesDotenv": true,
+  "explicitPortOverride": true,
+  "realBackendHealthStatus": "UP",
+  "occupiedPortExitCode": 1,
+  "frontendTestsPassed": 119,
+  "backendTestsPassed": 22,
+  "lintPassed": true,
+  "formatPassed": true,
+  "frontendProductionBuildPassed": true,
+  "storybookBuildPassed": true,
+  "productionRedeployedThisTurn": false,
+  "note": "The package contains source and documents. JDK 21 and network access for the initial Maven dependency download are required. SHA-256 is provided next to the final ZIP."
+}
