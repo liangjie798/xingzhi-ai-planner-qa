@@ -1,0 +1,20 @@
+{
+  "date": "2026-10-31",
+  "applicationCommit": "22c0775",
+  "windowsPowerShellVersion": "5.1",
+  "actualJdkInstalled": "Temurin 21.0.13+9",
+  "actualMavenInstalled": "3.10.0",
+  "freshLocalDownloadAndInstall": true,
+  "jdkOfficialSha256Verified": true,
+  "mavenOfficialSha512Verified": true,
+  "progressPercentageAndBarObserved": true,
+  "matchingSystemEnvironmentReused": true,
+  "matchingProjectEnvironmentReused": true,
+  "secondRunDownloadedAgain": false,
+  "regressionChecksPassed": 8,
+  "batStartedBackendWithInstalledEnvironment": true,
+  "healthStatus": "UP",
+  "testPort": 18080,
+  "systemEnvironmentPermanentlyModified": false,
+  "productionRedeployedThisTurn": false
+}
