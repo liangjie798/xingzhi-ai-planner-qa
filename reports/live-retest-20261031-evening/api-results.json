@@ -1,0 +1,3077 @@
+{
+  "config": {
+    "configFile": "G:\\Ai Web\\xingzhi-ai-planner-qa\\playwright.config.mjs",
+    "rootDir": "G:/Ai Web/xingzhi-ai-planner-qa/tests",
+    "forbidOnly": false,
+    "fullyParallel": false,
+    "globalSetup": null,
+    "globalTeardown": null,
+    "globalTimeout": 0,
+    "grep": {},
+    "grepInvert": null,
+    "maxFailures": 0,
+    "metadata": {
+      "actualWorkers": 1
+    },
+    "preserveOutput": "always",
+    "projects": [
+      {
+        "outputDir": "G:/Ai Web/xingzhi-ai-planner-qa/test-results/live-retest-20261031-evening",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {
+          "actualWorkers": 1
+        },
+        "id": "",
+        "name": "",
+        "testDir": "G:/Ai Web/xingzhi-ai-planner-qa/tests",
+        "testIgnore": [],
+        "testMatch": [
+          "**/*.@(spec|test).?(c|m)[jt]s?(x)"
+        ],
+        "timeout": 120000
+      }
+    ],
+    "quiet": false,
+    "reporter": [
+      [
+        "json"
+      ]
+    ],
+    "reportSlowTests": {
+      "max": 5,
+      "threshold": 300000
+    },
+    "runAgents": "none",
+    "shard": null,
+    "tags": [],
+    "updateSnapshots": "missing",
+    "updateSourceMethod": "patch",
+    "version": "1.58.2",
+    "workers": 1,
+    "webServer": null
+  },
+  "suites": [
+    {
+      "title": "api.spec.mjs",
+      "file": "api.spec.mjs",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "API-001 /conversation-planner rejects malformed JSON",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 120000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 141,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-31T11:28:05.283Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "e672bd66ab277012610d-859bd091209746b96889",
+          "file": "api.spec.mjs",
+          "line": 6,
+          "column": 3
+        },
+        {
+          "title": "API-011 /conversation-planner rejects JSON null without a server error",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 120000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 25,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-31T11:28:05.440Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "e672bd66ab277012610d-e66a3727729dfbf2cf7c",
+          "file": "api.spec.mjs",
+          "line": 11,
+          "column": 3
+        },
+        {
+          "title": "API-002 /tourism-planner rejects malformed JSON",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 120000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 31,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-31T11:28:05.473Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "e672bd66ab277012610d-a56f4f98e536f7cc5cb0",
+          "file": "api.spec.mjs",
+          "line": 6,
+          "column": 3
+        },
+        {
+          "title": "API-012 /tourism-planner rejects JSON null without a server error",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 120000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 28,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-31T11:28:05.511Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "e672bd66ab277012610d-b7d26011b0e85eea5f9b",
+          "file": "api.spec.mjs",
+          "line": 11,
+          "column": 3
+        },
+        {
+          "title": "API-003 /planning-evidence rejects malformed JSON",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 120000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 29,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-31T11:28:05.546Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "e672bd66ab277012610d-cfad95c0711e8d244e02",
+          "file": "api.spec.mjs",
+          "line": 6,
+          "column": 3
+        },
+        {
+          "title": "API-013 /planning-evidence rejects JSON null without a server error",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 120000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 25,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-31T11:28:05.581Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "e672bd66ab277012610d-dc59c10932504e520206",
+          "file": "api.spec.mjs",
+          "line": 11,
+          "column": 3
+        },
+        {
+          "title": "API-004 /activity-venues rejects malformed JSON",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 120000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 27,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-31T11:28:05.611Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "e672bd66ab277012610d-8384bd8f3ce84191b98e",
+          "file": "api.spec.mjs",
+          "line": 6,
+          "column": 3
+        },
+        {
+          "title": "API-014 /activity-venues rejects JSON null without a server error",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 120000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 23,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-31T11:28:05.643Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "e672bd66ab277012610d-0904ecadd8497e624c89",
+          "file": "api.spec.mjs",
+          "line": 11,
+          "column": 3
+        },
+        {
+          "title": "API-005 /journey-search rejects malformed JSON",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 120000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 29,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-31T11:28:05.672Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "e672bd66ab277012610d-2cae2a4c8d01f6b8db71",
+          "file": "api.spec.mjs",
+          "line": 6,
+          "column": 3
+        },
+        {
+          "title": "API-015 /journey-search rejects JSON null without a server error",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 120000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 24,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-31T11:28:05.707Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "e672bd66ab277012610d-c6667e3fdd6c4368110e",
+          "file": "api.spec.mjs",
+          "line": 11,
+          "column": 3
+        },
+        {
+          "title": "API-006 /model-gateway rejects malformed JSON",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 120000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 29,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-31T11:28:05.736Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "e672bd66ab277012610d-62b22e15dbfac0300132",
+          "file": "api.spec.mjs",
+          "line": 6,
+          "column": 3
+        },
+        {
+          "title": "API-016 /model-gateway rejects JSON null without a server error",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 120000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 26,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-31T11:28:05.770Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "e672bd66ab277012610d-a9fce4e9b664a1b362df",
+          "file": "api.spec.mjs",
+          "line": 11,
+          "column": 3
+        },
+        {
+          "title": "API-007 /social-research rejects malformed JSON",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 120000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 27,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-31T11:28:05.802Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "e672bd66ab277012610d-7107deceaefa2a847bf9",
+          "file": "api.spec.mjs",
+          "line": 6,
+          "column": 3
+        },
+        {
+          "title": "API-017 /social-research rejects JSON null without a server error",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 120000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 27,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-31T11:28:05.834Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "e672bd66ab277012610d-3aa11ac84049712a4a3c",
+          "file": "api.spec.mjs",
+          "line": 11,
+          "column": 3
+        },
+        {
+          "title": "API-031 /conversation-planner: missing message",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 120000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 24,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-31T11:28:05.867Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "e672bd66ab277012610d-1392ac41be3b8e5d2537",
+          "file": "api.spec.mjs",
+          "line": 41,
+          "column": 3
+        },
+        {
+          "title": "API-032 /conversation-planner: blank message",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 120000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 23,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-31T11:28:05.895Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "e672bd66ab277012610d-f941b56717b6353cd5f7",
+          "file": "api.spec.mjs",
+          "line": 41,
+          "column": 3
+        },
+        {
+          "title": "API-033 /conversation-planner: numeric message",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 120000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 23,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-31T11:28:05.923Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "e672bd66ab277012610d-58c252c8bf72875ca43a",
+          "file": "api.spec.mjs",
+          "line": 41,
+          "column": 3
+        },
+        {
+          "title": "API-034 /model-gateway: missing prompt",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 120000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 23,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-31T11:28:05.951Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "e672bd66ab277012610d-a480571ec9457993b015",
+          "file": "api.spec.mjs",
+          "line": 41,
+          "column": 3
+        },
+        {
+          "title": "API-035 /model-gateway: numeric prompt",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 120000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 26,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-31T11:28:05.979Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "e672bd66ab277012610d-6f3024d9951b846b8a89",
+          "file": "api.spec.mjs",
+          "line": 41,
+          "column": 3
+        },
+        {
+          "title": "API-036 /model-gateway: overlong prompt",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 120000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 28,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-31T11:28:06.010Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "e672bd66ab277012610d-4bbe820c0739662ff7bd",
+          "file": "api.spec.mjs",
+          "line": 41,
+          "column": 3
+        },
+        {
+          "title": "API-037 /model-gateway: unsupported image",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 120000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 25,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-31T11:28:06.043Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "e672bd66ab277012610d-3da36bd0502a817ecd15",
+          "file": "api.spec.mjs",
+          "line": 41,
+          "column": 3
+        },
+        {
+          "title": "API-038 /model-gateway: non-string image",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 120000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 24,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-31T11:28:06.073Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "e672bd66ab277012610d-862dea6f84056cff7bdb",
+          "file": "api.spec.mjs",
+          "line": 41,
+          "column": 3
+        },
+        {
+          "title": "API-039 /tourism-planner: missing city and date",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 120000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 24,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-31T11:28:06.103Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "e672bd66ab277012610d-74728fe912b9c787b0ee",
+          "file": "api.spec.mjs",
+          "line": 41,
+          "column": 3
+        },
+        {
+          "title": "API-040 /tourism-planner: nonexistent calendar date",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 120000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 34,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-31T11:28:06.133Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "e672bd66ab277012610d-8d72599e514c657436e8",
+          "file": "api.spec.mjs",
+          "line": 41,
+          "column": 3
+        },
+        {
+          "title": "API-041 /tourism-planner: reversed date range",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 120000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 30,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-31T11:28:06.172Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "e672bd66ab277012610d-3f2df0ce60501b14193d",
+          "file": "api.spec.mjs",
+          "line": 41,
+          "column": 3
+        },
+        {
+          "title": "API-042 /tourism-planner: eight-day range",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 120000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 39,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-31T11:28:06.207Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "e672bd66ab277012610d-8f85a7b9097af488a2d3",
+          "file": "api.spec.mjs",
+          "line": 41,
+          "column": 3
+        },
+        {
+          "title": "API-043 /tourism-planner: null hourly entry",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 120000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 28,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-31T11:28:06.251Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "e672bd66ab277012610d-1e093004933edee738c4",
+          "file": "api.spec.mjs",
+          "line": 41,
+          "column": 3
+        },
+        {
+          "title": "API-044 /tourism-planner: non-array hours",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 120000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 25,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-31T11:28:06.285Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "e672bd66ab277012610d-c0c2f5fa353290bc668a",
+          "file": "api.spec.mjs",
+          "line": 41,
+          "column": 3
+        },
+        {
+          "title": "API-045 /tourism-planner: reversed allowed hours",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 120000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 24,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-31T11:28:06.315Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "e672bd66ab277012610d-8ba89e6e8dafe9b03dea",
+          "file": "api.spec.mjs",
+          "line": 41,
+          "column": 3
+        },
+        {
+          "title": "API-046 /planning-evidence: non-string place",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 120000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 23,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-31T11:28:06.344Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "e672bd66ab277012610d-4594e60224eb2555061e",
+          "file": "api.spec.mjs",
+          "line": 41,
+          "column": 3
+        },
+        {
+          "title": "API-047 /planning-evidence: more than 40 places",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 120000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 26,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-31T11:28:06.373Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "e672bd66ab277012610d-061a2fbcca710e4f9eb5",
+          "file": "api.spec.mjs",
+          "line": 41,
+          "column": 3
+        },
+        {
+          "title": "API-048 /activity-venues: unsupported scene",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 120000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 25,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-31T11:28:06.403Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "e672bd66ab277012610d-c39b99ad18171419ed9b",
+          "file": "api.spec.mjs",
+          "line": 41,
+          "column": 3
+        },
+        {
+          "title": "API-049 /journey-search: numeric departure",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 120000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 26,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-31T11:28:06.432Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "e672bd66ab277012610d-81bbf99ead13c6dae823",
+          "file": "api.spec.mjs",
+          "line": 41,
+          "column": 3
+        },
+        {
+          "title": "API-050 /journey-search: missing journey fields",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 120000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 27,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-31T11:28:06.463Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "e672bd66ab277012610d-ad76c1d4624a0146306a",
+          "file": "api.spec.mjs",
+          "line": 41,
+          "column": 3
+        },
+        {
+          "title": "API-061 image proxy rejects unsupported URL 0",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 120000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 22,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-31T11:28:06.495Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "e672bd66ab277012610d-04972af2accba1cbbc2a",
+          "file": "api.spec.mjs",
+          "line": 49,
+          "column": 3
+        },
+        {
+          "title": "API-062 image proxy rejects unsupported URL 1",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 120000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 22,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-31T11:28:06.522Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "e672bd66ab277012610d-a18d865c2f35e0aa74e8",
+          "file": "api.spec.mjs",
+          "line": 49,
+          "column": 3
+        },
+        {
+          "title": "API-063 image proxy rejects unsupported URL 2",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 120000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 20,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-31T11:28:06.549Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "e672bd66ab277012610d-2c6f3cd94103c2174003",
+          "file": "api.spec.mjs",
+          "line": 49,
+          "column": 3
+        },
+        {
+          "title": "API-064 image proxy rejects unsupported URL 3",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 120000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 21,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-31T11:28:06.575Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "e672bd66ab277012610d-ffea3e168813cf022201",
+          "file": "api.spec.mjs",
+          "line": 49,
+          "column": 3
+        },
+        {
+          "title": "API-065 image proxy rejects unsupported URL 4",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 120000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 21,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-31T11:28:06.601Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "e672bd66ab277012610d-e4705633188032725f0d",
+          "file": "api.spec.mjs",
+          "line": 49,
+          "column": 3
+        },
+        {
+          "title": "API-066 image proxy rejects unsupported URL 5",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 120000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 22,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-31T11:28:06.627Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "e672bd66ab277012610d-f63a4f26dda01d7b5e44",
+          "file": "api.spec.mjs",
+          "line": 49,
+          "column": 3
+        },
+        {
+          "title": "API-070 complete tourism intake preserves seven university students",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 120000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 73,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-31T11:28:06.655Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "e672bd66ab277012610d-bc024451dc9e5f922e67",
+          "file": "api.spec.mjs",
+          "line": 54,
+          "column": 1
+        },
+        {
+          "title": "API-071 invalid revision: 人数改成0人，其他不变",
+          "ok": false,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 120000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "failed",
+                  "duration": 32,
+                  "error": {
+                    "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoEqual\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // deep equality\u001b[22m\n\n\u001b[32m- Expected  - 0\u001b[39m\n\u001b[31m+ Received  + 1\u001b[39m\n\n\u001b[33m@@ -8,6 +8,7 @@\u001b[39m\n\u001b[2m    \"endDate\": \"2026-11-02\",\u001b[22m\n\u001b[2m    \"group\": \"儿童青少年\",\u001b[22m\n\u001b[2m    \"intensity\": \"中强度\",\u001b[22m\n\u001b[2m    \"participants\": 40,\u001b[22m\n\u001b[2m    \"startHour\": 14,\u001b[22m\n\u001b[31m+   \"tripDays\": 2,\u001b[39m\n\u001b[2m  }\u001b[22m",
+                    "stack": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoEqual\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // deep equality\u001b[22m\n\n\u001b[32m- Expected  - 0\u001b[39m\n\u001b[31m+ Received  + 1\u001b[39m\n\n\u001b[33m@@ -8,6 +8,7 @@\u001b[39m\n\u001b[2m    \"endDate\": \"2026-11-02\",\u001b[22m\n\u001b[2m    \"group\": \"儿童青少年\",\u001b[22m\n\u001b[2m    \"intensity\": \"中强度\",\u001b[22m\n\u001b[2m    \"participants\": 40,\u001b[22m\n\u001b[2m    \"startHour\": 14,\u001b[22m\n\u001b[31m+   \"tripDays\": 2,\u001b[39m\n\u001b[2m  }\u001b[22m\n    at G:\\Ai Web\\xingzhi-ai-planner-qa\\tests\\api.spec.mjs:78:28",
+                    "location": {
+                      "file": "G:\\Ai Web\\xingzhi-ai-planner-qa\\tests\\api.spec.mjs",
+                      "column": 28,
+                      "line": 78
+                    },
+                    "snippet": "  76 |     const b = await conversation(request, message, { intake: { known }, activeTopic: 'planning' });\n  77 |     expect(b.command).toBe('answer');\n> 78 |     expect(b.intake.known).toEqual(known);\n     |                            ^\n  79 |     expect(b.reply).toMatch(pattern);\n  80 |   });\n  81 | }"
+                  },
+                  "errors": [
+                    {
+                      "location": {
+                        "file": "G:\\Ai Web\\xingzhi-ai-planner-qa\\tests\\api.spec.mjs",
+                        "column": 28,
+                        "line": 78
+                      },
+                      "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoEqual\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // deep equality\u001b[22m\n\n\u001b[32m- Expected  - 0\u001b[39m\n\u001b[31m+ Received  + 1\u001b[39m\n\n\u001b[33m@@ -8,6 +8,7 @@\u001b[39m\n\u001b[2m    \"endDate\": \"2026-11-02\",\u001b[22m\n\u001b[2m    \"group\": \"儿童青少年\",\u001b[22m\n\u001b[2m    \"intensity\": \"中强度\",\u001b[22m\n\u001b[2m    \"participants\": 40,\u001b[22m\n\u001b[2m    \"startHour\": 14,\u001b[22m\n\u001b[31m+   \"tripDays\": 2,\u001b[39m\n\u001b[2m  }\u001b[22m\n\n  76 |     const b = await conversation(request, message, { intake: { known }, activeTopic: 'planning' });\n  77 |     expect(b.command).toBe('answer');\n> 78 |     expect(b.intake.known).toEqual(known);\n     |                            ^\n  79 |     expect(b.reply).toMatch(pattern);\n  80 |   });\n  81 | }\n    at G:\\Ai Web\\xingzhi-ai-planner-qa\\tests\\api.spec.mjs:78:28"
+                    }
+                  ],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-31T11:28:06.733Z",
+                  "annotations": [],
+                  "attachments": [],
+                  "errorLocation": {
+                    "file": "G:\\Ai Web\\xingzhi-ai-planner-qa\\tests\\api.spec.mjs",
+                    "column": 28,
+                    "line": 78
+                  }
+                }
+              ],
+              "status": "unexpected"
+            }
+          ],
+          "id": "e672bd66ab277012610d-cad9f2068d67f1c8c8cf",
+          "file": "api.spec.mjs",
+          "line": 74,
+          "column": 3
+        },
+        {
+          "title": "API-072 invalid revision: 人数改成-1人",
+          "ok": false,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 120000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 1,
+                  "parallelIndex": 0,
+                  "status": "failed",
+                  "duration": 95,
+                  "error": {
+                    "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoEqual\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // deep equality\u001b[22m\n\n\u001b[32m- Expected  - 0\u001b[39m\n\u001b[31m+ Received  + 1\u001b[39m\n\n\u001b[33m@@ -8,6 +8,7 @@\u001b[39m\n\u001b[2m    \"endDate\": \"2026-11-02\",\u001b[22m\n\u001b[2m    \"group\": \"儿童青少年\",\u001b[22m\n\u001b[2m    \"intensity\": \"中强度\",\u001b[22m\n\u001b[2m    \"participants\": 40,\u001b[22m\n\u001b[2m    \"startHour\": 14,\u001b[22m\n\u001b[31m+   \"tripDays\": 2,\u001b[39m\n\u001b[2m  }\u001b[22m",
+                    "stack": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoEqual\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // deep equality\u001b[22m\n\n\u001b[32m- Expected  - 0\u001b[39m\n\u001b[31m+ Received  + 1\u001b[39m\n\n\u001b[33m@@ -8,6 +8,7 @@\u001b[39m\n\u001b[2m    \"endDate\": \"2026-11-02\",\u001b[22m\n\u001b[2m    \"group\": \"儿童青少年\",\u001b[22m\n\u001b[2m    \"intensity\": \"中强度\",\u001b[22m\n\u001b[2m    \"participants\": 40,\u001b[22m\n\u001b[2m    \"startHour\": 14,\u001b[22m\n\u001b[31m+   \"tripDays\": 2,\u001b[39m\n\u001b[2m  }\u001b[22m\n    at G:\\Ai Web\\xingzhi-ai-planner-qa\\tests\\api.spec.mjs:78:28",
+                    "location": {
+                      "file": "G:\\Ai Web\\xingzhi-ai-planner-qa\\tests\\api.spec.mjs",
+                      "column": 28,
+                      "line": 78
+                    },
+                    "snippet": "  76 |     const b = await conversation(request, message, { intake: { known }, activeTopic: 'planning' });\n  77 |     expect(b.command).toBe('answer');\n> 78 |     expect(b.intake.known).toEqual(known);\n     |                            ^\n  79 |     expect(b.reply).toMatch(pattern);\n  80 |   });\n  81 | }"
+                  },
+                  "errors": [
+                    {
+                      "location": {
+                        "file": "G:\\Ai Web\\xingzhi-ai-planner-qa\\tests\\api.spec.mjs",
+                        "column": 28,
+                        "line": 78
+                      },
+                      "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoEqual\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // deep equality\u001b[22m\n\n\u001b[32m- Expected  - 0\u001b[39m\n\u001b[31m+ Received  + 1\u001b[39m\n\n\u001b[33m@@ -8,6 +8,7 @@\u001b[39m\n\u001b[2m    \"endDate\": \"2026-11-02\",\u001b[22m\n\u001b[2m    \"group\": \"儿童青少年\",\u001b[22m\n\u001b[2m    \"intensity\": \"中强度\",\u001b[22m\n\u001b[2m    \"participants\": 40,\u001b[22m\n\u001b[2m    \"startHour\": 14,\u001b[22m\n\u001b[31m+   \"tripDays\": 2,\u001b[39m\n\u001b[2m  }\u001b[22m\n\n  76 |     const b = await conversation(request, message, { intake: { known }, activeTopic: 'planning' });\n  77 |     expect(b.command).toBe('answer');\n> 78 |     expect(b.intake.known).toEqual(known);\n     |                            ^\n  79 |     expect(b.reply).toMatch(pattern);\n  80 |   });\n  81 | }\n    at G:\\Ai Web\\xingzhi-ai-planner-qa\\tests\\api.spec.mjs:78:28"
+                    }
+                  ],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-31T11:28:08.224Z",
+                  "annotations": [],
+                  "attachments": [],
+                  "errorLocation": {
+                    "file": "G:\\Ai Web\\xingzhi-ai-planner-qa\\tests\\api.spec.mjs",
+                    "column": 28,
+                    "line": 78
+                  }
+                }
+              ],
+              "status": "unexpected"
+            }
+          ],
+          "id": "e672bd66ab277012610d-47ffe5ec5655df1489e9",
+          "file": "api.spec.mjs",
+          "line": 74,
+          "column": 3
+        },
+        {
+          "title": "API-073 invalid revision: 人数改成1.5人",
+          "ok": false,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 120000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 2,
+                  "parallelIndex": 0,
+                  "status": "failed",
+                  "duration": 88,
+                  "error": {
+                    "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoEqual\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // deep equality\u001b[22m\n\n\u001b[32m- Expected  - 0\u001b[39m\n\u001b[31m+ Received  + 1\u001b[39m\n\n\u001b[33m@@ -8,6 +8,7 @@\u001b[39m\n\u001b[2m    \"endDate\": \"2026-11-02\",\u001b[22m\n\u001b[2m    \"group\": \"儿童青少年\",\u001b[22m\n\u001b[2m    \"intensity\": \"中强度\",\u001b[22m\n\u001b[2m    \"participants\": 40,\u001b[22m\n\u001b[2m    \"startHour\": 14,\u001b[22m\n\u001b[31m+   \"tripDays\": 2,\u001b[39m\n\u001b[2m  }\u001b[22m",
+                    "stack": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoEqual\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // deep equality\u001b[22m\n\n\u001b[32m- Expected  - 0\u001b[39m\n\u001b[31m+ Received  + 1\u001b[39m\n\n\u001b[33m@@ -8,6 +8,7 @@\u001b[39m\n\u001b[2m    \"endDate\": \"2026-11-02\",\u001b[22m\n\u001b[2m    \"group\": \"儿童青少年\",\u001b[22m\n\u001b[2m    \"intensity\": \"中强度\",\u001b[22m\n\u001b[2m    \"participants\": 40,\u001b[22m\n\u001b[2m    \"startHour\": 14,\u001b[22m\n\u001b[31m+   \"tripDays\": 2,\u001b[39m\n\u001b[2m  }\u001b[22m\n    at G:\\Ai Web\\xingzhi-ai-planner-qa\\tests\\api.spec.mjs:78:28",
+                    "location": {
+                      "file": "G:\\Ai Web\\xingzhi-ai-planner-qa\\tests\\api.spec.mjs",
+                      "column": 28,
+                      "line": 78
+                    },
+                    "snippet": "  76 |     const b = await conversation(request, message, { intake: { known }, activeTopic: 'planning' });\n  77 |     expect(b.command).toBe('answer');\n> 78 |     expect(b.intake.known).toEqual(known);\n     |                            ^\n  79 |     expect(b.reply).toMatch(pattern);\n  80 |   });\n  81 | }"
+                  },
+                  "errors": [
+                    {
+                      "location": {
+                        "file": "G:\\Ai Web\\xingzhi-ai-planner-qa\\tests\\api.spec.mjs",
+                        "column": 28,
+                        "line": 78
+                      },
+                      "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoEqual\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // deep equality\u001b[22m\n\n\u001b[32m- Expected  - 0\u001b[39m\n\u001b[31m+ Received  + 1\u001b[39m\n\n\u001b[33m@@ -8,6 +8,7 @@\u001b[39m\n\u001b[2m    \"endDate\": \"2026-11-02\",\u001b[22m\n\u001b[2m    \"group\": \"儿童青少年\",\u001b[22m\n\u001b[2m    \"intensity\": \"中强度\",\u001b[22m\n\u001b[2m    \"participants\": 40,\u001b[22m\n\u001b[2m    \"startHour\": 14,\u001b[22m\n\u001b[31m+   \"tripDays\": 2,\u001b[39m\n\u001b[2m  }\u001b[22m\n\n  76 |     const b = await conversation(request, message, { intake: { known }, activeTopic: 'planning' });\n  77 |     expect(b.command).toBe('answer');\n> 78 |     expect(b.intake.known).toEqual(known);\n     |                            ^\n  79 |     expect(b.reply).toMatch(pattern);\n  80 |   });\n  81 | }\n    at G:\\Ai Web\\xingzhi-ai-planner-qa\\tests\\api.spec.mjs:78:28"
+                    }
+                  ],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-31T11:28:09.810Z",
+                  "annotations": [],
+                  "attachments": [],
+                  "errorLocation": {
+                    "file": "G:\\Ai Web\\xingzhi-ai-planner-qa\\tests\\api.spec.mjs",
+                    "column": 28,
+                    "line": 78
+                  }
+                }
+              ],
+              "status": "unexpected"
+            }
+          ],
+          "id": "e672bd66ab277012610d-66168aeceded4bb80bb8",
+          "file": "api.spec.mjs",
+          "line": 74,
+          "column": 3
+        },
+        {
+          "title": "API-074 invalid revision: 人数改成10000人",
+          "ok": false,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 120000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 3,
+                  "parallelIndex": 0,
+                  "status": "failed",
+                  "duration": 88,
+                  "error": {
+                    "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoEqual\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // deep equality\u001b[22m\n\n\u001b[32m- Expected  - 0\u001b[39m\n\u001b[31m+ Received  + 1\u001b[39m\n\n\u001b[33m@@ -8,6 +8,7 @@\u001b[39m\n\u001b[2m    \"endDate\": \"2026-11-02\",\u001b[22m\n\u001b[2m    \"group\": \"儿童青少年\",\u001b[22m\n\u001b[2m    \"intensity\": \"中强度\",\u001b[22m\n\u001b[2m    \"participants\": 40,\u001b[22m\n\u001b[2m    \"startHour\": 14,\u001b[22m\n\u001b[31m+   \"tripDays\": 2,\u001b[39m\n\u001b[2m  }\u001b[22m",
+                    "stack": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoEqual\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // deep equality\u001b[22m\n\n\u001b[32m- Expected  - 0\u001b[39m\n\u001b[31m+ Received  + 1\u001b[39m\n\n\u001b[33m@@ -8,6 +8,7 @@\u001b[39m\n\u001b[2m    \"endDate\": \"2026-11-02\",\u001b[22m\n\u001b[2m    \"group\": \"儿童青少年\",\u001b[22m\n\u001b[2m    \"intensity\": \"中强度\",\u001b[22m\n\u001b[2m    \"participants\": 40,\u001b[22m\n\u001b[2m    \"startHour\": 14,\u001b[22m\n\u001b[31m+   \"tripDays\": 2,\u001b[39m\n\u001b[2m  }\u001b[22m\n    at G:\\Ai Web\\xingzhi-ai-planner-qa\\tests\\api.spec.mjs:78:28",
+                    "location": {
+                      "file": "G:\\Ai Web\\xingzhi-ai-planner-qa\\tests\\api.spec.mjs",
+                      "column": 28,
+                      "line": 78
+                    },
+                    "snippet": "  76 |     const b = await conversation(request, message, { intake: { known }, activeTopic: 'planning' });\n  77 |     expect(b.command).toBe('answer');\n> 78 |     expect(b.intake.known).toEqual(known);\n     |                            ^\n  79 |     expect(b.reply).toMatch(pattern);\n  80 |   });\n  81 | }"
+                  },
+                  "errors": [
+                    {
+                      "location": {
+                        "file": "G:\\Ai Web\\xingzhi-ai-planner-qa\\tests\\api.spec.mjs",
+                        "column": 28,
+                        "line": 78
+                      },
+                      "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoEqual\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // deep equality\u001b[22m\n\n\u001b[32m- Expected  - 0\u001b[39m\n\u001b[31m+ Received  + 1\u001b[39m\n\n\u001b[33m@@ -8,6 +8,7 @@\u001b[39m\n\u001b[2m    \"endDate\": \"2026-11-02\",\u001b[22m\n\u001b[2m    \"group\": \"儿童青少年\",\u001b[22m\n\u001b[2m    \"intensity\": \"中强度\",\u001b[22m\n\u001b[2m    \"participants\": 40,\u001b[22m\n\u001b[2m    \"startHour\": 14,\u001b[22m\n\u001b[31m+   \"tripDays\": 2,\u001b[39m\n\u001b[2m  }\u001b[22m\n\n  76 |     const b = await conversation(request, message, { intake: { known }, activeTopic: 'planning' });\n  77 |     expect(b.command).toBe('answer');\n> 78 |     expect(b.intake.known).toEqual(known);\n     |                            ^\n  79 |     expect(b.reply).toMatch(pattern);\n  80 |   });\n  81 | }\n    at G:\\Ai Web\\xingzhi-ai-planner-qa\\tests\\api.spec.mjs:78:28"
+                    }
+                  ],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-31T11:28:11.408Z",
+                  "annotations": [],
+                  "attachments": [],
+                  "errorLocation": {
+                    "file": "G:\\Ai Web\\xingzhi-ai-planner-qa\\tests\\api.spec.mjs",
+                    "column": 28,
+                    "line": 78
+                  }
+                }
+              ],
+              "status": "unexpected"
+            }
+          ],
+          "id": "e672bd66ab277012610d-1adf67bee0f46fc65de8",
+          "file": "api.spec.mjs",
+          "line": 74,
+          "column": 3
+        },
+        {
+          "title": "API-075 invalid revision: 活动时长改成1.5小时，其他不变",
+          "ok": false,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 120000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 4,
+                  "parallelIndex": 0,
+                  "status": "failed",
+                  "duration": 94,
+                  "error": {
+                    "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoEqual\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // deep equality\u001b[22m\n\n\u001b[32m- Expected  - 0\u001b[39m\n\u001b[31m+ Received  + 1\u001b[39m\n\n\u001b[33m@@ -8,6 +8,7 @@\u001b[39m\n\u001b[2m    \"endDate\": \"2026-11-02\",\u001b[22m\n\u001b[2m    \"group\": \"儿童青少年\",\u001b[22m\n\u001b[2m    \"intensity\": \"中强度\",\u001b[22m\n\u001b[2m    \"participants\": 40,\u001b[22m\n\u001b[2m    \"startHour\": 14,\u001b[22m\n\u001b[31m+   \"tripDays\": 2,\u001b[39m\n\u001b[2m  }\u001b[22m",
+                    "stack": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoEqual\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // deep equality\u001b[22m\n\n\u001b[32m- Expected  - 0\u001b[39m\n\u001b[31m+ Received  + 1\u001b[39m\n\n\u001b[33m@@ -8,6 +8,7 @@\u001b[39m\n\u001b[2m    \"endDate\": \"2026-11-02\",\u001b[22m\n\u001b[2m    \"group\": \"儿童青少年\",\u001b[22m\n\u001b[2m    \"intensity\": \"中强度\",\u001b[22m\n\u001b[2m    \"participants\": 40,\u001b[22m\n\u001b[2m    \"startHour\": 14,\u001b[22m\n\u001b[31m+   \"tripDays\": 2,\u001b[39m\n\u001b[2m  }\u001b[22m\n    at G:\\Ai Web\\xingzhi-ai-planner-qa\\tests\\api.spec.mjs:78:28",
+                    "location": {
+                      "file": "G:\\Ai Web\\xingzhi-ai-planner-qa\\tests\\api.spec.mjs",
+                      "column": 28,
+                      "line": 78
+                    },
+                    "snippet": "  76 |     const b = await conversation(request, message, { intake: { known }, activeTopic: 'planning' });\n  77 |     expect(b.command).toBe('answer');\n> 78 |     expect(b.intake.known).toEqual(known);\n     |                            ^\n  79 |     expect(b.reply).toMatch(pattern);\n  80 |   });\n  81 | }"
+                  },
+                  "errors": [
+                    {
+                      "location": {
+                        "file": "G:\\Ai Web\\xingzhi-ai-planner-qa\\tests\\api.spec.mjs",
+                        "column": 28,
+                        "line": 78
+                      },
+                      "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoEqual\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // deep equality\u001b[22m\n\n\u001b[32m- Expected  - 0\u001b[39m\n\u001b[31m+ Received  + 1\u001b[39m\n\n\u001b[33m@@ -8,6 +8,7 @@\u001b[39m\n\u001b[2m    \"endDate\": \"2026-11-02\",\u001b[22m\n\u001b[2m    \"group\": \"儿童青少年\",\u001b[22m\n\u001b[2m    \"intensity\": \"中强度\",\u001b[22m\n\u001b[2m    \"participants\": 40,\u001b[22m\n\u001b[2m    \"startHour\": 14,\u001b[22m\n\u001b[31m+   \"tripDays\": 2,\u001b[39m\n\u001b[2m  }\u001b[22m\n\n  76 |     const b = await conversation(request, message, { intake: { known }, activeTopic: 'planning' });\n  77 |     expect(b.command).toBe('answer');\n> 78 |     expect(b.intake.known).toEqual(known);\n     |                            ^\n  79 |     expect(b.reply).toMatch(pattern);\n  80 |   });\n  81 | }\n    at G:\\Ai Web\\xingzhi-ai-planner-qa\\tests\\api.spec.mjs:78:28"
+                    }
+                  ],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-31T11:28:13.003Z",
+                  "annotations": [],
+                  "attachments": [],
+                  "errorLocation": {
+                    "file": "G:\\Ai Web\\xingzhi-ai-planner-qa\\tests\\api.spec.mjs",
+                    "column": 28,
+                    "line": 78
+                  }
+                }
+              ],
+              "status": "unexpected"
+            }
+          ],
+          "id": "e672bd66ab277012610d-c8e7e0a0f0f52d3a4bec",
+          "file": "api.spec.mjs",
+          "line": 74,
+          "column": 3
+        },
+        {
+          "title": "API-076 invalid revision: 活动时长改成0小时",
+          "ok": false,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 120000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 5,
+                  "parallelIndex": 0,
+                  "status": "failed",
+                  "duration": 105,
+                  "error": {
+                    "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoEqual\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // deep equality\u001b[22m\n\n\u001b[32m- Expected  - 0\u001b[39m\n\u001b[31m+ Received  + 1\u001b[39m\n\n\u001b[33m@@ -8,6 +8,7 @@\u001b[39m\n\u001b[2m    \"endDate\": \"2026-11-02\",\u001b[22m\n\u001b[2m    \"group\": \"儿童青少年\",\u001b[22m\n\u001b[2m    \"intensity\": \"中强度\",\u001b[22m\n\u001b[2m    \"participants\": 40,\u001b[22m\n\u001b[2m    \"startHour\": 14,\u001b[22m\n\u001b[31m+   \"tripDays\": 2,\u001b[39m\n\u001b[2m  }\u001b[22m",
+                    "stack": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoEqual\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // deep equality\u001b[22m\n\n\u001b[32m- Expected  - 0\u001b[39m\n\u001b[31m+ Received  + 1\u001b[39m\n\n\u001b[33m@@ -8,6 +8,7 @@\u001b[39m\n\u001b[2m    \"endDate\": \"2026-11-02\",\u001b[22m\n\u001b[2m    \"group\": \"儿童青少年\",\u001b[22m\n\u001b[2m    \"intensity\": \"中强度\",\u001b[22m\n\u001b[2m    \"participants\": 40,\u001b[22m\n\u001b[2m    \"startHour\": 14,\u001b[22m\n\u001b[31m+   \"tripDays\": 2,\u001b[39m\n\u001b[2m  }\u001b[22m\n    at G:\\Ai Web\\xingzhi-ai-planner-qa\\tests\\api.spec.mjs:78:28",
+                    "location": {
+                      "file": "G:\\Ai Web\\xingzhi-ai-planner-qa\\tests\\api.spec.mjs",
+                      "column": 28,
+                      "line": 78
+                    },
+                    "snippet": "  76 |     const b = await conversation(request, message, { intake: { known }, activeTopic: 'planning' });\n  77 |     expect(b.command).toBe('answer');\n> 78 |     expect(b.intake.known).toEqual(known);\n     |                            ^\n  79 |     expect(b.reply).toMatch(pattern);\n  80 |   });\n  81 | }"
+                  },
+                  "errors": [
+                    {
+                      "location": {
+                        "file": "G:\\Ai Web\\xingzhi-ai-planner-qa\\tests\\api.spec.mjs",
+                        "column": 28,
+                        "line": 78
+                      },
+                      "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoEqual\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // deep equality\u001b[22m\n\n\u001b[32m- Expected  - 0\u001b[39m\n\u001b[31m+ Received  + 1\u001b[39m\n\n\u001b[33m@@ -8,6 +8,7 @@\u001b[39m\n\u001b[2m    \"endDate\": \"2026-11-02\",\u001b[22m\n\u001b[2m    \"group\": \"儿童青少年\",\u001b[22m\n\u001b[2m    \"intensity\": \"中强度\",\u001b[22m\n\u001b[2m    \"participants\": 40,\u001b[22m\n\u001b[2m    \"startHour\": 14,\u001b[22m\n\u001b[31m+   \"tripDays\": 2,\u001b[39m\n\u001b[2m  }\u001b[22m\n\n  76 |     const b = await conversation(request, message, { intake: { known }, activeTopic: 'planning' });\n  77 |     expect(b.command).toBe('answer');\n> 78 |     expect(b.intake.known).toEqual(known);\n     |                            ^\n  79 |     expect(b.reply).toMatch(pattern);\n  80 |   });\n  81 | }\n    at G:\\Ai Web\\xingzhi-ai-planner-qa\\tests\\api.spec.mjs:78:28"
+                    }
+                  ],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-31T11:28:14.607Z",
+                  "annotations": [],
+                  "attachments": [],
+                  "errorLocation": {
+                    "file": "G:\\Ai Web\\xingzhi-ai-planner-qa\\tests\\api.spec.mjs",
+                    "column": 28,
+                    "line": 78
+                  }
+                }
+              ],
+              "status": "unexpected"
+            }
+          ],
+          "id": "e672bd66ab277012610d-1d3e6941d538f2bed030",
+          "file": "api.spec.mjs",
+          "line": 74,
+          "column": 3
+        },
+        {
+          "title": "API-077 invalid revision: 活动时长改成9小时",
+          "ok": false,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 120000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 6,
+                  "parallelIndex": 0,
+                  "status": "failed",
+                  "duration": 91,
+                  "error": {
+                    "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoEqual\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // deep equality\u001b[22m\n\n\u001b[32m- Expected  - 0\u001b[39m\n\u001b[31m+ Received  + 1\u001b[39m\n\n\u001b[33m@@ -8,6 +8,7 @@\u001b[39m\n\u001b[2m    \"endDate\": \"2026-11-02\",\u001b[22m\n\u001b[2m    \"group\": \"儿童青少年\",\u001b[22m\n\u001b[2m    \"intensity\": \"中强度\",\u001b[22m\n\u001b[2m    \"participants\": 40,\u001b[22m\n\u001b[2m    \"startHour\": 14,\u001b[22m\n\u001b[31m+   \"tripDays\": 2,\u001b[39m\n\u001b[2m  }\u001b[22m",
+                    "stack": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoEqual\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // deep equality\u001b[22m\n\n\u001b[32m- Expected  - 0\u001b[39m\n\u001b[31m+ Received  + 1\u001b[39m\n\n\u001b[33m@@ -8,6 +8,7 @@\u001b[39m\n\u001b[2m    \"endDate\": \"2026-11-02\",\u001b[22m\n\u001b[2m    \"group\": \"儿童青少年\",\u001b[22m\n\u001b[2m    \"intensity\": \"中强度\",\u001b[22m\n\u001b[2m    \"participants\": 40,\u001b[22m\n\u001b[2m    \"startHour\": 14,\u001b[22m\n\u001b[31m+   \"tripDays\": 2,\u001b[39m\n\u001b[2m  }\u001b[22m\n    at G:\\Ai Web\\xingzhi-ai-planner-qa\\tests\\api.spec.mjs:78:28",
+                    "location": {
+                      "file": "G:\\Ai Web\\xingzhi-ai-planner-qa\\tests\\api.spec.mjs",
+                      "column": 28,
+                      "line": 78
+                    },
+                    "snippet": "  76 |     const b = await conversation(request, message, { intake: { known }, activeTopic: 'planning' });\n  77 |     expect(b.command).toBe('answer');\n> 78 |     expect(b.intake.known).toEqual(known);\n     |                            ^\n  79 |     expect(b.reply).toMatch(pattern);\n  80 |   });\n  81 | }"
+                  },
+                  "errors": [
+                    {
+                      "location": {
+                        "file": "G:\\Ai Web\\xingzhi-ai-planner-qa\\tests\\api.spec.mjs",
+                        "column": 28,
+                        "line": 78
+                      },
+                      "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoEqual\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // deep equality\u001b[22m\n\n\u001b[32m- Expected  - 0\u001b[39m\n\u001b[31m+ Received  + 1\u001b[39m\n\n\u001b[33m@@ -8,6 +8,7 @@\u001b[39m\n\u001b[2m    \"endDate\": \"2026-11-02\",\u001b[22m\n\u001b[2m    \"group\": \"儿童青少年\",\u001b[22m\n\u001b[2m    \"intensity\": \"中强度\",\u001b[22m\n\u001b[2m    \"participants\": 40,\u001b[22m\n\u001b[2m    \"startHour\": 14,\u001b[22m\n\u001b[31m+   \"tripDays\": 2,\u001b[39m\n\u001b[2m  }\u001b[22m\n\n  76 |     const b = await conversation(request, message, { intake: { known }, activeTopic: 'planning' });\n  77 |     expect(b.command).toBe('answer');\n> 78 |     expect(b.intake.known).toEqual(known);\n     |                            ^\n  79 |     expect(b.reply).toMatch(pattern);\n  80 |   });\n  81 | }\n    at G:\\Ai Web\\xingzhi-ai-planner-qa\\tests\\api.spec.mjs:78:28"
+                    }
+                  ],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-31T11:28:16.179Z",
+                  "annotations": [],
+                  "attachments": [],
+                  "errorLocation": {
+                    "file": "G:\\Ai Web\\xingzhi-ai-planner-qa\\tests\\api.spec.mjs",
+                    "column": 28,
+                    "line": 78
+                  }
+                }
+              ],
+              "status": "unexpected"
+            }
+          ],
+          "id": "e672bd66ab277012610d-b11dcd61bd16d4b6148b",
+          "file": "api.spec.mjs",
+          "line": 74,
+          "column": 3
+        },
+        {
+          "title": "API-078 invalid revision: 日期改成2月30日，其他不变",
+          "ok": false,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 120000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 7,
+                  "parallelIndex": 0,
+                  "status": "failed",
+                  "duration": 4644,
+                  "error": {
+                    "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoEqual\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // deep equality\u001b[22m\n\n\u001b[32m- Expected  - 0\u001b[39m\n\u001b[31m+ Received  + 1\u001b[39m\n\n\u001b[33m@@ -8,6 +8,7 @@\u001b[39m\n\u001b[2m    \"endDate\": \"2026-11-02\",\u001b[22m\n\u001b[2m    \"group\": \"儿童青少年\",\u001b[22m\n\u001b[2m    \"intensity\": \"中强度\",\u001b[22m\n\u001b[2m    \"participants\": 40,\u001b[22m\n\u001b[2m    \"startHour\": 14,\u001b[22m\n\u001b[31m+   \"tripDays\": 2,\u001b[39m\n\u001b[2m  }\u001b[22m",
+                    "stack": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoEqual\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // deep equality\u001b[22m\n\n\u001b[32m- Expected  - 0\u001b[39m\n\u001b[31m+ Received  + 1\u001b[39m\n\n\u001b[33m@@ -8,6 +8,7 @@\u001b[39m\n\u001b[2m    \"endDate\": \"2026-11-02\",\u001b[22m\n\u001b[2m    \"group\": \"儿童青少年\",\u001b[22m\n\u001b[2m    \"intensity\": \"中强度\",\u001b[22m\n\u001b[2m    \"participants\": 40,\u001b[22m\n\u001b[2m    \"startHour\": 14,\u001b[22m\n\u001b[31m+   \"tripDays\": 2,\u001b[39m\n\u001b[2m  }\u001b[22m\n    at G:\\Ai Web\\xingzhi-ai-planner-qa\\tests\\api.spec.mjs:78:28",
+                    "location": {
+                      "file": "G:\\Ai Web\\xingzhi-ai-planner-qa\\tests\\api.spec.mjs",
+                      "column": 28,
+                      "line": 78
+                    },
+                    "snippet": "  76 |     const b = await conversation(request, message, { intake: { known }, activeTopic: 'planning' });\n  77 |     expect(b.command).toBe('answer');\n> 78 |     expect(b.intake.known).toEqual(known);\n     |                            ^\n  79 |     expect(b.reply).toMatch(pattern);\n  80 |   });\n  81 | }"
+                  },
+                  "errors": [
+                    {
+                      "location": {
+                        "file": "G:\\Ai Web\\xingzhi-ai-planner-qa\\tests\\api.spec.mjs",
+                        "column": 28,
+                        "line": 78
+                      },
+                      "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoEqual\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // deep equality\u001b[22m\n\n\u001b[32m- Expected  - 0\u001b[39m\n\u001b[31m+ Received  + 1\u001b[39m\n\n\u001b[33m@@ -8,6 +8,7 @@\u001b[39m\n\u001b[2m    \"endDate\": \"2026-11-02\",\u001b[22m\n\u001b[2m    \"group\": \"儿童青少年\",\u001b[22m\n\u001b[2m    \"intensity\": \"中强度\",\u001b[22m\n\u001b[2m    \"participants\": 40,\u001b[22m\n\u001b[2m    \"startHour\": 14,\u001b[22m\n\u001b[31m+   \"tripDays\": 2,\u001b[39m\n\u001b[2m  }\u001b[22m\n\n  76 |     const b = await conversation(request, message, { intake: { known }, activeTopic: 'planning' });\n  77 |     expect(b.command).toBe('answer');\n> 78 |     expect(b.intake.known).toEqual(known);\n     |                            ^\n  79 |     expect(b.reply).toMatch(pattern);\n  80 |   });\n  81 | }\n    at G:\\Ai Web\\xingzhi-ai-planner-qa\\tests\\api.spec.mjs:78:28"
+                    }
+                  ],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-31T11:28:17.771Z",
+                  "annotations": [],
+                  "attachments": [],
+                  "errorLocation": {
+                    "file": "G:\\Ai Web\\xingzhi-ai-planner-qa\\tests\\api.spec.mjs",
+                    "column": 28,
+                    "line": 78
+                  }
+                }
+              ],
+              "status": "unexpected"
+            }
+          ],
+          "id": "e672bd66ab277012610d-9b11ccf7707693de3e2e",
+          "file": "api.spec.mjs",
+          "line": 74,
+          "column": 3
+        },
+        {
+          "title": "API-080 courtesy preserves conditions without another analysis",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 120000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 8,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 105,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-31T11:28:23.898Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "e672bd66ab277012610d-3f32f79e0354ced37935",
+          "file": "api.spec.mjs",
+          "line": 83,
+          "column": 1
+        },
+        {
+          "title": "API-081 drawing two dates does not change the activity plan",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 120000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 8,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 38,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-31T11:28:24.018Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "e672bd66ab277012610d-a5ac1a0e428d5efc8f94",
+          "file": "api.spec.mjs",
+          "line": 89,
+          "column": 1
+        },
+        {
+          "title": "API-082 drawing Beijing preserves the Hangzhou plan",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 120000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 8,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 32,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-31T11:28:24.064Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "e672bd66ab277012610d-68aa5b3830a50886eb15",
+          "file": "api.spec.mjs",
+          "line": 96,
+          "column": 1
+        },
+        {
+          "title": "API-083 explicit 14-16 window overrides a broad afternoon",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 120000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 8,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 40,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-31T11:28:24.103Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "e672bd66ab277012610d-be342b370bc0aafd15e4",
+          "file": "api.spec.mjs",
+          "line": 102,
+          "column": 1
+        },
+        {
+          "title": "API-084 per-group count never replaces total participants",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 120000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 8,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 32,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-31T11:28:24.150Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "e672bd66ab277012610d-d3a238db7a605985f000",
+          "file": "api.spec.mjs",
+          "line": 106,
+          "column": 1
+        },
+        {
+          "title": "API-085 model status reports explicit success or failure",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 120000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 8,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 36,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-31T11:28:24.188Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "e672bd66ab277012610d-5b3a730bbbeab8061347",
+          "file": "api.spec.mjs",
+          "line": 110,
+          "column": 1
+        },
+        {
+          "title": "API-086 journey keeps activity date separate and reports quote availability",
+          "ok": false,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 120000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 8,
+                  "parallelIndex": 0,
+                  "status": "failed",
+                  "duration": 20006,
+                  "error": {
+                    "message": "TimeoutError: apiRequestContext.post: Timeout 20000ms exceeded.\nCall log:\n\u001b[2m  - → POST https://lht574.cn/conversation-planner\u001b[22m\n\u001b[2m    - user-agent: Playwright/1.58.2 (x64; windows 10.0) node/22.23\u001b[22m\n\u001b[2m    - accept: */*\u001b[22m\n\u001b[2m    - accept-encoding: gzip,deflate,br\u001b[22m\n\u001b[2m    - content-type: application/json\u001b[22m\n\u001b[2m    - content-length: 357\u001b[22m\n",
+                    "stack": "TimeoutError: apiRequestContext.post: Timeout 20000ms exceeded.\nCall log:\n\u001b[2m  - → POST https://lht574.cn/conversation-planner\u001b[22m\n\u001b[2m    - user-agent: Playwright/1.58.2 (x64; windows 10.0) node/22.23\u001b[22m\n\u001b[2m    - accept: */*\u001b[22m\n\u001b[2m    - accept-encoding: gzip,deflate,br\u001b[22m\n\u001b[2m    - content-type: application/json\u001b[22m\n\u001b[2m    - content-length: 357\u001b[22m\n\n    at conversation (G:\\Ai Web\\xingzhi-ai-planner-qa\\tests\\helpers.mjs:16:34)\n    at G:\\Ai Web\\xingzhi-ai-planner-qa\\tests\\api.spec.mjs:120:19",
+                    "location": {
+                      "file": "G:\\Ai Web\\xingzhi-ai-planner-qa\\tests\\helpers.mjs",
+                      "column": 34,
+                      "line": 16
+                    },
+                    "snippet": "\u001b[90m   at \u001b[39mhelpers.mjs:16\n\n  14 | }\n  15 | export async function conversation(request, message, extra = {}) {\n> 16 |   const response = await request.post('/conversation-planner', { data: { message, today: today(), ...extra } });\n     |                                  ^\n  17 |   expect(response.status()).toBe(200);\n  18 |   return json(response);\n  19 | }"
+                  },
+                  "errors": [
+                    {
+                      "location": {
+                        "file": "G:\\Ai Web\\xingzhi-ai-planner-qa\\tests\\helpers.mjs",
+                        "column": 34,
+                        "line": 16
+                      },
+                      "message": "TimeoutError: apiRequestContext.post: Timeout 20000ms exceeded.\nCall log:\n\u001b[2m  - → POST https://lht574.cn/conversation-planner\u001b[22m\n\u001b[2m    - user-agent: Playwright/1.58.2 (x64; windows 10.0) node/22.23\u001b[22m\n\u001b[2m    - accept: */*\u001b[22m\n\u001b[2m    - accept-encoding: gzip,deflate,br\u001b[22m\n\u001b[2m    - content-type: application/json\u001b[22m\n\u001b[2m    - content-length: 357\u001b[22m\n\n\n   at helpers.mjs:16\n\n  14 | }\n  15 | export async function conversation(request, message, extra = {}) {\n> 16 |   const response = await request.post('/conversation-planner', { data: { message, today: today(), ...extra } });\n     |                                  ^\n  17 |   expect(response.status()).toBe(200);\n  18 |   return json(response);\n  19 | }\n    at conversation (G:\\Ai Web\\xingzhi-ai-planner-qa\\tests\\helpers.mjs:16:34)\n    at G:\\Ai Web\\xingzhi-ai-planner-qa\\tests\\api.spec.mjs:120:19"
+                    }
+                  ],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-31T11:28:24.230Z",
+                  "annotations": [],
+                  "attachments": [],
+                  "errorLocation": {
+                    "file": "G:\\Ai Web\\xingzhi-ai-planner-qa\\tests\\helpers.mjs",
+                    "column": 34,
+                    "line": 16
+                  }
+                }
+              ],
+              "status": "unexpected"
+            }
+          ],
+          "id": "e672bd66ab277012610d-83f77c7544df22a2a208",
+          "file": "api.spec.mjs",
+          "line": 118,
+          "column": 1
+        },
+        {
+          "title": "API-087 weather is answered without triggering plan generation",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 120000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 9,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 1895,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-31T11:28:45.681Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "e672bd66ab277012610d-f5517db3c304ce0aaf9b",
+          "file": "api.spec.mjs",
+          "line": 128,
+          "column": 1
+        },
+        {
+          "title": "API-088 missing destination and date are clarified, not invented",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 120000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 9,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 31,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-31T11:28:47.592Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "e672bd66ab277012610d-dcd76c78f55e19c9f724",
+          "file": "api.spec.mjs",
+          "line": 136,
+          "column": 1
+        },
+        {
+          "title": "API-089 client-supplied today cannot alter the server date",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 120000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 9,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 30,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-31T11:28:47.629Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "e672bd66ab277012610d-6f4652321915b0792ae6",
+          "file": "api.spec.mjs",
+          "line": 142,
+          "column": 1
+        },
+        {
+          "title": "API-100 anonymous access denied: /api/v1/admin/overview",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 120000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 9,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 260,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-31T11:28:47.666Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "e672bd66ab277012610d-1a4a8fc21cb5dfb3c205",
+          "file": "api.spec.mjs",
+          "line": 148,
+          "column": 3
+        },
+        {
+          "title": "API-101 anonymous access denied: /api/v1/admin/users",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 120000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 9,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 23,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-31T11:28:47.932Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "e672bd66ab277012610d-ece6c3b6622451837479",
+          "file": "api.spec.mjs",
+          "line": 148,
+          "column": 3
+        },
+        {
+          "title": "API-102 anonymous access denied: /api/v1/admin/searches",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 120000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 9,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 21,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-31T11:28:47.962Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "e672bd66ab277012610d-a6ed12fd3ac9da764315",
+          "file": "api.spec.mjs",
+          "line": 148,
+          "column": 3
+        },
+        {
+          "title": "API-103 anonymous access denied: /api/v1/admin/feedback",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 120000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 9,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 23,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-31T11:28:47.989Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "e672bd66ab277012610d-468b63f73bc613ce1957",
+          "file": "api.spec.mjs",
+          "line": 148,
+          "column": 3
+        },
+        {
+          "title": "API-104 anonymous access denied: /api/v1/account/decisions",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 120000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 9,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 22,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-31T11:28:48.018Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "e672bd66ab277012610d-b99b27f12a1975dedbcb",
+          "file": "api.spec.mjs",
+          "line": 148,
+          "column": 3
+        },
+        {
+          "title": "API-105 anonymous access denied: /api/v1/account/model-config/resolve",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 120000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 9,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 22,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-31T11:28:48.044Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "e672bd66ab277012610d-62b02d36312d674bf990",
+          "file": "api.spec.mjs",
+          "line": 148,
+          "column": 3
+        },
+        {
+          "title": "API-106 guest access to admin data is denied",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 120000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 9,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 66,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-31T11:28:48.072Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "e672bd66ab277012610d-1f52ddc3c167e6fe5d51",
+          "file": "api.spec.mjs",
+          "line": 153,
+          "column": 1
+        },
+        {
+          "title": "API-107 writes without CSRF are rejected",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 120000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 9,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 29,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-31T11:28:48.143Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "e672bd66ab277012610d-93b45703a443698cf4cd",
+          "file": "api.spec.mjs",
+          "line": 160,
+          "column": 1
+        },
+        {
+          "title": "API-108 two isolated anonymous sessions cannot read or overwrite each other",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 120000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 9,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 2615,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-31T11:28:48.179Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "e672bd66ab277012610d-ba8dfb1dff89f37c0d93",
+          "file": "api.spec.mjs",
+          "line": 164,
+          "column": 1
+        },
+        {
+          "title": "API-109 malformed conversation snapshot is rejected",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 120000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 9,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 550,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-31T11:28:50.799Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "e672bd66ab277012610d-d24fe63afcb1f10a5a34",
+          "file": "api.spec.mjs",
+          "line": 184,
+          "column": 1
+        },
+        {
+          "title": "API-110 nested district resolves to the requested parent",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 120000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 9,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 617,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-31T11:28:51.355Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "e672bd66ab277012610d-139086379a6532e29de9",
+          "file": "api.spec.mjs",
+          "line": 188,
+          "column": 1
+        },
+        {
+          "title": "API-111 hourly response contains 24 unique, finite hours for the requested date",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 120000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 9,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 3102,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-31T11:28:51.976Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "e672bd66ab277012610d-ad44356f29643cf3bdf8",
+          "file": "api.spec.mjs",
+          "line": 196,
+          "column": 1
+        },
+        {
+          "title": "API-112 invalid hourly calendar date returns a client error",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 120000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 9,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 28,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-31T11:28:55.085Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "e672bd66ab277012610d-90cea19bd984ac117426",
+          "file": "api.spec.mjs",
+          "line": 206,
+          "column": 1
+        },
+        {
+          "title": "API-113 impossible coordinate is rejected by the location gateway",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 120000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 9,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 25,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-31T11:28:55.121Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "e672bd66ab277012610d-69535b5d23cfdb31dfc0",
+          "file": "api.spec.mjs",
+          "line": 210,
+          "column": 1
+        },
+        {
+          "title": "API-114 missing coordinates are rejected instead of silently becoming zero",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 120000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 9,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 25,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-31T11:28:55.152Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "e672bd66ab277012610d-44a2ea755709ad85d790",
+          "file": "api.spec.mjs",
+          "line": 214,
+          "column": 1
+        },
+        {
+          "title": "API-115 unsupported position action returns a client error",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 120000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 9,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 23,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-31T11:28:55.184Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "e672bd66ab277012610d-7f4bf30565471741f352",
+          "file": "api.spec.mjs",
+          "line": 218,
+          "column": 1
+        },
+        {
+          "title": "API-116 wrong HTTP method is rejected without a server crash",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 120000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 9,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 25,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-31T11:28:55.213Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "e672bd66ab277012610d-2aafc56187284d2f68bc",
+          "file": "api.spec.mjs",
+          "line": 221,
+          "column": 1
+        },
+        {
+          "title": "API-120 scenario intake: 校园运动会",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 120000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 9,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 28,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-31T11:28:55.243Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "e672bd66ab277012610d-964b1745dc7b43cee055",
+          "file": "api.spec.mjs",
+          "line": 226,
+          "column": 3
+        },
+        {
+          "title": "API-121 scenario intake: 体育课",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 120000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 9,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 29,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-31T11:28:55.276Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "e672bd66ab277012610d-01a284183619046b9f34",
+          "file": "api.spec.mjs",
+          "line": 226,
+          "column": 3
+        },
+        {
+          "title": "API-122 scenario intake: 社区活动",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 120000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 9,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 31,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-31T11:28:55.310Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "e672bd66ab277012610d-3c6a1798326e8b2a4549",
+          "file": "api.spec.mjs",
+          "line": 226,
+          "column": 3
+        },
+        {
+          "title": "API-123 scenario intake: 户外训练",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 120000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 9,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 32,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-31T11:28:55.345Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "e672bd66ab277012610d-c91aad196c53082e73e9",
+          "file": "api.spec.mjs",
+          "line": 226,
+          "column": 3
+        },
+        {
+          "title": "API-124 scenario intake: 研学活动",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 120000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 9,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 32,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-31T11:28:55.383Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "e672bd66ab277012610d-c2a2d9c142a40368129d",
+          "file": "api.spec.mjs",
+          "line": 226,
+          "column": 3
+        },
+        {
+          "title": "API-125 scenario intake: 旅游规划",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 120000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 9,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 28,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-31T11:28:55.419Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "e672bd66ab277012610d-1876811e62ab74ef505e",
+          "file": "api.spec.mjs",
+          "line": 226,
+          "column": 3
+        }
+      ]
+    }
+  ],
+  "errors": [],
+  "stats": {
+    "startTime": "2026-10-31T11:28:03.704Z",
+    "duration": 51769.099,
+    "expected": 73,
+    "skipped": 0,
+    "unexpected": 9,
+    "flaky": 0
+  }
+}

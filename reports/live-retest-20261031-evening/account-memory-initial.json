@@ -1,0 +1,443 @@
+{
+  "scope": "Existing authorized account, a new isolated conversation only. Explicit memory operations, not a general LLM context capacity measurement.",
+  "rows": [
+    {
+      "name": "account-login",
+      "status": 200,
+      "ms": 408,
+      "passed": true
+    },
+    {
+      "name": "real-model-connection",
+      "status": 200,
+      "ms": 435,
+      "passed": true,
+      "text": "323",
+      "model": "deepseek-flash",
+      "provider": "用户自定义模型"
+    },
+    {
+      "name": "memory-turn-1",
+      "turn": 1,
+      "status": 200,
+      "ms": 70,
+      "message": "请记住：本次测试旅行代号是青竹4726。",
+      "reply": "已记住：旅行代号是青竹4726。仅保存在当前独立对话中。",
+      "kind": "当前对话记忆（规则处理）",
+      "command": "answer",
+      "modelCall": {
+        "success": false,
+        "attempted": false,
+        "reason": "memory-rule"
+      }
+    },
+    {
+      "name": "memory-turn-2",
+      "turn": 2,
+      "status": 200,
+      "ms": 64,
+      "message": "请记住：本次同行人的名字是林舟。",
+      "reply": "已记住：同行人的名字是林舟。仅保存在当前独立对话中。",
+      "kind": "当前对话记忆（规则处理）",
+      "command": "answer",
+      "modelCall": {
+        "success": false,
+        "attempted": false,
+        "reason": "memory-rule"
+      }
+    },
+    {
+      "name": "memory-turn-3",
+      "turn": 3,
+      "status": 200,
+      "ms": 66,
+      "message": "请记住：旅行备忘1是携带第1号用品。",
+      "reply": "已记住：旅行备忘1是携带第1号用品。仅保存在当前独立对话中。",
+      "kind": "当前对话记忆（规则处理）",
+      "command": "answer",
+      "modelCall": {
+        "success": false,
+        "attempted": false,
+        "reason": "memory-rule"
+      }
+    },
+    {
+      "name": "memory-turn-4",
+      "turn": 4,
+      "status": 200,
+      "ms": 69,
+      "message": "请记住：旅行备忘2是携带第2号用品。",
+      "reply": "已记住：旅行备忘2是携带第2号用品。仅保存在当前独立对话中。",
+      "kind": "当前对话记忆（规则处理）",
+      "command": "answer",
+      "modelCall": {
+        "success": false,
+        "attempted": false,
+        "reason": "memory-rule"
+      }
+    },
+    {
+      "name": "memory-turn-5",
+      "turn": 5,
+      "status": 200,
+      "ms": 67,
+      "message": "请记住：旅行备忘3是携带第3号用品。",
+      "reply": "已记住：旅行备忘3是携带第3号用品。仅保存在当前独立对话中。",
+      "kind": "当前对话记忆（规则处理）",
+      "command": "answer",
+      "modelCall": {
+        "success": false,
+        "attempted": false,
+        "reason": "memory-rule"
+      }
+    },
+    {
+      "name": "memory-turn-6",
+      "turn": 6,
+      "status": 200,
+      "ms": 65,
+      "message": "请记住：旅行备忘4是携带第4号用品。",
+      "reply": "已记住：旅行备忘4是携带第4号用品。仅保存在当前独立对话中。",
+      "kind": "当前对话记忆（规则处理）",
+      "command": "answer",
+      "modelCall": {
+        "success": false,
+        "attempted": false,
+        "reason": "memory-rule"
+      }
+    },
+    {
+      "name": "memory-turn-7",
+      "turn": 7,
+      "status": 200,
+      "ms": 75,
+      "message": "请记住：旅行备忘5是携带第5号用品。",
+      "reply": "已记住：旅行备忘5是携带第5号用品。仅保存在当前独立对话中。",
+      "kind": "当前对话记忆（规则处理）",
+      "command": "answer",
+      "modelCall": {
+        "success": false,
+        "attempted": false,
+        "reason": "memory-rule"
+      }
+    },
+    {
+      "name": "memory-turn-8",
+      "turn": 8,
+      "status": 200,
+      "ms": 69,
+      "message": "请记住：旅行备忘6是携带第6号用品。",
+      "reply": "已记住：旅行备忘6是携带第6号用品。仅保存在当前独立对话中。",
+      "kind": "当前对话记忆（规则处理）",
+      "command": "answer",
+      "modelCall": {
+        "success": false,
+        "attempted": false,
+        "reason": "memory-rule"
+      }
+    },
+    {
+      "name": "memory-turn-9",
+      "turn": 9,
+      "status": 200,
+      "ms": 66,
+      "message": "请记住：旅行备忘7是携带第7号用品。",
+      "reply": "已记住：旅行备忘7是携带第7号用品。仅保存在当前独立对话中。",
+      "kind": "当前对话记忆（规则处理）",
+      "command": "answer",
+      "modelCall": {
+        "success": false,
+        "attempted": false,
+        "reason": "memory-rule"
+      }
+    },
+    {
+      "name": "memory-turn-10",
+      "turn": 10,
+      "status": 200,
+      "ms": 56,
+      "message": "请记住：旅行备忘8是携带第8号用品。",
+      "reply": "已记住：旅行备忘8是携带第8号用品。仅保存在当前独立对话中。",
+      "kind": "当前对话记忆（规则处理）",
+      "command": "answer",
+      "modelCall": {
+        "success": false,
+        "attempted": false,
+        "reason": "memory-rule"
+      }
+    },
+    {
+      "name": "memory-turn-11",
+      "turn": 11,
+      "status": 200,
+      "ms": 78,
+      "message": "请记住：旅行备忘9是携带第9号用品。",
+      "reply": "已记住：旅行备忘9是携带第9号用品。仅保存在当前独立对话中。",
+      "kind": "当前对话记忆（规则处理）",
+      "command": "answer",
+      "modelCall": {
+        "success": false,
+        "attempted": false,
+        "reason": "memory-rule"
+      }
+    },
+    {
+      "name": "memory-turn-12",
+      "turn": 12,
+      "status": 200,
+      "ms": 63,
+      "message": "请记住：旅行备忘10是携带第10号用品。",
+      "reply": "已记住：旅行备忘10是携带第10号用品。仅保存在当前独立对话中。",
+      "kind": "当前对话记忆（规则处理）",
+      "command": "answer",
+      "modelCall": {
+        "success": false,
+        "attempted": false,
+        "reason": "memory-rule"
+      }
+    },
+    {
+      "name": "memory-turn-13",
+      "turn": 13,
+      "status": 200,
+      "ms": 78,
+      "message": "请记住：旅行备忘11是携带第11号用品。",
+      "reply": "已记住：旅行备忘11是携带第11号用品。仅保存在当前独立对话中。",
+      "kind": "当前对话记忆（规则处理）",
+      "command": "answer",
+      "modelCall": {
+        "success": false,
+        "attempted": false,
+        "reason": "memory-rule"
+      }
+    },
+    {
+      "name": "memory-turn-14",
+      "turn": 14,
+      "status": 200,
+      "ms": 66,
+      "message": "请记住：旅行备忘12是携带第12号用品。",
+      "reply": "已记住：旅行备忘12是携带第12号用品。仅保存在当前独立对话中。",
+      "kind": "当前对话记忆（规则处理）",
+      "command": "answer",
+      "modelCall": {
+        "success": false,
+        "attempted": false,
+        "reason": "memory-rule"
+      }
+    },
+    {
+      "name": "memory-turn-15",
+      "turn": 15,
+      "status": 200,
+      "ms": 71,
+      "message": "请记住：旅行备忘13是携带第13号用品。",
+      "reply": "已记住：旅行备忘13是携带第13号用品。仅保存在当前独立对话中。",
+      "kind": "当前对话记忆（规则处理）",
+      "command": "answer",
+      "modelCall": {
+        "success": false,
+        "attempted": false,
+        "reason": "memory-rule"
+      }
+    },
+    {
+      "name": "memory-turn-16",
+      "turn": 16,
+      "status": 200,
+      "ms": 74,
+      "message": "请记住：旅行备忘14是携带第14号用品。",
+      "reply": "已记住：旅行备忘14是携带第14号用品。仅保存在当前独立对话中。",
+      "kind": "当前对话记忆（规则处理）",
+      "command": "answer",
+      "modelCall": {
+        "success": false,
+        "attempted": false,
+        "reason": "memory-rule"
+      }
+    },
+    {
+      "name": "memory-turn-17",
+      "turn": 17,
+      "status": 200,
+      "ms": 71,
+      "message": "请记住：旅行备忘15是携带第15号用品。",
+      "reply": "已记住：旅行备忘15是携带第15号用品。仅保存在当前独立对话中。",
+      "kind": "当前对话记忆（规则处理）",
+      "command": "answer",
+      "modelCall": {
+        "success": false,
+        "attempted": false,
+        "reason": "memory-rule"
+      }
+    },
+    {
+      "name": "memory-turn-18",
+      "turn": 18,
+      "status": 200,
+      "ms": 68,
+      "message": "请记住：旅行备忘16是携带第16号用品。",
+      "reply": "已记住：旅行备忘16是携带第16号用品。仅保存在当前独立对话中。",
+      "kind": "当前对话记忆（规则处理）",
+      "command": "answer",
+      "modelCall": {
+        "success": false,
+        "attempted": false,
+        "reason": "memory-rule"
+      }
+    },
+    {
+      "name": "memory-turn-19",
+      "turn": 19,
+      "status": 200,
+      "ms": 65,
+      "message": "请记住：旅行备忘17是携带第17号用品。",
+      "reply": "已记住：旅行备忘17是携带第17号用品。仅保存在当前独立对话中。",
+      "kind": "当前对话记忆（规则处理）",
+      "command": "answer",
+      "modelCall": {
+        "success": false,
+        "attempted": false,
+        "reason": "memory-rule"
+      }
+    },
+    {
+      "name": "memory-turn-20",
+      "turn": 20,
+      "status": 200,
+      "ms": 75,
+      "message": "请记住：旅行备忘18是携带第18号用品。",
+      "reply": "已记住：旅行备忘18是携带第18号用品。仅保存在当前独立对话中。",
+      "kind": "当前对话记忆（规则处理）",
+      "command": "answer",
+      "modelCall": {
+        "success": false,
+        "attempted": false,
+        "reason": "memory-rule"
+      }
+    },
+    {
+      "name": "memory-turn-21",
+      "turn": 21,
+      "status": 200,
+      "ms": 67,
+      "message": "请记住：旅行备忘19是携带第19号用品。",
+      "reply": "已记住：旅行备忘19是携带第19号用品。仅保存在当前独立对话中。",
+      "kind": "当前对话记忆（规则处理）",
+      "command": "answer",
+      "modelCall": {
+        "success": false,
+        "attempted": false,
+        "reason": "memory-rule"
+      }
+    },
+    {
+      "name": "memory-turn-22",
+      "turn": 22,
+      "status": 200,
+      "ms": 60,
+      "message": "请记住：旅行备忘20是携带第20号用品。",
+      "reply": "已记住：旅行备忘20是携带第20号用品。仅保存在当前独立对话中。",
+      "kind": "当前对话记忆（规则处理）",
+      "command": "answer",
+      "modelCall": {
+        "success": false,
+        "attempted": false,
+        "reason": "memory-rule"
+      }
+    },
+    {
+      "name": "memory-turn-23",
+      "turn": 23,
+      "status": 200,
+      "ms": 54,
+      "message": "本次测试旅行代号是什么？同行人叫什么？",
+      "reply": "当前对话保存的旅行代号是：青竹4726。",
+      "kind": "当前对话记忆（规则处理）",
+      "command": "answer",
+      "modelCall": {
+        "success": false,
+        "attempted": false,
+        "reason": "memory-rule"
+      }
+    },
+    {
+      "name": "memory-turn-24",
+      "turn": 24,
+      "status": 200,
+      "ms": 62,
+      "message": "把本次测试旅行代号改成白鹭9361，其他不变。",
+      "reply": "已更新：旅行代号是白鹭9361，其他不变。仅保存在当前独立对话中。",
+      "kind": "当前对话记忆（规则处理）",
+      "command": "answer",
+      "modelCall": {
+        "success": false,
+        "attempted": false,
+        "reason": "memory-rule"
+      }
+    },
+    {
+      "name": "memory-turn-25",
+      "turn": 25,
+      "status": 200,
+      "ms": 59,
+      "message": "当前旅行代号是什么？同行人叫什么？",
+      "reply": "当前对话保存的旅行代号是：白鹭9361，其他不变。",
+      "kind": "当前对话记忆（规则处理）",
+      "command": "answer",
+      "modelCall": {
+        "success": false,
+        "attempted": false,
+        "reason": "memory-rule"
+      }
+    },
+    {
+      "name": "memory-turn-26",
+      "turn": 26,
+      "status": 200,
+      "ms": 72,
+      "message": "请忘记本次测试旅行代号。",
+      "reply": "已忘记旅行代号，后续不再从原文或摘要中召回旧值。",
+      "kind": "当前对话记忆（规则处理）",
+      "command": "answer",
+      "modelCall": {
+        "success": false,
+        "attempted": false,
+        "reason": "memory-rule"
+      }
+    },
+    {
+      "name": "memory-turn-27",
+      "turn": 27,
+      "status": 200,
+      "ms": 82,
+      "message": "你还记得本次测试旅行代号吗？不要猜测。",
+      "reply": "当前对话没有找到可确认的这项记忆，可能尚未保存或已被忘记；我不会编造，也不会用联网资料替代你的会话信息。",
+      "kind": "当前对话记忆（规则处理）",
+      "command": "answer",
+      "modelCall": {
+        "success": false,
+        "attempted": false,
+        "reason": "memory-rule"
+      }
+    },
+    {
+      "name": "explicit-memory-after-22-turns",
+      "passed": false
+    },
+    {
+      "name": "memory-correction",
+      "passed": true
+    },
+    {
+      "name": "memory-forget",
+      "passed": true,
+      "reply": "当前对话没有找到可确认的这项记忆，可能尚未保存或已被忘记；我不会编造，也不会用联网资料替代你的会话信息。"
+    },
+    {
+      "name": "cleanup-isolated-conversation",
+      "status": 200,
+      "passed": true
+    }
+  ]
+}

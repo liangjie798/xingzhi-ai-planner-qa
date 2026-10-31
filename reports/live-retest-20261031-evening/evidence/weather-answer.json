@@ -1,0 +1,86 @@
+{
+  "reply": "西安市 · 2026-11-01 天气预报（北京时间）\n全天温度 8.1–15.8℃，最高逐小时降水概率 72%。\n上午：12.1–13.9℃，最高降水概率 12%。\n下午：14.9–15.8℃，最高降水概率 3%。\n晚上：8.1–12.3℃，最高降水概率 0%。\nUS AQI 预报范围：113–152（不是 PM2.5 浓度）。\n预报会更新，请在出发前再次核对；以上不是气象预警。",
+  "kind": "真实天气查询",
+  "weatherContext": {
+    "cityName": "西安市",
+    "date": "2026-11-01"
+  },
+  "sources": [
+    {
+      "title": "Open-Meteo 逐小时预报",
+      "url": "https://open-meteo.com/en/docs",
+      "detail": "西安市 · 2026-11-01；获取时间 2026-10-31T11:28:47.197Z"
+    }
+  ],
+  "command": "answer",
+  "patch": {},
+  "intake": {
+    "known": {
+      "cityName": "杭州市",
+      "activityType": "校园运动会",
+      "date": "2026-11-01",
+      "endDate": "2026-11-02",
+      "intensity": "中强度",
+      "group": "儿童青少年",
+      "startHour": 14,
+      "allowedStartHour": 14,
+      "allowedEndHour": 16,
+      "duration": 2,
+      "participants": 40
+    }
+  },
+  "missing": [],
+  "provider": "真实天气查询",
+  "knowledgeContext": {},
+  "activeTopic": "weather",
+  "conversationContext": {
+    "version": 1,
+    "revision": 1,
+    "recent": [
+      {
+        "id": "73ac841c-2ab4-4aea-a169-9276c561b986",
+        "role": "user",
+        "content": "明天西安的天气怎么样"
+      },
+      {
+        "id": "cfc2fe81-e583-4d14-840d-951181e7462f",
+        "role": "assistant",
+        "content": "西安市 · 2026-11-01 天气预报（北京时间）\n全天温度 8.1–15.8℃，最高逐小时降水概率 72%。\n上午：12.1–13.9℃，最高降水概率 12%。\n下午：14.9–15.8℃，最高降水概率 3%。\n晚上：8.1–12.3℃，最高降水概率 0%。\nUS AQI 预报范围：113–152（不是 PM2.5 浓度）。\n预报会更新，请在出发前再次核对；以上不是气象预警。",
+        "kind": "真实天气查询",
+        "sources": [
+          {
+            "title": "Open-Meteo 逐小时预报",
+            "url": "https://open-meteo.com/en/docs",
+            "detail": "西安市 · 2026-11-01；获取时间 2026-10-31T11:28:47.197Z"
+          }
+        ]
+      }
+    ],
+    "summary": "",
+    "summarizedMessages": 0,
+    "facts": [],
+    "forgottenKeys": []
+  },
+  "conversationMessages": [
+    {
+      "id": "73ac841c-2ab4-4aea-a169-9276c561b986",
+      "role": "user",
+      "content": "明天西安的天气怎么样"
+    },
+    {
+      "id": "cfc2fe81-e583-4d14-840d-951181e7462f",
+      "role": "assistant",
+      "content": "西安市 · 2026-11-01 天气预报（北京时间）\n全天温度 8.1–15.8℃，最高逐小时降水概率 72%。\n上午：12.1–13.9℃，最高降水概率 12%。\n下午：14.9–15.8℃，最高降水概率 3%。\n晚上：8.1–12.3℃，最高降水概率 0%。\nUS AQI 预报范围：113–152（不是 PM2.5 浓度）。\n预报会更新，请在出发前再次核对；以上不是气象预警。",
+      "kind": "真实天气查询",
+      "sources": [
+        {
+          "title": "Open-Meteo 逐小时预报",
+          "url": "https://open-meteo.com/en/docs",
+          "detail": "西安市 · 2026-11-01；获取时间 2026-10-31T11:28:47.197Z"
+        }
+      ]
+    }
+  ],
+  "clearConversation": false,
+  "memoryPersistence": "request-only"
+}

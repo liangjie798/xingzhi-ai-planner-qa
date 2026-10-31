@@ -1,0 +1,510 @@
+{
+  "baseURL": "https://lht574.cn",
+  "date": "2026-10-31",
+  "timezone": "Asia/Shanghai",
+  "api": {
+    "distinctCases": 82,
+    "passedAfterHarnessRecheck": 82,
+    "initialPassed": 73,
+    "initialFailures": 9,
+    "recheckedCases": 9,
+    "cases": [
+      {
+        "id": "API-001",
+        "title": "API-001 /conversation-planner rejects malformed JSON",
+        "passed": true,
+        "durationMs": 141
+      },
+      {
+        "id": "API-011",
+        "title": "API-011 /conversation-planner rejects JSON null without a server error",
+        "passed": true,
+        "durationMs": 25
+      },
+      {
+        "id": "API-002",
+        "title": "API-002 /tourism-planner rejects malformed JSON",
+        "passed": true,
+        "durationMs": 31
+      },
+      {
+        "id": "API-012",
+        "title": "API-012 /tourism-planner rejects JSON null without a server error",
+        "passed": true,
+        "durationMs": 28
+      },
+      {
+        "id": "API-003",
+        "title": "API-003 /planning-evidence rejects malformed JSON",
+        "passed": true,
+        "durationMs": 29
+      },
+      {
+        "id": "API-013",
+        "title": "API-013 /planning-evidence rejects JSON null without a server error",
+        "passed": true,
+        "durationMs": 25
+      },
+      {
+        "id": "API-004",
+        "title": "API-004 /activity-venues rejects malformed JSON",
+        "passed": true,
+        "durationMs": 27
+      },
+      {
+        "id": "API-014",
+        "title": "API-014 /activity-venues rejects JSON null without a server error",
+        "passed": true,
+        "durationMs": 23
+      },
+      {
+        "id": "API-005",
+        "title": "API-005 /journey-search rejects malformed JSON",
+        "passed": true,
+        "durationMs": 29
+      },
+      {
+        "id": "API-015",
+        "title": "API-015 /journey-search rejects JSON null without a server error",
+        "passed": true,
+        "durationMs": 24
+      },
+      {
+        "id": "API-006",
+        "title": "API-006 /model-gateway rejects malformed JSON",
+        "passed": true,
+        "durationMs": 29
+      },
+      {
+        "id": "API-016",
+        "title": "API-016 /model-gateway rejects JSON null without a server error",
+        "passed": true,
+        "durationMs": 26
+      },
+      {
+        "id": "API-007",
+        "title": "API-007 /social-research rejects malformed JSON",
+        "passed": true,
+        "durationMs": 27
+      },
+      {
+        "id": "API-017",
+        "title": "API-017 /social-research rejects JSON null without a server error",
+        "passed": true,
+        "durationMs": 27
+      },
+      {
+        "id": "API-031",
+        "title": "API-031 /conversation-planner: missing message",
+        "passed": true,
+        "durationMs": 24
+      },
+      {
+        "id": "API-032",
+        "title": "API-032 /conversation-planner: blank message",
+        "passed": true,
+        "durationMs": 23
+      },
+      {
+        "id": "API-033",
+        "title": "API-033 /conversation-planner: numeric message",
+        "passed": true,
+        "durationMs": 23
+      },
+      {
+        "id": "API-034",
+        "title": "API-034 /model-gateway: missing prompt",
+        "passed": true,
+        "durationMs": 23
+      },
+      {
+        "id": "API-035",
+        "title": "API-035 /model-gateway: numeric prompt",
+        "passed": true,
+        "durationMs": 26
+      },
+      {
+        "id": "API-036",
+        "title": "API-036 /model-gateway: overlong prompt",
+        "passed": true,
+        "durationMs": 28
+      },
+      {
+        "id": "API-037",
+        "title": "API-037 /model-gateway: unsupported image",
+        "passed": true,
+        "durationMs": 25
+      },
+      {
+        "id": "API-038",
+        "title": "API-038 /model-gateway: non-string image",
+        "passed": true,
+        "durationMs": 24
+      },
+      {
+        "id": "API-039",
+        "title": "API-039 /tourism-planner: missing city and date",
+        "passed": true,
+        "durationMs": 24
+      },
+      {
+        "id": "API-040",
+        "title": "API-040 /tourism-planner: nonexistent calendar date",
+        "passed": true,
+        "durationMs": 34
+      },
+      {
+        "id": "API-041",
+        "title": "API-041 /tourism-planner: reversed date range",
+        "passed": true,
+        "durationMs": 30
+      },
+      {
+        "id": "API-042",
+        "title": "API-042 /tourism-planner: eight-day range",
+        "passed": true,
+        "durationMs": 39
+      },
+      {
+        "id": "API-043",
+        "title": "API-043 /tourism-planner: null hourly entry",
+        "passed": true,
+        "durationMs": 28
+      },
+      {
+        "id": "API-044",
+        "title": "API-044 /tourism-planner: non-array hours",
+        "passed": true,
+        "durationMs": 25
+      },
+      {
+        "id": "API-045",
+        "title": "API-045 /tourism-planner: reversed allowed hours",
+        "passed": true,
+        "durationMs": 24
+      },
+      {
+        "id": "API-046",
+        "title": "API-046 /planning-evidence: non-string place",
+        "passed": true,
+        "durationMs": 23
+      },
+      {
+        "id": "API-047",
+        "title": "API-047 /planning-evidence: more than 40 places",
+        "passed": true,
+        "durationMs": 26
+      },
+      {
+        "id": "API-048",
+        "title": "API-048 /activity-venues: unsupported scene",
+        "passed": true,
+        "durationMs": 25
+      },
+      {
+        "id": "API-049",
+        "title": "API-049 /journey-search: numeric departure",
+        "passed": true,
+        "durationMs": 26
+      },
+      {
+        "id": "API-050",
+        "title": "API-050 /journey-search: missing journey fields",
+        "passed": true,
+        "durationMs": 27
+      },
+      {
+        "id": "API-061",
+        "title": "API-061 image proxy rejects unsupported URL 0",
+        "passed": true,
+        "durationMs": 22
+      },
+      {
+        "id": "API-062",
+        "title": "API-062 image proxy rejects unsupported URL 1",
+        "passed": true,
+        "durationMs": 22
+      },
+      {
+        "id": "API-063",
+        "title": "API-063 image proxy rejects unsupported URL 2",
+        "passed": true,
+        "durationMs": 20
+      },
+      {
+        "id": "API-064",
+        "title": "API-064 image proxy rejects unsupported URL 3",
+        "passed": true,
+        "durationMs": 21
+      },
+      {
+        "id": "API-065",
+        "title": "API-065 image proxy rejects unsupported URL 4",
+        "passed": true,
+        "durationMs": 21
+      },
+      {
+        "id": "API-066",
+        "title": "API-066 image proxy rejects unsupported URL 5",
+        "passed": true,
+        "durationMs": 22
+      },
+      {
+        "id": "API-070",
+        "title": "API-070 complete tourism intake preserves seven university students",
+        "passed": true,
+        "durationMs": 73
+      },
+      {
+        "id": "API-071",
+        "title": "API-071 invalid revision: 人数改成0人，其他不变",
+        "passed": true,
+        "durationMs": 90
+      },
+      {
+        "id": "API-072",
+        "title": "API-072 invalid revision: 人数改成-1人",
+        "passed": true,
+        "durationMs": 32
+      },
+      {
+        "id": "API-073",
+        "title": "API-073 invalid revision: 人数改成1.5人",
+        "passed": true,
+        "durationMs": 30
+      },
+      {
+        "id": "API-074",
+        "title": "API-074 invalid revision: 人数改成10000人",
+        "passed": true,
+        "durationMs": 29
+      },
+      {
+        "id": "API-075",
+        "title": "API-075 invalid revision: 活动时长改成1.5小时，其他不变",
+        "passed": true,
+        "durationMs": 31
+      },
+      {
+        "id": "API-076",
+        "title": "API-076 invalid revision: 活动时长改成0小时",
+        "passed": true,
+        "durationMs": 33
+      },
+      {
+        "id": "API-077",
+        "title": "API-077 invalid revision: 活动时长改成9小时",
+        "passed": true,
+        "durationMs": 32
+      },
+      {
+        "id": "API-078",
+        "title": "API-078 invalid revision: 日期改成2月30日，其他不变",
+        "passed": true,
+        "durationMs": 32
+      },
+      {
+        "id": "API-080",
+        "title": "API-080 courtesy preserves conditions without another analysis",
+        "passed": true,
+        "durationMs": 105
+      },
+      {
+        "id": "API-081",
+        "title": "API-081 drawing two dates does not change the activity plan",
+        "passed": true,
+        "durationMs": 38
+      },
+      {
+        "id": "API-082",
+        "title": "API-082 drawing Beijing preserves the Hangzhou plan",
+        "passed": true,
+        "durationMs": 32
+      },
+      {
+        "id": "API-083",
+        "title": "API-083 explicit 14-16 window overrides a broad afternoon",
+        "passed": true,
+        "durationMs": 40
+      },
+      {
+        "id": "API-084",
+        "title": "API-084 per-group count never replaces total participants",
+        "passed": true,
+        "durationMs": 32
+      },
+      {
+        "id": "API-085",
+        "title": "API-085 model status reports explicit success or failure",
+        "passed": true,
+        "durationMs": 36
+      },
+      {
+        "id": "API-086",
+        "title": "API-086 journey keeps activity date separate and reports quote availability",
+        "passed": true,
+        "durationMs": 30073
+      },
+      {
+        "id": "API-087",
+        "title": "API-087 weather is answered without triggering plan generation",
+        "passed": true,
+        "durationMs": 1895
+      },
+      {
+        "id": "API-088",
+        "title": "API-088 missing destination and date are clarified, not invented",
+        "passed": true,
+        "durationMs": 31
+      },
+      {
+        "id": "API-089",
+        "title": "API-089 client-supplied today cannot alter the server date",
+        "passed": true,
+        "durationMs": 30
+      },
+      {
+        "id": "API-100",
+        "title": "API-100 anonymous access denied: /api/v1/admin/overview",
+        "passed": true,
+        "durationMs": 260
+      },
+      {
+        "id": "API-101",
+        "title": "API-101 anonymous access denied: /api/v1/admin/users",
+        "passed": true,
+        "durationMs": 23
+      },
+      {
+        "id": "API-102",
+        "title": "API-102 anonymous access denied: /api/v1/admin/searches",
+        "passed": true,
+        "durationMs": 21
+      },
+      {
+        "id": "API-103",
+        "title": "API-103 anonymous access denied: /api/v1/admin/feedback",
+        "passed": true,
+        "durationMs": 23
+      },
+      {
+        "id": "API-104",
+        "title": "API-104 anonymous access denied: /api/v1/account/decisions",
+        "passed": true,
+        "durationMs": 22
+      },
+      {
+        "id": "API-105",
+        "title": "API-105 anonymous access denied: /api/v1/account/model-config/resolve",
+        "passed": true,
+        "durationMs": 22
+      },
+      {
+        "id": "API-106",
+        "title": "API-106 guest access to admin data is denied",
+        "passed": true,
+        "durationMs": 66
+      },
+      {
+        "id": "API-107",
+        "title": "API-107 writes without CSRF are rejected",
+        "passed": true,
+        "durationMs": 29
+      },
+      {
+        "id": "API-108",
+        "title": "API-108 two isolated anonymous sessions cannot read or overwrite each other",
+        "passed": true,
+        "durationMs": 2615
+      },
+      {
+        "id": "API-109",
+        "title": "API-109 malformed conversation snapshot is rejected",
+        "passed": true,
+        "durationMs": 550
+      },
+      {
+        "id": "API-110",
+        "title": "API-110 nested district resolves to the requested parent",
+        "passed": true,
+        "durationMs": 617
+      },
+      {
+        "id": "API-111",
+        "title": "API-111 hourly response contains 24 unique, finite hours for the requested date",
+        "passed": true,
+        "durationMs": 3102
+      },
+      {
+        "id": "API-112",
+        "title": "API-112 invalid hourly calendar date returns a client error",
+        "passed": true,
+        "durationMs": 28
+      },
+      {
+        "id": "API-113",
+        "title": "API-113 impossible coordinate is rejected by the location gateway",
+        "passed": true,
+        "durationMs": 25
+      },
+      {
+        "id": "API-114",
+        "title": "API-114 missing coordinates are rejected instead of silently becoming zero",
+        "passed": true,
+        "durationMs": 25
+      },
+      {
+        "id": "API-115",
+        "title": "API-115 unsupported position action returns a client error",
+        "passed": true,
+        "durationMs": 23
+      },
+      {
+        "id": "API-116",
+        "title": "API-116 wrong HTTP method is rejected without a server crash",
+        "passed": true,
+        "durationMs": 25
+      },
+      {
+        "id": "API-120",
+        "title": "API-120 scenario intake: 校园运动会",
+        "passed": true,
+        "durationMs": 28
+      },
+      {
+        "id": "API-121",
+        "title": "API-121 scenario intake: 体育课",
+        "passed": true,
+        "durationMs": 29
+      },
+      {
+        "id": "API-122",
+        "title": "API-122 scenario intake: 社区活动",
+        "passed": true,
+        "durationMs": 31
+      },
+      {
+        "id": "API-123",
+        "title": "API-123 scenario intake: 户外训练",
+        "passed": true,
+        "durationMs": 32
+      },
+      {
+        "id": "API-124",
+        "title": "API-124 scenario intake: 研学活动",
+        "passed": true,
+        "durationMs": 32
+      },
+      {
+        "id": "API-125",
+        "title": "API-125 scenario intake: 旅游规划",
+        "passed": true,
+        "durationMs": 28
+      }
+    ]
+  },
+  "confirmedDefects": 3,
+  "explicitMemoryTurns": 30,
+  "productionCodeModified": false,
+  "productionRedeployed": false
+}

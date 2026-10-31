@@ -1,0 +1,66 @@
+{
+  "rows": [
+    {
+      "path": "/welcome",
+      "violations": [],
+      "passes": 22
+    },
+    {
+      "path": "/login",
+      "violations": [],
+      "passes": 22
+    },
+    {
+      "path": "/transport",
+      "violations": [],
+      "passes": 20
+    },
+    {
+      "path": "/XingZhi?view=execution",
+      "violations": [
+        {
+          "id": "definition-list",
+          "impact": "serious",
+          "description": "Ensure <dl> elements are structured correctly",
+          "help": "<dl> elements must only directly contain properly-ordered <dt> and <dd> groups, <script>, <template> or <div> elements",
+          "nodes": [
+            {
+              "target": [
+                "dl"
+              ],
+              "summary": "Fix all of the following:\n  dl element has direct children that are not allowed: div > small"
+            }
+          ]
+        }
+      ],
+      "passes": 22
+    }
+  ],
+  "mobileButtons": [
+    {
+      "name": "打开导航",
+      "html": "<button class=\"mobile-navigation-button icon-button\" type=\"button\" aria-label=\"打开导航\" aria-haspopup=\"dialog\" aria-expanded=\"false\" data-state=\"closed\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"23\" height=\"23\" fill=\"c"
+    },
+    {
+      "name": "添加并检查",
+      "html": "<button type=\"submit\">添加并检查</button>"
+    },
+    {
+      "name": "删除项目",
+      "html": "<button type=\"button\">删除项目</button>"
+    },
+    {
+      "name": "删除项目",
+      "html": "<button type=\"button\">删除项目</button>"
+    },
+    {
+      "name": "记录费用",
+      "html": "<button type=\"submit\">记录费用</button>"
+    },
+    {
+      "name": "移除",
+      "html": "<button type=\"button\">移除</button>"
+    }
+  ],
+  "hasQaTravel": true
+}

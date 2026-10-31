@@ -1,0 +1,22 @@
+{
+  "rows": [
+    {
+      "name": "mobile-navigation-dialog",
+      "passed": true,
+      "closedAfterSelection": true,
+      "overflow": false
+    },
+    {
+      "name": "new-conversation-isolation",
+      "passed": true,
+      "reply": "已记住：本轮测试标记是枫叶2738。仅保存在当前独立对话中。",
+      "historyButtons": 3
+    },
+    {
+      "name": "switch-back-restores-travel",
+      "passed": true,
+      "restoredBudgetAndTasks": true,
+      "unrelatedMemoryInTravel": false
+    }
+  ]
+}

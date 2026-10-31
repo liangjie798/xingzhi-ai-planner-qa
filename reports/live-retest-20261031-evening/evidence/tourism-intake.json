@@ -1,0 +1,152 @@
+{
+  "first": {
+    "command": "clarify",
+    "reply": "好的，2天旅游已记下。还需要了解：\n1. 大约几个人参加？\n2. 同行或参与者是成年人、学生、老人，还是其他人群？\n可以一条回复一起告诉我；人数、强度和时段也可以说“按常规推荐”。",
+    "choices": [
+      {
+        "label": "2人",
+        "message": "2人"
+      },
+      {
+        "label": "10人",
+        "message": "10人"
+      },
+      {
+        "label": "30人",
+        "message": "30人"
+      },
+      {
+        "label": "100人",
+        "message": "100人"
+      }
+    ],
+    "patch": {
+      "cityName": "杭州市",
+      "activityType": "旅游规划",
+      "date": "2026-11-01",
+      "endDate": "2026-11-02",
+      "duration": 2,
+      "startHour": 9,
+      "intensity": "低强度"
+    },
+    "intake": {
+      "known": {
+        "cityName": "杭州市",
+        "activityType": "旅游规划",
+        "date": "2026-11-01",
+        "endDate": "2026-11-02",
+        "tripDays": 2
+      }
+    },
+    "missing": [
+      "大约几个人参加",
+      "同行或参与者是成年人、学生、老人，还是其他人群"
+    ],
+    "provider": "对话条件确认",
+    "knowledgeContext": {},
+    "weatherContext": {},
+    "activeTopic": "planning",
+    "conversationContext": {
+      "version": 1,
+      "revision": 1,
+      "recent": [
+        {
+          "id": "c03d9064-932f-4c17-9077-626ba1d1851c",
+          "role": "user",
+          "content": "规划杭州明天到后天的旅游路线"
+        },
+        {
+          "id": "52428ec7-09c5-4c2c-b1a2-94de2275df58",
+          "role": "assistant",
+          "content": "好的，2天旅游已记下。还需要了解：\n1. 大约几个人参加？\n2. 同行或参与者是成年人、学生、老人，还是其他人群？\n可以一条回复一起告诉我；人数、强度和时段也可以说“按常规推荐”。"
+        }
+      ],
+      "summary": "",
+      "summarizedMessages": 0,
+      "facts": [],
+      "forgottenKeys": []
+    },
+    "conversationMessages": [
+      {
+        "id": "c03d9064-932f-4c17-9077-626ba1d1851c",
+        "role": "user",
+        "content": "规划杭州明天到后天的旅游路线"
+      },
+      {
+        "id": "52428ec7-09c5-4c2c-b1a2-94de2275df58",
+        "role": "assistant",
+        "content": "好的，2天旅游已记下。还需要了解：\n1. 大约几个人参加？\n2. 同行或参与者是成年人、学生、老人，还是其他人群？\n可以一条回复一起告诉我；人数、强度和时段也可以说“按常规推荐”。"
+      }
+    ],
+    "clearConversation": false,
+    "memoryPersistence": "request-only"
+  },
+  "second": {
+    "command": "analyze",
+    "reply": "条件齐了：杭州市，2026-11-01 至 2026-11-02，旅游规划，7人（大学生），结合天气安排景点与美食。现在查询对应地区的真实数据并生成详细规划。",
+    "choices": [],
+    "patch": {
+      "cityName": "杭州市",
+      "activityType": "旅游规划",
+      "date": "2026-11-01",
+      "endDate": "2026-11-02",
+      "audienceDescription": "大学生",
+      "group": "普通人群",
+      "participants": 7,
+      "duration": 2,
+      "startHour": 9,
+      "intensity": "低强度"
+    },
+    "intake": {
+      "known": {
+        "cityName": "杭州市",
+        "activityType": "旅游规划",
+        "date": "2026-11-01",
+        "endDate": "2026-11-02",
+        "tripDays": 2,
+        "audienceDescription": "大学生",
+        "group": "普通人群",
+        "participants": 7
+      }
+    },
+    "missing": [],
+    "provider": "对话条件确认",
+    "knowledgeContext": {},
+    "weatherContext": {},
+    "activeTopic": "planning",
+    "conversationContext": {
+      "version": 1,
+      "revision": 1,
+      "recent": [
+        {
+          "id": "5cef9eb1-7603-4b88-beef-3bff73f71262",
+          "role": "user",
+          "content": "七个大学生"
+        },
+        {
+          "id": "9bda75e3-8df2-4313-aaa8-f212566ac8bd",
+          "role": "assistant",
+          "content": "条件齐了：杭州市，2026-11-01 至 2026-11-02，旅游规划，7人（大学生），结合天气安排景点与美食。现在查询对应地区的真实数据并生成详细规划。"
+        }
+      ],
+      "summary": "",
+      "summarizedMessages": 0,
+      "facts": [],
+      "forgottenKeys": []
+    },
+    "conversationMessages": [
+      {
+        "id": "5cef9eb1-7603-4b88-beef-3bff73f71262",
+        "role": "user",
+        "content": "七个大学生"
+      },
+      {
+        "id": "9bda75e3-8df2-4313-aaa8-f212566ac8bd",
+        "role": "assistant",
+        "content": "条件齐了：杭州市，2026-11-01 至 2026-11-02，旅游规划，7人（大学生），结合天气安排景点与美食。现在查询对应地区的真实数据并生成详细规划。"
+      }
+    ],
+    "clearConversation": false,
+    "memoryPersistence": "request-only"
+  }
+}
