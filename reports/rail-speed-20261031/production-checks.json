@@ -1,0 +1,154 @@
+[
+  {
+    "case": "page-/transport",
+    "status": 200,
+    "passed": true
+  },
+  {
+    "case": "page-/welcome",
+    "status": 200,
+    "passed": true
+  },
+  {
+    "case": "page-/privacy",
+    "status": 200,
+    "passed": true
+  },
+  {
+    "case": "page-/terms",
+    "status": 200,
+    "passed": true
+  },
+  {
+    "case": "workspace-css",
+    "status": 200,
+    "passed": true
+  },
+  {
+    "case": 1,
+    "status": 200,
+    "passed": true
+  },
+  {
+    "case": 2,
+    "status": 400,
+    "passed": true
+  },
+  {
+    "case": 3,
+    "status": 400,
+    "passed": true
+  },
+  {
+    "case": 4,
+    "status": 400,
+    "passed": true
+  },
+  {
+    "case": 5,
+    "status": 400,
+    "passed": true
+  },
+  {
+    "case": 6,
+    "status": 400,
+    "passed": true
+  },
+  {
+    "case": 7,
+    "status": 400,
+    "passed": true
+  },
+  {
+    "case": 8,
+    "status": 400,
+    "passed": true
+  },
+  {
+    "case": "airline-GS",
+    "status": "partial",
+    "options": 3,
+    "providers": [
+      {
+        "airlineCode": "GS",
+        "sourceName": "天津航空",
+        "state": "quoted",
+        "sourceUrl": "https://www.tianjin-air.com/flights/results/TSN-XIY-261101-100-0",
+        "checkedAt": "2026-10-31T04:35:19.249Z",
+        "quoteCount": 3,
+        "airportScope": "天津 → 西安；机场以具体航班为准，未保证覆盖同城全部机场"
+      }
+    ]
+  },
+  {
+    "case": "airline-9H",
+    "status": "partial",
+    "options": 1,
+    "providers": [
+      {
+        "airlineCode": "9H",
+        "sourceName": "长安航空",
+        "state": "quoted",
+        "sourceUrl": "https://www.airchangan.com/flightsResult",
+        "checkedAt": "2026-10-31T04:35:22.936Z",
+        "quoteCount": 1,
+        "airportScope": "西安 → 乌鲁木齐；机场以具体航班为准，未保证覆盖同城全部机场"
+      }
+    ]
+  },
+  {
+    "case": "airline-MF",
+    "status": "partial",
+    "options": 7,
+    "providers": [
+      {
+        "airlineCode": "MF",
+        "sourceName": "厦门航空",
+        "state": "quoted",
+        "sourceUrl": "https://www.xiamenair.com/zh-cn/nticket.html",
+        "checkedAt": "2026-10-31T04:35:25.835Z",
+        "quoteCount": 7,
+        "airportScope": "厦门 → 北京；机场以具体航班为准，未保证覆盖同城全部机场"
+      }
+    ]
+  },
+  {
+    "case": "airline-SC",
+    "status": "partial",
+    "options": 6,
+    "providers": [
+      {
+        "airlineCode": "SC",
+        "sourceName": "山东航空",
+        "state": "quoted",
+        "sourceUrl": "https://flights.sda.cn/flight/search/tna-can-261101-1",
+        "checkedAt": "2026-10-31T04:35:31.328Z",
+        "quoteCount": 6,
+        "airportScope": "济南 → 广州；机场以具体航班为准，未保证覆盖同城全部机场"
+      }
+    ]
+  },
+  {
+    "case": "airline-RY",
+    "status": "partial",
+    "options": 1,
+    "providers": [
+      {
+        "airlineCode": "RY",
+        "sourceName": "江西航空",
+        "state": "quoted",
+        "sourceUrl": "https://www.airjiangxi.com/jiangxiair/book/findFlights.action",
+        "checkedAt": "2026-10-31T04:35:36.600Z",
+        "quoteCount": 1,
+        "airportScope": "南昌 → 厦门；机场以具体航班为准，未保证覆盖同城全部机场"
+      }
+    ]
+  },
+  {
+    "case": "rail-real-and-cache",
+    "quotes": 11,
+    "firstMs": 460,
+    "cachedMs": 10,
+    "passed": true
+  }
+]
