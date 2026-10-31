@@ -1,0 +1,10 @@
+{
+  "flightCount": 18,
+  "trainCount": 0,
+  "trainNote": "12306官方查询暂不可用或返回访问限制，未取得实时票价与时刻；请使用官方入口核实。",
+  "airlines": [
+    "MF",
+    "SC",
+    "RY"
+  ]
+}
